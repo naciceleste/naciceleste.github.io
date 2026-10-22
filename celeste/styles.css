@@ -1,0 +1,205 @@
+/* ☁️ El muro celeste — estilos */
+:root{
+  --sky-1:#d9eeff; --sky-2:#eaf4ff; --cream:#fffaf3;
+  --celeste:#8ccaf7; --celeste-deep:#4f9fdc; --lav:#c9b8f5; --lav-soft:#ece5ff;
+  --pink:#ffc9dc; --pink-soft:#ffe8f0; --mint:#c8f0e4;
+  --ink:#3d4a6b; --ink-soft:#6f7b99; --ink-faint:#9aa5c0;
+  --card:rgba(255,255,255,.78); --card-border:rgba(255,255,255,.9);
+  --shadow:0 10px 30px -12px rgba(79,110,170,.28), 0 2px 6px rgba(120,140,200,.08);
+  --shadow-hover:0 22px 44px -16px rgba(79,110,170,.38), 0 4px 10px rgba(120,140,200,.10);
+  --radius:26px;
+  --c-x:#5b6b8f; --c-instagram:#e58fb6; --c-youtube:#f28c9b;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; background:var(--cream)}
+body{
+  margin:0; min-height:100vh; color:var(--ink);
+  font-family:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif; font-size:16px; line-height:1.55;
+  background:linear-gradient(180deg,#cfe8ff 0%,#e6f1ff 28%,#f3ecff 60%,#fff4f4 85%,var(--cream) 100%);
+  background-attachment:fixed; -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+a{color:inherit}
+::selection{background:var(--pink)}
+
+/* ---------- cielo ---------- */
+.sky{position:fixed; inset:0; z-index:-1; pointer-events:none; overflow:hidden}
+.glow{position:absolute; border-radius:50%; filter:blur(70px); opacity:.65}
+.glow-1{width:46vw; height:46vw; left:-12vw; top:-10vw; background:#bfe2ff}
+.glow-2{width:40vw; height:40vw; right:-10vw; top:18vh; background:#e3d6ff}
+.glow-3{width:50vw; height:40vw; left:20vw; bottom:-18vw; background:#ffdbe8}
+.cloud{position:absolute; color:#fff; opacity:.85; filter:drop-shadow(0 10px 18px rgba(130,170,230,.18))}
+.cloud-1{width:260px; top:8vh; left:-300px; animation:drift 95s linear infinite}
+.cloud-2{width:170px; top:38vh; left:-200px; opacity:.6; animation:drift 130s linear infinite; animation-delay:-60s}
+.cloud-3{width:320px; top:68vh; left:-340px; opacity:.55; animation:drift 160s linear infinite; animation-delay:-30s}
+.cloud-4{width:120px; top:22vh; left:-140px; opacity:.7; animation:drift 110s linear infinite; animation-delay:-85s}
+@keyframes drift{to{transform:translateX(calc(100vw + 420px))}}
+.sparkles{position:absolute; inset:0;
+  background-image:
+    radial-gradient(2px 2px at 12% 18%,#fff 50%,transparent 51%),
+    radial-gradient(1.5px 1.5px at 78% 12%,#fff 50%,transparent 51%),
+    radial-gradient(2px 2px at 64% 42%,#fff 50%,transparent 51%),
+    radial-gradient(1.5px 1.5px at 30% 60%,#fff 50%,transparent 51%),
+    radial-gradient(2px 2px at 88% 70%,#fff 50%,transparent 51%),
+    radial-gradient(1.5px 1.5px at 46% 86%,#fff 50%,transparent 51%);
+  animation:twinkle 6s ease-in-out infinite alternate}
+@keyframes twinkle{from{opacity:.4}to{opacity:1}}
+
+/* ---------- encabezado ---------- */
+.hero{text-align:center; padding:64px 20px 26px; max-width:760px; margin:0 auto}
+.avatar{position:relative; width:104px; height:104px; margin:0 auto 18px; border-radius:50%;
+  background:linear-gradient(140deg,#bfe3ff,#e4d4ff 55%,#ffd6e6);
+  box-shadow:0 0 0 6px rgba(255,255,255,.7), 0 18px 40px -14px rgba(90,120,200,.5);
+  display:grid; place-items:center; animation:float 6s ease-in-out infinite}
+.avatar svg{width:70px; color:#fff; filter:drop-shadow(0 4px 6px rgba(120,150,220,.3))}
+.avatar span{position:absolute; right:6px; top:4px; font-size:20px; color:#fff; transform:rotate(12deg); text-shadow:0 2px 6px rgba(120,150,220,.4)}
+.avatar span::before{content:"✦"; position:absolute; left:-70px; top:58px; font-size:13px; color:#fff}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.eyebrow{margin:0; font-family:"Caveat",cursive; font-size:24px; color:var(--ink-soft); letter-spacing:.5px}
+.title{margin:2px 0 6px; font-family:"Fraunces",Georgia,serif; font-weight:600; font-style:italic;
+  font-size:clamp(42px,7vw,72px); line-height:1.02; letter-spacing:-1px;
+  background:linear-gradient(100deg,#4f9fdc 0%,#8c7ce6 50%,#e58fb6 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent}
+.handle{display:inline-block; font-weight:800; font-size:17px; text-decoration:none; color:var(--celeste-deep);
+  padding:4px 14px; border-radius:999px; background:rgba(255,255,255,.6); border:1px solid #fff; transition:.2s}
+.handle:hover{background:#fff; transform:translateY(-1px)}
+.tagline{margin:14px auto 0; max-width:460px; color:var(--ink-soft); font-size:17px}
+
+.socials{display:flex; justify-content:center; gap:12px; margin-top:22px; flex-wrap:wrap}
+.social{display:inline-flex; align-items:center; gap:8px; padding:10px 16px 10px 12px; border-radius:999px;
+  text-decoration:none; font-weight:700; font-size:14.5px; color:var(--ink);
+  background:rgba(255,255,255,.72); border:1px solid #fff; box-shadow:var(--shadow);
+  transition:transform .2s, box-shadow .2s, background .2s; -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px)}
+.social .ico{width:30px; height:30px; border-radius:50%; display:grid; place-items:center; color:#fff}
+.social .ico svg{width:15px; height:15px}
+.social[data-net="x"] .ico{background:linear-gradient(135deg,#8a97b8,#56647f)}
+.social[data-net="instagram"] .ico{background:linear-gradient(135deg,#ffc58f,#f78fb3 50%,#b89af5)}
+.social[data-net="youtube"] .ico{background:linear-gradient(135deg,#ffaab5,#f2788a)}
+a.social:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover); background:#fff}
+.social.soon{opacity:.62; cursor:default; box-shadow:none}
+.social.soon .ico{filter:grayscale(.35)}
+.soon-tag{font-family:"Caveat",cursive; font-size:17px; font-weight:700; color:var(--c-youtube); margin-left:2px}
+
+/* ---------- filtros ---------- */
+main{max-width:1240px; margin:0 auto; padding:0 20px 40px}
+.toolbar{position:sticky; top:12px; z-index:5; display:flex; flex-direction:column; align-items:center; gap:10px; margin:18px 0 8px}
+.chips{display:flex; gap:6px; padding:6px; border-radius:999px; background:rgba(255,255,255,.66);
+  border:1px solid #fff; box-shadow:var(--shadow); -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px);
+  overflow-x:auto; max-width:100%; scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{appearance:none; border:0; cursor:pointer; font:inherit; font-weight:700; font-size:14.5px; color:var(--ink-soft);
+  display:inline-flex; align-items:center; gap:7px; padding:9px 16px; border-radius:999px; background:transparent;
+  white-space:nowrap; transition:background .2s, color .2s, transform .15s}
+.chip svg{width:14px; height:14px}
+.chip:hover{color:var(--ink); background:rgba(255,255,255,.7)}
+.chip:active{transform:scale(.97)}
+.chip[aria-pressed="true"]{color:#fff; background:linear-gradient(120deg,#7dbef2,#a79af0); box-shadow:0 6px 16px -6px rgba(110,130,230,.6)}
+.chip[data-filter="instagram"][aria-pressed="true"]{background:linear-gradient(120deg,#ffb3a0,#f28fbc 55%,#b39cf3)}
+.chip[data-filter="youtube"][aria-pressed="true"]{background:linear-gradient(120deg,#ffb0bb,#f2808f)}
+.chip[data-filter="x"][aria-pressed="true"]{background:linear-gradient(120deg,#93a2c4,#5f6d8c)}
+.chip .n{font-size:12px; font-weight:800; min-width:20px; padding:1px 6px; border-radius:999px; background:rgba(120,140,190,.14)}
+.chip[aria-pressed="true"] .n{background:rgba(255,255,255,.3)}
+.active-tag{display:flex; align-items:center; gap:8px; font-size:14px; color:var(--ink-soft)}
+.active-tag button{border:0; cursor:pointer; font:inherit; font-weight:700; color:#8c6fe0; background:var(--lav-soft); padding:5px 12px; border-radius:999px}
+.count{text-align:center; margin:6px 0 22px; font-family:"Caveat",cursive; font-size:22px; color:var(--ink-faint)}
+
+/* ---------- muro (masonry) ---------- */
+.wall{--gap:22px; display:grid; grid-template-columns:repeat(auto-fill,minmax(min(360px,100%),1fr));
+  grid-auto-rows:4px; column-gap:var(--gap); row-gap:0; align-items:start}
+.wall>.card{align-self:start}
+.wall>.card[hidden]{display:none}
+
+.card{position:relative; background:var(--card); border:1px solid var(--card-border); border-radius:var(--radius);
+  box-shadow:var(--shadow); padding:14px 14px 12px; -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+  transition:transform .25s ease, box-shadow .25s ease; animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+.card:hover{transform:translateY(-4px); box-shadow:var(--shadow-hover)}
+@keyframes rise{from{opacity:0; transform:translateY(16px)}to{opacity:1; transform:none}}
+.card-top{display:flex; align-items:center; justify-content:space-between; gap:8px; padding:2px 4px 10px}
+.badge{display:inline-flex; align-items:center; gap:6px; font-size:12.5px; font-weight:800; letter-spacing:.3px;
+  padding:4px 10px 4px 6px; border-radius:999px; color:#fff}
+.badge svg{width:12px; height:12px}
+.badge .dot{width:20px; height:20px; border-radius:50%; background:rgba(255,255,255,.25); display:grid; place-items:center}
+.badge.x{background:linear-gradient(120deg,#93a2c4,#5f6d8c)}
+.badge.instagram{background:linear-gradient(120deg,#ffb3a0,#f28fbc 55%,#b39cf3)}
+.badge.youtube{background:linear-gradient(120deg,#ffb0bb,#f2808f)}
+.date{font-size:12.5px; color:var(--ink-faint); font-weight:600}
+
+.embed{position:relative; border-radius:18px; overflow:hidden; min-height:220px; background:linear-gradient(160deg,#f3f8ff,#f6f1ff)}
+.embed.ready{min-height:0; background:transparent}
+.embed .twitter-tweet, .embed .twitter-tweet-rendered{margin:0 auto!important}
+.embed iframe{display:block; max-width:100%!important}
+.embed .instagram-media{margin:0!important; min-width:0!important; width:100%!important; max-width:100%!important; border-radius:16px!important; box-shadow:none!important; border:1px solid #eef!important}
+.yt{position:relative; width:100%; aspect-ratio:16/9; border-radius:16px; overflow:hidden; background:#e9eefb}
+.yt.short{aspect-ratio:9/16; max-height:640px; margin:0 auto}
+.yt iframe{position:absolute; inset:0; width:100%; height:100%; border:0}
+
+/* placeholder mientras carga */
+.loading{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; color:var(--ink-faint); font-weight:700; font-size:14px}
+.loading .puff{width:64px; color:#fff; filter:drop-shadow(0 6px 10px rgba(130,160,230,.3)); animation:float 2.4s ease-in-out infinite}
+.embed::after{content:""; position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%); background-size:220% 100%;
+  animation:shimmer 1.8s linear infinite}
+.embed.ready::after,.embed.failed::after{display:none}
+@keyframes shimmer{from{background-position:120% 0}to{background-position:-120% 0}}
+
+/* respaldo si el embed no carga */
+.fallback{display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:10px; padding:34px 20px; min-height:220px; text-decoration:none}
+.fallback .big{width:54px; height:54px; border-radius:18px; display:grid; place-items:center; color:#fff}
+.fallback .big svg{width:24px; height:24px}
+.fallback strong{font-family:"Fraunces",serif; font-style:italic; font-size:19px; font-weight:600}
+.fallback small{color:var(--ink-soft); max-width:240px; word-break:break-word}
+
+.note{margin:12px 6px 2px; font-family:"Caveat",cursive; font-size:23px; line-height:1.2; color:#6a5bc8}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin:10px 4px 0}
+.tag{border:0; cursor:pointer; font:inherit; font-size:12.5px; font-weight:700; color:#7a68d6; background:var(--lav-soft); padding:3px 10px; border-radius:999px; transition:.2s}
+.tag:hover{background:#ddd2ff}
+.card-foot{display:flex; justify-content:flex-end; margin-top:10px}
+.open{display:inline-flex; align-items:center; gap:6px; text-decoration:none; font-weight:800; font-size:13.5px; color:var(--celeste-deep);
+  padding:7px 14px; border-radius:999px; background:linear-gradient(120deg,#eaf5ff,#f1ecff); transition:.2s}
+.open svg{width:14px; height:14px; transition:transform .2s}
+.open:hover{background:linear-gradient(120deg,#d7ecff,#e6ddff)}
+.open:hover svg{transform:translate(2px,-2px)}
+
+/* ---------- estado vacío ---------- */
+.empty{text-align:center; max-width:520px; margin:30px auto 20px; padding:46px 28px 40px; border-radius:36px;
+  background:rgba(255,255,255,.62); border:1px solid #fff; box-shadow:var(--shadow); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px)}
+.empty-art{position:relative; height:120px; margin-bottom:10px}
+.e-cloud{position:absolute; color:#fff; filter:drop-shadow(0 10px 16px rgba(120,160,230,.3))}
+.e-cloud-a{width:150px; left:calc(50% - 98px); top:16px; animation:float 5s ease-in-out infinite}
+.e-cloud-b{width:96px; left:calc(50% + 4px); top:54px; color:#f4efff; animation:float 6.5s ease-in-out infinite reverse}
+.e-star{position:absolute; color:#b9a8f5; animation:twinkle 2.6s ease-in-out infinite alternate}
+.e-star.s1{left:22%; top:10px; font-size:18px}
+.e-star.s2{right:24%; top:0; font-size:22px; color:#f3a6c4; animation-delay:-1s}
+.e-star.s3{right:30%; top:92px; font-size:13px; color:#8cc6f2; animation-delay:-2s}
+.empty h2{margin:6px 0 10px; font-family:"Fraunces",Georgia,serif; font-style:italic; font-weight:600; font-size:28px; color:var(--ink)}
+.empty p{margin:0 auto; max-width:380px; color:var(--ink-soft)}
+
+/* ---------- pie ---------- */
+.footer{text-align:center; padding:30px 20px 46px; color:var(--ink-soft); font-size:14.5px}
+.footer p{margin:4px 0}
+.footer a{font-weight:800; color:var(--celeste-deep); text-decoration:none}
+.footer .legal{font-size:12.5px; color:var(--ink-faint); max-width:520px; margin:8px auto 0}
+.to-top{position:fixed; right:18px; bottom:18px; width:46px; height:46px; border-radius:50%; border:1px solid #fff; cursor:pointer;
+  font-size:20px; font-weight:800; color:#fff; background:linear-gradient(135deg,#8ccaf7,#b6a3f3); box-shadow:var(--shadow-hover); transition:transform .2s}
+.to-top:hover{transform:translateY(-3px)}
+
+/* ---------- móvil ---------- */
+@media (max-width:640px){
+  .hero{padding:44px 18px 14px}
+  .avatar{width:88px; height:88px}
+  .avatar svg{width:58px}
+  .tagline{font-size:16px}
+  .social{padding:8px 13px 8px 9px; font-size:13.5px}
+  .social .ico{width:26px; height:26px}
+  main{padding:0 12px 30px}
+  .toolbar{top:8px}
+  .chip{padding:8px 11px; font-size:13.5px; gap:5px}
+  .chips{gap:2px}
+  .card{padding:12px 12px 10px; border-radius:22px}
+  .wall{--gap:16px}
+  .empty{padding:36px 20px 32px; border-radius:28px}
+  .empty h2{font-size:24px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important; transition:none!important}
+}
+@media (max-width:420px){ .chip .n{display:none} .chip{padding:8px 12px} }

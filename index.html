@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es-CR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>@naciceleste</title>
+  <meta name="description" content="Cosas que @naciceleste va encontrando en Twitter e Instagram." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <nav class="filters" id="filters" aria-label="Filtrar"></nav>
+    <a class="name" id="name" href="#">@naciceleste</a>
+    <nav class="profiles" id="profiles" aria-label="Mis redes"></nav>
+  </header>
+
+  <main>
+    <section class="grid" id="grid" aria-label="Publicaciones"></section>
+    <p class="empty" id="empty" hidden>Todavía no hay nada por aquí.</p>
+  </main>
+
+  <footer class="foot">
+    <p><a href="celeste/">ver versión celeste</a></p>
+    <p class="legal">Las publicaciones pertenecen a sus autores. Las imágenes se cargan directamente desde Twitter / Instagram; toca cualquiera para ver el post original.</p>
+  </footer>
+
+  <button class="up" id="up" aria-label="Volver arriba" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+  </button>
+
+  <script src="posts.js"></script>
+  <script src="media.js" onerror="window.POST_MEDIA={}"></script>
+  <script src="app.js"></script>
+</body>
+</html>

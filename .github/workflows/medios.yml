@@ -1,0 +1,32 @@
+# Cada vez que cambia posts.js (y una vez por semana), actualiza media.js
+# con los enlaces a las imágenes de X y las fechas de publicación.
+name: Actualizar medios
+on:
+  push:
+    paths: ["posts.js", "scripts/actualizar-medios.mjs"]
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: medios
+  cancel-in-progress: false
+jobs:
+  medios:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/actualizar-medios.mjs
+      - name: Guardar cambios
+        run: |
+          if ! git diff --quiet media.js; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@users.noreply.github.com"
+            git add media.js
+            git commit -m "Actualizar media.js"
+            git pull --rebase
+            git push
+          fi
