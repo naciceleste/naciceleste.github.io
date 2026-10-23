@@ -102,6 +102,28 @@ main{max-width:1240px; margin:0 auto; padding:0 20px 40px}
 .chip[aria-pressed="true"] .n{background:rgba(255,255,255,.3)}
 .active-tag{display:flex; align-items:center; gap:8px; font-size:14px; color:var(--ink-soft)}
 .active-tag button{border:0; cursor:pointer; font:inherit; font-weight:700; color:#8c6fe0; background:var(--lav-soft); padding:5px 12px; border-radius:999px}
+/* fila de etiquetas */
+.tag-row{display:flex; flex-wrap:wrap; justify-content:center; gap:8px; max-width:900px; margin:4px auto 6px; padding:4px 6px}
+.tag-row[hidden]{display:none}
+.tag-pill{appearance:none; cursor:pointer; font:inherit; font-weight:700; font-size:13.5px; color:#7a68d6; white-space:nowrap;
+  display:inline-flex; align-items:center; gap:4px; padding:5px 8px 5px 12px; border-radius:999px;
+  background:rgba(255,255,255,.62); border:1px solid #fff; box-shadow:0 4px 12px -8px rgba(110,120,200,.45);
+  -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); transition:background .2s, color .2s, transform .15s, box-shadow .2s}
+.tag-pill .h{opacity:.55; margin-right:-2px}
+.tag-pill .n{font-size:11.5px; font-weight:800; min-width:20px; padding:1px 6px; border-radius:999px; background:var(--lav-soft); color:#8c7be0; text-align:center}
+.tag-pill .x{font-size:11px; margin-left:2px; opacity:.85}
+.tag-pill:hover{background:#fff; transform:translateY(-1px)}
+.tag-pill:active{transform:scale(.97)}
+.tag-pill:focus-visible{outline:3px solid var(--lav); outline-offset:2px}
+.tag-pill[aria-pressed="true"]{color:#fff; border-color:transparent; background:linear-gradient(120deg,#a79af0,#e58fb6); box-shadow:0 6px 16px -6px rgba(170,120,220,.65)}
+.tag-pill[aria-pressed="true"] .h{opacity:.8}
+.tag-pill[aria-pressed="true"] .n{background:rgba(255,255,255,.3); color:#fff}
+@media (max-width:640px){
+  .tag-row{flex-wrap:nowrap; justify-content:flex-start; overflow-x:auto; scrollbar-width:none; margin:2px -12px 4px; padding:4px 12px 8px;
+    -webkit-mask:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 14px),transparent); mask:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 14px),transparent)}
+  .tag-row::-webkit-scrollbar{display:none}
+  .tag-pill{font-size:13px; flex:none}
+}
 .count{text-align:center; margin:6px 0 22px; font-family:"Caveat",cursive; font-size:22px; color:var(--ink-faint)}
 
 /* ---------- muro (masonry) ---------- */
@@ -299,6 +321,11 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
 [data-theme="dark"] .note{color:#c7b8ff}
 [data-theme="dark"] .tag{color:#cfc3ff}
 [data-theme="dark"] .tag:hover{background:rgba(169,154,240,.3)}
+[data-theme="dark"] .tag-pill{color:#cfc3ff; background:rgba(22,29,70,.66); border-color:rgba(160,180,255,.16); box-shadow:0 4px 14px -8px rgba(0,0,10,.7)}
+[data-theme="dark"] .tag-pill:hover{background:rgba(36,46,104,.85)}
+[data-theme="dark"] .tag-pill .n{background:rgba(169,154,240,.18); color:#d6cbff}
+[data-theme="dark"] .tag-pill[aria-pressed="true"]{color:#fff; border-color:transparent; background:linear-gradient(120deg,#7a63d8,#c9568f); box-shadow:0 6px 20px -6px rgba(170,110,255,.6)}
+[data-theme="dark"] .tag-pill[aria-pressed="true"] .n{background:rgba(255,255,255,.22); color:#fff}
 [data-theme="dark"] .active-tag button{color:#d6cbff}
 [data-theme="dark"] .open{background:linear-gradient(120deg,rgba(124,170,255,.16),rgba(169,140,240,.16))}
 [data-theme="dark"] .open:hover{background:linear-gradient(120deg,rgba(124,170,255,.3),rgba(169,140,240,.3))}

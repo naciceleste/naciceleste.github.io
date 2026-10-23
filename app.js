@@ -142,6 +142,35 @@
   }
   function setTag(tag) { state.tag = tag; applyFilter(); window.scrollTo({ top: $(".toolbar").offsetTop - 20, behavior: "smooth" }); }
 
+  /* ---------- fila de etiquetas (solo aparece si algún post tiene tags) ---------- */
+  // los números cuentan los posts de la red elegida arriba
+  function renderTagRow() {
+    var row = $("#tag-row");
+    var all = {}, counts = {};
+    posts.forEach(function (p) {
+      p.tags.forEach(function (t) {
+        all[t] = true;
+        if (state.net === "all" || p.network === state.net) counts[t] = (counts[t] || 0) + 1;
+      });
+    });
+    var names = Object.keys(all);
+    row.hidden = !names.length;
+    if (!names.length) { row.innerHTML = ""; return; }
+    names.sort(function (a, b) { return (counts[b] || 0) - (counts[a] || 0) || a.localeCompare(b, "es"); });
+    row.innerHTML = "";
+    names.forEach(function (t) {
+      var n = counts[t] || 0, on = state.tag === t;
+      if (!n && !on) return;   // con este filtro de red no hay posts con esa etiqueta
+      var b = el("button", { class: "tag-pill", type: "button", "aria-pressed": String(on),
+        title: on ? "Quitar el filtro #" + t : "Ver solo #" + t },
+        '<span class="h">#</span>' + esc(t) + '<span class="n">' + n + "</span>" + (on ? '<span class="x" aria-hidden="true">✕</span>' : ""));
+      b.addEventListener("click", function () { setTag(on ? null : t); });
+      row.appendChild(b);
+    });
+    var act = row.querySelector('[aria-pressed="true"]');
+    if (act && act.scrollIntoView && row.scrollWidth > row.clientWidth) row.scrollLeft = act.offsetLeft - row.clientWidth / 2 + act.offsetWidth / 2;
+  }
+
   function applyFilter() {
     document.querySelectorAll(".chip").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.filter === state.net)); });
     var shown = 0;
@@ -158,6 +187,7 @@
       btn.addEventListener("click", function () { setTag(null); });
       at.appendChild(btn);
     } else at.hidden = true;
+    renderTagRow();
 
     var count = $("#count");
     if (!posts.length) count.textContent = "";
