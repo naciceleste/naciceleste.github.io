@@ -1,10 +1,13 @@
-# @naciceleste
+# El búnker de Ⱥrmin · @naciceleste
+
+Documentando mi obsesiva necesidad de verlo todo 🙂
 
 Las cositas que me gustan en Twitter/X e Instagram (y pronto YouTube), todas en un solo lugar.
 Las imágenes **no** se guardan aquí: se cargan directamente desde cada red y al tocarlas te llevan al post original.
 
-- **Página principal** (`/`): cuadrícula de imágenes minimal. Al pasar el mouse se ve la red y la fecha del post (DD/MM/AA).
-- **Versión celeste** (`/celeste/`): muro pastel estilo Tumblr con los embeds completos.
+- **Página principal** (`/`): muro celeste estilo Tumblr con los posts completos (embeds oficiales), modo claro y oscuro
+  (botón ☀️/🌙 arriba a la derecha; por defecto sigue el tema del sistema y recuerda la elección).
+- **Versión cuadrícula** (`/cuadricula/`): cuadrícula de imágenes minimal. Al pasar el mouse se ve la red y la fecha del post (DD/MM/AA).
 
 Las dos usan el mismo `posts.js`, así que siempre muestran los mismos posts.
 
@@ -21,7 +24,7 @@ Las dos usan el mismo `posts.js`, así que siempre muestran los mismos posts.
 
 La red se detecta sola por el link. `date` es el día en que lo agregaste (sirve para ordenar: los más nuevos primero;
 con la misma fecha, sale primero el que está más arriba en la lista). Opcionales: `note: "una notita"` y `tags: ["arte"]`
-(se ven en la versión celeste). **Cada línea termina con una coma.**
+(se ven en la página principal). **Cada línea termina con una coma.**
 
 Links que funcionan: `x.com/…/status/…` o `twitter.com/…/status/…` · Instagram `…/p/CODIGO/` o `…/reel/CODIGO/` ·
 YouTube `watch?v=…`, `youtu.be/…`, `shorts/…`.
@@ -34,6 +37,11 @@ Si algo falla (por ejemplo, Instagram bloquea la consulta), se conservan los dat
 Mientras un tuit nuevo no esté en `media.js`, se muestra un cuadro con texto en su lugar.
 
 Para correrlo a mano: `node scripts/actualizar-medios.mjs` (Node 18 o más nuevo).
+
+## Título, frase y foto
+El título y la frase de arriba se cambian en `posts.js` (`title` y `tagline`). La foto de perfil es `assets/avatar.jpg`
+(copia de la foto de Twitter); para cambiarla, sube otra imagen cuadrada con ese mismo nombre.
+El título usa la letra Merriweather porque tiene la **Ⱥ**.
 
 ## Activar YouTube
 En `posts.js`, en la línea de `youtube`, cambia `enabled: false` a `enabled: true`.
@@ -48,9 +56,10 @@ En una terminal dentro de esta carpeta: `python3 -m http.server 8000` y entra a 
 - Algunos bloqueadores de anuncios pueden bloquear los visores de X e Instagram.
 
 ## Archivos
-- `index.html`, `style.css`, `app.js` – página principal
-- `celeste/` – versión celeste (pastel)
+- `index.html`, `styles.css`, `app.js` – página principal (muro celeste)
+- `cuadricula/` – versión cuadrícula
 - `posts.js` – **tus posts y configuración** ← el único que vas a editar
 - `media.js` – datos automáticos (no editar)
 - `scripts/actualizar-medios.mjs`, `.github/workflows/medios.yml` – actualización automática
+- `assets/avatar.jpg` – foto de perfil
 - `assets/favicon.svg` – iconito de la pestaña

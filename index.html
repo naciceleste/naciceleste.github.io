@@ -3,38 +3,105 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>@naciceleste</title>
-  <meta name="description" content="Cosas que @naciceleste va encontrando en Twitter e Instagram." />
-  <meta name="theme-color" content="#ffffff" />
+  <title>El búnker de Ⱥrmin · @naciceleste</title>
+  <meta name="description" content="Documentando mi obsesiva necesidad de verlo todo 🙂 Lo que @naciceleste va encontrando en Twitter, Instagram y YouTube, todo en un solo lugar." />
+  <meta name="theme-color" content="#cfe8ff" />
+  <meta name="color-scheme" content="light dark" />
+  <meta property="og:title" content="El búnker de Ⱥrmin · @naciceleste" />
+  <meta property="og:description" content="Documentando mi obsesiva necesidad de verlo todo 🙂" />
+  <meta property="og:image" content="https://naciceleste.github.io/assets/avatar.jpg" />
+  <meta property="og:type" content="website" />
+  <script>
+    /* tema antes de pintar (evita parpadeo): elección guardada o la del sistema */
+    (function () {
+      var t = null; try { t = localStorage.getItem("tema"); } catch (e) {}
+      if (t !== "dark" && t !== "light") t = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,400;1,9..144,600&family=Merriweather:ital,opsz,wght@1,18..144,700&family=Nunito:wght@400;600;700;800&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="top">
-    <nav class="filters" id="filters" aria-label="Filtrar"></nav>
-    <a class="name" id="name" href="#">@naciceleste</a>
-    <nav class="profiles" id="profiles" aria-label="Mis redes"></nav>
+  <!-- cielo de fondo -->
+  <div class="sky" aria-hidden="true">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+    <svg class="cloud cloud-1" viewBox="0 0 200 100"><use href="#cloud-shape"/></svg>
+    <svg class="cloud cloud-2" viewBox="0 0 200 100"><use href="#cloud-shape"/></svg>
+    <svg class="cloud cloud-3" viewBox="0 0 200 100"><use href="#cloud-shape"/></svg>
+    <svg class="cloud cloud-4" viewBox="0 0 200 100"><use href="#cloud-shape"/></svg>
+    <div class="sparkles"></div>
+    <div class="stars stars-1"></div>
+    <div class="stars stars-2"></div>
+    <div class="moon"></div>
+    <div class="shooting"></div>
+  </div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="cloud-shape" viewBox="0 0 200 100">
+        <path fill="currentColor" d="M52 88c-22 0-40-14-40-32s17-31 37-31c2 0 4 0 6 .4C62 11 78 2 97 2c22 0 41 14 45 33 3-.6 5-.9 8-.9 21 0 38 13 38 30s-17 24-38 24H52z"/>
+      </symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.77L17.75 3Zm-1.08 16.17h1.7L7.4 4.74H5.58l11.09 14.43Z"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2c3.2 0 3.58 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 4.86a4.94 4.94 0 1 0 0 9.88 4.94 4.94 0 0 0 0-9.88Zm0 8.15a3.21 3.21 0 1 1 0-6.42 3.21 3.21 0 0 1 0 6.42Zm5.13-9.5a1.15 1.15 0 1 0 0 2.3 1.15 1.15 0 0 0 0-2.3Z"/></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.7 15.1V8.9l5.8 3.1-5.8 3.1Z"/></symbol>
+      <symbol id="i-all" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5l2.3 5.6 6 .5-4.6 3.9 1.4 5.9L12 15.3l-5.1 3.1 1.4-5.9L3.7 8.6l6-.5L12 2.5Z"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/></symbol>
+    </defs>
+  </svg>
+
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo oscuro">
+    <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></g></svg>
+    <svg class="moon-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a.6.6 0 0 0-.8-.7 9.4 9.4 0 1 0 12.3 12.3.6.6 0 0 0-.7-.8Z"/><path fill="currentColor" d="M16.6 3.2l.5 1.3 1.3.5-1.3.5-.5 1.3-.5-1.3-1.3-.5 1.3-.5zM20 7.6l.35.85.85.35-.85.35-.35.85-.35-.85-.85-.35.85-.35z"/></svg>
+  </button>
+
+  <header class="hero">
+    <a class="avatar" href="https://x.com/naciceleste" target="_blank" rel="noopener" aria-label="Ⱥrmin (@naciceleste) en Twitter">
+      <img src="assets/avatar.jpg" alt="Foto de perfil de Ⱥrmin" width="400" height="400" />
+      <span aria-hidden="true">✦</span>
+    </a>
+    <p class="eyebrow">bienvenid@ a</p>
+    <h1 class="title"><span id="site-title">El búnker de Ⱥrmin</span></h1>
+    <a class="handle" id="handle" href="https://x.com/naciceleste">@naciceleste</a>
+    <p class="tagline" id="tagline">Documentando mi obsesiva necesidad de verlo todo 🙂</p>
+    <nav class="socials" id="socials" aria-label="Mis redes"></nav>
   </header>
 
   <main>
-    <section class="grid" id="grid" aria-label="Publicaciones"></section>
-    <p class="empty" id="empty" hidden>Todavía no hay nada por aquí.</p>
+    <div class="toolbar" role="toolbar" aria-label="Filtrar publicaciones">
+      <div class="chips" id="chips"></div>
+      <div class="active-tag" id="active-tag" hidden></div>
+    </div>
+
+    <p class="count" id="count" aria-live="polite"></p>
+
+    <section class="wall" id="wall" aria-label="Publicaciones guardadas"></section>
+
+    <section class="empty" id="empty" hidden>
+      <div class="empty-art" aria-hidden="true">
+        <svg class="e-cloud e-cloud-a" viewBox="0 0 200 100"><use href="#cloud-shape"/></svg>
+        <svg class="e-cloud e-cloud-b" viewBox="0 0 200 100"><use href="#cloud-shape"/></svg>
+        <span class="e-star s1">✦</span><span class="e-star s2">✧</span><span class="e-star s3">✦</span>
+      </div>
+      <h2 id="empty-title">Este cielito todavía está despejado</h2>
+      <p id="empty-text">Muy pronto van a ir apareciendo aquí las cositas que más me gustan de Twitter, Instagram y YouTube. ¡Vuelve en un ratito! ☁️</p>
+    </section>
   </main>
 
-  <footer class="foot">
-    <p><a href="celeste/">ver versión celeste</a></p>
-    <p class="legal">Las publicaciones pertenecen a sus autores. Las imágenes se cargan directamente desde Twitter / Instagram; toca cualquiera para ver el post original.</p>
+  <footer class="footer">
+    <p>Hecho con colaboración agéntica · <a id="footer-handle" href="https://x.com/naciceleste">@naciceleste</a></p>
+    <p><a href="cuadricula/">ver versión cuadrícula</a></p>
+    <p class="legal">Las publicaciones pertenecen a sus autores y se muestran con los embeds oficiales de cada red. Toca cualquier post para verlo en su lugar original.</p>
   </footer>
 
-  <button class="up" id="up" aria-label="Volver arriba" hidden>
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
-  </button>
+  <button class="to-top" id="to-top" aria-label="Volver arriba" hidden>↑</button>
 
   <script src="posts.js"></script>
-  <script src="media.js" onerror="window.POST_MEDIA={}"></script>
   <script src="app.js"></script>
 </body>
 </html>

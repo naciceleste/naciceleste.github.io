@@ -24,8 +24,8 @@
 
 window.SITE_CONFIG = {
   username: "naciceleste",
-  title: "El muro celeste",
-  tagline: "Cositas lindas que voy encontrando por ahí y no quiero perder ✨",
+  title: "El búnker de Ⱥrmin",
+  tagline: "Documentando mi obsesiva necesidad de verlo todo 🙂",
   profiles: {
     x:         { url: "https://x.com/naciceleste",                 enabled: true  },
     instagram: { url: "https://www.instagram.com/naciceleste/",    enabled: true  },
