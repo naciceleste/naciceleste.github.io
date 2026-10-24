@@ -83,12 +83,15 @@
     return {
       idx: idx, network: p.network, id: p.id, short: !!p.short, url: p.url,
       note: e.note || "", tags: Array.isArray(e.tags) ? e.tags : (e.tags ? String(e.tags).split(",") : []),
-      date: parseDate(e.date)
+      date: parseDate(e.date),
+      pin: (+e.pin >= 1 && +e.pin <= 3) ? Math.round(+e.pin) : 0
     };
   }).filter(Boolean);
   posts.forEach(function (p) { p.tags = p.tags.map(function (t) { return String(t).trim().replace(/^#/, ""); }).filter(Boolean); });
   // más nuevos primero; misma fecha → se respeta el orden del archivo (el de arriba primero)
   posts.sort(function (a, b) {
+    // fijados (1, 2, 3) siempre primero, en ese orden
+    if (a.pin || b.pin) return (a.pin || 99) - (b.pin || 99);
     var da = a.date ? a.date.getTime() : 0, db = b.date ? b.date.getTime() : 0;
     return db - da || a.idx - b.idx;
   });
@@ -216,10 +219,11 @@
   var cards = [];
   function buildCard(post, i) {
     var n = NETS[post.network];
-    var card = el("article", { class: "card", "data-net": post.network });
+    var card = el("article", { class: "card" + (post.pin ? " pinned" : ""), "data-net": post.network });
     card.style.animationDelay = Math.min(i, 8) * 60 + "ms";
     var top = el("div", { class: "card-top" },
       '<span class="badge ' + post.network + '"><span class="dot">' + icon(n.icon) + "</span>" + n.label + "</span>" +
+      (post.pin ? '<span class="pin" title="Post fijado">📌 Fijado</span>' : "") +
       (post.date ? '<time class="date" datetime="' + post.date.toISOString().slice(0, 10) + '">' + fmtDate(post.date) + "</time>" : ""));
     var embed = el("div", { class: "embed" },
       '<div class="loading"><svg class="puff" viewBox="0 0 200 100"><use href="#cloud-shape"/></svg>cargando…</div>');

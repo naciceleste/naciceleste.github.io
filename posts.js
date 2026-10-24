@@ -12,6 +12,7 @@
      date   (opcional)     fecha en que lo agregaste, formato AAAA-MM-DD
      note   (opcional)     una notita tuya que aparece bajo el post
      tags   (opcional)     etiquetas, ej: ["arte", "gatitos"]
+     pin    (opcional)     1, 2 o 3: lo fija arriba en ese orden (máximo 3)
      network(opcional)     "x" | "instagram" | "youtube" — se detecta solo
 
    También puedes poner solo el link entre comillas:

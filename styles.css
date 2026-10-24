@@ -335,3 +335,8 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
 @media (max-width:640px){ .moon{width:54px; height:54px; top:72px; right:5vw; opacity:.75} }
 @media (max-width:420px){ .chip{padding:8px 9px; gap:4px; font-size:13px} .chips{gap:0} }
 @media (max-width:370px){ .chip{padding:8px 6px; font-size:12.5px} }
+
+/* 📌 posts fijados */
+.card .pin{font-size:12px; font-weight:700; color:#4f86b8; background:rgba(142,197,232,.28); padding:3px 9px; border-radius:999px; white-space:nowrap}
+[data-theme="dark"] .card .pin{color:#bcd9f5; background:rgba(142,197,232,.18)}
+.card.pinned{box-shadow:0 0 0 2px rgba(142,197,232,.55), var(--shadow, 0 8px 24px rgba(120,160,210,.18))}
