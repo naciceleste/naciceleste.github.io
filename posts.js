@@ -37,6 +37,20 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://x.com/naciceleste/status/1739760034027024649", date: "2026-10-24", tags: ["yo voy a chambear"] },
+  { url: "https://x.com/naciceleste/status/1804743773093588998", date: "2026-10-24", tags: ["vivan por siempre los pueblos","armin"] },
+  { url: "https://x.com/CopaAmerica/status/1807984351126188098", date: "2026-10-24", note: "D", tags: ["uruguay nt","uruguay","Dios, patria y familia"] },
+  { url: "https://x.com/naciceleste/status/1819579934408425693", date: "2026-10-24", tags: ["juegos olímpicos","nuevo formato dale rey"] },
+  { url: "https://x.com/TheCinesthetic/status/1933658892577484834", date: "2026-10-24", note: "Me volvía loco la histeria colectiva de las cocinas, luego me acostumbré 🙃", tags: ["the bear","series"] },
+  { url: "https://x.com/naciceleste/status/1875752609308668239", date: "2026-10-24", note: "Qué milagro, mamá?", tags: ["la sociedad de la nieve","fito strauch"] },
+  { url: "https://www.instagram.com/p/DJrQwATOgCG/", date: "2026-10-24", note: "Calladito más bonito, mijo !", tags: ["parcero"] },
+  { url: "https://x.com/naciceleste/status/1877115383586361753", date: "2026-10-24", note: "Que pasó con estos muñecos?", tags: ["yihadistas porteños"] },
+  { url: "https://www.instagram.com/p/DcOOduIo9s-/", date: "2026-10-24", note: "No te tomes la vida tan en serio, chaval", tags: ["alberto"] },
+  { url: "https://x.com/HippiesConOsde/status/2110484265242706203", date: "2026-10-24", note: "Es difícil concentrarse cuando habla Lara 🤭", tags: ["lara","oro"] },
+  { url: "https://www.instagram.com/p/Dcw77T0gmAz/", date: "2026-10-24", note: "Hacé tu testamento, AHORA !", tags: ["facundo arana","testamento","no me sigas"] },
+  { url: "https://x.com/naciceleste/status/1976050892332790063", date: "2026-10-24", note: "Como te la aplicaron viejo, al final todos iguales", tags: ["milei","avisos funebres","armin"] },
+  { url: "https://x.com/ShouldHaveRabit/status/2113445248416563374", date: "2026-10-24", tags: ["conejo","rabbit","ternura time"] },
+  { url: "https://www.instagram.com/p/DeS6Kcpgzw4/", date: "2026-10-24", tags: ["pietro","mentalidad"] },
   { url: "https://x.com/flanchota/status/2108211133035262362", date: "2026-10-23", tags: ["guerra civil"] },
   { url: "https://x.com/Ujjawal_athrav/status/2113638571274076506", date: "2026-10-23", tags: ["cheeseball"] },
   { url: "https://www.instagram.com/p/De0LTZkyV9D/", date: "2026-10-23", tags: ["milei","galperin","argentina"] },
