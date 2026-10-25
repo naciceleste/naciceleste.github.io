@@ -433,7 +433,7 @@
   /* ---------- radio lofi (transmisión en vivo de YouTube; se enciende solo con el botón) ---------- */
   function radio() {
     var box = $("#radio"); if (!box) return;
-    var IDS = ["jfKfPfyJRdk", "5qap5aO4i9A"], which = 0, player = null, playing = false, loading = false, vol = 40;
+    var IDS = ["5yx6BWlEVcY", "jiua2V9q9V0", "i6WzngxTnBA", "7NOSDKb0HlU"], which = 0, player = null, playing = false, loading = false, vol = 40;
     var fab = $("#radio-fab"), panel = $("#radio-panel"), btn = $("#radio-play"), range = $("#radio-vol"), status = $("#radio-status");
     try { var sv = parseInt(localStorage.getItem("radioVol"), 10); if (sv >= 0 && sv <= 100) vol = sv; } catch (e) {}
     range.value = vol;
