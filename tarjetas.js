@@ -1,2 +1,2 @@
-/* Generado por scripts/tarjetas.mjs: datos públicos (título, imagen, resumen) de los posts de Substack. */
+/* Generado por scripts/tarjetas.mjs — no hace falta editarlo a mano. */
 window.POST_CARDS = {};
