@@ -30,8 +30,9 @@ window.SITE_CONFIG = {
   profiles: {
     x:         { url: "https://x.com/naciceleste",                 enabled: true  },
     instagram: { url: "https://www.instagram.com/naciceleste/",    enabled: true  },
-    // Cuando abras tu canal, cambia enabled a true ↓
-    youtube:   { url: "https://www.youtube.com/@naciceleste",      enabled: false }
+    youtube:   { url: "https://www.youtube.com/@naci.celeste",     enabled: true  },
+    tiktok:    { url: "https://www.tiktok.com/@naciceleste",       enabled: true  },
+    substack:  { url: "https://substack.com/@naciceleste",         enabled: true  }
   }
 };
 
