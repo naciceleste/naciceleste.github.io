@@ -1,6 +1,92 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:1804743773093588998": {
+    "network": "x",
+    "date": "2024-06-23T05:10:20.000Z",
+    "author": "naciceleste",
+    "text": "nunca me robaron xq vivo en un pueblito, tengo clientes que bajan con el auto encendido, nos confían celulares, pines de las tarjetas de débito hasta dinero en efectivo para que se lo guardemos por días. \nLa superioridad estética y moral de los pueblitos no se discute.",
+    "kind": "text"
+  },
+  "x:1807984351126188098": {
+    "network": "x",
+    "date": "2024-07-02T03:47:14.000Z",
+    "author": "CopaAmerica",
+    "text": "La familia Bentancur 😍",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/1807984054878322688/img/jnMEKzeObiGJy4pi.jpg",
+    "kind": "video",
+    "w": 1080,
+    "h": 1920
+  },
+  "x:1819579934408425693": {
+    "network": "x",
+    "date": "2024-08-03T03:43:57.000Z",
+    "author": "naciceleste",
+    "text": "Si las horas del día son 24, porqué no podemos tener 24 días de Juegos Olímpicos?\nNo puedo ver todo Thomas Bach, dame una mano",
+    "kind": "text"
+  },
+  "x:1933658892577484834": {
+    "network": "x",
+    "date": "2025-06-13T22:53:00.000Z",
+    "author": "TheCinesthetic",
+    "text": "“let it rip.”\n\nThe Bear (2022)",
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1850527801709072384/pu/img/fI0TCKycL9GNGk0M.jpg",
+    "kind": "video",
+    "w": 1280,
+    "h": 694
+  },
+  "instagram:DJrQwATOgCG": {
+    "network": "instagram",
+    "h": 2122,
+    "w": 1198,
+    "kind": "video",
+    "author": "planetajuan",
+    "date": "2025-05-15T13:31:40.000Z"
+  },
+  "instagram:DcOOduIo9s-": {
+    "network": "instagram",
+    "h": 1280,
+    "w": 720,
+    "kind": "video",
+    "author": "themacrowizard",
+    "date": "2026-08-19T12:52:05.000Z"
+  },
+  "x:2110484265242706203": {
+    "network": "x",
+    "date": "2026-10-14T21:33:54.000Z",
+    "author": "HippiesConOsde",
+    "text": "Es muy difícil cuando explicas algo y no lo quieren entender.",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2110152274118934529/img/ge_LQBTZwuc1dgf0.jpg",
+    "kind": "video",
+    "w": 1080,
+    "h": 1920
+  },
+  "instagram:Dcw77T0gmAz": {
+    "network": "instagram",
+    "h": 1280,
+    "w": 720,
+    "kind": "video",
+    "author": "estoesblender",
+    "date": "2026-09-02T00:28:22.000Z"
+  },
+  "x:2113445248416563374": {
+    "network": "x",
+    "date": "2026-10-23T01:39:47.000Z",
+    "author": "ShouldHaveRabit",
+    "text": "🫠",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2113445208952348672/img/9fC8i4PSRTCYObOq.jpg",
+    "kind": "video",
+    "w": 1280,
+    "h": 720
+  },
+  "instagram:DeS6Kcpgzw4": {
+    "network": "instagram",
+    "h": 1136,
+    "w": 640,
+    "kind": "video",
+    "author": "baduomo",
+    "date": "2026-10-10T01:32:27.000Z"
+  },
   "x:2108211133035262362": {
     "network": "x",
     "date": "2026-10-08T15:01:17.000Z",
