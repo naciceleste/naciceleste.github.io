@@ -3,7 +3,7 @@
 name: Actualizar medios
 on:
   push:
-    paths: ["posts.js", "scripts/actualizar-medios.mjs"]
+    paths: ["posts.js", "scripts/actualizar-medios.mjs", "scripts/tarjetas.mjs"]
   schedule:
     - cron: "17 9 * * 1"
   workflow_dispatch:
@@ -20,13 +20,14 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: node scripts/actualizar-medios.mjs
+      - run: node scripts/tarjetas.mjs
       - name: Guardar cambios
         run: |
-          if ! git diff --quiet media.js; then
+          if ! git diff --quiet media.js tarjetas.js; then
             git config user.name "github-actions"
             git config user.email "github-actions@users.noreply.github.com"
-            git add media.js
-            git commit -m "Actualizar media.js"
+            git add media.js tarjetas.js
+            git commit -m "Actualizar media.js y tarjetas.js"
             git pull --rebase
             git push
           fi

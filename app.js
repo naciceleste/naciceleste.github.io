@@ -10,8 +10,11 @@
   var NETS = {
     x:         { label: "Twitter",   icon: "i-x",         open: "Ver en Twitter" },
     instagram: { label: "Instagram", icon: "i-instagram", open: "Ver en Instagram" },
-    youtube:   { label: "YouTube",   icon: "i-youtube",   open: "Ver en YouTube" }
+    youtube:   { label: "YouTube",   icon: "i-youtube",   open: "Ver en YouTube" },
+    tiktok:    { label: "TikTok",    icon: "i-tiktok",    open: "Ver en TikTok" },
+    substack:  { label: "Substack",  icon: "i-substack",  open: "Leer en Substack" }
   };
+  var CARDS = window.POST_CARDS || {};
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   function el(tag, attrs, html) {
@@ -58,6 +61,20 @@
       if (id && /^[\w-]{6,}$/.test(id)) {
         return { network: "youtube", id: id, short: short,
           url: short ? "https://www.youtube.com/shorts/" + id : "https://www.youtube.com/watch?v=" + id };
+      }
+      return null;
+    }
+    if (host === "tiktok.com") {
+      var v = parts.findIndex(function (x) { return x === "video" || x === "photo"; });
+      if (v > 0 && /^\d+$/.test(parts[v + 1] || "")) {
+        return { network: "tiktok", id: parts[v + 1], user: parts[0], url: "https://www.tiktok.com/" + parts[0] + "/" + parts[v] + "/" + parts[v + 1] };
+      }
+      return null;
+    }
+    if (host === "substack.com" || /\.substack\.com$/.test(host)) {
+      var path = u.pathname.replace(/\/+$/, "");
+      if (/^\/(p\/[^\/]+|@[^\/]+\/note\/[^\/]+|note\/[^\/]+|home\/post\/[^\/]+)$/.test(path)) {
+        return { network: "substack", id: host + path, url: "https://" + host + path };
       }
       return null;
     }
@@ -121,15 +138,16 @@
   }
 
   /* ---------- filtros ---------- */
-  var state = { net: "all", tag: null };
+  var state = { net: "all", tag: null, allTags: false };
 
   function renderChips() {
     var box = $("#chips");
     box.innerHTML = "";
-    var counts = { all: posts.length, x: 0, instagram: 0, youtube: 0 };
+    var counts = { all: posts.length, x: 0, instagram: 0, youtube: 0, tiktok: 0, substack: 0 };
     posts.forEach(function (p) { counts[p.network]++; });
-    var list = [["all", "Todos", "i-all"], ["x", "Twitter", "i-x"], ["instagram", "Instagram", "i-instagram"], ["youtube", "YouTube", "i-youtube"]];
+    var list = [["all", "Todos", "i-all"], ["x", "Twitter", "i-x"], ["instagram", "Instagram", "i-instagram"], ["youtube", "YouTube", "i-youtube"], ["tiktok", "TikTok", "i-tiktok"], ["substack", "Substack", "i-substack"]];
     list.forEach(function (c) {
+      if ((c[0] === "tiktok" || c[0] === "substack") && !counts[c[0]]) return;   // solo aparecen cuando hay posts
       var b = el("button", { class: "chip", type: "button", "data-filter": c[0], "aria-pressed": String(state.net === c[0]) },
         icon(c[2]) + "<span>" + c[1] + "</span>" + (counts[c[0]] ? '<span class="n">' + counts[c[0]] + "</span>" : ""));
       b.addEventListener("click", function () { setNet(c[0]); });
@@ -160,16 +178,29 @@
     row.hidden = !names.length;
     if (!names.length) { row.innerHTML = ""; return; }
     names.sort(function (a, b) { return (counts[b] || 0) - (counts[a] || 0) || a.localeCompare(b, "es"); });
+    var vis = names.filter(function (t) { return (counts[t] || 0) > 0 || state.tag === t; });
+    var TOP = 10, over = vis.length > TOP;
+    var show = vis;
+    if (over && !state.allTags) {
+      show = vis.slice(0, TOP);
+      if (state.tag && show.indexOf(state.tag) === -1) show.push(state.tag);   // la etiqueta elegida siempre se ve
+    }
+    row.classList.toggle("open", over && state.allTags);
     row.innerHTML = "";
-    names.forEach(function (t) {
+    show.forEach(function (t) {
       var n = counts[t] || 0, on = state.tag === t;
-      if (!n && !on) return;   // con este filtro de red no hay posts con esa etiqueta
       var b = el("button", { class: "tag-pill", type: "button", "aria-pressed": String(on),
         title: on ? "Quitar el filtro #" + t : "Ver solo #" + t },
         '<span class="h">#</span>' + esc(t) + '<span class="n">' + n + "</span>" + (on ? '<span class="x" aria-hidden="true">✕</span>' : ""));
       b.addEventListener("click", function () { setTag(on ? null : t); });
       row.appendChild(b);
     });
+    if (over) {
+      var more = el("button", { class: "tag-more", type: "button", "aria-expanded": String(!!state.allTags) },
+        state.allTags ? "Ver menos ▴" : "Ver todas (" + vis.length + ") ▾");
+      more.addEventListener("click", function () { state.allTags = !state.allTags; renderTagRow(); });
+      row.appendChild(more);
+    }
     var act = row.querySelector('[aria-pressed="true"]');
     if (act && act.scrollIntoView && row.scrollWidth > row.clientWidth) row.scrollLeft = act.offsetLeft - row.clientWidth / 2 + act.offsetWidth / 2;
   }
@@ -297,6 +328,30 @@
           else setTimeout(check, 400);
         })();
       }).catch(function () { fallback(c, "No se pudo cargar el visor de Instagram (¿bloqueador de anuncios?)."); });
+    } else if (p.network === "tiktok") {
+      var tw2 = el("div", { class: "tt" });
+      var tf = el("iframe", {
+        src: "https://www.tiktok.com/player/v1/" + encodeURIComponent(p.id) + "?description=1&music_info=1&rel=0",
+        title: "Video de TikTok", loading: "lazy",
+        allow: "fullscreen; encrypted-media; picture-in-picture", allowfullscreen: ""
+      });
+      tf.addEventListener("load", function () { ready(c); });
+      tw2.appendChild(tf); box.appendChild(tw2);
+      setTimeout(function () { ready(c); }, 4000);
+    } else if (p.network === "substack") {
+      var d = CARDS[p.url] || {};
+      var slug = decodeURIComponent((p.url.split("/").pop() || "")).replace(/[-_]+/g, " ");
+      var title = d.title || (slug && slug.charAt(0).toUpperCase() + slug.slice(1)) || "Publicación en Substack";
+      var a = el("a", { class: "sub-card", href: p.url, target: "_blank", rel: "noopener" },
+        (d.image ? '<span class="sub-img"><img src="' + esc(d.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer"/></span>' : "") +
+        '<span class="sub-body">' +
+          '<span class="sub-site">' + icon("i-substack") + esc(d.site || "Substack") + "</span>" +
+          '<strong class="sub-title">' + esc(title) + "</strong>" +
+          (d.desc ? '<span class="sub-desc">' + esc(d.desc) + "</span>" : "") +
+        "</span>");
+      var im = a.querySelector("img");
+      if (im) { im.addEventListener("load", scheduleLayout); im.addEventListener("error", function () { var w = im.parentNode; w.parentNode.removeChild(w); scheduleLayout(); }); }
+      box.appendChild(a); ready(c);
     } else if (p.network === "youtube") {
       var wrap = el("div", { class: "yt" + (p.short ? " short" : "") });
       var f = el("iframe", {
@@ -340,12 +395,6 @@
   function themeToggle() {
     applyTheme(theme(), false);
     $("#theme-toggle").addEventListener("click", function () { applyTheme(theme() === "dark" ? "light" : "dark", true); });
-    // si nunca eligió, seguir los cambios del sistema
-    if (window.matchMedia) {
-      var mq = matchMedia("(prefers-color-scheme: dark)");
-      var onChange = function (e) { var saved = null; try { saved = localStorage.getItem("tema"); } catch (x) {} if (!saved) applyTheme(e.matches ? "dark" : "light", false); };
-      if (mq.addEventListener) mq.addEventListener("change", onChange); else if (mq.addListener) mq.addListener(onChange);
-    }
   }
 
   /* ---------- masonry (grid + row-span; nunca mueve iframes en el DOM) ---------- */
@@ -381,6 +430,66 @@
     } else cards.forEach(mount);
   }
 
+  /* ---------- radio lofi (transmisión en vivo de YouTube; se enciende solo con el botón) ---------- */
+  function radio() {
+    var box = $("#radio"); if (!box) return;
+    var IDS = ["jfKfPfyJRdk", "5qap5aO4i9A"], which = 0, player = null, playing = false, loading = false, vol = 40;
+    var fab = $("#radio-fab"), panel = $("#radio-panel"), btn = $("#radio-play"), range = $("#radio-vol"), status = $("#radio-status");
+    try { var sv = parseInt(localStorage.getItem("radioVol"), 10); if (sv >= 0 && sv <= 100) vol = sv; } catch (e) {}
+    range.value = vol;
+
+    function paint() {
+      box.classList.toggle("on", playing);
+      btn.setAttribute("aria-pressed", String(playing));
+      btn.querySelector(".lbl").textContent = loading ? "Cargando…" : playing ? "Pausar" : "Escuchar radio lofi";
+      btn.querySelector(".ico").textContent = playing ? "❚❚" : "▶";
+      fab.setAttribute("aria-label", playing ? "Radio lofi sonando, abrir controles" : "Abrir radio lofi");
+      status.textContent = loading ? "Conectando con la transmisión…" : playing ? "En vivo ahora ♪" : "Música para acompañar la visita ☁️";
+    }
+    function build() {
+      loading = true; paint();
+      var go = function () {
+        player = new YT.Player("radio-yt", {
+          width: "240", height: "135", videoId: IDS[which],
+          playerVars: { autoplay: 1, controls: 0, playsinline: 1, rel: 0, modestbranding: 1, disablekb: 1, iv_load_policy: 3 },
+          events: {
+            onReady: function (e) { e.target.setVolume(vol); e.target.playVideo(); },
+            onStateChange: function (e) {
+              if (e.data === 1) { loading = false; playing = true; }
+              else if (e.data === 2 || e.data === 0) { loading = false; playing = false; }
+              paint();
+            },
+            onError: function () {
+              if (which < IDS.length - 1) { which++; player.loadVideoById(IDS[which]); }
+              else { loading = false; playing = false; status.textContent = "La radio no está disponible ahora mismo."; box.classList.remove("on"); }
+            }
+          }
+        });
+      };
+      if (window.YT && YT.Player) go();
+      else {
+        window.onYouTubeIframeAPIReady = go;
+        loadScript("https://www.youtube.com/iframe_api").catch(function () { loading = false; paint(); status.textContent = "No se pudo cargar la radio (¿bloqueador de anuncios?)."; });
+      }
+    }
+    btn.addEventListener("click", function () {
+      if (!player) { build(); return; }
+      if (playing) player.pauseVideo(); else player.playVideo();
+    });
+    range.addEventListener("input", function () {
+      vol = +range.value; if (player && player.setVolume) player.setVolume(vol);
+      try { localStorage.setItem("radioVol", String(vol)); } catch (e) {}
+    });
+    function toggle(open) {
+      var o = open == null ? panel.hidden : open;
+      panel.hidden = !o; fab.setAttribute("aria-expanded", String(o)); box.classList.toggle("open", o);
+    }
+    fab.addEventListener("click", function () { toggle(); });
+    $("#radio-close").addEventListener("click", function () { toggle(false); fab.focus(); });
+    paint();
+  }
+
+
   /* ---------- botón volver arriba ---------- */
   function topButton() {
     var b = $("#to-top");
@@ -396,4 +505,5 @@
   renderWall();
   applyFilter();
   topButton();
+  radio();
 })();
