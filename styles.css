@@ -76,6 +76,8 @@ a{color:inherit}
 .social[data-net="x"] .ico{background:linear-gradient(135deg,#8a97b8,#56647f)}
 .social[data-net="instagram"] .ico{background:linear-gradient(135deg,#ffc58f,#f78fb3 50%,#b89af5)}
 .social[data-net="youtube"] .ico{background:linear-gradient(135deg,#ffaab5,#f2788a)}
+.social[data-net="tiktok"] .ico{background:linear-gradient(135deg,#7fd6d8,#e98aae)}
+.social[data-net="substack"] .ico{background:linear-gradient(135deg,#ffbf94,#ff8a4c)}
 a.social:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover); background:#fff}
 .social.soon{opacity:.62; cursor:default; box-shadow:none}
 .social.soon .ico{filter:grayscale(.35)}
