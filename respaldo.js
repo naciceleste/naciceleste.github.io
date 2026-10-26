@@ -13,8 +13,10 @@ window.X_RESPALDO = {
    "user": "RAMIROMARRA",
    "text": "No se olviden que un pais se saca adelante trabajando. Hay que poner esfuerzo. \n\nEsta semana no es de descanso es de esmero para terminar bien el 2023 y comenzar mejor el 2024.\n\nBasta de vagos.",
    "imgs": [],
-   "video": false
-  }
+   "video": false,
+   "mp4": null
+  },
+  "mp4": "https://video.twimg.com/ext_tw_video/1705022090955362304/pu/vid/avc1/480x852/nVq6MMrWIbZTs1d6.mp4?tag=12"
  },
  "1875752609308668239": {
   "name": "Ⱥrmin",
@@ -29,8 +31,10 @@ window.X_RESPALDO = {
    "user": "naciceleste",
    "text": "Un año después y no logro superar la escena en la Sociedad de la nieve en la que Fito Strauch interpretado por el pibe de Banfield 🤭 le responde a la madre \"qué milagro, mamá?\" 🥺",
    "imgs": [],
-   "video": false
-  }
+   "video": false,
+   "mp4": null
+  },
+  "mp4": "https://video.twimg.com/ext_tw_video/1751646589171503104/pu/vid/avc1/640x360/nAwsfSB7mnuCtIho.mp4?tag=12"
  },
  "1877115383586361753": {
   "name": "Ⱥrmin",
@@ -40,7 +44,8 @@ window.X_RESPALDO = {
    "https://pbs.twimg.com/media/GgzafmNWMAAlLE0.jpg",
    "https://pbs.twimg.com/media/GgzafncWUAAGgXc.jpg"
   ],
-  "video": false
+  "video": false,
+  "mp4": null
  },
  "1976050892332790063": {
   "name": "Ⱥrmin",
@@ -57,7 +62,9 @@ window.X_RESPALDO = {
    "imgs": [
     "https://pbs.twimg.com/ext_tw_video_thumb/1976013311624773632/pu/img/PaKhxiVQkRr9Wa_I.jpg"
    ],
-   "video": true
-  }
+   "video": true,
+   "mp4": "https://video.twimg.com/ext_tw_video/1976013311624773632/pu/vid/avc1/480x852/9_sD9Q3BavEXXWdS.mp4?tag=12"
+  },
+  "mp4": null
  }
 };

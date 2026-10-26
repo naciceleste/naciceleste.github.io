@@ -303,7 +303,10 @@
     function body(q, inner) {
       var h = '<div class="xc-head"><strong>' + esc(q.name) + '</strong><span>@' + esc(q.user) + "</span></div>";
       if (q.text) h += '<p class="xc-text">' + esc(q.text) + "</p>";
-      if (q.imgs && q.imgs.length) {
+      if (q.mp4) {
+        h += '<div class="xc-media vid"><video controls playsinline preload="none" referrerpolicy="no-referrer" src="' + esc(q.mp4) + '"' +
+          (q.imgs && q.imgs[0] ? ' poster="' + esc(q.imgs[0]) + '"' : "") + "></video></div>";
+      } else if (q.imgs && q.imgs.length) {
         h += '<div class="xc-media n' + Math.min(q.imgs.length, 2) + (q.video ? " vid" : "") + '">' +
           q.imgs.slice(0, 2).map(function (u) { return '<img src="' + esc(u) + '" alt="" loading="lazy" referrerpolicy="no-referrer">'; }).join("") +
           (q.video ? '<span class="xc-play">▶</span>' : "") + "</div>";
@@ -311,7 +314,11 @@
       return h + (inner || "");
     }
     var quote = d.quote ? '<div class="xc-quote">' + body(d.quote) + "</div>" : "";
-    return el("a", { class: "x-card", href: url, target: "_blank", rel: "noopener" }, body(d, quote));
+    var a = el("a", { class: "x-card", href: url, target: "_blank", rel: "noopener" }, body(d, quote));
+    a.querySelectorAll(".xc-media video").forEach(function (v) {
+      v.addEventListener("click", function (e) { e.preventDefault(); e.stopPropagation(); });
+    });
+    return a;
   }
 
   function mount(c) {
