@@ -16,7 +16,7 @@ window.X_RESPALDO = {
    "video": false,
    "mp4": null
   },
-  "mp4": "https://video.twimg.com/ext_tw_video/1705022090955362304/pu/vid/avc1/480x852/nVq6MMrWIbZTs1d6.mp4?tag=12"
+  "mp4": "videos/1705022090955362304.mp4"
  },
  "1875752609308668239": {
   "name": "Ⱥrmin",
@@ -34,7 +34,7 @@ window.X_RESPALDO = {
    "video": false,
    "mp4": null
   },
-  "mp4": "https://video.twimg.com/ext_tw_video/1751646589171503104/pu/vid/avc1/640x360/nAwsfSB7mnuCtIho.mp4?tag=12"
+  "mp4": "videos/1751646589171503104.mp4"
  },
  "1877115383586361753": {
   "name": "Ⱥrmin",
@@ -63,7 +63,7 @@ window.X_RESPALDO = {
     "https://pbs.twimg.com/ext_tw_video_thumb/1976013311624773632/pu/img/PaKhxiVQkRr9Wa_I.jpg"
    ],
    "video": true,
-   "mp4": "https://video.twimg.com/ext_tw_video/1976013311624773632/pu/vid/avc1/480x852/9_sD9Q3BavEXXWdS.mp4?tag=12"
+   "mp4": "videos/1976013311624773632.mp4"
   },
   "mp4": null
  }
