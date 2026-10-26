@@ -152,7 +152,7 @@ window.POST_MEDIA = {
   "x:2113020079550157005": {
     "network": "x",
     "date": "2026-10-21T21:30:19.000Z",
-    "author": "RyderNoContext",
+    "author": "LaSemenisim4",
     "text": "alguien: el q no arriesga no gana\n\nyo arriesgando:",
     "image": "https://pbs.twimg.com/media/HVL0jwoWQAAjyjI.jpg",
     "kind": "photo",
