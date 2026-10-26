@@ -298,10 +298,29 @@
   }
   function ready(c) { c.embed.classList.add("ready"); var l = c.embed.querySelector(".loading"); if (l) l.remove(); scheduleLayout(); }
 
+  // tarjeta propia para tuits que X no deja incrustar (datos en respaldo.js)
+  function xCard(d, url) {
+    function body(q, inner) {
+      var h = '<div class="xc-head"><strong>' + esc(q.name) + '</strong><span>@' + esc(q.user) + "</span></div>";
+      if (q.text) h += '<p class="xc-text">' + esc(q.text) + "</p>";
+      if (q.imgs && q.imgs.length) {
+        h += '<div class="xc-media n' + Math.min(q.imgs.length, 2) + (q.video ? " vid" : "") + '">' +
+          q.imgs.slice(0, 2).map(function (u) { return '<img src="' + esc(u) + '" alt="" loading="lazy" referrerpolicy="no-referrer">'; }).join("") +
+          (q.video ? '<span class="xc-play">▶</span>' : "") + "</div>";
+      }
+      return h + (inner || "");
+    }
+    var quote = d.quote ? '<div class="xc-quote">' + body(d.quote) + "</div>" : "";
+    return el("a", { class: "x-card", href: url, target: "_blank", rel: "noopener" }, body(d, quote));
+  }
+
   function mount(c) {
     if (c.loaded) return; c.loaded = true;
     var p = c.post, box = c.embed;
-    if (p.network === "x") {
+    if (p.network === "x" && window.X_RESPALDO && window.X_RESPALDO[p.id]) {
+      box.appendChild(xCard(window.X_RESPALDO[p.id], p.url));
+      ready(c);
+    } else if (p.network === "x") {
       loadScript("https://platform.twitter.com/widgets.js").then(function () {
         var tw = window.twttr;
         return tw.ready ? new Promise(function (r) { tw.ready(r); }) : tw;
