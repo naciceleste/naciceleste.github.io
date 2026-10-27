@@ -107,7 +107,12 @@
   /* ---------- encabezado ---------- */
   function renderHeader() {
     if (CFG.title) document.title = CFG.title + " · @" + USER;
-    $("#tagline").textContent = CFG.tagline || "";
+    (function () {   // el emoji final va fuera del degradado para que no se vea como una mancha
+      var t = CFG.tagline || "", m = t.match(/^([\s\S]*?)\s*((?:[\u2190-\u2BFF\u{1F000}-\u{1FFFF}\uFE0F\u200D]+\s*)+)$/u), e = $("#tagline");
+      e.textContent = "";
+      if (m) { e.appendChild(el("span", { class: "tg-text" }, esc(m[1]))); e.appendChild(document.createTextNode(" ")); e.appendChild(el("span", { class: "tg-emoji" }, esc(m[2].trim()))); }
+      else e.textContent = t;
+    })();
     var main = (PROFILES.x && PROFILES.x.url) || "https://x.com/" + USER;
     ["#handle", "#footer-handle"].forEach(function (s) {
       var a = $(s); if (!a) return; a.textContent = "@" + USER; a.href = main; a.target = "_blank"; a.rel = "noopener";
