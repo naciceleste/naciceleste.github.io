@@ -530,7 +530,7 @@
     two.querySelectorAll("a").forEach(function (a) { a.tabIndex = -1; });
     track.appendChild(one); track.appendChild(two);
     box.hidden = false;
-    function speed() { track.style.animationDuration = Math.max(40, Math.round(one.scrollWidth / 70)) + "s"; }
+    function speed() { track.style.animationDuration = Math.max(60, Math.round(one.scrollWidth / 100)) + "s"; }
     speed(); window.addEventListener("resize", speed);
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(speed);
   }
