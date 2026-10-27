@@ -513,47 +513,5 @@
   renderWall();
   applyFilter();
   topButton();
-  /* ---------- temperatura (solo si el visitante permite su ubicación) ---------- */
-  function weather() {
-    var box = $("#weather"); if (!box || !navigator.geolocation) return;
-    function icon(code, day) {
-      if (code === 0) return day ? "☀️" : "🌙";
-      if (code <= 2) return day ? "⛅" : "☁️";
-      if (code === 3) return "☁️";
-      if (code === 45 || code === 48) return "🌫️";
-      if (code >= 51 && code <= 57) return "🌦️";
-      if (code >= 61 && code <= 67) return "🌧️";
-      if (code >= 71 && code <= 77) return "❄️";
-      if (code >= 80 && code <= 82) return "🌧️";
-      if (code >= 85 && code <= 86) return "❄️";
-      if (code >= 95) return "⛈️";
-      return "🌡️";
-    }
-    function show(d) {
-      $("#weather-ico").textContent = icon(d.code, d.day);
-      $("#weather-temp").textContent = Math.round(d.t) + "°C";
-      box.hidden = false;
-    }
-    function fetchWeather(lat, lon) {
-      var key = "clima";
-      try { var s = JSON.parse(sessionStorage.getItem(key)); if (s && Date.now() - s.at < 15 * 60 * 1000) { show(s.d); return; } } catch (e) {}
-      fetch("https://api.open-meteo.com/v1/forecast?latitude=" + lat.toFixed(2) + "&longitude=" + lon.toFixed(2) + "&current=temperature_2m,weather_code,is_day&timezone=auto")
-        .then(function (r) { return r.json(); })
-        .then(function (j) {
-          if (!j || !j.current) return;
-          var d = { t: j.current.temperature_2m, code: j.current.weather_code, day: !!j.current.is_day };
-          try { sessionStorage.setItem(key, JSON.stringify({ at: Date.now(), d: d })); } catch (e) {}
-          show(d);
-        }).catch(function () {});
-    }
-    function ask() {
-      navigator.geolocation.getCurrentPosition(function (pos) { fetchWeather(pos.coords.latitude, pos.coords.longitude); }, function () {}, { timeout: 10000, maximumAge: 30 * 60 * 1000 });
-    }
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: "geolocation" }).then(function (st) { if (st.state !== "denied") ask(); }, ask);
-    } else ask();
-  }
-
   radio();
-  weather();
 })();
