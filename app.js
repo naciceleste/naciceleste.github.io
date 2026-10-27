@@ -513,5 +513,28 @@
   renderWall();
   applyFilter();
   topButton();
+  /* ---------- barra de noticias (noticias.js la actualiza la rutina diaria) ---------- */
+  function ticker() {
+    var N = window.NOTICIAS, box = $("#ticker"), track = $("#tk-track");
+    if (!N || !N.items || !N.items.length || !box) return;
+    var FLAG = { AR: "ARG", UY: "URU", CR: "CRC", ES: "ESP", MUNDO: "MUNDO" };
+    function html() {
+      return N.items.map(function (n) {
+        return '<a class="tk-item" href="' + esc(n.url) + '" target="_blank" rel="noopener">' +
+          '<b class="tk-tag">' + esc(FLAG[n.region] || n.region || "") + "</b>" + esc(n.titulo) +
+          '<span class="tk-src">' + esc(n.medio || "") + "</span></a>";
+      }).join('<span class="tk-sep" aria-hidden="true">◆</span>') + '<span class="tk-sep" aria-hidden="true">◆</span>';
+    }
+    var one = el("div", { class: "tk-set" }, html());
+    var two = el("div", { class: "tk-set", "aria-hidden": "true" }, html());
+    two.querySelectorAll("a").forEach(function (a) { a.tabIndex = -1; });
+    track.appendChild(one); track.appendChild(two);
+    box.hidden = false;
+    function speed() { track.style.animationDuration = Math.max(40, Math.round(one.scrollWidth / 70)) + "s"; }
+    speed(); window.addEventListener("resize", speed);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(speed);
+  }
+
   radio();
+  ticker();
 })();

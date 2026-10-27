@@ -411,3 +411,27 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
 .tagline-title .tg-text{background-image:linear-gradient(100deg,#4f9fdc 0%,#8c7ce6 50%,#e58fb6 100%)}
 [data-theme="dark"] .tagline-title .tg-text{background-image:linear-gradient(100deg,#8fd0ff 0%,#b8a6ff 50%,#ffb1d3 100%)}
 [data-theme="dark"] .title.tagline-title{filter:none; background-image:none}
+
+/* ---- barra de noticias ---- */
+.ticker{display:flex; align-items:stretch; max-width:1100px; margin:6px auto 18px; border-radius:14px; overflow:hidden; border:1px solid #fff; box-shadow:var(--shadow); background:rgba(255,255,255,.78)}
+.ticker[hidden]{display:none}
+.tk-label{flex:none; display:flex; align-items:center; gap:8px; padding:0 16px; font-weight:800; font-size:13px; letter-spacing:.12em; color:#fff; background:linear-gradient(135deg,#7fc0f2,#b4a2f5); z-index:1}
+.tk-dot{width:8px; height:8px; border-radius:50%; background:#fff; animation:tkpulse 1.6s ease-in-out infinite}
+@keyframes tkpulse{0%,100%{opacity:1} 50%{opacity:.3}}
+.tk-viewport{flex:1; min-width:0; overflow:hidden; -webkit-mask:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent); mask:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
+.tk-track{display:flex; width:max-content; animation:tkscroll 120s linear infinite}
+.ticker:hover .tk-track, .ticker:focus-within .tk-track{animation-play-state:paused}
+.tk-set{display:flex; align-items:center; flex:none}
+@keyframes tkscroll{from{transform:translateX(0)} to{transform:translateX(-50%)}}
+.tk-item{display:inline-flex; align-items:center; gap:8px; padding:12px 6px; white-space:nowrap; text-decoration:none; color:#2b3354; font-weight:700; font-size:14.5px}
+.tk-item:hover .tk-t, .tk-item:hover{text-decoration:underline}
+.tk-tag{font-size:11px; letter-spacing:.06em; padding:3px 7px; border-radius:6px; color:#fff; background:#6fa6dd}
+.tk-src{font-weight:600; font-size:12.5px; color:#7c88ad}
+.tk-sep{color:#b4a2f5; font-size:9px; margin:0 14px}
+[data-theme="dark"] .ticker{background:rgba(22,29,70,.7); border-color:rgba(160,180,255,.22)}
+[data-theme="dark"] .tk-label{background:linear-gradient(135deg,#3f86d9,#7a63d8)}
+[data-theme="dark"] .tk-item{color:#eef0ff}
+[data-theme="dark"] .tk-src{color:#9aa6d6}
+[data-theme="dark"] .tk-tag{background:#4b72b8}
+@media (max-width:640px){ .ticker{margin:4px 12px 14px} .tk-label{padding:0 11px; font-size:11px} .tk-item{font-size:13.5px; padding:10px 4px} }
+@media (prefers-reduced-motion:reduce){ .tk-track{animation:none} .tk-viewport{overflow-x:auto} .tk-set[aria-hidden]{display:none} }
