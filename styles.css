@@ -77,7 +77,6 @@ a{color:inherit}
 .social[data-net="instagram"] .ico{background:linear-gradient(135deg,#ffc58f,#f78fb3 50%,#b89af5)}
 .social[data-net="youtube"] .ico{background:linear-gradient(135deg,#ffaab5,#f2788a)}
 .social[data-net="tiktok"] .ico{background:linear-gradient(135deg,#7fd6d8,#e98aae)}
-.social[data-net="substack"] .ico{background:linear-gradient(135deg,#ffbf94,#ff8a4c)}
 a.social:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover); background:#fff}
 .social.soon{opacity:.62; cursor:default; box-shadow:none}
 .social.soon .ico{filter:grayscale(.35)}
@@ -100,7 +99,6 @@ main{max-width:1240px; margin:0 auto; padding:0 20px 40px}
 .chip[data-filter="instagram"][aria-pressed="true"]{background:linear-gradient(120deg,#ffb3a0,#f28fbc 55%,#b39cf3)}
 .chip[data-filter="youtube"][aria-pressed="true"]{background:linear-gradient(120deg,#ffb0bb,#f2808f)}
 .chip[data-filter="tiktok"][aria-pressed="true"]{background:linear-gradient(120deg,#7fd6d8,#e98aae)}
-.chip[data-filter="substack"][aria-pressed="true"]{background:linear-gradient(120deg,#ffbf94,#ff8a4c)}
 .chip[data-filter="x"][aria-pressed="true"]{background:linear-gradient(120deg,#93a2c4,#5f6d8c)}
 .chip .n{font-size:12px; font-weight:800; min-width:20px; padding:1px 6px; border-radius:999px; background:rgba(120,140,190,.14)}
 .chip[aria-pressed="true"] .n{background:rgba(255,255,255,.3)}
@@ -311,7 +309,6 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
 [data-theme="dark"] .chip[data-filter="x"][aria-pressed="true"],[data-theme="dark"] .badge.x{background:linear-gradient(120deg,#56689a,#2f3c66)}
 [data-theme="dark"] .chip[data-filter="instagram"][aria-pressed="true"],[data-theme="dark"] .badge.instagram{background:linear-gradient(120deg,#d9806e,#c9568f 55%,#7d5fd0)}
 [data-theme="dark"] .chip[data-filter="tiktok"][aria-pressed="true"]{background:linear-gradient(120deg,#2f9ea3,#c9568f)}
-[data-theme="dark"] .chip[data-filter="substack"][aria-pressed="true"]{background:linear-gradient(120deg,#d9763a,#b94f1c)}
 [data-theme="dark"] .chip[data-filter="youtube"][aria-pressed="true"],[data-theme="dark"] .badge.youtube{background:linear-gradient(120deg,#d97a88,#b84a5e)}
 [data-theme="dark"] .card:hover{border-color:rgba(160,190,255,.28)}
 [data-theme="dark"] .embed{background:linear-gradient(160deg,#1a2356,#241d55)}
@@ -351,25 +348,6 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
 .tt{position:relative; width:100%; max-width:340px; aspect-ratio:325/578; margin:0 auto; border-radius:16px; overflow:hidden; background:#0e1030}
 .tt iframe{position:absolute; inset:0; width:100%; height:100%; border:0}
 
-/* ---- Substack (tarjeta) ---- */
-.sub-card{display:block; text-decoration:none; color:inherit; border-radius:16px; overflow:hidden; background:#fff; border:1px solid #e8eefb; transition:transform .2s, box-shadow .2s}
-.sub-card:hover{transform:translateY(-2px); box-shadow:var(--shadow-hover)}
-.sub-img{display:block; aspect-ratio:16/9; background:#eef3fb; overflow:hidden}
-.sub-img img{width:100%; height:100%; object-fit:cover; display:block}
-.sub-body{display:flex; flex-direction:column; gap:7px; padding:14px 16px 16px}
-.sub-site{display:flex; align-items:center; gap:6px; font-size:12px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; color:#ff6719}
-.sub-site svg{width:14px; height:14px}
-.sub-title{font-family:"Fraunces",serif; font-size:20px; line-height:1.2; color:#2b3354}
-.sub-desc{font-size:14px; line-height:1.4; color:#5d6788; display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden}
-[data-theme="dark"] .sub-card{background:rgba(22,29,70,.66); border-color:rgba(160,180,255,.16)}
-[data-theme="dark"] .sub-img{background:#141a44}
-[data-theme="dark"] .sub-title{color:#eef0ff}
-[data-theme="dark"] .sub-desc{color:#b9c0e6}
-.badge.tiktok{background:linear-gradient(120deg,#7fd6d8,#e98aae)}
-.badge.substack{background:linear-gradient(120deg,#ffbf94,#ff8a4c)}
-[data-theme="dark"] .badge.tiktok{background:linear-gradient(120deg,#2f9ea3,#c9568f)}
-[data-theme="dark"] .badge.substack{background:linear-gradient(120deg,#d9763a,#b94f1c)}
-.embed .sub-card{margin:0}
 
 /* ---- etiquetas: "ver todas" ---- */
 .tag-more{appearance:none; cursor:pointer; font:inherit; font-weight:800; font-size:13px; color:#5a86c4; background:transparent; border:1.5px dashed rgba(90,134,196,.5); border-radius:999px; padding:6px 14px; white-space:nowrap}

@@ -11,10 +11,8 @@
     x:         { label: "Twitter",   icon: "i-x",         open: "Ver en Twitter" },
     instagram: { label: "Instagram", icon: "i-instagram", open: "Ver en Instagram" },
     youtube:   { label: "YouTube",   icon: "i-youtube",   open: "Ver en YouTube" },
-    tiktok:    { label: "TikTok",    icon: "i-tiktok",    open: "Ver en TikTok" },
-    substack:  { label: "Substack",  icon: "i-substack",  open: "Leer en Substack" }
+    tiktok:    { label: "TikTok",    icon: "i-tiktok",    open: "Ver en TikTok" }
   };
-  var CARDS = window.POST_CARDS || {};
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   function el(tag, attrs, html) {
@@ -68,13 +66,6 @@
       var v = parts.findIndex(function (x) { return x === "video" || x === "photo"; });
       if (v > 0 && /^\d+$/.test(parts[v + 1] || "")) {
         return { network: "tiktok", id: parts[v + 1], user: parts[0], url: "https://www.tiktok.com/" + parts[0] + "/" + parts[v] + "/" + parts[v + 1] };
-      }
-      return null;
-    }
-    if (host === "substack.com" || /\.substack\.com$/.test(host)) {
-      var path = u.pathname.replace(/\/+$/, "");
-      if (/^\/(p\/[^\/]+|@[^\/]+\/note\/[^\/]+|note\/[^\/]+|home\/post\/[^\/]+)$/.test(path)) {
-        return { network: "substack", id: host + path, url: "https://" + host + path };
       }
       return null;
     }
@@ -143,11 +134,11 @@
   function renderChips() {
     var box = $("#chips");
     box.innerHTML = "";
-    var counts = { all: posts.length, x: 0, instagram: 0, youtube: 0, tiktok: 0, substack: 0 };
+    var counts = { all: posts.length, x: 0, instagram: 0, youtube: 0, tiktok: 0 };
     posts.forEach(function (p) { counts[p.network]++; });
-    var list = [["all", "Todos", "i-all"], ["x", "Twitter", "i-x"], ["instagram", "Instagram", "i-instagram"], ["youtube", "YouTube", "i-youtube"], ["tiktok", "TikTok", "i-tiktok"], ["substack", "Substack", "i-substack"]];
+    var list = [["all", "Todos", "i-all"], ["x", "Twitter", "i-x"], ["instagram", "Instagram", "i-instagram"], ["youtube", "YouTube", "i-youtube"], ["tiktok", "TikTok", "i-tiktok"]];
     list.forEach(function (c) {
-      if ((c[0] === "tiktok" || c[0] === "substack") && !counts[c[0]]) return;   // solo aparecen cuando hay posts
+      if (c[0] === "tiktok" && !counts[c[0]]) return;   // solo aparecen cuando hay posts
       var b = el("button", { class: "chip", type: "button", "data-filter": c[0], "aria-pressed": String(state.net === c[0]) },
         icon(c[2]) + "<span>" + c[1] + "</span>" + (counts[c[0]] ? '<span class="n">' + counts[c[0]] + "</span>" : ""));
       b.addEventListener("click", function () { setNet(c[0]); });
@@ -364,20 +355,6 @@
       tf.addEventListener("load", function () { ready(c); });
       tw2.appendChild(tf); box.appendChild(tw2);
       setTimeout(function () { ready(c); }, 4000);
-    } else if (p.network === "substack") {
-      var d = CARDS[p.url] || {};
-      var slug = decodeURIComponent((p.url.split("/").pop() || "")).replace(/[-_]+/g, " ");
-      var title = d.title || (slug && slug.charAt(0).toUpperCase() + slug.slice(1)) || "Publicación en Substack";
-      var a = el("a", { class: "sub-card", href: p.url, target: "_blank", rel: "noopener" },
-        (d.image ? '<span class="sub-img"><img src="' + esc(d.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer"/></span>' : "") +
-        '<span class="sub-body">' +
-          '<span class="sub-site">' + icon("i-substack") + esc(d.site || "Substack") + "</span>" +
-          '<strong class="sub-title">' + esc(title) + "</strong>" +
-          (d.desc ? '<span class="sub-desc">' + esc(d.desc) + "</span>" : "") +
-        "</span>");
-      var im = a.querySelector("img");
-      if (im) { im.addEventListener("load", scheduleLayout); im.addEventListener("error", function () { var w = im.parentNode; w.parentNode.removeChild(w); scheduleLayout(); }); }
-      box.appendChild(a); ready(c);
     } else if (p.network === "youtube") {
       var wrap = el("div", { class: "yt" + (p.short ? " short" : "") });
       var f = el("iframe", {

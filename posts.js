@@ -31,8 +31,7 @@ window.SITE_CONFIG = {
     x:         { url: "https://x.com/naciceleste",                 enabled: true  },
     instagram: { url: "https://www.instagram.com/naciceleste/",    enabled: true  },
     youtube:   { url: "https://www.youtube.com/@naci.celeste",     enabled: true  },
-    tiktok:    { url: "https://www.tiktok.com/@naciceleste",       enabled: true  },
-    substack:  { url: "https://substack.com/@naciceleste",         enabled: true  }
+    tiktok:    { url: "https://www.tiktok.com/@naciceleste",       enabled: true  }
   }
 };
 
@@ -41,10 +40,8 @@ window.POSTS = [
   { url: "https://www.instagram.com/p/De7Lg22osT3/", date: "2026-10-26", tags: ["animalitos"] },
   { url: "https://x.com/elmauro1/status/2114441301466743197", date: "2026-10-26", tags: ["inimputable"] },
   { url: "https://www.instagram.com/p/De4aDqvxhcy/", date: "2026-10-26", tags: ["no te rindas"] },
-  { url: "https://substack.com/@hgrant/note/p-151763913", date: "2026-10-26", note: "Robo a mano armada, no?", tags: ["tarjetas"] },
   { url: "https://www.youtube.com/watch?v=5w4W6M0mh1c", date: "2026-10-25", tags: ["fieles tv","deudas"] },
   { url: "https://www.tiktok.com/@fpisso/video/7700017822268656904", date: "2026-10-25", note: "Decíselo", tags: ["franco"] },
-  { url: "https://substack.com/@honordetigre/note/c-207156432", date: "2026-10-25", note: "Todo lo que tenemos es prestado flaco date cuenta", tags: ["marco aurelio"] },
   { url: "https://x.com/naciceleste/status/1739760034027024649", date: "2026-10-24", tags: ["yo voy a chambear"] },
   { url: "https://x.com/naciceleste/status/1804743773093588998", date: "2026-10-24", tags: ["vivan por siempre los pueblos","armin"] },
   { url: "https://x.com/CopaAmerica/status/1807984351126188098", date: "2026-10-24", note: "Dios, patria y familia", tags: ["uruguay nt","uruguay"] },
