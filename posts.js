@@ -25,8 +25,8 @@
 
 window.SITE_CONFIG = {
   username: "naciceleste",
-  title: "El búnker de Ⱥrmin",
-  tagline: "Documentando mi obsesiva necesidad de verlo todo 🙂",
+  title: "Biblioteca pública de Ⱥrmin",
+  tagline: "mi biblioteca pública donde guardo todo lo que me gusta 🙂",
   profiles: {
     x:         { url: "https://x.com/naciceleste",                 enabled: true  },
     instagram: { url: "https://www.instagram.com/naciceleste/",    enabled: true  },

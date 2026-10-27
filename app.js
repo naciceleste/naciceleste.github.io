@@ -106,11 +106,11 @@
 
   /* ---------- encabezado ---------- */
   function renderHeader() {
-    if (CFG.title) { $("#site-title").textContent = CFG.title; document.title = CFG.title + " · @" + USER; }
+    if (CFG.title) document.title = CFG.title + " · @" + USER;
     $("#tagline").textContent = CFG.tagline || "";
     var main = (PROFILES.x && PROFILES.x.url) || "https://x.com/" + USER;
     ["#handle", "#footer-handle"].forEach(function (s) {
-      var a = $(s); a.textContent = "@" + USER; a.href = main; a.target = "_blank"; a.rel = "noopener";
+      var a = $(s); if (!a) return; a.textContent = "@" + USER; a.href = main; a.target = "_blank"; a.rel = "noopener";
     });
     var nav = $("#socials");
     Object.keys(NETS).forEach(function (net) {
@@ -216,8 +216,8 @@
 
     var count = $("#count");
     if (!posts.length) count.textContent = "";
-    else if (shown === posts.length) count.textContent = shown + (shown === 1 ? " cosita guardada ♡" : " cositas guardadas ♡");
-    else count.textContent = shown + " de " + posts.length + (posts.length === 1 ? " cosita" : " cositas");
+    else if (shown === posts.length) count.textContent = shown + (shown === 1 ? " momento guardado ♡" : " momentos guardados ♡");
+    else count.textContent = shown + " de " + posts.length + (posts.length === 1 ? " momento" : " momentos");
 
     var empty = $("#empty");
     empty.hidden = shown > 0;
@@ -225,13 +225,13 @@
       var t = $("#empty-title"), p = $("#empty-text");
       if (!posts.length) {
         t.textContent = "Este cielito todavía está despejado";
-        p.textContent = "Muy pronto van a ir apareciendo aquí las cositas que más me gustan de Twitter, Instagram y YouTube. ¡Vuelve en un ratito! ☁️";
+        p.textContent = "Muy pronto van a ir apareciendo aquí los momentos que más me gustan de Twitter, Instagram y YouTube. ¡Vuelve en un ratito! ☁️";
       } else if (state.net === "youtube" && PROFILES.youtube && PROFILES.youtube.enabled === false) {
         t.textContent = "YouTube viene en camino";
         p.textContent = "Todavía no he guardado videos, pero muy pronto se llena esta nube ✨";
       } else {
         t.textContent = "Por aquí no hay nada todavía";
-        p.textContent = "Prueba con otro filtro, que las demás nubes sí tienen cositas ☁️";
+        p.textContent = "Prueba con otro filtro, que las demás nubes sí tienen momentos ☁️";
       }
     }
     scheduleLayout();

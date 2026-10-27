@@ -1,8 +1,8 @@
-# El búnker de Ⱥrmin · @naciceleste
+# Biblioteca pública de Ⱥrmin · @naciceleste
 
 Documentando mi obsesiva necesidad de verlo todo 🙂
 
-Las cositas que me gustan en Twitter/X e Instagram (y pronto YouTube), todas en un solo lugar.
+Los momentos que me gustan en Twitter/X e Instagram (y pronto YouTube), todas en un solo lugar.
 Las imágenes **no** se guardan aquí: se cargan directamente desde cada red y al tocarlas te llevan al post original.
 
 - **Página principal** (`/`): muro celeste estilo Tumblr con los posts completos (embeds oficiales), modo claro y oscuro
