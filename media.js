@@ -1,6 +1,28 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "instagram:De7Lg22osT3": {
+    "network": "instagram",
+    "h": 1136,
+    "w": 640,
+    "kind": "video",
+    "author": "fresh_as_a_breeze_official",
+    "date": "2026-10-25T16:53:35.000Z"
+  },
+  "x:2114441301466743197": {
+    "network": "x",
+    "date": "2026-10-25T19:37:45.000Z",
+    "author": "elmauro1",
+    "text": "Yo creo que si decís esto en TV, automáticamente pasás a ser inimputable para el 90% de los delitos tipificados en código penal. Es prácticamente una pericia psiquiátrica transmitida en vivo.",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2114418692310073344/img/LM5sPiLE8vtYqKDG.jpg",
+    "kind": "video",
+    "w": 720,
+    "h": 1280
+  },
+  "instagram:De4aDqvxhcy": {
+    "network": "instagram",
+    "date": "2026-10-24T15:01:58.000Z"
+  },
   "x:1804743773093588998": {
     "network": "x",
     "date": "2024-06-23T05:10:20.000Z",
@@ -152,7 +174,7 @@ window.POST_MEDIA = {
   "x:2113020079550157005": {
     "network": "x",
     "date": "2026-10-21T21:30:19.000Z",
-    "author": "LaSemenisim4",
+    "author": "RyderNoContext",
     "text": "alguien: el q no arriesga no gana\n\nyo arriesgando:",
     "image": "https://pbs.twimg.com/media/HVL0jwoWQAAjyjI.jpg",
     "kind": "photo",
