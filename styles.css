@@ -403,3 +403,11 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
 [data-theme="dark"] .xc-head span{color:#aab3dc}
 [data-theme="dark"] .xc-quote{border-color:rgba(160,180,255,.22)}
 .xc-media video{width:100%; max-height:420px; display:block; background:#000; border-radius:12px}
+
+/* ---- temperatura (arriba a la izquierda, mismo color que el botón de la radio) ---- */
+.weather{position:absolute; top:16px; left:16px; z-index:20; display:flex; align-items:center; gap:6px; height:46px; padding:0 16px 0 12px; border-radius:999px; color:#fff; font-weight:800; font-size:16px; border:1px solid #fff;
+  background:linear-gradient(135deg,#7fc0f2,#b4a2f5); box-shadow:var(--shadow); cursor:default}
+.weather[hidden]{display:none}
+.weather .w-ico{font-size:20px; line-height:1}
+[data-theme="dark"] .weather{border-color:rgba(160,180,255,.3); background:linear-gradient(135deg,#3f86d9,#7a63d8)}
+@media (max-width:640px){ .weather{top:12px; left:12px; height:42px; padding:0 13px 0 10px; font-size:15px} }
