@@ -37,6 +37,15 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://x.com/CarlosMaslaton/status/1523198958100643841", date: "2026-10-27", tags: ["tuits que envejecieron mal"] },
+  { url: "https://x.com/HodlerTom/status/1927340595002970346", date: "2026-10-27", tags: ["bitcoin"] },
+  { url: "https://x.com/PunchingCat/status/1848188558751969566", date: "2026-10-27", tags: ["te quiero mucho gatito","gatitos"] },
+  { url: "https://x.com/noplacexhideo/status/1975511909320237353", date: "2026-10-27", note: "Moraleja: Nunca se niega a una medialuna", tags: ["se va todo a la mierda"] },
+  { url: "https://www.instagram.com/p/DbypFAppK38/", date: "2026-10-27", note: "Mi hermanita 🥺", tags: ["no te olvides de vivir"] },
+  { url: "https://www.youtube.com/watch?v=3FnH7fJ1ntI", date: "2026-10-27", note: "El mejor creador de contenido del Río de la Plata jamás me cansaré de decirlo", tags: ["misión inútil","agustín"] },
+  { url: "https://www.tiktok.com/@valesulca_/video/7647184835190082836", date: "2026-10-27", tags: ["tipazo"] },
+  { url: "https://www.instagram.com/p/De8yN7kiKI_/", date: "2026-10-27", tags: ["alberto"] },
+  { url: "https://x.com/labestiapau/status/2114759487718645850", date: "2026-10-27", tags: ["independiente","mickey","la voz del hincha"] },
   { url: "https://www.instagram.com/p/De7Lg22osT3/", date: "2026-10-26", tags: ["animalitos"] },
   { url: "https://x.com/elmauro1/status/2114441301466743197", date: "2026-10-26", tags: ["inimputable"] },
   { url: "https://www.instagram.com/p/De4aDqvxhcy/", date: "2026-10-26", tags: ["no te rindas"] },
