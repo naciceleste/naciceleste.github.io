@@ -1,6 +1,66 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:1523198958100643841": {
+    "network": "x",
+    "date": "2022-05-08T07:11:45.000Z",
+    "author": "CarlosMaslaton",
+    "text": "@jdoedoe101101 Mirá la cara de mentiroso y chanta que tiene Lousteau. Milei transmite honestidad y todos se dan cuenta que es sincero y no miente. Milei es superioridad moral.",
+    "kind": "text"
+  },
+  "x:1927340595002970346": {
+    "network": "x",
+    "date": "2025-05-27T12:26:20.000Z",
+    "author": "HodlerTom",
+    "text": "Ahorro el 80% porque sé que voy a vivir para presenciar el último halving.",
+    "kind": "text"
+  },
+  "x:1848188558751969566": {
+    "network": "x",
+    "date": "2024-10-21T02:24:24.000Z",
+    "author": "PunchingCat",
+    "text": "snow princess",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/1848188498223710208/img/PIsQbSj8rCWNXzZK.jpg",
+    "kind": "video",
+    "w": 720,
+    "h": 1280
+  },
+  "x:1975511909320237353": {
+    "network": "x",
+    "date": "2025-10-07T10:41:57.000Z",
+    "author": "noplacexhideo",
+    "text": "Cada día se agiganta más este maestro y su magistral síntesis de que en cualquier momento todo se va a ir a la mierda.\n\nBuenos días.",
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1897996441332703232/pu/img/U4iTzQYnBNmTvewh.jpg",
+    "kind": "video",
+    "w": 1920,
+    "h": 1080
+  },
+  "instagram:DbypFAppK38": {
+    "network": "instagram",
+    "h": 960,
+    "w": 540,
+    "kind": "video",
+    "author": "fer.photographer",
+    "date": "2026-08-08T19:44:45.000Z"
+  },
+  "instagram:De8yN7kiKI_": {
+    "network": "instagram",
+    "h": 1350,
+    "w": 1080,
+    "kind": "carousel",
+    "author": "themacrowizard",
+    "date": "2026-10-26T07:49:46.000Z"
+  },
+  "x:2114759487718645850": {
+    "network": "x",
+    "date": "2026-10-26T16:42:06.000Z",
+    "author": "labestiapau",
+    "text": "No pueden ser tan hdps jajajaj",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2114759425411993600/img/KqbWTzd9rvb-SuyP.jpg",
+    "kind": "video",
+    "w": 1080,
+    "h": 1620
+  },
   "instagram:De7Lg22osT3": {
     "network": "instagram",
     "h": 1136,
