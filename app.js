@@ -116,6 +116,10 @@
     posts.forEach(function (p) { if (p.network === "youtube") seen[p.id] = 1; });
     return Object.keys(seen).length;
   }
+  function ytExtra() {   // videos de la lista que no están ya en posts.js (para no contar dos veces)
+    var have = {}; posts.forEach(function (p) { if (p.network === "youtube") have[p.id] = 1; });
+    return YT.filter(function (v) { return !have[v.id]; }).length;
+  }
   var ytBuilt = false;
   function buildYT() {
     var grid = $("#yt-grid"); if (!grid) return;
@@ -212,7 +216,7 @@
   function renderChips() {
     var box = $("#chips");
     box.innerHTML = "";
-    var counts = { all: posts.length, x: 0, instagram: 0, youtube: 0, tiktok: 0 };
+    var counts = { all: posts.length + ytExtra(), x: 0, instagram: 0, youtube: 0, tiktok: 0 };
     posts.forEach(function (p) { counts[p.network]++; });
     if (YT.length) counts.youtube = ytUnique();
     var list = [["all", "Todos", "i-all"], ["x", "Twitter", "i-x"], ["instagram", "Instagram", "i-instagram"], ["youtube", "YouTube", "i-youtube"], ["tiktok", "TikTok", "i-tiktok"]];
@@ -293,11 +297,14 @@
     } else at.hidden = true;
     renderTagRow();
     renderYT();
+    // los videos de mi lista de YouTube también cuentan (sin repetir los que ya son posts)
+    var total = posts.length + ytExtra();
+    if (!$("#yt").hidden) shown += ytExtra();
 
     var count = $("#count");
-    if (!posts.length) count.textContent = "";
-    else if (shown === posts.length) count.textContent = shown + (shown === 1 ? " momento guardado ♡" : " momentos guardados ♡");
-    else count.textContent = shown + " de " + posts.length + (posts.length === 1 ? " momento" : " momentos");
+    if (!total) count.textContent = "";
+    else if (shown === total) count.textContent = shown + (shown === 1 ? " momento guardado ♡" : " momentos guardados ♡");
+    else count.textContent = shown + " de " + total + (total === 1 ? " momento" : " momentos");
 
     var empty = $("#empty");
     empty.hidden = shown > 0;
