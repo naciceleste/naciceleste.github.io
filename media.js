@@ -1,6 +1,41 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "instagram:DfAnpgDsD8S": {
+    "network": "instagram",
+    "h": 2160,
+    "w": 1215,
+    "kind": "video",
+    "author": "nacho360fit",
+    "date": "2026-10-27T19:36:36.000Z"
+  },
+  "x:2115436024272953489": {
+    "network": "x",
+    "date": "2026-10-28T13:30:25.000Z",
+    "author": "elmundoes",
+    "text": "El desgarrador testimonio del farmacéutico de Urda, tras acudir al lugar del accidente de trenes para prestar ayuda\n\n\"Todo era dantesco. Había gente despidiéndose de su familia y personas muriendo encima de otros cadáveres\". \n\n✍️ Ana María Ortiz y Luis Blasco",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2115435932023140352/img/jpgdCSmgX5BO4uKm.jpg",
+    "kind": "video",
+    "w": 1080,
+    "h": 1920
+  },
+  "x:2115515994533761347": {
+    "network": "x",
+    "date": "2026-10-28T18:48:12.000Z",
+    "author": "buitengebieden",
+    "text": "The best coworker ever.. 😊",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2115515945552601088/img/MbQ08GK6n0j01nL4.jpg",
+    "kind": "video",
+    "w": 720,
+    "h": 1280
+  },
+  "x:2114976676698259876": {
+    "network": "x",
+    "date": "2026-10-27T07:05:08.000Z",
+    "author": "dbaeza13",
+    "text": "@Snz_BTC This hits home every time I watch it.\n\nThe scariest thought is that in 100 or 200 years, no one will remember us, or the people who meant everything to us.\n\nOur families, our memories, our entire worlds will eventually fade into history, as if they never existed.",
+    "kind": "text"
+  },
   "x:1523198958100643841": {
     "network": "x",
     "date": "2022-05-08T07:11:45.000Z",
