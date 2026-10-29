@@ -37,9 +37,9 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://x.com/MinDeLaVerdad/status/2115761715014987949", date: "2026-10-29", tags: ["españa","trenes","ave"] },
   { url: "https://www.instagram.com/reel/DfAnpgDsD8S/", date: "2026-10-28", tags: ["alberto","ponele voluntad"] },
-  { url: "https://www.youtube.com/watch?v=8AOthMmn3a8", date: "2026-10-28", tags: ["parcero","suiza"] },
-  { url: "https://x.com/elmundoes/status/2115436024272953489", date: "2026-10-28", note: "En vísperas al 2027 y la tecnología acutal es inconcebible que por diseño no se apaguen los motores al haber otro tren en la vía en un radio de distancia de ACCIDENTE INMINENTE", tags: ["españa","ave"] },
+  { url: "https://x.com/elmundoes/status/2115436024272953489", date: "2026-10-28", note: "En vísperas al 2027 y con la tecnología actual es inconcebible que por diseño no se apaguen los motores al haber otro tren en la vía en un radio de distancia de ACCIDENTE INMINENTE", tags: ["españa","ave"] },
   { url: "https://x.com/buitengebieden/status/2115515994533761347", date: "2026-10-28", tags: ["gatitos","perezoso"] },
   { url: "https://x.com/dbaeza13/status/2114976676698259876", date: "2026-10-28", tags: ["no somos nada"] },
   { url: "https://x.com/CarlosMaslaton/status/1523198958100643841", date: "2026-10-27", tags: ["tuits que envejecieron mal","carlos"], pin: 2 },
@@ -47,14 +47,12 @@ window.POSTS = [
   { url: "https://x.com/PunchingCat/status/1848188558751969566", date: "2026-10-27", tags: ["te quiero mucho gatito","gatitos"] },
   { url: "https://x.com/noplacexhideo/status/1975511909320237353", date: "2026-10-27", note: "Moraleja: Nunca se niega a una medialuna", tags: ["se va todo a la mierda","medialunas"] },
   { url: "https://www.instagram.com/p/DbypFAppK38/", date: "2026-10-27", note: "Mi hermanita 🥺", tags: ["no te olvides de vivir"] },
-  { url: "https://www.youtube.com/watch?v=3FnH7fJ1ntI", date: "2026-10-27", note: "El mejor creador de contenido del Río de la Plata jamás me cansaré de decirlo", tags: ["misión inútil","agustín","uruguay"] },
   { url: "https://www.tiktok.com/@valesulca_/video/7647184835190082836", date: "2026-10-27", tags: ["tipazo","chad"] },
   { url: "https://www.instagram.com/p/De8yN7kiKI_/", date: "2026-10-27", tags: ["alberto"] },
   { url: "https://x.com/labestiapau/status/2114759487718645850", date: "2026-10-27", tags: ["independiente","mickey","la voz del hincha"] },
   { url: "https://www.instagram.com/p/De7Lg22osT3/", date: "2026-10-26", tags: ["animalitos"] },
   { url: "https://x.com/elmauro1/status/2114441301466743197", date: "2026-10-26", tags: ["inimputable"] },
   { url: "https://www.instagram.com/p/De4aDqvxhcy/", date: "2026-10-26", tags: ["no te rindas"] },
-  { url: "https://www.youtube.com/watch?v=5w4W6M0mh1c", date: "2026-10-25", tags: ["fieles tv","deudas"] },
   { url: "https://www.tiktok.com/@fpisso/video/7700017822268656904", date: "2026-10-25", note: "Decíselo", tags: ["franco"] },
   { url: "https://x.com/naciceleste/status/1739760034027024649", date: "2026-10-24", tags: ["yo voy a chambear"] },
   { url: "https://x.com/naciceleste/status/1804743773093588998", date: "2026-10-24", tags: ["vivan por siempre los pueblos","armin"] },
