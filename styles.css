@@ -435,3 +435,18 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
 [data-theme="dark"] .tk-tag{background:#4b72b8}
 @media (max-width:640px){ .ticker{margin:4px 12px 14px} .tk-label{padding:0 11px; font-size:11px} .tk-item{font-size:13.5px; padding:10px 4px} }
 @media (prefers-reduced-motion:reduce){ .tk-track{animation:none} .tk-viewport{overflow-x:auto} .tk-set[aria-hidden]{display:none} }
+
+/* ---------- otros proyectos (mismo estilo que los botones de redes) ---------- */
+.proyectos{max-width:1240px; margin:10px auto 0; padding:0 20px; text-align:center}
+.proyectos h2{margin:0 0 14px; font-family:"Caveat",cursive; font-weight:700; font-size:28px; color:var(--ink-soft); letter-spacing:.3px}
+.proyectos-list{display:flex; justify-content:center; gap:12px; flex-wrap:wrap}
+.social.project{padding:10px 20px 10px 12px; text-align:left; max-width:100%}
+.social.project .ico{width:38px; height:38px; font-size:19px; flex:none; background:linear-gradient(135deg,#8ccaf7,#b6a3f3)}
+.social.project .p-txt{display:flex; flex-direction:column; line-height:1.2; min-width:0}
+.social.project strong{font-size:15px}
+.social.project small{font-weight:600; font-size:12.5px; color:var(--ink-soft)}
+@media (max-width:640px){
+  .proyectos{padding:0 12px}
+  .social.project{padding:8px 16px 8px 9px}
+  .social.project .ico{width:34px; height:34px; font-size:17px}
+}
