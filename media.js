@@ -1,6 +1,16 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:2115761715014987949": {
+    "network": "x",
+    "date": "2026-10-29T11:04:36.000Z",
+    "author": "MinDeLaVerdad",
+    "text": "Todo el mundo debería ver esto de Jabois.",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2115716525948542976/img/ObLrPO4ncX4gfOnm.jpg",
+    "kind": "video",
+    "w": 1080,
+    "h": 1920
+  },
   "instagram:DfAnpgDsD8S": {
     "network": "instagram",
     "h": 2160,
