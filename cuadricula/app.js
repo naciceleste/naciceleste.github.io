@@ -62,7 +62,20 @@
     var date = m && m.date ? new Date(m.date) : (p.network === "x" ? xDate(p.id) : p.network === "instagram" ? igDate(p.id) : null);
     return { idx: idx, added: addedDate(e.date), network: p.network, id: p.id, url: p.url, user: p.user, media: m, date: date,
       approx: !(m && m.date) && p.network === "instagram" };
-  }).filter(Boolean).sort(function (a, b) { return b.added - a.added || a.idx - b.idx; });
+  }).filter(Boolean);
+  // mi lista de YouTube (youtube.js): se suman como mosaicos, sin repetir los que ya están en posts.js
+  (function () {
+    var Y = (window.YOUTUBE && window.YOUTUBE.videos) || [], have = {};
+    posts.forEach(function (p) { if (p.network === "youtube") have[p.id] = p; });
+    Y.forEach(function (v, i) {
+      var pub = /^\d{4}-\d{2}-\d{2}/.test(v.published || "") ? new Date(v.published + "T12:00:00Z") : null;
+      var old = have[v.id];
+      if (old) { old.title = v.title; old.channel = v.channel; old.short = !!v.short; old.date = old.date || pub; return; }
+      posts.push({ idx: 100000 + i, added: addedDate(v.added), network: "youtube", id: v.id, title: v.title, channel: v.channel,
+        short: !!v.short, date: pub, url: v.short ? "https://www.youtube.com/shorts/" + v.id : "https://www.youtube.com/watch?v=" + v.id });
+    });
+  })();
+  posts.sort(function (a, b) { return b.added - a.added || a.idx - b.idx; });
 
   /* ---------- encabezado ---------- */
   var state = "all";
@@ -154,10 +167,22 @@
   }
 
   function mountYT(t) {
-    var img = new Image(); img.loading = "lazy"; img.alt = "Video de YouTube";
-    img.src = "https://i.ytimg.com/vi/" + encodeURIComponent(t.post.id) + "/hqdefault.jpg";
-    img.onload = function () { img.classList.add("on"); };
-    t.el.insertBefore(img, t.el.firstChild);
+    var p = t.post, base = "https://i.ytimg.com/vi/" + encodeURIComponent(p.id) + "/";
+    var tries = p.short ? ["oardefault.jpg", "hqdefault.jpg"] : ["maxresdefault.jpg", "hqdefault.jpg"], k = 0, bg = null;
+    var img = new Image(); img.loading = "lazy"; img.decoding = "async"; img.alt = p.title ? p.title + " (YouTube)" : "Video de YouTube";
+    function next() { if (k < tries.length) img.src = base + tries[k++]; }
+    img.onload = function () {
+      if (img.naturalWidth <= 120 && k < tries.length) return next();   // miniatura "no disponible"
+      img.classList.add("on"); if (bg) { bg.src = img.src; bg.classList.add("on"); }
+    };
+    img.onerror = next;
+    if (p.short) {   // Short: póster 9:16 al centro sobre su miniatura desenfocada
+      t.el.classList.add("short");
+      bg = new Image(); bg.alt = ""; bg.className = "bg"; bg.loading = "lazy";
+      var pf = document.createElement("div"); pf.className = "poster"; pf.appendChild(img);
+      t.el.insertBefore(pf, t.el.firstChild); t.el.insertBefore(bg, t.el.firstChild);
+    } else t.el.insertBefore(img, t.el.firstChild);
+    next();
   }
 
   // Instagram avisa el alto real de su embed con postMessage → afinamos el recorte
@@ -174,11 +199,11 @@
       var a = document.createElement("a");
       a.className = "tile"; a.href = p.url; a.target = "_blank"; a.rel = "noopener"; a.dataset.net = p.network;
       var label = LABEL[p.network], when = p.date ? ddmmaa(p.date) : "";
-      a.setAttribute("aria-label", label + (when ? ", " + when : "") + " — abrir publicación original");
-      var o = document.createElement("div"); o.className = "over";
+      a.setAttribute("aria-label", (p.title ? p.title + " — " + (p.channel || label) : label) + (when ? ", " + when : "") + " — abrir publicación original");
+      var o = document.createElement("div"); o.className = "over" + (p.title ? " yt" : "");
       o.innerHTML = "<h2></h2><p></p>";
-      o.firstChild.textContent = label;
-      o.lastChild.textContent = when;
+      o.firstChild.textContent = p.title || label;
+      o.lastChild.textContent = p.title ? (p.channel || label) + (when ? " · " + when : "") : when;
       if (p.approx && when) o.lastChild.title = "fecha aproximada";
       a.appendChild(o); g.appendChild(a);
       tiles.push({ el: a, post: p, done: false });

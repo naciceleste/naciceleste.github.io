@@ -104,6 +104,70 @@
     return db - da || a.idx - b.idx;
   });
 
+  /* ---------- mi lista de YouTube (youtube.js la llena scripts/youtube_sync.py) ---------- */
+  var YTD = window.YOUTUBE || {}, YT = Array.isArray(YTD.videos) ? YTD.videos.slice() : [];
+  YT.forEach(function (v, i) { v._i = i; });
+  YT.sort(function (a, b) { return String(b.added || "").localeCompare(String(a.added || "")) || a._i - b._i; });
+  var YT_PREVIEW = window.matchMedia && matchMedia("(max-width:640px)").matches ? 3 : 4;   // en "Todos" se ve solo un adelanto
+  function ytDate(s) { var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || ""); return m ? m[3] + "/" + m[2] + "/" + m[1].slice(2) : ""; }
+  function ytUnique() {   // videos de la lista + los de posts.js, sin repetir
+    var seen = {};
+    YT.forEach(function (v) { seen[v.id] = 1; });
+    posts.forEach(function (p) { if (p.network === "youtube") seen[p.id] = 1; });
+    return Object.keys(seen).length;
+  }
+  var ytBuilt = false;
+  function buildYT() {
+    var grid = $("#yt-grid"); if (!grid) return;
+    var list = $("#yt-list"); if (list && YTD.url) list.href = YTD.url;
+    YT.forEach(function (v) {
+      var when = ytDate(v.published);
+      var a = el("a", { class: "yt-tile" + (v.short ? " short" : ""), href: v.short ? "https://www.youtube.com/shorts/" + v.id : "https://www.youtube.com/watch?v=" + v.id,
+        target: "_blank", rel: "noopener", title: v.title,
+        "aria-label": v.title + " — " + v.channel + (when ? ", " + when : "") + (v.short ? " (Short)" : "") + ". Abre en YouTube" });
+      var th = el("span", { class: "yt-thumb", "aria-hidden": "true" });
+      var base = "https://i.ytimg.com/vi/" + encodeURIComponent(v.id) + "/";
+      var img = new Image(); img.alt = ""; img.loading = "lazy"; img.decoding = "async"; img.className = "yt-img";
+      var tries = v.short ? ["oardefault.jpg", "hqdefault.jpg"] : ["maxresdefault.jpg", "hqdefault.jpg"];
+      var k = 0;
+      function next() { if (k < tries.length) img.src = base + tries[k++]; }
+      img.onload = function () {
+        if (img.naturalWidth <= 120 && k < tries.length) return next();   // miniatura "no disponible" de YouTube
+        img.classList.add("on"); if (bg) { bg.src = img.src; bg.classList.add("on"); }
+      };
+      img.onerror = next;
+      var bg = null;
+      if (v.short) { bg = new Image(); bg.alt = ""; bg.loading = "lazy"; bg.className = "yt-bg"; th.appendChild(bg);
+        var pf = el("span", { class: "yt-poster" }); pf.appendChild(img); th.appendChild(pf); }
+      else th.appendChild(img);
+      next();
+      a.appendChild(th);
+      a.appendChild(el("span", { class: "yt-play", "aria-hidden": "true" }, '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13l11-6.5z"/></svg>'));
+      if (v.short) a.appendChild(el("span", { class: "yt-badge", "aria-hidden": "true" }, "Short"));
+      var ov = el("span", { class: "yt-over", "aria-hidden": "true" }, "<strong></strong><small></small>");
+      ov.firstChild.textContent = v.title;
+      ov.lastChild.textContent = v.channel + (when ? " · " + when : "");
+      a.appendChild(ov);
+      grid.appendChild(a);
+    });
+    var more = $("#yt-all");
+    if (more) more.addEventListener("click", function () { setNet("youtube"); window.scrollTo({ top: $(".toolbar").offsetTop - 20, behavior: "smooth" }); });
+    ytBuilt = true;
+  }
+  function renderYT() {
+    var sec = $("#yt"); if (!sec) return;
+    var on = YT.length && !state.tag && (state.net === "all" || state.net === "youtube");
+    sec.hidden = !on; if (!on) return;
+    if (!ytBuilt) buildYT();
+    var full = state.net === "youtube";
+    sec.classList.toggle("full", full);
+    var tiles = sec.querySelectorAll(".yt-tile");
+    tiles.forEach(function (t, i) { t.hidden = !full && i >= YT_PREVIEW; });
+    var more = $("#yt-all");
+    if (more) { more.hidden = full || YT.length <= YT_PREVIEW; more.querySelector(".lbl").textContent = "Ver los " + YT.length + " videos"; }
+    var c = $("#yt-count"); if (c) c.textContent = YT.length + (YT.length === 1 ? " video" : " videos");
+  }
+
   /* ---------- encabezado ---------- */
   function renderHeader() {
     if (CFG.title) document.title = CFG.title + " · @" + USER;
@@ -141,6 +205,7 @@
     box.innerHTML = "";
     var counts = { all: posts.length, x: 0, instagram: 0, youtube: 0, tiktok: 0 };
     posts.forEach(function (p) { counts[p.network]++; });
+    if (YT.length) counts.youtube = ytUnique();
     var list = [["all", "Todos", "i-all"], ["x", "Twitter", "i-x"], ["instagram", "Instagram", "i-instagram"], ["youtube", "YouTube", "i-youtube"], ["tiktok", "TikTok", "i-tiktok"]];
     list.forEach(function (c) {
       if (c[0] === "tiktok" && !counts[c[0]]) return;   // solo aparecen cuando hay posts
@@ -218,6 +283,7 @@
       at.appendChild(btn);
     } else at.hidden = true;
     renderTagRow();
+    renderYT();
 
     var count = $("#count");
     if (!posts.length) count.textContent = "";

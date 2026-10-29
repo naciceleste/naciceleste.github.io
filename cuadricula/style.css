@@ -88,3 +88,15 @@ main{padding:0 var(--pad)}
   .tile:active .over{background:rgba(22,22,22,.55)}
 }
 @media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+
+/* YouTube: título + canal en la capa; Shorts como póster 9:16 al centro */
+.over.yt{padding:0 9%}
+.over.yt h2{font-size:20px; line-height:1.2; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden}
+.over.yt p{font-size:14px; opacity:.9}
+.tile.short{background:#222}
+.tile.short img.bg{filter:blur(18px) saturate(1.2); transform:scale(1.25)!important}
+.tile.short img.bg.on{opacity:.7}
+.tile.short .poster{position:absolute; top:0; bottom:0; left:50%; transform:translateX(-50%); aspect-ratio:9/16; overflow:hidden}
+.tile.short::after{content:"SHORT"; position:absolute; top:12px; left:12px; font-size:12px; letter-spacing:.08em; color:#fff;
+  background:rgba(0,0,0,.45); padding:2px 8px}
+@media (hover:none){ .over.yt{padding:14px 16px} .over.yt h2{font-size:16px; -webkit-line-clamp:2} }

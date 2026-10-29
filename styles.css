@@ -450,3 +450,65 @@ html[data-theme="dark"]{background:#1a1236 linear-gradient(180deg,#0a0f2c 0%,#11
   .social.project{padding:8px 16px 8px 9px}
   .social.project .ico{width:34px; height:34px; font-size:17px}
 }
+
+/* ---------- mi lista de YouTube (cuadrícula: miniaturas completas; Shorts en 9:16) ---------- */
+.yt-sec{margin:6px 0 30px}
+.yt-sec[hidden]{display:none}
+.yt-head{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin:0 4px 14px}
+.yt-head h2{margin:0; font-family:"Caveat",cursive; font-weight:700; font-size:30px; color:var(--ink-soft); letter-spacing:.3px}
+.yt-n{font-family:"Nunito",sans-serif; font-size:13px; font-weight:800; vertical-align:middle; margin-left:4px; padding:2px 9px;
+  border-radius:999px; background:var(--pink-soft); color:var(--c-youtube)}
+.yt-link,.yt-all{font:inherit; font-weight:700; font-size:14px; cursor:pointer; padding:7px 15px 7px 8px}
+.yt-link .ico,.yt-all .ico{width:26px; height:26px}
+button.social:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover); background:#fff}
+.yt-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(min(270px,100%),1fr)); gap:14px}
+.yt-tile{position:relative; display:block; aspect-ratio:16/9; border-radius:18px; overflow:hidden; text-decoration:none; color:#fff;
+  background:linear-gradient(160deg,var(--sky-1),var(--lav-soft)); border:1px solid var(--card-border); box-shadow:var(--shadow);
+  transition:transform .25s ease, box-shadow .25s ease; animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+.yt-tile[hidden]{display:none}
+.yt-tile:hover{transform:translateY(-4px); box-shadow:var(--shadow-hover), 0 0 30px -8px rgba(242,140,155,.55)}
+.yt-tile:focus-visible{outline:3px solid var(--celeste); outline-offset:3px}
+.yt-thumb{position:absolute; inset:0}
+.yt-thumb img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; opacity:0;
+  transition:opacity .5s, transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.yt-thumb img.on{opacity:1}
+.yt-tile:hover .yt-thumb img.on{transform:scale(1.03)}
+/* Short: póster vertical 9:16 al centro, con su propia miniatura desenfocada de fondo */
+.yt-tile.short .yt-bg{filter:blur(18px) saturate(1.25); transform:scale(1.25)!important; opacity:0}
+.yt-tile.short .yt-bg.on{opacity:.75}
+.yt-poster{position:absolute; top:6%; bottom:6%; left:50%; transform:translateX(-50%); aspect-ratio:9/16; border-radius:12px; overflow:hidden;
+  box-shadow:0 10px 26px -8px rgba(0,0,0,.55); border:1px solid rgba(255,255,255,.45)}
+.yt-badge{position:absolute; top:10px; left:10px; z-index:2; font-weight:800; font-size:12px; letter-spacing:.3px; padding:3px 10px 3px 9px;
+  border-radius:999px; color:#fff; background:linear-gradient(120deg,#ffb0bb,#f2808f); box-shadow:0 4px 12px -4px rgba(242,128,143,.7)}
+.yt-badge::before{content:"▮ "; font-size:10px; opacity:.85}
+.yt-play{position:absolute; top:50%; left:50%; z-index:2; width:52px; height:52px; margin:-26px 0 0 -26px; border-radius:50%;
+  display:grid; place-items:center; color:#fff; background:rgba(242,128,143,.82); box-shadow:0 6px 18px -4px rgba(0,0,0,.4);
+  transition:opacity .3s, transform .3s; opacity:.9}
+.yt-play svg{width:24px; height:24px; margin-left:2px}
+/* capa al pasar el mouse: título + canal · DD/MM/AA (como en la versión cuadrícula) */
+.yt-over{position:absolute; inset:0; z-index:3; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;
+  padding:14px 18px; text-align:center; background:rgba(28,34,70,.62); opacity:0; transition:opacity .35s; pointer-events:none}
+.yt-over strong{font-size:16px; line-height:1.25; font-weight:800; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden}
+.yt-over small{font-size:13px; font-weight:600; opacity:.9}
+.yt-tile:hover .yt-over,.yt-tile:focus-visible .yt-over{opacity:1}
+.yt-tile:hover .yt-play{opacity:0; transform:scale(.8)}
+.yt-foot{display:flex; justify-content:center; margin-top:16px}
+.yt-foot:has(> [hidden]){display:none}
+[data-theme="dark"] .yt-tile{background:linear-gradient(160deg,#1a2356,#241d55)}
+[data-theme="dark"] .yt-tile:hover{border-color:rgba(160,190,255,.28); box-shadow:var(--shadow-hover), 0 0 34px -8px rgba(243,166,200,.45)}
+[data-theme="dark"] button.social:hover{background:rgba(36,46,104,.85)}
+[data-theme="dark"] .yt-n{color:#ffc2d6}
+@media (hover:none){
+  .yt-over{opacity:1; justify-content:flex-end; align-items:flex-start; text-align:left; padding:12px 14px;
+    background:linear-gradient(to top,rgba(10,14,40,.78),rgba(10,14,40,.3) 45%,rgba(0,0,0,0) 70%)}
+  .yt-over strong{font-size:14.5px; -webkit-line-clamp:2; text-shadow:0 1px 6px rgba(0,0,0,.45)}
+  .yt-over small{font-size:12px}
+  .yt-play{top:42%; width:44px; height:44px; margin:-22px 0 0 -22px}
+  .yt-tile.short .yt-play{display:none}
+}
+@media (max-width:640px){
+  .yt-head{justify-content:center; text-align:center}
+  .yt-head h2{font-size:27px}
+  .yt-grid{gap:12px}
+  .yt-tile{border-radius:16px}
+}

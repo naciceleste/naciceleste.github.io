@@ -38,6 +38,21 @@ Mientras un tuit nuevo no esté en `media.js`, se muestra un cuadro con texto en
 
 Para correrlo a mano: `node scripts/actualizar-medios.mjs` (Node 18 o más nuevo).
 
+## Mi lista de YouTube (automática)
+La sección **Mi lista de YouTube** muestra los videos de mi lista pública "Biblioteca"
+(https://www.youtube.com/playlist?list=PLJ-DohLIgv3w) en cuadrícula: miniatura completa en 16:9 y los Shorts como póster 9:16.
+En "Todos" se ve un adelanto; con el filtro **YouTube** se ven todos. También aparecen en la versión cuadrícula.
+
+Para sumar un video: en YouTube, *Guardar* → *Biblioteca*. Los datos viven en `youtube.js` (no editar a mano), que genera
+`scripts/youtube_sync.py` leyendo el feed público de la lista (sin login ni API key). Solo agrega videos nuevos, nunca borra.
+
+```
+python3 scripts/youtube_sync.py            # agrega los nuevos y, si hubo, hace commit + push
+python3 scripts/youtube_sync.py --no-push  # solo actualiza youtube.js
+python3 scripts/youtube_sync.py --dry-run  # muestra qué agregaría
+```
+Ojo: el feed muestra como máximo ~15 videos de la lista. Conviene que en la lista los nuevos se agreguen **arriba**.
+
 ## Título, frase y foto
 El título y la frase de arriba se cambian en `posts.js` (`title` y `tagline`). La foto de perfil es `assets/avatar.jpg`
 (copia de la foto de Twitter); para cambiarla, sube otra imagen cuadrada con ese mismo nombre.
@@ -60,6 +75,7 @@ En una terminal dentro de esta carpeta: `python3 -m http.server 8000` y entra a 
 - `cuadricula/` – versión cuadrícula
 - `posts.js` – **tus posts y configuración** ← el único que vas a editar
 - `media.js` – datos automáticos (no editar)
+- `youtube.js`, `scripts/youtube_sync.py` – mi lista de YouTube (automático)
 - `scripts/actualizar-medios.mjs`, `.github/workflows/medios.yml` – actualización automática
 - `assets/avatar.jpg` – foto de perfil
 - `assets/favicon.svg` – iconito de la pestaña

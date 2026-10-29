@@ -87,6 +87,15 @@
       <div class="tk-viewport"><div class="tk-track" id="tk-track"></div></div>
     </section>
 
+    <section class="yt-sec" id="yt" aria-labelledby="yt-title" hidden>
+      <div class="yt-head">
+        <h2 id="yt-title">Mi lista de YouTube <span class="yt-n" id="yt-count"></span></h2>
+        <a class="social yt-link" id="yt-list" data-net="youtube" href="https://www.youtube.com/playlist?list=PLJ-DohLIgv3w" target="_blank" rel="noopener"><span class="ico"><svg><use href="#i-youtube"/></svg></span>Ver la lista en YouTube</a>
+      </div>
+      <div class="yt-grid" id="yt-grid"></div>
+      <div class="yt-foot"><button class="social yt-all" id="yt-all" data-net="youtube" type="button" hidden><span class="ico"><svg><use href="#i-youtube"/></svg></span><span class="lbl">Ver todos los videos</span></button></div>
+    </section>
+
     <p class="count" id="count" aria-live="polite"></p>
 
     <section class="wall" id="wall" aria-label="Publicaciones guardadas"></section>
@@ -131,6 +140,7 @@
   <script src="posts.js"></script>
     <script src="respaldo.js"></script>
   <script src="noticias.js"></script>
+  <script src="youtube.js"></script>
   <script src="app.js"></script>
   <script src="proyectos.js"></script>
 </body>
