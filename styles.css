@@ -512,3 +512,13 @@ button.social:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover); 
   .yt-grid{gap:12px}
   .yt-tile{border-radius:16px}
 }
+/* accesos directos a canales de YouTube */
+.yt-canales{display:flex; flex-wrap:wrap; gap:10px; margin:-4px 4px 16px}
+.yt-canales[hidden]{display:none}
+.yt-canal{padding:6px 15px 6px 7px; font-size:14px; max-width:100%; min-width:0}
+.yt-canal .ico{width:26px; height:26px; flex:none}
+.yt-canal .ico svg{width:13px; height:13px}
+.yt-canal span:last-child{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+a.yt-canal:hover{box-shadow:var(--shadow-hover), 0 0 22px -6px rgba(242,140,155,.6)}
+[data-theme="dark"] a.yt-canal:hover{box-shadow:var(--shadow-hover), 0 0 24px -6px rgba(243,166,200,.5)}
+@media (max-width:640px){ .yt-canales{justify-content:center; gap:8px; margin:-2px 0 14px} .yt-canal{font-size:13px; padding:5px 13px 5px 6px} }

@@ -120,6 +120,15 @@
   function buildYT() {
     var grid = $("#yt-grid"); if (!grid) return;
     var list = $("#yt-list"); if (list && YTD.url) list.href = YTD.url;
+    var nav = $("#yt-canales"), CAN = Array.isArray(window.YT_CANALES) ? window.YT_CANALES.filter(function (c) { return c && c.nombre && c.url; }) : [];
+    if (nav && CAN.length) {   // accesos directos (yt-canales.js); sin canales no se muestra nada
+      CAN.forEach(function (c) {
+        var a = el("a", { class: "social yt-canal", "data-net": "youtube", href: c.url, target: "_blank", rel: "noopener", title: c.nombre + " en YouTube" },
+          '<span class="ico">' + icon("i-youtube") + "</span><span></span>");
+        a.lastChild.textContent = c.nombre; nav.appendChild(a);
+      });
+      nav.hidden = false;
+    }
     YT.forEach(function (v) {
       var when = ytDate(v.published);
       var a = el("a", { class: "yt-tile" + (v.short ? " short" : ""), href: v.short ? "https://www.youtube.com/shorts/" + v.id : "https://www.youtube.com/watch?v=" + v.id,

@@ -76,6 +76,7 @@ En una terminal dentro de esta carpeta: `python3 -m http.server 8000` y entra a 
 - `posts.js` – **tus posts y configuración** ← el único que vas a editar
 - `media.js` – datos automáticos (no editar)
 - `youtube.js`, `scripts/youtube_sync.py` – mi lista de YouTube (automático)
+- `yt-canales.js` – accesos directos a mis canales de YouTube (una línea por canal)
 - `scripts/actualizar-medios.mjs`, `.github/workflows/medios.yml` – actualización automática
 - `assets/avatar.jpg` – foto de perfil
 - `assets/favicon.svg` – iconito de la pestaña
