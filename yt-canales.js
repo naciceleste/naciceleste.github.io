@@ -4,5 +4,5 @@ window.YT_CANALES = [
   { nombre: "Fieles",            url: "https://www.youtube.com/channel/UCkIElmDhcF2L23yGKYPk6zA" },
   { nombre: "Franco Pisso",      url: "https://www.youtube.com/channel/UCwd_qoS94df5orGoPLPnsxQ" },
   { nombre: "las rutas de juan", url: "https://www.youtube.com/channel/UCx5AtbhVYImq6w9F7X5Vr2A" },
-  { nombre: "PlanetaJuan",       url: "https://www.youtube.com/@PlanetaJuan" }
+  { nombre: "Planeta Juan",       url: "https://www.youtube.com/@PlanetaJuan" }
 ];
