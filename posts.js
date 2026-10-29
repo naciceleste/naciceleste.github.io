@@ -37,13 +37,18 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
-  { url: "https://x.com/CarlosMaslaton/status/1523198958100643841", date: "2026-10-27", tags: ["tuits que envejecieron mal"] },
+  { url: "https://www.instagram.com/reel/DfAnpgDsD8S/", date: "2026-10-28", tags: ["alberto","ponele voluntad"] },
+  { url: "https://www.youtube.com/watch?v=8AOthMmn3a8", date: "2026-10-28", tags: ["parcero","suiza"] },
+  { url: "https://x.com/elmundoes/status/2115436024272953489", date: "2026-10-28", note: "En vísperas al 2027 y la tecnología acutal es inconcebible que por diseño no se apaguen los motores al haber otro tren en la vía en un radio de distancia de ACCIDENTE INMINENTE", tags: ["españa","ave"] },
+  { url: "https://x.com/buitengebieden/status/2115515994533761347", date: "2026-10-28", tags: ["gatitos","perezoso"] },
+  { url: "https://x.com/dbaeza13/status/2114976676698259876", date: "2026-10-28", tags: ["no somos nada"] },
+  { url: "https://x.com/CarlosMaslaton/status/1523198958100643841", date: "2026-10-27", tags: ["tuits que envejecieron mal","carlos"], pin: 2 },
   { url: "https://x.com/HodlerTom/status/1927340595002970346", date: "2026-10-27", tags: ["bitcoin"] },
   { url: "https://x.com/PunchingCat/status/1848188558751969566", date: "2026-10-27", tags: ["te quiero mucho gatito","gatitos"] },
-  { url: "https://x.com/noplacexhideo/status/1975511909320237353", date: "2026-10-27", note: "Moraleja: Nunca se niega a una medialuna", tags: ["se va todo a la mierda"] },
+  { url: "https://x.com/noplacexhideo/status/1975511909320237353", date: "2026-10-27", note: "Moraleja: Nunca se niega a una medialuna", tags: ["se va todo a la mierda","medialunas"] },
   { url: "https://www.instagram.com/p/DbypFAppK38/", date: "2026-10-27", note: "Mi hermanita 🥺", tags: ["no te olvides de vivir"] },
-  { url: "https://www.youtube.com/watch?v=3FnH7fJ1ntI", date: "2026-10-27", note: "El mejor creador de contenido del Río de la Plata jamás me cansaré de decirlo", tags: ["misión inútil","agustín"] },
-  { url: "https://www.tiktok.com/@valesulca_/video/7647184835190082836", date: "2026-10-27", tags: ["tipazo"] },
+  { url: "https://www.youtube.com/watch?v=3FnH7fJ1ntI", date: "2026-10-27", note: "El mejor creador de contenido del Río de la Plata jamás me cansaré de decirlo", tags: ["misión inútil","agustín","uruguay"] },
+  { url: "https://www.tiktok.com/@valesulca_/video/7647184835190082836", date: "2026-10-27", tags: ["tipazo","chad"] },
   { url: "https://www.instagram.com/p/De8yN7kiKI_/", date: "2026-10-27", tags: ["alberto"] },
   { url: "https://x.com/labestiapau/status/2114759487718645850", date: "2026-10-27", tags: ["independiente","mickey","la voz del hincha"] },
   { url: "https://www.instagram.com/p/De7Lg22osT3/", date: "2026-10-26", tags: ["animalitos"] },
@@ -56,7 +61,7 @@ window.POSTS = [
   { url: "https://x.com/CopaAmerica/status/1807984351126188098", date: "2026-10-24", note: "Dios, patria y familia", tags: ["uruguay nt","uruguay"] },
   { url: "https://x.com/naciceleste/status/1819579934408425693", date: "2026-10-24", tags: ["juegos olímpicos","nuevo formato dale rey"], pin: 3 },
   { url: "https://x.com/TheCinesthetic/status/1933658892577484834", date: "2026-10-24", note: "Me volvía loco la histeria colectiva de las cocinas, luego me acostumbré 🙃", tags: ["the bear","series"] },
-  { url: "https://x.com/naciceleste/status/1875752609308668239", date: "2026-10-24", note: "Qué milagro, mamá?", tags: ["la sociedad de la nieve","fito strauch"], pin: 2 },
+  { url: "https://x.com/naciceleste/status/1875752609308668239", date: "2026-10-24", note: "Qué milagro, mamá?", tags: ["la sociedad de la nieve","fito strauch"] },
   { url: "https://www.instagram.com/p/DJrQwATOgCG/", date: "2026-10-24", note: "Calladito más bonito, mijo !", tags: ["parcero"] },
   { url: "https://x.com/naciceleste/status/1877115383586361753", date: "2026-10-24", note: "Que pasó con estos muñecos?", tags: ["yihadistas porteños"] },
   { url: "https://www.instagram.com/p/DcOOduIo9s-/", date: "2026-10-24", note: "No te tomes la vida tan en serio, chaval", tags: ["alberto"] },
@@ -80,6 +85,5 @@ window.POSTS = [
   { url: "https://www.instagram.com/p/DechQzfNfug/", date: "2026-10-22", tags: ["crisis de los 40"] },
   { url: "https://www.instagram.com/p/Ddl6EFKBjCd/", date: "2026-10-22", note: "A 11 de estos ejemplares me tocará luchar cuando los canguros quieran invadir Uruguay", tags: ["parcero","australia","canguros"] },
   { url: "https://www.instagram.com/p/DdaNppNAL98/", date: "2026-10-22", tags: ["los quiero mucho"] },
-  { url: "https://www.instagram.com/p/Ddh5-oLAGQ-/", date: "2026-10-22", tags: ["los quiero mucho"] },
-
+  { url: "https://www.instagram.com/p/Ddh5-oLAGQ-/", date: "2026-10-22", tags: ["los quiero mucho"] }
 ];
