@@ -538,8 +538,14 @@
     }
     function build() {
       loading = true; paint();
+      setTimeout(function () {
+        if (!loading || playing) return;
+        loading = false; paint();
+        if (player && player.playVideo) status.textContent = "Toca ▶ de nuevo para empezar.";
+        else { player = null; status.textContent = "La radio tarda en cargar. Toca ▶ para reintentar."; }
+      }, 25000);
       var go = function () {
-        player = new YT.Player("radio-yt", {
+        player = new window.YT.Player("radio-yt", {
           width: "240", height: "135", videoId: IDS[which],
           playerVars: { autoplay: 1, controls: 0, playsinline: 1, rel: 0, modestbranding: 1, disablekb: 1, iv_load_policy: 3 },
           events: {
@@ -556,9 +562,10 @@
           }
         });
       };
-      if (window.YT && YT.Player) go();
+      if (window.YT && window.YT.Player) go();
       else {
-        window.onYouTubeIframeAPIReady = go;
+        var prev = window.onYouTubeIframeAPIReady;
+        window.onYouTubeIframeAPIReady = function () { if (typeof prev === "function") try { prev(); } catch (e) {} go(); };
         loadScript("https://www.youtube.com/iframe_api").catch(function () { loading = false; paint(); status.textContent = "No se pudo cargar la radio (¿bloqueador de anuncios?)."; });
       }
     }
