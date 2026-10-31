@@ -1,39 +1,39 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-10-29",
+ "actualizado": "2026-10-30",
  "items": [
   {
-   "titulo": "Milei vuelve a España después de sacudir la campaña con sus insultos a Pedro Sánchez",
-   "medio": "EL PAÍS",
-   "url": "https://elpais.com/argentina/2026-10-30/milei-vuelve-a-espana-despues-de-sacudir-la-campana-con-sus-insultos-a-pedro-sanchez.html",
+   "titulo": "En una universidad privada, Milei criticó a Cavallo, promocionó su libro y prometió devolver impuestos",
+   "medio": "Ámbito",
+   "url": "https://www.ambito.com/politica/javier-milei-visita-una-universidad-privada-y-respondera-preguntas-estudiantes-n6339626",
    "region": "AR",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Orsi rechazó definir a periodistas como “ensobrados” y defendió la “convivencia” de Uruguay",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/america/america-latina/2026/10/29/orsi-rechazo-definir-a-periodistas-como-ensobrados-y-defendio-la-convivencia-de-uruguay/",
+   "titulo": "El mensaje de condolencias de Yamandú Orsi tras el fallecimiento de tres militares",
+   "medio": "Telenoche",
+   "url": "https://www.telenoche.com.uy/nacionales/mis-sinceras-condolencias-el-mensaje-yamandu-orsi-el-fallecimiento-tres-militares-n5406655",
    "region": "UY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Óscar Ramírez lanza un nuevo mensaje de patriotismo que involucra a Bryan Ruiz y a la Sele",
-   "medio": "La Nación CR",
-   "url": "https://www.nacion.com/puro-deporte/oscar-ramirez-lanza-nuevo-mensaje-de-patriotismo/7LRUJRXYTJESRE56I4XV7E5NTA/story/",
+   "titulo": "Bryan Ruiz se suma a la lista de mundialistas que también dirigieron a La Sele",
+   "medio": "Fútbol Centroamérica",
+   "url": "https://futbolcentroamerica.com/noticias/bryan-ruiz-se-suma-a-una-lista-especial-de-costa-rica-los-mundialistas-que-tambien-dirigieron-a-la-sele-akeVJ0y9qtXG",
    "region": "CR",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "OpenAI y Anthropic derriban una hipótesis de 27 años y sacuden la informática teórica",
-   "medio": "WIRED",
-   "url": "https://es.wired.com/articulos/openai-y-anthropic-derriban-una-hipotesis-de-27-anos-y-sacuden-la-informatica-teorica",
+   "titulo": "Los sitios web podrán prohibir en un solo paso que OpenAI, Google y Anthropic entrenen IA con su contenido",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/tecno/2026/10/31/los-sitios-web-podran-prohibir-en-un-solo-paso-que-openai-google-y-anthropic-entrenen-ia-con-su-contenido/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "La Junta Electoral Central abre otro expediente a Sánchez por su vídeo ante el 'Guernica'",
-   "medio": "RTVE",
-   "url": "https://www.rtve.es/noticias/20261029/junta-electoral-central-abre-otro-expediente-a-sanchez-ahora-por-su-video-ante-guernica-denunciado-por-pp/17289243.shtml",
+   "titulo": "Por qué el PP apunta a Sánchez y no solo a Puente tras la tragedia ferroviaria",
+   "medio": "Mundiario",
+   "url": "https://www.mundiario.com/politica/que-pp-apunta-sanchez-solo-oscar-puente-tragedia-ferroviaria/20261030111949449939.html",
    "region": "ES",
    "tema": "Política"
   },
@@ -45,205 +45,205 @@ window.NOTICIAS = {
    "tema": "Facundo Arana"
   },
   {
-   "titulo": "“Es inadmisible”: Martinelli negó que Lacalle Pou dejara chalecos antibalas vencidos",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Noticias/-Es-inadmisible--Martinelli-nego-que-Lacalle-Pou-dejara-chalecos-antibalas-vencidos-uc980394",
+   "titulo": "Jorge Díaz celebró el fallo por Aratirí y apuntó a Lacalle Pou y a los “agoreros” de la oposición",
+   "medio": "El Observador",
+   "url": "https://www.elobservador.com.uy/nacional/jorge-diaz-apunto-lacalle-pou-fallo-favor-uruguay-juicio-aratiri-siempre-lamentablemente-aparecen-algunos-agoreros-n6062074",
    "region": "UY",
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Ruiz se une a los mundialistas que llegaron al banquillo de la Sele",
-   "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/noticia/ruiz-se-une-a-los-mundialistas-que-llegaron-al-banquillo-de-la-sele/",
+   "titulo": "Óscar Ramírez lanza un nuevo mensaje de patriotismo que involucra a Bryan Ruiz y a la Sele",
+   "medio": "La Nación CR",
+   "url": "https://www.nacion.com/puro-deporte/oscar-ramirez-lanza-nuevo-mensaje-de-patriotismo/7LRUJRXYTJESRE56I4XV7E5NTA/story/",
    "region": "CR",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "OpenAI asegura que su IA resolvió tres problemas científicos que llevaban décadas sin solución",
-   "medio": "Gizmodo",
-   "url": "https://es.gizmodo.com/openai-asegura-que-su-inteligencia-artificial-logro-resolver-tres-problemas-cientificos-que-llevaban-decadas-sin-solucion-ahora-necesita-convencer-a-los-expertos-de-que-es-verdad-2000268102",
+   "titulo": "El personal de Anthropic advierte que la IA podría matarnos mientras se debilitan sus reglas de seguridad",
+   "medio": "Quartz",
+   "url": "https://es.qz.com/empleados-de-anthropic-advierten-ia-matar-todos-reglas-de-seguridad-102326",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "El accidente ferroviario supone un nuevo golpe para el Gobierno de Sánchez antes de las elecciones",
-   "medio": "CNN en Español",
-   "url": "https://cnnespanol.cnn.com/2026/10/29/espana/accidente-ferroviario-nuevo-golpe-gobierno-sanchez-trax",
+   "titulo": "Feijóo pide la dimisión de Sánchez y de Puente: “Si no dimiten, les dimitiremos en las urnas”",
+   "medio": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/politica/20261030/11671994/feijoo-pide-dimision-sanchez-puente-dimiten-les-dimitiremos-urnas.html",
    "region": "ES",
    "tema": "Política"
   },
   {
-   "titulo": "Jamie Dornan confía en su nuevo Aragorn: “No estoy tratando de superar a Viggo Mortensen”",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/espana/cultura/2026/10/29/jamie-dornan-confia-en-su-nuevo-aragorn-para-el-senor-de-los-anillos-la-caza-de-gollum-no-estoy-tratando-de-superar-a-viggo-mortensen/",
+   "titulo": "Jamie Dornan, el nuevo Aragorn, cree que el trabajo de Viggo Mortensen es irrepetible",
+   "medio": "OkDiario",
+   "url": "https://okdiario.com/cool/television/jamie-dornan-nuevo-aragorn-senor-anillos-cree-que-trabajo-viggo-mortensen-irrepetible-no-pretendo-superarlo-absoluto-20665858",
    "region": "AR",
    "tema": "Viggo Mortensen"
   },
   {
-   "titulo": "“Prefiero irme como protagonista”: Matías Catán tras ser eliminado de Gran Hermano Uruguay",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Noticias/-Prefiero-irme-como-protagonista--Matias-Catan-tras-ser-eliminado-de-Gran-Hermano-Uruguay-uc980380",
+   "titulo": "¿A quién bajó de placa la líder de la semana y quiénes quedaron nominados en Gran Hermano Uruguay?",
+   "medio": "El Observador",
+   "url": "https://www.elobservador.com.uy/cultura-y-espectaculos/a-quien-placa-la-lider-la-semana-y-quienes-quedaron-nominados-gran-hermano-uruguay-n6062169",
    "region": "UY",
    "tema": "Gran Hermano"
   },
   {
-   "titulo": "Presidenta de la Asamblea hace un llamado para contener agresiones en el Plenario",
-   "medio": "Semanario Universidad",
-   "url": "https://semanariouniversidad.com/pais/presidenta-de-asamblea-hace-llamado-para-contener-agresiones-en-plenario/",
+   "titulo": "Álvaro Ramírez acusa al Gobierno de excluir a la oposición de la agenda legislativa",
+   "medio": "El Mundo CR",
+   "url": "https://elmundo.cr/costa-rica/alvaro-ramirez-acusa-al-gobierno-de-excluir-a-la-oposicion-de-la-agenda-legislativa-no-escucha-no-negocia/",
    "region": "CR",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Wall Street cierra con pérdidas tras el desplome histórico de Alphabet y las dudas sobre la IA",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/estados-unidos/2026/10/29/wall-street-cierra-con-perdidas-tras-el-desplome-historico-de-alphabet-y-las-dudas-sobre-la-inteligencia-artificial/",
+   "titulo": "Wall Street registra uno de sus peores días del año por la caída tecnológica y temores de burbuja de la IA",
+   "medio": "Telemundo",
+   "url": "https://www.telemundo.com/noticias/noticias-telemundo/economia/wall-street-registra-uno-de-sus-peores-dias-del-ano-por-caida-de-accio-rcna606635",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "El primer informe técnico estima que el AVE circulaba de 160 a 200 km/h cuando chocó en Urda",
-   "medio": "EL PAÍS",
-   "url": "https://elpais.com/espana/2026-10-29/el-primer-informe-tecnico-del-accidente-fija-en-160-a-200-kilometros-por-hora-la-velocidad-del-ave-que-choco-en-urda.html",
+   "titulo": "Otro AVE de Renfe evitó chocar contra los trenes siniestrados en Urda por segundos",
+   "medio": "La Razón",
+   "url": "https://www.larazon.es/economia/otro-ave-renfe-evito-chocar-trenes-siniestrados-urda-segundos_202610306ae4de7ba5f83c2fb8e9de7a.html",
    "region": "ES",
    "tema": "AVE"
   },
   {
-   "titulo": "Nico Vázquez intercedió en la decisión del jurado ante las críticas a las semifinalistas de Popstars",
-   "medio": "Telefe",
-   "url": "https://www.mitelefe.com/popstars/noticias/nico-vazquez-intercedio-en-la-decision-del-jurado-durante-una-lluvia-de-criticas-a-las-semifinalistas-de-popstars-pid2570901",
+   "titulo": "¿Ángel de Brito y Yanina Latorre podrían mudarse a Telefe?",
+   "medio": "Diario La Unión",
+   "url": "https://launion.com.ar/espectaculos/fin-una-etapa-angel-brito-y-yanina-latorre-podrian-mudarse-telefe-n5447128",
    "region": "AR",
    "tema": "Telefé"
   },
   {
-   "titulo": "Uruguay vs República Dominicana en Maldonado: la AUF confirmó horario y detalles del amistoso",
-   "medio": "El Observador",
-   "url": "https://www.elobservador.com.uy/seleccion/uruguay-vs-republica-dominicana-maldonado-auf-confirmo-horario-y-mas-detalles-del-amistoso-que-se-jugara-noviembre-n6062033",
+   "titulo": "A la venta las entradas para Uruguay-República Dominicana en Maldonado: precios y cómo comprar",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Deportes/A-la-venta-entradas-para-Uruguay-Republica-Dominicana-en-Maldonado-precios-y-como-comprar-uc980482",
    "region": "UY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Magistrado Jorge Araya es reelegido por ocho años más pese al rechazo de 29 diputados oficialistas",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/costa-rica/2026/10/29/magistrado-jorge-araya-garcia-es-reelegido-por-ocho-anos-mas-en-costa-rica-pese-al-rechazo-de-29-diputados-oficialistas/",
+   "titulo": "Frente Amplio propone reforma para que Corte Plena nombre a magistrados suplentes",
+   "medio": "Teletica",
+   "url": "https://www.teletica.com/multimedia/frente-amplio-propone-reforma-para-que-corte-plena-nombre-a-magistrados-suplentes_1268160",
    "region": "CR",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Intel se desploma más de 20% en Wall Street pese al salto de 169% en sus ganancias ajustadas",
-   "medio": "Comercio TV",
-   "url": "https://www.comercio.tv/p/intel-se-desploma-m-s-de-20-en-wall-street-pese-al-salto-de-169-en-sus-ganancias-ajustadas",
+   "titulo": "El experto de Wall Street Phil Rosen analiza el panorama de ganancias de las grandes tecnológicas",
+   "medio": "Quartz",
+   "url": "https://es.qz.com/experto-de-wall-street-panorama-de-ganancias-de-big-tech",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "El Gobierno enfría la salida de Óscar Puente pese a la presión de socios y oposición para que dimita",
-   "medio": "elDiario.es",
-   "url": "https://www.eldiario.es/politica/gobierno-enfria-salida-oscar-puente-pesar-presion-socios-oposicion-dimita_1_13625446.html",
+   "titulo": "Puente descarta dimitir e insiste en una cadena de errores en el Centro de Control",
+   "medio": "RTVE",
+   "url": "https://www.rtve.es/noticias/20261030/accidente-tren-toledo-oscar-puente-ruede-prensa-declaraciones/17289862.shtml",
    "region": "ES",
    "tema": "Oscar Puente"
   },
   {
-   "titulo": "Sorpresa en MasterChef Celebrity: Damián Betular se va del programa y suenan dos figuras para reemplazarlo",
-   "medio": "Diario Río Negro",
-   "url": "https://www.rionegro.com.ar/redes/sorpresa-en-masterchef-celebrity-damian-betular-se-va-del-programa-y-ya-suenan-dos-figuras-para-reemplazarlo-4776994/",
+   "titulo": "El beneficio especial que recibieron Teo y Giulietta en MasterChef Junior",
+   "medio": "Telefe",
+   "url": "https://www.mitelefe.com/masterchef-junior/mejores-momentos/el-beneficio-especial-que-recibieron-teo-y-giulietta-en-masterchef-junior",
    "region": "AR",
    "tema": "Telefé"
   },
   {
-   "titulo": "Entre las mejores del mundo: la selección uruguaya sub 15 se aseguró el top 10 en el Mundial",
-   "medio": "El Observador",
-   "url": "https://www.elobservador.com.uy/seleccion/entre-las-10-mejores-del-mundo-la-seleccion-uruguaya-sub-15-se-aseguro-el-top-10-el-mundial-azerbaiyan-n6062087",
+   "titulo": "La Celeste vuelve al Campus de Maldonado después de 26 años",
+   "medio": "Cadena del Mar",
+   "url": "https://cadenadelmar.uy/deporte/seleccion-uruguaya-maldonado-la-celeste-vuelve-al-campus-despues-de-26-anos-25730",
    "region": "UY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Banco Central contempla un aumento de la TPM pese a la recomendación de reducir la tasa",
-   "medio": "El Financiero CR",
-   "url": "https://www.elfinancierocr.com/podcast/podcast-banco-central-contempla-un-aumento-de-la/AYQTQZVS5NHMTOIDUOGRROZVDM/story/",
+   "titulo": "Economía crecerá menos de lo esperado en 2026, según el Banco Central",
+   "medio": "CR Hoy",
+   "url": "https://crhoy.com/economia/economia-crecera-menos-de-lo-esperado-en-2026-segun-banco-central/",
    "region": "CR",
    "tema": "Banco Central"
   },
   {
-   "titulo": "Demócratas piden a Trump preservar sus chats con Grok y otros chatbots",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/regulacion/democratas-piden-a-trump-preservar-sus-chats-con-grok-y-otros-chatbots/",
+   "titulo": "Demócratas exigen a Trump preservar sus chats con la IA Grok sobre la captura de Maduro",
+   "medio": "El Informador",
+   "url": "https://elinformadorve.com/30/10/2026/destacada/democratas-exigen-trump-preservar-chats-grok-captura-maduro/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Rating TV: MasterChef Celebrity no tuvo rival y aplastó a El Trece",
-   "medio": "Diario Río Negro",
-   "url": "https://www.rionegro.com.ar/redes/rating-tv-masterchef-celebrity-no-tuvo-rival-y-aplasto-a-el-trece-cuantos-puntos-le-saco-4776818/",
+   "titulo": "Telefe suma 106 meses de liderazgo: en octubre su primetime superó el 50% del encendido",
+   "medio": "Produ",
+   "url": "https://www.produ.com/television/noticias/telefe-con-106-meses-de-liderazgo-en-octubre-su-primetime-supero-el-50-del-encendido-total-de-la-television-argentina/",
    "region": "AR",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "El Uruguay de Diego Forlán jugará con Dominicana tras visitar a Argentina en noviembre",
-   "medio": "Yahoo Noticias",
-   "url": "https://es-us.noticias.yahoo.com/deportes/uruguay-diego-forl%C3%A1n-jugar%C3%A1-dominicana-121534146.html",
+   "titulo": "Forlán citó 34 jugadores para la sub-20: hay seis de Peñarol y uno de Nacional",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Deportes/Forlan-cito-34-jugadores-para-la-sub-20-hay-seis-de-Penarol-y-uno-de-Nacional--que-paso--uc980493",
    "region": "UY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "CARBONATO: un agente de IA listo para usar se convierte en una consola de botnet",
-   "medio": "OrcaRouter",
-   "url": "https://www.orcarouter.ai/es/blog/2026-09-22-carbonato-docker-hermes-agent-botnet",
+   "titulo": "Meshy lanza un plugin para Hermes Agent y lleva la impresión 3D al chat",
+   "medio": "Foro3D",
+   "url": "https://foro3d.com/2026/octubre/meshy-lanza-plugin-para-hermes-agent-y-lleva-la-impresion-3d-al-chat.html",
    "region": "MUNDO",
    "tema": "Hermes Agent"
   },
   {
-   "titulo": "MasterChef Celebrity lidera el rating y supera a El Trece por más de cinco puntos",
+   "titulo": "MasterChef Celebrity lidera el rating del jueves 29 de octubre con picos de 13 puntos",
    "medio": "Cadena 3",
-   "url": "https://www.cadena3.com/noticia/espectaculos/masterchef-celebrity-lidera-el-rating-y-supera-a-el-trece-por-mas-de-cinco-puntos_608243",
+   "url": "https://www.cadena3.com/noticia/espectaculos/masterchef-celebrity-lidera-el-rating-del-jueves-29-de-octubre-con-picos-de-13-puntos_608613",
    "region": "AR",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Las liquidaciones cripto superan los 628 millones de dólares en una hora por el miedo a un hack en Binance",
-   "medio": "Yahoo Finanzas",
-   "url": "https://es.finance.yahoo.com/noticias/liquidaciones-cripto-superan-628-millones-210259727.html",
+   "titulo": "Bitcoin cae 4,38% mientras el hackeo de Binance suma presión",
+   "medio": "DiarioBitcoin",
+   "url": "https://www.diariobitcoin.com/analisis/bitcoin-btc-cae-438-mientras-el-hackeo-de-binance-suma-presion/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "El conmovedor gesto de Messi con Lucas Trejo, el futbolista argentino que perdió a su familia en un terremoto",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/deportes/2026/10/29/el-conmovedor-gesto-de-messi-con-lucas-trejo-el-futbolista-argentino-que-perdio-a-su-familia-tras-un-terremoto-estuvo-muy-presente/",
+   "titulo": "Revelaron los seis países que votaron por Messi en el Balón de Oro",
+   "medio": "TyC Sports",
+   "url": "https://www.tycsports.com/futbol-internacional/-revelaron-los-seis-paises-que-votaron-por-messi-en-el-balon-de-oro-id769515.html",
    "region": "AR",
    "tema": "Lionel Messi"
   },
   {
-   "titulo": "Costa Rica invita al papa León XIV a visitar el país por primera vez en más de 40 años",
-   "medio": "Forbes Centroamérica",
-   "url": "https://forbescentroamerica.com/2026/10/29/costa-rica-invita-al-papa-leon-xiv-a-visitar-el-pais-por-primera-vez-en-mas-de-40-anos/",
+   "titulo": "El papa León XIV hace historia al votar en las elecciones intermedias de EE.UU.",
+   "medio": "CNN en Español",
+   "url": "https://cnnespanol.cnn.com/2026/10/30/mundo/papa-leon-xiv-vota-elecciones-intermedias-ee-uu-trax",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Solana Sierra y Jazmín Ortenzi avanzaron a cuartos de final en Curitiba",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/deportes/2026/10/29/solana-sierra-y-jazmin-ortenzi-avanzaron-a-cuartos-en-curitiba-y-nadia-podoroska-debuto-con-un-triunfo-en-queretaro/",
+   "titulo": "Julia Riera se metió en las semifinales de Curitiba tras vencer a Solana Sierra",
+   "medio": "DeporTV",
+   "url": "https://deportv.gob.ar/tenis/julia-riera-metio-semifinales-curitiba-vencer-solana-sierra-nid:18466",
    "region": "AR",
    "tema": "Solana Sierra"
   },
   {
-   "titulo": "El S&P 500 retrocede mientras un alto PCE de EE.UU. refuerza la línea dura de la Fed",
-   "medio": "FXStreet",
-   "url": "https://www.fxstreet.es/news/el-sp-500-retrocede-mientras-un-alto-pce-de-eeuu-refuerza-la-politica-de-linea-dura-de-la-fed-202610292032",
+   "titulo": "Nasdaq 100 roza la corrección tras el desplome de Intel; el hackeo a Binance golpea al bitcoin",
+   "medio": "Bloomberg Línea",
+   "url": "https://www.bloomberglinea.com/mercados/sp-500-cae-arrastrado-por-intel-y-amazon-mientras-el-bitcoin-retrocede-tras-hackeo-a-binance/",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Un agente de IA de Accenture habría accedido durante dos meses a una red del Pentágono",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/estados-unidos/un-agente-de-ia-de-accenture-habria-accedido-durante-dos-meses-a-una-red-del-pentagono/",
+   "titulo": "Cómo vigilan OpenAI, Anthropic y Google DeepMind a sus propios agentes de IA",
+   "medio": "Diario TI",
+   "url": "https://diarioti.com/como-vigilan-openai-anthropic-deepmind-agentes-ia/126941",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Binance suspende depósitos y retiros tras un presunto hackeo que deja más de US$2.500 millones congelados",
-   "medio": "Bloomberg Línea",
-   "url": "https://www.bloomberglinea.com/mercados/binance-investiga-un-posible-hackeo-mientras-tether-y-circle-congelan-us2300-millones-y-el-bitcoin-cae/",
+   "titulo": "Un hackeo a Binance afecta a US$6.300 millones en activos digitales, el mayor robo cripto conocido",
+   "medio": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/cvze42lk562ko",
    "region": "MUNDO",
    "tema": "Binance"
   }
