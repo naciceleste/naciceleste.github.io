@@ -37,7 +37,6 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
-  { url: "https://x.com/helnsse/status/2116165489189679105", date: "2026-10-30", tags: ["amigos","tuiter"] },
   { url: "https://x.com/MinDeLaVerdad/status/2115761715014987949", date: "2026-10-29", tags: ["españa","trenes","ave"] },
   { url: "https://www.instagram.com/reel/DfAnpgDsD8S/", date: "2026-10-28", tags: ["alberto","ponele voluntad"] },
   { url: "https://x.com/elmundoes/status/2115436024272953489", date: "2026-10-28", note: "En vísperas al 2027 y con la tecnología actual es inconcebible que por diseño no se apaguen los motores al haber otro tren en la vía en un radio de distancia de ACCIDENTE INMINENTE", tags: ["españa","ave"] },
