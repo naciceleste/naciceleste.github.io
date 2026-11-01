@@ -1,6 +1,22 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:2116614864772780249": {
+    "network": "x",
+    "date": "2026-10-31T19:34:43.000Z",
+    "author": "literlandweb1",
+    "text": "Aunque Dostoievski fue un genio con una compleja relación con la vida, a veces escribía luminosos destellos de vitalidad como este fragmento de “Los hermanos Karamazov”.",
+    "image": "https://pbs.twimg.com/media/HV-5-PQWAAARblr.jpg",
+    "kind": "photo",
+    "w": 720,
+    "h": 530,
+    "focus": {
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 403
+    }
+  },
   "x:2115761715014987949": {
     "network": "x",
     "date": "2026-10-29T11:04:36.000Z",
