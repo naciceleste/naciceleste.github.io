@@ -6,6 +6,33 @@ window.YOUTUBE = {
   "url": "https://www.youtube.com/playlist?list=PLJ-DohLIgv3w",
   "videos": [
     {
+      "id": "8tl3ozNptb8",
+      "title": "Miedo a ser nadie: por qué construimos monumentos",
+      "channel": "Andrés Caramés",
+      "channelUrl": "https://www.youtube.com/channel/UCSZGXSBTPFvXJcB1KVX1ZGA",
+      "published": "2026-10-26",
+      "short": false,
+      "added": "2026-10-31"
+    },
+    {
+      "id": "yz2D1E7q68c",
+      "title": "APAGÓN EN ESPAÑA - Analizando Humanos de Youtube",
+      "channel": "aagguussttiinn",
+      "channelUrl": "https://www.youtube.com/channel/UC535U2z1f4QAE6itgaK1MJA",
+      "published": "2025-05-18",
+      "short": false,
+      "added": "2026-10-31"
+    },
+    {
+      "id": "S421lUmOZDY",
+      "title": "Rodaje de La Uruguaya - Analizando Humanos [ENG SUBS]",
+      "channel": "aagguussttiinn",
+      "channelUrl": "https://www.youtube.com/channel/UC535U2z1f4QAE6itgaK1MJA",
+      "published": "2022-11-08",
+      "short": false,
+      "added": "2026-10-31"
+    },
+    {
       "id": "rJf4QsL5C_k",
       "title": "Aprendé a decir que NO de una buena vez...",
       "channel": "Franco Pisso",
