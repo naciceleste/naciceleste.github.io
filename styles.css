@@ -522,3 +522,7 @@ button.social:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover); 
 a.yt-canal:hover{box-shadow:var(--shadow-hover), 0 0 22px -6px rgba(242,140,155,.6)}
 [data-theme="dark"] a.yt-canal:hover{box-shadow:var(--shadow-hover), 0 0 24px -6px rgba(243,166,200,.5)}
 @media (max-width:640px){ .yt-canales{justify-content:center; gap:8px; margin:-2px 0 14px} .yt-canal{font-size:13px; padding:5px 13px 5px 6px} }
+
+/* cielo animado (cielo.js): reemplaza los destellos CSS solo si el canvas arrancó */
+.cielo-canvas{position:absolute; inset:0; display:block; pointer-events:none}
+.cielo-on .sparkles,.cielo-on .stars{display:none !important}
