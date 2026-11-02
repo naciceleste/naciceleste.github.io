@@ -1,7 +1,7 @@
 /* Otros proyectos: para sumar uno nuevo, agregá un objeto a esta lista.
    { icon: emoji, title: nombre, text: línea corta, url: dirección (relativa o completa) } */
 window.PROYECTOS = [
-  { icon: "📺", title: "Guía de TV", text: "Mi programación, privada con clave", url: "/guia/" }
+  { icon: "📺", title: "Guía de TV", text: "Mi programación, privada con clave", url: "https://guia.naciceleste.dev/" }
 ];
 
 (function () {
