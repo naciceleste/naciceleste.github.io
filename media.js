@@ -32,7 +32,7 @@ window.POST_MEDIA = {
     "h": 2160,
     "w": 1215,
     "kind": "video",
-    "author": "nacho360fit",
+    "author": "nacho.perezr",
     "date": "2026-10-27T19:36:36.000Z"
   },
   "x:2115436024272953489": {
