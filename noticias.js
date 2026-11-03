@@ -1,46 +1,46 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-01",
+ "actualizado": "2026-11-02",
  "items": [
   {
-   "titulo": "Milei defendió a Santiago Maratea tras su cruce con la China Ansa en PH",
+   "titulo": "El Gobierno negó que haya preocupación por las posibles críticas del Papa",
    "medio": "TN",
-   "url": "https://tn.com.ar/show/famosos/2026/11/01/javier-milei-defendio-a-santiago-maratea-tras-el-cruce-con-la-china-ansa-en-un-programa-de-tv/",
+   "url": "https://tn.com.ar/politica/2026/11/02/javier-milei-mantiene-reuniones-en-la-casa-rosada-con-la-mira-en-su-viaje-a-espana-y-las-elecciones-en-eeuu/",
    "region": "AR",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Conflicto de intereses en Ambiente: Caputi tiene acciones en empresas vinculadas a UPM y Ortuño señala a Orsi",
-   "medio": "uy.press",
-   "url": "https://www.uypress.net/Politica/Conflicto-de-intereses-en-Ambiente-Caputi-tiene-acciones-en-empresas-vinculadas-a-UPM-y-Ortuno-senala-a-Orsi-uc157534",
+   "titulo": "Orsi celebró la reducción de la inseguridad alimentaria en menores de seis años",
+   "medio": "Valor Agregado",
+   "url": "https://valoragregado.news/nacionales/orsi-celebro-la-reduccion-de-la-inseguridad-alimentaria-en-menores-de-seis-anos/",
    "region": "UY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Bryan Ruiz, presente en La Cueva para ver el Clásico Nacional",
-   "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/noticia/bryan-ruiz-presente-en-la-cueva-para-ver-el-clasico-nacional/",
+   "titulo": "Bryan Ruiz se deja ver en todo lado como técnico de la Selección de Costa Rica",
+   "medio": "InFact CR",
+   "url": "https://www.infactcr.com/articulo/bryan-ruiz-se-deja-ver-en-todo-lado-como-tecnico-de-la-seleccion-de-costa-rica",
    "region": "CR",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Guterres advierte que una carrera entre EE UU y China por armas con IA podría ser devastadora",
-   "medio": "El País",
-   "url": "https://elpais.com/internacional/2026-11-01/antonio-guterres-una-competicion-entre-ee-uu-y-china-para-crear-armas-con-ia-podria-tener-consecuencias-devastadoras.html",
+   "titulo": "OpenAI suma a Mark Esper para ampliar su estrategia de inteligencia artificial militar",
+   "medio": "DiarioBitcoin",
+   "url": "https://www.diariobitcoin.com/estados-unidos/openai-suma-a-mark-esper-para-ampliar-su-estrategia-de-inteligencia-artificial-militar/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "El PSOE pierde 450.000 votos y cae por debajo de 100 escaños en la primera encuesta tras la tragedia de Urda",
-   "medio": "El Mundo",
-   "url": "https://www.elmundo.es/espana/encuestas/2026/11/01/6ae77446e4d4d8f3698b458a.html",
+   "titulo": "Feijóo acusa a Sánchez de estar pendiente de las encuestas tras la tragedia de Urda y ofrece gestión",
+   "medio": "Europa Press",
+   "url": "https://www.europapress.es/nacional/noticia-feijoo-acusa-sanchez-estar-pendiente-encuestas-tragedia-urda-ofrece-gestion-yo-si-hacerlo-20261102130655.html",
    "region": "ES",
    "tema": "Política"
   },
   {
-   "titulo": "El Teatro Ópera presenta 100 años de musicales, el homenaje al centenario del género",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/teleshow/2026/10/31/el-teatro-opera-presenta-100-anos-de-musicales-el-homenaje-al-centenario-de-un-genero-que-engrandecio-a-la-escena-nacional/",
+   "titulo": "Jorge Suárez: doble trasplante, 21 meses sin actuar y regreso al teatro con Facundo Arana",
+   "medio": "Entretenimientos Córdoba",
+   "url": "https://entretenimientoscordoba.com.ar/2026/11/02/la-historia-de-jorge-suarez-tres-bypass-un-doble-trasplante-de-rinon-y-pancreas-21-meses-sin-poder-actuar-y-ahora-se-luce-en-calle-corrientes/",
    "region": "AR",
    "tema": "Facundo Arana"
   },
@@ -52,198 +52,198 @@ window.NOTICIAS = {
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Alejandro Bran le mandó otro mensaje a Bryan Ruiz luego de que este condicionara su lugar en la Tricolor",
-   "medio": "La Teja",
-   "url": "https://www.lateja.cr/deportes/alejandro-bran-le-mando-otro-mensaje-a-bryan-ruiz/BOVL4RZKGBGNPBMA56FABF4KWA/story/",
+   "titulo": "Bryan Ruiz presente en “La Cueva” para ver el Clásico Nacional",
+   "medio": "Diario Extra",
+   "url": "https://www.diarioextra.com/noticia/bryan-ruiz-presente-en-la-cueva-para-ver-el-clasico-nacional/",
    "region": "CR",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "OpenAI lanzó una IA para biología que responde más consultas de riesgo y solo la darán a laboratorios aprobados",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/tecno/2026/11/01/openai-lanzo-una-ia-para-biologia-que-responde-mas-consultas-de-riesgo-y-solo-la-daran-a-laboratorios-aprobados/",
+   "titulo": "ChatGPT suma 250 millones de usuarios semanales de voz y dictado",
+   "medio": "DiarioBitcoin",
+   "url": "https://www.diariobitcoin.com/tecnologia/chatgpt-suma-250-millones-de-usuarios-semanales-de-voz-y-dictado/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Feijóo promete una España que vuelva a funcionar y convierte la gestión en eje de campaña tras la tragedia de Urda",
+   "titulo": "Sánchez retoma la precampaña del PSOE para el 29N con un acto este viernes en la ciudad de València",
    "medio": "Europa Press",
-   "url": "https://www.europapress.es/nacional/noticia-feijoo-promete-espana-vuelva-funcionar-convierte-gestion-eje-campana-tragedia-urda-20261101095953.html",
+   "url": "https://www.europapress.es/comunitat-valenciana/noticia-sanchez-retoma-precampana-psoe-29n-acto-viernes-ciudad-valencia-20261102150930.html",
    "region": "ES",
    "tema": "Política"
   },
   {
-   "titulo": "Jamie Dornan, el nuevo Aragorn, cree que el trabajo de Viggo Mortensen es irrepetible",
-   "medio": "Okdiario",
-   "url": "https://okdiario.com/cool/television/jamie-dornan-nuevo-aragorn-senor-anillos-cree-que-trabajo-viggo-mortensen-irrepetible-no-pretendo-superarlo-absoluto-20665858",
+   "titulo": "El nuevo Aragorn habla de la presión de sustituir a Viggo Mortensen: “No pretendo superar a Viggo”",
+   "medio": "elDiario.es",
+   "url": "https://www.eldiario.es/spin/no-pretendo-superar-viggo-mortensen-nuevo-actor-senor-anillos-habla-presion-interpretar-aragorn-pm_1_13626424.html",
    "region": "AR",
    "tema": "Viggo Mortensen"
   },
   {
-   "titulo": "Oscar Belo y Gran Hermano: capaz que nos cuesta más el quilombo, pero iba a haber show",
+   "titulo": "Oscar Belo y Gran Hermano: “Capaz que nos cuesta más el quilombo, pero iba a haber show”",
    "medio": "Montevideo Portal",
    "url": "https://www.montevideo.com.uy/Noticias/Oscar-Belo-y-Gran-Hermano--Capaz-que-nos-cuesta-mas-el-quilombo-pero-iba-a-haber-show--uc980351",
    "region": "UY",
    "tema": "Gran Hermano"
   },
   {
-   "titulo": "Actividad de Marta Esquivel con publicidad comercial obliga a Yara Jiménez a cambiar controles en la Asamblea",
-   "medio": "La Nación",
-   "url": "https://www.nacion.com/politica/actividad-de-marta-esquivel-con-publicidad/K2NAL4YQD5H4PN7VMW3NXXFPFU/story/",
+   "titulo": "Diputados de oposición se suman a plantón universitario contra recortes",
+   "medio": "Diario Extra",
+   "url": "https://www.diarioextra.com/noticia/diputados-de-oposicion-se-suman-a-planton-universitario-contra-recortes/",
    "region": "CR",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "La IA se enfrenta al estrés-test de rentabilidad de Wall Street",
-   "medio": "20minutos",
-   "url": "https://www.20minutos.es/lainformacion/opinion/inteligencia-artificial-enfrenta-estres-test-rentabilidad-wall-street_7055555_3.html",
+   "titulo": "Wall Street cambia de horario: cómo afecta a las operaciones de la Bolsa en la Argentina",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/economia/2026/11/02/wall-street-cambia-de-horario-como-afecta-a-las-operaciones-de-la-bolsa-en-la-argentina/",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Renfe pide a sus maquinistas no superar los 40 km/h al reanudar la marcha tras una caída del sistema LZB",
-   "medio": "20minutos",
-   "url": "https://www.20minutos.es/nacional/renfe-pide-sus-maquinistas-no-superar-los-40-km-hora-reanudar-marcha-tras-una-caida-sistema-lzb_7056072_0.html",
+   "titulo": "Illa apuesta por mantener la alta velocidad entre Barcelona y Madrid durante la remodelación",
+   "medio": "Europa Press",
+   "url": "https://www.europapress.es/catalunya/noticia-illa-apuesta-mantener-alta-velocidad-barcelona-madrid-remodelacion-20261102094201.html",
    "region": "ES",
    "tema": "AVE"
   },
   {
-   "titulo": "Telefe cambia sus noches tras el final de Popstars: qué programa ocupará su lugar",
-   "medio": "Clarín",
-   "url": "https://www.clarin.com/espectaculos/telefe-cambia-noches-final-popstars-programa-ocupara-lugar-quedara-prime-time_0_g5Mq6v1LS1.html",
+   "titulo": "La China Ansa aclaró de dónde surgió la consulta que desató el escándalo con Santi Maratea en PH",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/teleshow/2026/11/02/pregunta-armada-la-china-ansa-aclaro-de-donde-surgio-la-consulta-que-desato-el-escandalo-con-santi-maratea-en-ph/",
    "region": "AR",
    "tema": "Telefé"
   },
   {
-   "titulo": "A dos semanas del clásico ante Argentina, Valverde está lesionado y Forlán lo sigue de cerca",
-   "medio": "El Observador",
-   "url": "https://www.elobservador.com.uy/futbol-internacional/a-dos-semanas-del-clasico-argentina-vs-uruguay-federico-valverde-esta-lesionado-no-juega-hoy-real-madrid-y-diego-forlan-lo-sigue-cerca-n6062355",
+   "titulo": "Fernando Muslera y su flojo partido del sábado: “Ojalá que me sigan pasando los errores”",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Deportes/Fernando-Muslera-y-su-flojo-partido-del-sabado--Ojala-que-me-sigan-pasando-los-errores--uc980700",
    "region": "UY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Patricia Vargas, presidenta del Poder Judicial, ve lecciones en la Segunda Guerra Mundial",
-   "medio": "La Nación",
-   "url": "https://www.nacion.com/revista-dominical/patricia-vargas-presidenta-del-poder-judicial-ve/HJFQMP2OGBFBXI3R237KPMSZH4/story/",
+   "titulo": "Rodrigo Chaves lanza fuertes acusaciones contra la cúpula judicial por caso de Jimena Rueda",
+   "medio": "NCR Noticias",
+   "url": "https://ncrnoticias.com/politica/una-podredumbre-rodrigo-chaves-lanza-fuertes-acusaciones-contra-la-cupula-judicial-por-caso-de-jimena-rueda/",
    "region": "CR",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Wall Street cierra en rojo y el Nasdaq anota su peor mes en más de un año",
-   "medio": "swissinfo.ch",
-   "url": "https://www.swissinfo.ch/spa/wall-street-cierra-en-rojo-y-el-nasdaq-anota-su-peor-mes-en-m%C3%A1s-de-un-a%C3%B1o/92305515",
+   "titulo": "Wall Street cierra sin dirección clara tras ventas en el sector tecnológico",
+   "medio": "Unitel",
+   "url": "https://unitel.bo/noticias/agencias/wall-street-cierra-sin-direccion-clara-tras-ventas-en-el-sector-tecnologico-BH24545114",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Óscar Puente, en horas críticas: socios del PSOE se unen a la presión para que dimita",
-   "medio": "20minutos",
-   "url": "https://www.20minutos.es/nacional/oscar-puente-foco-crece-presion-dimita-sombra-gestion-antes-doble-comparecencia-martes_7055996_0.html",
+   "titulo": "Óscar Puente acude mañana al Congreso para rendir cuentas por el accidente de Urda",
+   "medio": "Periódico de Ibiza",
+   "url": "https://www.periodicodeibiza.es/noticias/nacional/2026/11/02/2741565/oscar-puente-acude-manana-congreso-para-rendir-cuentas-por-accidente-urda.html",
    "region": "ES",
    "tema": "Oscar Puente"
   },
   {
-   "titulo": "Escándalo en PH: la pelea entre la China Ansa y Santi Maratea se descontroló y tuvieron que cortar el programa",
-   "medio": "A24",
-   "url": "https://www.a24.com/primiciasya/escandalo-ph-la-pelea-la-china-ansa-y-santi-maratea-se-descontrolo-y-tuvieron-que-cortar-el-programa-n1612141",
+   "titulo": "Tensión entre Maratea y la China Ansa: PH pausó la grabación",
+   "medio": "Voces Tucumán",
+   "url": "https://vocestucuman.com.ar/espectaculos/tension-entre-maratea-y-la-china-ansa-ph-pauso-la-grabacion",
    "region": "AR",
    "tema": "Telefé"
   },
   {
-   "titulo": "A la venta entradas para Uruguay-República Dominicana en Maldonado: precios y cómo comprar",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Deportes/A-la-venta-entradas-para-Uruguay-Republica-Dominicana-en-Maldonado-precios-y-como-comprar-uc980482",
+   "titulo": "Uruguay vs. Argentina en noviembre de 2026: cuándo juegan y qué se sabe del equipo de Forlán",
+   "medio": "Nación UY",
+   "url": "https://nacion.com.uy/redaccion/uruguay-argentina-amistoso-noviembre-2026-fecha-fifa-forlan",
    "region": "UY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Alza de combustibles y tarifas acelerarían retorno de inflación a rango de tolerancia del Banco Central",
-   "medio": "La Nación",
-   "url": "https://www.nacion.com/economia/alza-de-combustibles-y-tarifas-aceleran-retorno-de/43QG5VU7NRAVXFUXV4OSID73MU/story/",
+   "titulo": "Nueva canasta del IPC amplía el efecto cambiario en la inflación",
+   "medio": "Diario Extra",
+   "url": "https://www.diarioextra.com/noticia/nueva-canasta-del-ipc-amplia-el-efecto-cambiario-en-la-inflacion/",
    "region": "CR",
    "tema": "Banco Central"
   },
   {
-   "titulo": "Demócratas exigen a Trump conservar mensajes con Grok sobre la operación para capturar a Maduro",
-   "medio": "CiberCuba",
-   "url": "https://www.cibercuba.com/noticias/2026-10-31-u1-e199894-s27061-nid344435-democratas-exigen-trump-conservar-mensajes-grok",
+   "titulo": "Elon Musk reduce los límites de uso de Grok Bot por sus costos insosteniblemente altos",
+   "medio": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Rating del sábado: cómo le fue a Andy Kusnetzoff con el PH del escándalo",
-   "medio": "Clarín",
-   "url": "https://www.clarin.com/espectaculos/rating-sabado-andy-kusnetzoff-ph-escandalo_0_N1E1V9WmGv.html",
+   "titulo": "Ratings del domingo 1 de noviembre: estos fueron los programas más vistos de cada canal de la TV Abierta",
+   "medio": "television.com.ar",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-domingo-1-de-noviembre-estos-fueron-los-programas-mas-vistos-de-cada-canal-de-la-tv-abierta-2026-11-01/",
    "region": "AR",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Diego Forlán, técnico de la selección uruguaya, compartió almuerzo y anécdotas con el Kun Agüero",
-   "medio": "El Observador",
-   "url": "https://www.elobservador.com.uy/futbol-internacional/una-dupla-inoxidable-diego-forlan-tecnico-la-seleccion-uruguaya-compartio-almuerzo-y-anecdotas-el-kun-aguero-n6062208",
+   "titulo": "San Cono, la capilla que guarda camisetas del maracanazo y de Diego Forlán entre miles de ofrendas",
+   "medio": "Hola News",
+   "url": "https://holanews.com/san-cono-la-capilla-uruguaya-que-guarda-una-camiseta-del-maracanazo-y-miles-de-ofrendas/",
    "region": "UY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "La app móvil de Hermes Agent llega en beta abierta para iOS y Android",
-   "medio": "Lapaas Voice",
-   "url": "https://lapaasvoice.com/hermes-agent-mobile-app-launches-in-open-beta-for-ios-and-android/",
+   "titulo": "Hermes Agent deja de ocultar caracteres en las solicitudes de aprobación",
+   "medio": "bwotec",
+   "url": "https://bwotec.com/hermes-yesterday-2026-11-01/",
    "region": "MUNDO",
    "tema": "Hermes Agent"
   },
   {
-   "titulo": "Ratings del mes: Telefe ganó octubre",
-   "medio": "television.com.ar",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-mes-telefe-gano-octubre/",
+   "titulo": "Rating del domingo 1 de noviembre: MasterChef Celebrity lideró la medición diaria",
+   "medio": "Misiones y Vos",
+   "url": "https://misionesyvos.com/2026/11/02/rating-domingo-1-noviembre-masterchef-celebrity-lider/",
    "region": "AR",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Wall Street ve una oportunidad tras el incidente de Binance y Bitwise espera un rebote de Bitcoin",
+   "titulo": "Bitcoin (BTC) retrocede el 2 de noviembre de 2026 y se acerca a una zona técnica decisiva",
    "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/exchanges/wall-street-ve-una-oportunidad-tras-el-incidente-de-binance-y-bitwise-espera-un-rebote-de-btc/",
+   "url": "https://www.diariobitcoin.com/analisis/bitcoin-btc-retrocede-el-2-de-noviembre-de-2026-y-se-acerca-a-una-zona-tecnica-decisiva/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "Sergio Lapegüe viajó a Harvard para visitar a su hijo y terminó en un encuentro con Messi",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.ar/espectaculos/sergio-lapegue-viajo-a-harvard-para-visitar-a-su-hijo-y-termino-en-un-encuentro-con-messi-el-tiempo-nid01112026/",
+   "titulo": "Messi fue figura y rescató a Inter Miami ante New England con un gol y una asistencia",
+   "medio": "TyC Sports",
+   "url": "https://www.tycsports.com/estados-unidos/mls/estados-unidos-mls-2026-new-england-revolution-vs-inter-miami-semana-27-id769522.html",
    "region": "AR",
    "tema": "Lionel Messi"
   },
   {
-   "titulo": "El papa León XIV inicia una intensa gira por Uruguay, Argentina y Perú",
-   "medio": "La Nación",
-   "url": "https://www.nacion.com/el-mundo/el-papa-leon-xiv-inicia-una-intensa-gira-por/IWJA46Q6AZEMRFKE5BYFQMQQDY/story/",
+   "titulo": "Visita del papa León XIV a Uruguay: el martes habilitarán una nueva tanda de entradas",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Noticias/Visita-del-papa-Leon-XIV-a-Uruguay-el-martes-habilitaran-una-nueva-tanda-de-entradas-uc980653",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Julia Riera dio vuelta un partido increíble ante Solana Sierra y se metió en las semifinales del WTA de Curitiba",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/deportes/2026/10/31/julia-riera-dio-vuelta-un-partido-increible-ante-solana-sierra-y-se-metio-en-las-semifinales-del-wta-de-curitiba/",
+   "titulo": "Julia Riera se despidió de Curitiba en semifinales, pero consiguió un triunfo clave ante Solana Sierra",
+   "medio": "Pergamino Virtual",
+   "url": "https://www.pergaminovirtual.com.ar/amp/julia-riera-se-despidio-de-curitiba-en-semifinales-pero-consiguio-un-triunfo-clave-ante-solana-sierra-17371.html",
    "region": "AR",
    "tema": "Solana Sierra"
   },
   {
-   "titulo": "El S&P 500 cae 90 puntos en la última sesión de la semana; el foco está en las elecciones intermedias de EE.UU.",
-   "medio": "FXStreet",
-   "url": "https://www.fxstreet.es/news/el-sp-500-cae-90-puntos-en-la-ultima-sesion-de-la-semana-el-foco-se-concentra-en-las-elecciones-intermedias-de-eeuu-202610302101",
+   "titulo": "S&P 500 pone en riesgo su racha de ganancias ante las dudas sobre la IA y las elecciones en Estados Unidos",
+   "medio": "El CEO",
+   "url": "https://elceo.com/mercados/sp-500-riesgo-su-racha-ganancias-ante-dudas-sobre-ia-y-elecciones-estados-unidos/",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Startup de exmiembros del DOGE dice que sus agentes de IA entraron en sistemas internos de Anthropic en 12 horas",
-   "medio": "La Razón",
-   "url": "https://www.larazon.es/tecnologia-consumo/inteligencia-artificial/startup-fundada-exmiembros-doge-musk-asegura-sus-agentes-ia-entraron-sistemas-internos-anthropic-menos-12-horas_202611016ae4864b6973466c29e33211.html",
+   "titulo": "DeepSeek estrena Creator Mode y apuesta por agentes de IA que construyen plugins",
+   "medio": "DiarioBitcoin",
+   "url": "https://www.diariobitcoin.com/china/deepseek-estrena-creator-mode-y-apuesta-por-agentes-de-ia-que-construyen-plugins/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "El FBI atribuye a Corea del Norte el robo de más de 6.000 millones de dólares en criptomonedas a Binance",
-   "medio": "20minutos",
-   "url": "https://www.20minutos.es/internacional/fbi-atribuye-corea-norte-robo-mas-6-000-millones-dolares-criptomonedas-binance_7055981_0.html",
+   "titulo": "¿Qué hacer después del hackeo en Binance?: esto recomiendan los economistas",
+   "medio": "El Pitazo",
+   "url": "https://elpitazo.net/economia/que-hacer-despues-del-hackeo-en-binance-esto-recomiendan-los-economistas/",
    "region": "MUNDO",
    "tema": "Binance"
   }
