@@ -37,6 +37,9 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://www.instagram.com/p/DfSCdwkiYFM/", date: "2026-11-03", note: "Qué importante aprender a perder", tags: ["roca","resilencia"] },
+  { url: "https://x.com/InvernizziMario/status/2117112682037817718", date: "2026-11-03", tags: ["milei","cámara de compensación"] },
+  { url: "https://x.com/enzombie_/status/2116270820951810215", date: "2026-11-03", tags: ["claude"] },
   { url: "https://x.com/literlandweb1/status/2116614864772780249", date: "2026-10-31", tags: ["dostoievski","letras"] },
   { url: "https://x.com/MinDeLaVerdad/status/2115761715014987949", date: "2026-10-29", tags: ["españa","trenes","ave"] },
   { url: "https://www.instagram.com/reel/DfAnpgDsD8S/", date: "2026-10-28", tags: ["alberto","ponele voluntad"] },
