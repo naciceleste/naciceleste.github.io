@@ -6,6 +6,15 @@ window.YOUTUBE = {
   "url": "https://www.youtube.com/playlist?list=PLJ-DohLIgv3w",
   "videos": [
     {
+      "id": "l2nsb8BRzcs",
+      "title": "Vine a Rosario por un motivo muy especial",
+      "channel": "las rutas de juan",
+      "channelUrl": "https://www.youtube.com/channel/UCx5AtbhVYImq6w9F7X5Vr2A",
+      "published": "2025-12-15",
+      "short": false,
+      "added": "2026-11-03"
+    },
+    {
       "id": "8tl3ozNptb8",
       "title": "Miedo a ser nadie: por qué construimos monumentos",
       "channel": "Andrés Caramés",
