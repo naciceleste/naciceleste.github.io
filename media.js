@@ -1,6 +1,31 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "instagram:DfSCdwkiYFM": {
+    "network": "instagram",
+    "h": 1136,
+    "w": 640,
+    "kind": "video",
+    "author": "rocaproject_",
+    "date": "2026-11-03T13:57:06.000Z"
+  },
+  "x:2117112682037817718": {
+    "network": "x",
+    "date": "2026-11-02T04:32:52.000Z",
+    "author": "InvernizziMario",
+    "text": "dios mando a Borges, Sábato, Saavedra Lamas, Cortazar, Filiberto, Leloir, Storni, Abalos, Pérez Esquivel, Bioy Casares, Cerati, Solari, Ocampo, Güiraldes, Schweblin,Arias, Walsh y algunos más para orgullo de los argentinos \n\npara equilibrar la balanza le alcanzó con uno solo",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2117112608230699008/img/Nj9v7pi3HjklOKD9.jpg",
+    "kind": "video",
+    "w": 444,
+    "h": 360
+  },
+  "x:2116270820951810215": {
+    "network": "x",
+    "date": "2026-10-30T20:47:36.000Z",
+    "author": "enzombie_",
+    "text": "Claude anda a la ferretería y traeme dos metros de cable inalámbrico",
+    "kind": "text"
+  },
   "x:2116614864772780249": {
     "network": "x",
     "date": "2026-10-31T19:34:43.000Z",
