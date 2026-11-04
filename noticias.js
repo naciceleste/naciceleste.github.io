@@ -1,251 +1,286 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-02",
+ "actualizado": "2026-11-03",
  "items": [
   {
-   "titulo": "El Gobierno negó que haya preocupación por las posibles críticas del Papa",
-   "medio": "TN",
-   "url": "https://tn.com.ar/politica/2026/11/02/javier-milei-mantiene-reuniones-en-la-casa-rosada-con-la-mira-en-su-viaje-a-espana-y-las-elecciones-en-eeuu/",
+   "titulo": "Javier Milei no invitó a los expresidentes para la visita del Papa León XIV a Argentina",
+   "medio": "La 100",
+   "url": "https://la100.cienradios.com/politica/javier-milei-no-invito-a-los-expresidentes-para-la-visita-del-papa-leon-xiv-a-argentina/",
    "region": "AR",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Orsi celebró la reducción de la inseguridad alimentaria en menores de seis años",
-   "medio": "Valor Agregado",
-   "url": "https://valoragregado.news/nacionales/orsi-celebro-la-reduccion-de-la-inseguridad-alimentaria-en-menores-de-seis-anos/",
+   "titulo": "Uruguay — Gobierno decretó dos días de duelo nacional por la muerte de tres militares en el río Uruguay",
+   "medio": "Prensa Mercosur",
+   "url": "https://prensamercosur.org/2026/11/03/uruguay-gobierno-decreto-dos-dias-de-duelo-nacional-por-la-muerte-de-tres-militares-en-el-rio-uruguay/",
    "region": "UY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Bryan Ruiz se deja ver en todo lado como técnico de la Selección de Costa Rica",
-   "medio": "InFact CR",
-   "url": "https://www.infactcr.com/articulo/bryan-ruiz-se-deja-ver-en-todo-lado-como-tecnico-de-la-seleccion-de-costa-rica",
+   "titulo": "Bryan Ruiz anuncia que Manfred Ugalde asumirá un nuevo rol en la Tricolor",
+   "medio": "Periódico La República (Costa Rica)",
+   "url": "https://www.larepublica.net/bryan-ruiz-anuncia-que-manfred-ugalde-asumira-un-nuevo-rol-en-la-tricolor/",
    "region": "CR",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "OpenAI suma a Mark Esper para ampliar su estrategia de inteligencia artificial militar",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/estados-unidos/openai-suma-a-mark-esper-para-ampliar-su-estrategia-de-inteligencia-artificial-militar/",
+   "titulo": "El Gobierno aprueba el Código de Ética de la Inteligencia Artificial para garantizar un Estado digital más…",
+   "medio": "Presidencia de la República Dominicana",
+   "url": "https://www.presidencia.gob.do/noticias/el-gobierno-aprueba-el-codigo-de-etica-de-la-inteligencia-artificial-para-garantizar-un",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Feijóo acusa a Sánchez de estar pendiente de las encuestas tras la tragedia de Urda y ofrece gestión",
-   "medio": "Europa Press",
-   "url": "https://www.europapress.es/nacional/noticia-feijoo-acusa-sanchez-estar-pendiente-encuestas-tragedia-urda-ofrece-gestion-yo-si-hacerlo-20261102130655.html",
+   "titulo": "Ministro de Transporte dimite tras tragedia ferroviaria en España: “Es una cuestión de dignidad política”",
+   "medio": "Proyecto Puente",
+   "url": "https://proyectopuente.com.mx/2026/11/03/ministro-de-transporte-dimite-tras-tragedia-ferroviaria-en-espana-es-una-cuestion-de-dignidad-politica/",
    "region": "ES",
    "tema": "Política"
   },
   {
-   "titulo": "Jorge Suárez: doble trasplante, 21 meses sin actuar y regreso al teatro con Facundo Arana",
-   "medio": "Entretenimientos Córdoba",
-   "url": "https://entretenimientoscordoba.com.ar/2026/11/02/la-historia-de-jorge-suarez-tres-bypass-un-doble-trasplante-de-rinon-y-pancreas-21-meses-sin-poder-actuar-y-ahora-se-luce-en-calle-corrientes/",
+   "titulo": "Javier Milei no convocó a los expresidentes a la recepción oficial del papa León XIV",
+   "medio": "Radio Mitre",
+   "url": "https://radiomitre.cienradios.com/politica/javier-milei-no-convoco-a-los-expresidentes-a-la-recepcion-oficial-del-papa-leon-xiv/",
+   "region": "AR",
+   "tema": "Javier Milei"
+  },
+  {
+   "titulo": "Presidencia decreta dos días de duelo nacional por la muerte de los tres militares en el río Uruguay",
+   "medio": "subrayado.com.uy",
+   "url": "https://www.subrayado.com.uy/presidencia-decreta-dos-dias-duelo-nacional-la-muerte-los-tres-militares-el-rio-uruguay-n1022452",
+   "region": "UY",
+   "tema": "Yamandú Orsi"
+  },
+  {
+   "titulo": "Manfred Ugalde, designado como uno de los capitanes de Costa Rica",
+   "medio": "Fútbol Centroamérica",
+   "url": "https://futbolcentroamerica.com/noticias/manfred-ugalde-designado-como-uno-de-los-capitanes-de-costa-rica-aqhVd5c27yXq",
+   "region": "CR",
+   "tema": "Bryan Ruiz"
+  },
+  {
+   "titulo": "Gobierno aprueba Código de Ética para regular uso de la inteligencia artificial en el Estado",
+   "medio": "El Nuevo Diario",
+   "url": "https://elnuevodiario.com.do/gobierno-aprueba-codigo-de-etica-para-regular-uso-de-la-inteligencia-artificial-en-el-estado/",
+   "region": "MUNDO",
+   "tema": "Inteligencia Artificial"
+  },
+  {
+   "titulo": "Ministro de Transportes de España dimite tras tragedia ferroviaria",
+   "medio": "DW.com",
+   "url": "https://amp.dw.com/es/ministro-de-transportes-de-espa%C3%B1a-dimite-tras-tragedia-ferroviaria/a-79848891",
+   "region": "ES",
+   "tema": "Política"
+  },
+  {
+   "titulo": "Florencia Peña y Juliana Gattas protagonizarán Chicago: cuándo se estrena y dónde verlo",
+   "medio": "Revista OHLALÁ!",
+   "url": "https://www.somosohlala.com/espectaculos/florencia-pena-y-juliana-gattas-protagonizaran-chicago-cuando-se-estrena-y-donde-verlo-nid03112026",
    "region": "AR",
    "tema": "Facundo Arana"
   },
   {
-   "titulo": "Jorge Díaz dice que quiere ganarle a Lacalle Pou y la oposición lo acusa de meterse en la campaña",
-   "medio": "Caras y Caretas",
-   "url": "https://www.carasycaretas.com.uy/politica/jorge-diaz-dice-que-quiere-ganarle-lacalle-pou-y-la-oposicion-lo-acusa-meterse-la-campana-n100669",
+   "titulo": "Valenti presentará denuncia a Lacalle Pou y Javier García",
+   "medio": "uy press",
+   "url": "https://www.uypress.net/Politica/Valenti-presentara-denuncia-a-Lacalle-Pou-y-Javier-Garcia-uc157586",
    "region": "UY",
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Bryan Ruiz presente en “La Cueva” para ver el Clásico Nacional",
-   "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/noticia/bryan-ruiz-presente-en-la-cueva-para-ver-el-clasico-nacional/",
-   "region": "CR",
-   "tema": "Bryan Ruiz"
-  },
-  {
-   "titulo": "ChatGPT suma 250 millones de usuarios semanales de voz y dictado",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/tecnologia/chatgpt-suma-250-millones-de-usuarios-semanales-de-voz-y-dictado/",
-   "region": "MUNDO",
-   "tema": "Inteligencia Artificial"
-  },
-  {
-   "titulo": "Sánchez retoma la precampaña del PSOE para el 29N con un acto este viernes en la ciudad de València",
-   "medio": "Europa Press",
-   "url": "https://www.europapress.es/comunitat-valenciana/noticia-sanchez-retoma-precampana-psoe-29n-acto-viernes-ciudad-valencia-20261102150930.html",
-   "region": "ES",
-   "tema": "Política"
-  },
-  {
-   "titulo": "El nuevo Aragorn habla de la presión de sustituir a Viggo Mortensen: “No pretendo superar a Viggo”",
-   "medio": "elDiario.es",
-   "url": "https://www.eldiario.es/spin/no-pretendo-superar-viggo-mortensen-nuevo-actor-senor-anillos-habla-presion-interpretar-aragorn-pm_1_13626424.html",
-   "region": "AR",
-   "tema": "Viggo Mortensen"
-  },
-  {
-   "titulo": "Oscar Belo y Gran Hermano: “Capaz que nos cuesta más el quilombo, pero iba a haber show”",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Noticias/Oscar-Belo-y-Gran-Hermano--Capaz-que-nos-cuesta-mas-el-quilombo-pero-iba-a-haber-show--uc980351",
-   "region": "UY",
-   "tema": "Gran Hermano"
-  },
-  {
-   "titulo": "Diputados de oposición se suman a plantón universitario contra recortes",
-   "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/noticia/diputados-de-oposicion-se-suman-a-planton-universitario-contra-recortes/",
+   "titulo": "Dietas de diputados seguirán congeladas por ley desde 2018, no por el Directorio",
+   "medio": "CR Hoy",
+   "url": "https://crhoy.com/nacionales/dietas-de-diputados-seguiran-congeladas-por-ley-desde-2018-no-por-el-directorio/",
    "region": "CR",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Wall Street cambia de horario: cómo afecta a las operaciones de la Bolsa en la Argentina",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/economia/2026/11/02/wall-street-cambia-de-horario-como-afecta-a-las-operaciones-de-la-bolsa-en-la-argentina/",
+   "titulo": "Wall Street cierra mixto tras ganancias en el sector de los chips y pérdidas en Apple",
+   "medio": "El Informador",
+   "url": "https://www.informador.mx/economia/wall-street-cierra-mixto-tras-ganancias-en-el-sector-de-los-chips-y-perdidas-en-apple-20261103-0185.html",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Illa apuesta por mantener la alta velocidad entre Barcelona y Madrid durante la remodelación",
-   "medio": "Europa Press",
-   "url": "https://www.europapress.es/catalunya/noticia-illa-apuesta-mantener-alta-velocidad-barcelona-madrid-remodelacion-20261102094201.html",
+   "titulo": "El AVE, la joya ferroviaria española, acaba con la carrera política de Puente",
+   "medio": "Noticias de Gipuzkoa",
+   "url": "https://www.noticiasdegipuzkoa.eus/politica/2026/11/03/ave-joya-ferroviaria-espanola-acaba-puente-11719614.html",
    "region": "ES",
    "tema": "AVE"
   },
   {
-   "titulo": "La China Ansa aclaró de dónde surgió la consulta que desató el escándalo con Santi Maratea en PH",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/teleshow/2026/11/02/pregunta-armada-la-china-ansa-aclaro-de-donde-surgio-la-consulta-que-desato-el-escandalo-con-santi-maratea-en-ph/",
+   "titulo": "Facundo Arana y su felicidad por la posibilidad de hacer Chiquititas El Musical en 2027",
+   "medio": "NewsDigitales",
+   "url": "https://www.newsdigitales.com/nota/349124/facundo-arana-y-su-felicidad-por-la-posibilidad-de-hacer-chiquititas-el-musical-en-2027/",
    "region": "AR",
-   "tema": "Telefé"
+   "tema": "Facundo Arana"
   },
   {
-   "titulo": "Fernando Muslera y su flojo partido del sábado: “Ojalá que me sigan pasando los errores”",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Deportes/Fernando-Muslera-y-su-flojo-partido-del-sabado--Ojala-que-me-sigan-pasando-los-errores--uc980700",
+   "titulo": "El futuro de GRAN HERMANO: ya hay fechas para ARGENTINA, Chile y Paraguay",
+   "medio": "Howl.Link",
+   "url": "https://t.co/cbvX8oW2bc",
    "region": "UY",
-   "tema": "Selección Uruguaya"
+   "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Rodrigo Chaves lanza fuertes acusaciones contra la cúpula judicial por caso de Jimena Rueda",
-   "medio": "NCR Noticias",
-   "url": "https://ncrnoticias.com/politica/una-podredumbre-rodrigo-chaves-lanza-fuertes-acusaciones-contra-la-cupula-judicial-por-caso-de-jimena-rueda/",
+   "titulo": "PPSO impulsa permitir extradición de nacionales con procesos penales o condenas pendientes",
+   "medio": "CR Hoy",
+   "url": "https://crhoy.com/nacionales/ppso-impulsa-permitir-extradicion-de-nacionales-con-procesos-penales-o-condenas-pendientes/",
    "region": "CR",
-   "tema": "Poder Judicial"
+   "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Wall Street cierra sin dirección clara tras ventas en el sector tecnológico",
-   "medio": "Unitel",
-   "url": "https://unitel.bo/noticias/agencias/wall-street-cierra-sin-direccion-clara-tras-ventas-en-el-sector-tecnologico-BH24545114",
+   "titulo": "La IA sostiene a Wall Street antes de las elecciones legislativas de EEUU",
+   "medio": "El Boletín",
+   "url": "https://www.elboletin.com/la-ia-sostiene-a-wall-street-antes-de-las-elecciones-legislativas-de-eeuu/",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Óscar Puente acude mañana al Congreso para rendir cuentas por el accidente de Urda",
-   "medio": "Periódico de Ibiza",
-   "url": "https://www.periodicodeibiza.es/noticias/nacional/2026/11/02/2741565/oscar-puente-acude-manana-congreso-para-rendir-cuentas-por-accidente-urda.html",
+   "titulo": "El Gobierno contempla reabrir el AVE a Andalucía en un máximo de 10 días con menos frecuencias",
+   "medio": "CLMPress",
+   "url": "https://clmpress.com/n/2026/11/el-gobierno-contempla-reabrir-el-ave-a-andalucia-en-un-maximo-de-10-dias-con-menos-frecuencias/",
    "region": "ES",
-   "tema": "Oscar Puente"
+   "tema": "AVE"
   },
   {
-   "titulo": "Tensión entre Maratea y la China Ansa: PH pausó la grabación",
-   "medio": "Voces Tucumán",
-   "url": "https://vocestucuman.com.ar/espectaculos/tension-entre-maratea-y-la-china-ansa-ph-pauso-la-grabacion",
+   "titulo": "Helmut Ditsch: el artista argentino que llevó la pintura al cine y podrá verse en el festival",
+   "medio": "0223.com.ar",
+   "url": "https://www.0223.com.ar/nota/2026-11-2-12-7-0-helmut-ditsch-el-artista-argentino-que-llevo-la-pintura-al-cine-y-podra-verse-en-el-festival",
    "region": "AR",
-   "tema": "Telefé"
+   "tema": "Viggo Mortensen"
   },
   {
-   "titulo": "Uruguay vs. Argentina en noviembre de 2026: cuándo juegan y qué se sabe del equipo de Forlán",
-   "medio": "Nación UY",
-   "url": "https://nacion.com.uy/redaccion/uruguay-argentina-amistoso-noviembre-2026-fecha-fifa-forlan",
+   "titulo": "“Me lo mandó mi abuela”: Etcheverry conducirá la llegada del papa León XIV al Centenario",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Pantallazo/-Me-lo-mando-mi-abuela--Etcheverry-conducira-la-llegada-del-papa-Leon-XIV-al-Centenario-uc980891?plantilla=1734&proceso=amp",
    "region": "UY",
-   "tema": "Selección Uruguaya"
+   "tema": "Gran Hermano"
   },
   {
-   "titulo": "Nueva canasta del IPC amplía el efecto cambiario en la inflación",
-   "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/noticia/nueva-canasta-del-ipc-amplia-el-efecto-cambiario-en-la-inflacion/",
+   "titulo": "Poder Judicial finalmente cuenta con Reglamento para nombrar en propiedad a fiscales",
+   "medio": "Semanario Universidad",
+   "url": "https://semanariouniversidad.com/pais/poder-judicial-finalmente-cuenta-con-reglamento-para-nombrar-en-propiedad-a-fiscales/",
    "region": "CR",
-   "tema": "Banco Central"
+   "tema": "Poder Judicial"
   },
   {
-   "titulo": "Elon Musk reduce los límites de uso de Grok Bot por sus costos insosteniblemente altos",
-   "medio": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+   "titulo": "Elon Musk recorta límites de Grok Bot por costos insostenibles",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Negocios-y-Tendencias/Elon-Musk-recorta-limites-de-Grok-Bot-por-costos-insostenibles-uc980817",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Ratings del domingo 1 de noviembre: estos fueron los programas más vistos de cada canal de la TV Abierta",
-   "medio": "television.com.ar",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-domingo-1-de-noviembre-estos-fueron-los-programas-mas-vistos-de-cada-canal-de-la-tv-abierta-2026-11-01/",
+   "titulo": "Óscar Puente dimite como ministro de Transportes",
+   "medio": "ORAIN",
+   "url": "https://orain.eus/es/politica/2026/11/03/oscar-puente-dimite-ministro-transportes/",
+   "region": "ES",
+   "tema": "Oscar Puente"
+  },
+  {
+   "titulo": "Santiago del Moro conducirá en Telefe la versión argentina de Bailando con las estrellas",
+   "medio": "Telebajocero",
+   "url": "https://www.telebajocero.com/santiago-del-moro/santiago-del-moro-conducira-telefe-la-version-argentina-bailando-las-estrellas-n1360976",
    "region": "AR",
-   "tema": "Ratings TV"
+   "tema": "Telefé"
   },
   {
-   "titulo": "San Cono, la capilla que guarda camisetas del maracanazo y de Diego Forlán entre miles de ofrendas",
-   "medio": "Hola News",
-   "url": "https://holanews.com/san-cono-la-capilla-uruguaya-que-guarda-una-camiseta-del-maracanazo-y-miles-de-ofrendas/",
+   "titulo": "Gustavo y Jessica protagonizaron un explosivo cruce en Gran Hermano Uruguay",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Pantallazo/Gustavo-y-Jessica-protagonizaron-un-explosivo-cruce-en-Gran-Hermano-Uruguay-uc980876",
    "region": "UY",
-   "tema": "Diego Forlán"
+   "tema": "Gran Hermano"
   },
   {
-   "titulo": "Hermes Agent deja de ocultar caracteres en las solicitudes de aprobación",
-   "medio": "bwotec",
-   "url": "https://bwotec.com/hermes-yesterday-2026-11-01/",
+   "titulo": "Presidenta del Poder Judicial ante aprobación de reglamento para nombrar fiscales: \"Se está saldando una…",
+   "medio": "El Observador CR",
+   "url": "https://observador.cr/presidenta-del-poder-judicial-ante-aprobacion-de-reglamento-para-nombrar-fiscales-se-esta-saldando-una-deuda-con-el-pais/",
+   "region": "CR",
+   "tema": "Poder Judicial"
+  },
+  {
+   "titulo": "Musk justifica los límites de Grok Bot por sus costos frente a los ingresos",
+   "medio": "CriptoTendencia",
+   "url": "https://criptotendencia.com/2026/11/03/musk-justifica-los-limites-de-grok-bot-por-sus-costos-frente-a-los-ingresos/",
+   "region": "MUNDO",
+   "tema": "Grok Bot"
+  },
+  {
+   "titulo": "Óscar Puente dimite como ministro de Transportes tras la tragedia de Urda",
+   "medio": "La Voz de Galicia",
+   "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/03/oscar-puente-dimite-ministro-transportes/00031793736767788462389.htm",
+   "region": "ES",
+   "tema": "Oscar Puente"
+  },
+  {
+   "titulo": "Se conocieron las ocho finalistas de Popstars: quiénes quedaron a un paso de conformar Chapeaux",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/teleshow/2026/11/03/se-conocieron-las-ocho-finalistas-de-popstars-quienes-quedaron-a-un-paso-de-conformar-chapeaux/",
+   "region": "AR",
+   "tema": "Telefé"
+  },
+  {
+   "titulo": "Flamengo intenta anticipar el regreso de Arrascaeta y Varela de Uruguay",
+   "medio": "es.jetss.com",
+   "url": "https://es.jetss.com/2026/11/04/flamengo-intenta-anticipar-el-regreso-de-arrascaeta-y-varela-de-uruguay/",
+   "region": "UY",
+   "tema": "Selección Uruguaya"
+  },
+  {
+   "titulo": "Banco Nacional venderá nueva moneda de ¢100 dedicada al calipso limonense",
+   "medio": "Periódico La República (Costa Rica)",
+   "url": "https://www.larepublica.net/monedas-coleccionables/",
+   "region": "CR",
+   "tema": "Banco Central"
+  },
+  {
+   "titulo": "Vercel Security Review: escaneo con IA en cada push",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/vercel-security-review-escaneo-con-ia-en-cada-push/",
    "region": "MUNDO",
    "tema": "Hermes Agent"
   },
   {
-   "titulo": "Rating del domingo 1 de noviembre: MasterChef Celebrity lideró la medición diaria",
-   "medio": "Misiones y Vos",
-   "url": "https://misionesyvos.com/2026/11/02/rating-domingo-1-noviembre-masterchef-celebrity-lider/",
-   "region": "AR",
-   "tema": "Ratings TV"
+   "titulo": "El mensaje de Josema Giménez ante descenso de Danubio: \"Vamos a volver de donde no merecimos irnos jamás\"",
+   "medio": "Caras y Caretas",
+   "url": "https://www.carasycaretas.com.uy/deportes/el-mensaje-josema-gimenez-descenso-danubio-vamos-volver-donde-no-merecimos-irnos-jamas-n100740/amp",
+   "region": "UY",
+   "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Bitcoin (BTC) retrocede el 2 de noviembre de 2026 y se acerca a una zona técnica decisiva",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/analisis/bitcoin-btc-retrocede-el-2-de-noviembre-de-2026-y-se-acerca-a-una-zona-tecnica-decisiva/",
+   "titulo": "Mujeres representan el 63.7% de las personas fuera de la fuerza laboral en Costa Rica",
+   "medio": "CRprensa.com",
+   "url": "https://crprensa.com/2026/11/03/mujeres-representan-el-63-7-de-las-personas-fuera-de-la-fuerza-laboral-en-costa-rica/",
+   "region": "CR",
+   "tema": "Banco Central"
+  },
+  {
+   "titulo": "IBM CUGA: el motor de agentes que sube del 30% al 81%",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/ibm-cuga-el-motor-de-agentes-que-sube-del-30-al-81/",
+   "region": "MUNDO",
+   "tema": "Hermes Agent"
+  },
+  {
+   "titulo": "Salen a la venta las entradas para el clásico Argentina-Uruguay en La Bombonera: precios y todo lo que hay…",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/deportes/2026/11/03/salen-a-la-venta-las-entradas-para-el-clasico-argentina-uruguay-en-la-bombonera-precios-y-todo-lo-que-hay-que-saber/",
+   "region": "UY",
+   "tema": "Diego Forlán"
+  },
+  {
+   "titulo": "Wall Street acabó con las subidas desbocadas de Bitcoin: Markus Thielen, de 10x",
+   "medio": "TradingView",
+   "url": "https://www.tradingview.com/news/cointelegraph:e5c3fadc609cd:0/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "Messi fue figura y rescató a Inter Miami ante New England con un gol y una asistencia",
-   "medio": "TyC Sports",
-   "url": "https://www.tycsports.com/estados-unidos/mls/estados-unidos-mls-2026-new-england-revolution-vs-inter-miami-semana-27-id769522.html",
-   "region": "AR",
-   "tema": "Lionel Messi"
-  },
-  {
-   "titulo": "Visita del papa León XIV a Uruguay: el martes habilitarán una nueva tanda de entradas",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Noticias/Visita-del-papa-Leon-XIV-a-Uruguay-el-martes-habilitaran-una-nueva-tanda-de-entradas-uc980653",
-   "region": "MUNDO",
-   "tema": "Papa León XIV"
-  },
-  {
-   "titulo": "Julia Riera se despidió de Curitiba en semifinales, pero consiguió un triunfo clave ante Solana Sierra",
-   "medio": "Pergamino Virtual",
-   "url": "https://www.pergaminovirtual.com.ar/amp/julia-riera-se-despidio-de-curitiba-en-semifinales-pero-consiguio-un-triunfo-clave-ante-solana-sierra-17371.html",
-   "region": "AR",
-   "tema": "Solana Sierra"
-  },
-  {
-   "titulo": "S&P 500 pone en riesgo su racha de ganancias ante las dudas sobre la IA y las elecciones en Estados Unidos",
-   "medio": "El CEO",
-   "url": "https://elceo.com/mercados/sp-500-riesgo-su-racha-ganancias-ante-dudas-sobre-ia-y-elecciones-estados-unidos/",
-   "region": "MUNDO",
-   "tema": "S&P 500"
-  },
-  {
-   "titulo": "DeepSeek estrena Creator Mode y apuesta por agentes de IA que construyen plugins",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/china/deepseek-estrena-creator-mode-y-apuesta-por-agentes-de-ia-que-construyen-plugins/",
-   "region": "MUNDO",
-   "tema": "Agentes IA"
-  },
-  {
-   "titulo": "¿Qué hacer después del hackeo en Binance?: esto recomiendan los economistas",
-   "medio": "El Pitazo",
-   "url": "https://elpitazo.net/economia/que-hacer-despues-del-hackeo-en-binance-esto-recomiendan-los-economistas/",
-   "region": "MUNDO",
-   "tema": "Binance"
+   "titulo": "El museo del fútbol que nadie esperaba está en una capilla de Uruguay",
+   "medio": "ABC",
+   "url": "https://www.abc.es/deportes/museo-futbol-esperaba-capilla-uruguay-20261102160108-nt.html",
+   "region": "UY",
+   "tema": "Diego Forlán"
   }
  ]
 };
