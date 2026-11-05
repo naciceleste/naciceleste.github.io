@@ -37,6 +37,7 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://x.com/eldestapeweb/status/2116266201391444472", date: "2026-11-04", tags: ["joven abogada","milei","no hay plata"] },
   { url: "https://www.instagram.com/p/DfSCdwkiYFM/", date: "2026-11-03", note: "Qué importante aprender a perder", tags: ["roca","resilencia"] },
   { url: "https://x.com/InvernizziMario/status/2117112682037817718", date: "2026-11-03", tags: ["milei","cámara de compensación"] },
   { url: "https://x.com/enzombie_/status/2116270820951810215", date: "2026-11-03", tags: ["claude"] },

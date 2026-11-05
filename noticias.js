@@ -1,25 +1,25 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-03",
+ "actualizado": "2026-11-04",
  "items": [
   {
-   "titulo": "El Gobierno aprueba el Código de Ética de la Inteligencia Artificial para garantizar un Estado digital más…",
-   "medio": "Presidencia de la República Dominicana",
-   "url": "https://www.presidencia.gob.do/noticias/el-gobierno-aprueba-el-codigo-de-etica-de-la-inteligencia-artificial-para-garantizar-un",
+   "titulo": "Apple recorta el gasto de sus empleados en inteligencia artificial",
+   "medio": "Yahoo",
+   "url": "https://es.finance.yahoo.com/noticias/apple-recorta-gasto-empleados-inteligencia-200301422.html",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Javier Milei no invitó a los expresidentes para la visita del Papa León XIV a Argentina",
-   "medio": "La 100",
-   "url": "https://la100.cienradios.com/politica/javier-milei-no-invito-a-los-expresidentes-para-la-visita-del-papa-leon-xiv-a-argentina/",
+   "titulo": "Javier Milei y su mensaje al papa León XIV: \"La Argentina lo espera con enorme alegría\"",
+   "medio": "Todo Jujuy",
+   "url": "https://www.todojujuy.com/pais/javier-milei-y-su-mensaje-al-papa-leon-xiv-la-argentina-lo-espera-enorme-alegria-n298419",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Uruguay — Gobierno decretó dos días de duelo nacional por la muerte de tres militares en el río Uruguay",
-   "medio": "Prensa Mercosur",
-   "url": "https://prensamercosur.org/2026/11/03/uruguay-gobierno-decreto-dos-dias-de-duelo-nacional-por-la-muerte-de-tres-militares-en-el-rio-uruguay/",
+   "titulo": "El Presidente Yamandú Orsi recibe a líderes globales de la B'nai B'rith",
+   "medio": "GUB.UY",
+   "url": "https://www.gub.uy/ministerio-relaciones-exteriores/embajada-republica-oriental-del-uruguay-israel/novedades-eventos/presidente-yamandu-orsi-recibe",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
@@ -31,30 +31,30 @@ window.NOTICIAS = {
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Ministro de Transportes de España renuncia tras choque de trenes",
-   "medio": "El Universal",
-   "url": "https://www.eluniversal.com.mx/mundo/ministro-de-transportes-de-espana-renuncia-tras-choque-de-trenes-dimision-es-una-cuestion-de-dignidad-politica-dice/",
+   "titulo": "Milei llegó a España y se reunió con el líder de VOX tras faltar a la foto oficial de la Cumbre Iberoamericana",
+   "medio": "Los Andes",
+   "url": "https://www.losandes.com.ar/politica/milei-llego-espana-y-se-reunio-el-lider-vox-faltar-la-foto-oficial-la-cumbre-iberoamericana-n6013060",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Alianza Iberoamericana de Inteligencia Artificial",
-   "medio": "Prensa Latina",
-   "url": "https://www.prensa-latina.cu/2026/11/03/alianza-iberoamericana-de-inteligencia-artificial/",
+   "titulo": "Venezuela respalda creación de Alianza Iberoamericana de Inteligencia Artificial",
+   "medio": "DiarioVea",
+   "url": "https://diariovea.com.ve/venezuela-respalda-creacion-de-alianza-iberoamericana-de-inteligencia-artificial/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Florencia Peña y Juliana Gattas protagonizarán Chicago: cuándo se estrena y dónde verlo",
-   "medio": "Revista OHLALÁ!",
-   "url": "https://www.somosohlala.com/espectaculos/florencia-pena-y-juliana-gattas-protagonizaran-chicago-cuando-se-estrena-y-donde-verlo-nid03112026",
+   "titulo": "La historia de la familia rusa que dejó Siberia y eligió Paraná para vivir",
+   "medio": "9 Digital",
+   "url": "https://9digital.com.ar/la-historia-de-la-familia-rusa-que-dejo-siberia-y-eligio-parana-para-vivir/",
    "region": "ARGENTINA",
    "tema": "Facundo Arana"
   },
   {
    "titulo": "Valenti presentará denuncia a Lacalle Pou y Javier García",
-   "medio": "uy press",
-   "url": "https://www.uypress.net/Politica/Valenti-presentara-denuncia-a-Lacalle-Pou-y-Javier-Garcia-uc157586",
+   "medio": "El Eco Digital",
+   "url": "https://elecodigital.com.uy/politica/valenti-presentara-denuncia-a-lacalle-pou-y-javier-garcia/",
    "region": "URUGUAY",
    "tema": "Luis Alberto Lacalle"
   },
@@ -66,184 +66,177 @@ window.NOTICIAS = {
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Accidente de trenes en España: Renuncia Óscar Puente, ministro de Transportes",
-   "medio": "El Financiero",
-   "url": "https://www.elfinanciero.com.mx/mundo/2026/11/03/accidente-de-trenes-en-espana-renuncia-oscar-puente-ministro-de-transportes/",
+   "titulo": "Zelenski llega a España por sorpresa en el marco de la XXX Cumbre Iberoamericana",
+   "medio": "DW.com",
+   "url": "https://www.dw.com/es/zelenski-llega-a-espa%C3%B1a-por-sorpresa-en-el-marco-de-la-xxx-cumbre-iberoamericana/a-79859596",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Wall Street cierra mixto tras ganancias en el sector de los chips y pérdidas en Apple",
-   "medio": "El Informador",
-   "url": "https://www.informador.mx/economia/wall-street-cierra-mixto-tras-ganancias-en-el-sector-de-los-chips-y-perdidas-en-apple-20261103-0185.html",
+   "titulo": "Wall Street se dispara: Dow Jones gana 1,500 puntos tras victoria demócrata",
+   "medio": "Comercio TV",
+   "url": "https://www.comercio.tv/p/wall-street-se-dispara-dow-jones-gana-1-500-puntos-tras-victoria-dem-crata",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Helmut Ditsch: el artista argentino que llevó la pintura al cine y podrá verse en el festival",
-   "medio": "0223.com.ar",
-   "url": "https://www.0223.com.ar/nota/2026-11-2-12-7-0-helmut-ditsch-el-artista-argentino-que-llevo-la-pintura-al-cine-y-podra-verse-en-el-festival",
+   "titulo": "Santiago del Moro conducirá \"Bailando con las Estrellas\" y Telefe reestructura su grilla",
+   "medio": "GN Noticias",
+   "url": "https://gnnoticias.com.ar/espectaculos/santiago-del-moro-conducira-bailando-con-las-estrellas-y-telefe-reestructura-su-grilla",
    "region": "ARGENTINA",
-   "tema": "Viggo Mortensen"
+   "tema": "Telefé"
   },
   {
-   "titulo": "Marta Fort (Argentina): “100 mil dólares”, la impactante cifra que reconoció haber gastado en un mes.",
+   "titulo": "Wanda Nara (Uruguay): “Nos divertimos un montón”, afirmó al recordar su vínculo con Álvaro Navia.",
    "medio": "Cadena del Mar",
-   "url": "https://cadenadelmar.uy/espectaculo/marta-fort-argentina-100-mil-dolares-la-impactante-cifra-que-reconocio-haber-gastado-en-un-mes-25994",
+   "url": "https://cadenadelmar.uy/espectaculo/wanda-nara-uruguay-nos-divertimos-un-monton-afirmo-al-recordar-su-vinculo-con-alvaro-navia-26041",
    "region": "URUGUAY",
    "tema": "Gran Hermano"
   },
   {
-   "titulo": "Dietas de diputados seguirán congeladas por ley desde 2018, no por el Directorio",
-   "medio": "CR Hoy",
-   "url": "https://crhoy.com/nacionales/dietas-de-diputados-seguiran-congeladas-por-ley-desde-2018-no-por-el-directorio/",
+   "titulo": "Patricia Solano seguirá ocho años más en Sala Tercera tras fracasar intento oficialista de impedir su…",
+   "medio": "Delfino.cr",
+   "url": "https://delfino.cr/2026/11/patricia-solano-seguira-ocho-anos-mas-en-sala-tercera-tras-fracasar-intento-oficialista-de-impedir-su-reeleccion",
    "region": "COSTA RICA",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "El AVE, la joya ferroviaria española, acaba con la carrera política de Puente",
-   "medio": "Noticias de Gipuzkoa",
-   "url": "https://www.noticiasdegipuzkoa.eus/politica/2026/11/03/ave-joya-ferroviaria-espanola-acaba-puente-11719614.html",
+   "titulo": "Andalucía pide reabrir la línea del AVE con Madrid \"cuanto antes pero con todas las garantías\"",
+   "medio": "ABC",
+   "url": "https://www.abc.es/espana/andalucia-pide-reabrir-linea-ave-madrid-garantias-20261104164626-nt.html",
    "region": "ESPAÑA",
    "tema": "AVE"
   },
   {
-   "titulo": "Wall Street cierra mixto en medio de elecciones de medio mandato en Estados Unidos",
-   "medio": "El Economista",
-   "url": "https://www.eleconomista.com.mx/mercados/wall-street-cierra-mixto-medio-elecciones-medio-mandato-estados-unidos-20261103-841976.html",
+   "titulo": "Wall Street se dispara y el Dow Jones gana 1.183 puntos tras victoria demócrata en EE.UU.",
+   "medio": "El Nuevo Diario",
+   "url": "https://elnuevodiario.com.do/wall-street-se-dispara-y-el-dow-jones-gana-1-183-puntos-tras-victoria-democrata-en-ee-uu/",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Santiago del Moro conducirá en Telefe la versión argentina de Bailando con las estrellas",
-   "medio": "Telebajocero",
-   "url": "https://www.telebajocero.com/santiago-del-moro/santiago-del-moro-conducira-telefe-la-version-argentina-bailando-las-estrellas-n1360976",
+   "titulo": "Popstars: quiénes son las cinco ganadoras que integran Chapeaux, la nueva banda argentina",
+   "medio": "Info del Estero",
+   "url": "https://infodelestero.com/2026/11/04/popstars-quienes-son-las-cinco-ganadoras-que-integran-chapeaux-la-nueva-banda-argentina",
    "region": "ARGENTINA",
    "tema": "Telefé"
   },
   {
-   "titulo": "Flamengo intenta anticipar el regreso de Arrascaeta y Varela de Uruguay",
-   "medio": "es.jetss.com",
-   "url": "https://es.jetss.com/2026/11/04/flamengo-intenta-anticipar-el-regreso-de-arrascaeta-y-varela-de-uruguay/",
+   "titulo": "La Selección Argentina-Uruguay en La Bombonera: a qué hora salen a la venta las entradas y cuánto cuestan",
+   "medio": "MinutoUno",
+   "url": "https://www.minutouno.com/deportes/la-seleccion-argentina-uruguay-la-bombonera-que-hora-salen-la-venta-las-entradas-y-cuanto-cuestan-n6341389",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Poder Judicial finalmente cuenta con Reglamento para nombrar en propiedad a fiscales",
-   "medio": "Semanario Universidad",
-   "url": "https://semanariouniversidad.com/pais/poder-judicial-finalmente-cuenta-con-reglamento-para-nombrar-en-propiedad-a-fiscales/",
+   "titulo": "La autonomía después de la violencia",
+   "medio": "Delfino.cr",
+   "url": "https://delfino.cr/2026/11/la-autonomia-despues-de-la-violencia",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Renunció Óscar Puente, el ministro de Transportes de España",
-   "medio": "Página|12",
-   "url": "https://www.pagina12.com.ar/2026/11/03/renuncio-oscar-puente-el-ministro-de-transportes-de-espana/",
+   "titulo": "Carlos Cuerpo asume la gestión del Ministerio de Transportes tras la dimisión de Óscar Puente",
+   "medio": "La Voz de Galicia",
+   "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/04/carlos-cuerpo-asume-gestion-ministerio-transportes-tras-dimison-oscar-puente/00031793782011677910369.htm",
    "region": "ESPAÑA",
    "tema": "Oscar Puente"
   },
   {
-   "titulo": "Elon Musk recorta límites de Grok Bot por costos insostenibles",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Negocios-y-Tendencias/Elon-Musk-recorta-limites-de-Grok-Bot-por-costos-insostenibles-uc980817",
+   "titulo": "Precios de Cursor 2026: niveles de la X Subscription y límites",
+   "medio": "Fello AI",
+   "url": "https://felloai.com/es/precios-cursor/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Después de Gran Hermano, Santiago del Moro conducirá otro famoso reality internacional en Telefe",
-   "medio": "Ciudad Magazine",
-   "url": "https://www.ciudad.com.ar/espectaculos/2026/11/03/despues-de-gran-hermano-santiago-del-moro-conducira-otro-famoso-reality-internacional-en-telefe/",
+   "titulo": "BIAM, Be a Child, ONZA, TBC y El Destino Producciones producen Vertifest Magaluf",
+   "medio": "produ",
+   "url": "https://www.produ.com/television/noticias/biam-be-a-child-onza-tbc-y-el-destino-producciones-producen-vertifest-magaluf/",
    "region": "ARGENTINA",
-   "tema": "Telefé"
+   "tema": "Ratings TV"
   },
   {
-   "titulo": "Gran Premio de Karting (Punta del Este): pilotos de Uruguay, Argentina, Brasil y Paraguay compitieron en el…",
-   "medio": "Cadena del Mar",
-   "url": "https://cadenadelmar.uy/deporte/gran-premio-de-karting-punta-del-este-pilotos-de-uruguay-argentina-brasil-y-paraguay-compitieron-en-el-circuito-callejero-25993",
+   "titulo": "Selección uruguaya: Brian Rodríguez se lesionó en México y la Celeste de Forlán lo sufre",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Deportes/Seleccion-uruguaya-Brian-Rodriguez-se-lesiono-en-Mexico-y-la-Celeste-de-Forlan-lo-sufre-uc981090",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Banco Nacional venderá nueva moneda de ¢100 dedicada al calipso limonense",
-   "medio": "Periódico La República (Costa Rica)",
-   "url": "https://www.larepublica.net/monedas-coleccionables/",
+   "titulo": "¿Quiénes harán parte de la Noche de Museos de Bogotá y la IV Noche Iberoamericana de Museos?",
+   "medio": "revistadc.com",
+   "url": "https://revistadc.com/arte-y-letras/dciudad/quienes-haran-parte-de-la-noche-de-museos-de-bogota-y-la-iv-noche-iberoamericana-de-museos/",
    "region": "COSTA RICA",
    "tema": "Banco Central"
   },
   {
-   "titulo": "Vercel Security Review: escaneo con IA en cada push",
+   "titulo": "Hostinger ofrece agentes de IA para marketing y ventas",
    "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/vercel-security-review-escaneo-con-ia-en-cada-push/",
+   "url": "https://ecosistemastartup.com/hostinger-ofrece-agentes-de-ia-para-marketing-y-ventas/",
    "region": "MUNDO",
    "tema": "Hermes Agent"
   },
   {
-   "titulo": "RATINGS : Argentina top 10 programas TV abierta del 26 de octubre al 1 de noviembre",
-   "medio": "produ",
-   "url": "https://www.produ.com/television/noticias/ratings-argentina-top-10-programas-tv-abierta-del-26-de-octubre-al-1-de-noviembre-3/",
+   "titulo": "Ratings del martes: América y Elnueve iguales en el prime time",
+   "medio": "Inicio - Television",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-martes-america-y-elnueve-iguales-en-el-prime-time-2026-11-03/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Salen a la venta las entradas para el clásico Argentina-Uruguay en La Bombonera: precios y todo lo que hay…",
+   "titulo": "Comenzó la venta de entradas para el clásico Argentina-Uruguay en La Bombonera: precios y todo lo que hay…",
    "medio": "Infobae",
-   "url": "https://www.infobae.com/deportes/2026/11/03/salen-a-la-venta-las-entradas-para-el-clasico-argentina-uruguay-en-la-bombonera-precios-y-todo-lo-que-hay-que-saber/",
+   "url": "https://www.infobae.com/deportes/2026/11/04/comenzo-la-venta-de-entradas-para-el-clasico-argentina-uruguay-en-la-bombonera-precios-y-todo-lo-que-hay-que-saber/",
    "region": "URUGUAY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "Mercado Bitcoin: pierde más de US$40 millones y suspende retiros",
-   "medio": "Novedades de Campeche",
-   "url": "https://www.novedadescampeche.com.mx/mercado-bitcoin-hackeo-40-millones/",
+   "titulo": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+   "medio": "TradingView",
+   "url": "https://es.tradingview.com/news/cointelegraph:311bbe306094b:0-bitcoin-hits-80-5k-as-us-stocks-rally-on-midterm-election-results/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "Ratings del lunes: América le ganó en las tres franjas a Elnueve",
-   "medio": "Inicio - Television",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-lunes-america-le-gano-en-las-tres-franjas-a-elnueve-2026-11-02/",
-   "region": "ARGENTINA",
-   "tema": "Ratings TV"
-  },
-  {
-   "titulo": "Papa León XIV visitará la Basílica de Guadalupe en México",
-   "medio": "Zona Franca",
-   "url": "https://zonafranca.mx/politica-sociedad/papa-leon-xiv-visitara-la-basilica-de-guadalupe-en-mexico/",
-   "region": "MUNDO",
-   "tema": "Papa León XIV"
-  },
-  {
-   "titulo": "La Selección Argentina presentó su primera lista sin Messi: las sorpresas de Scaloni y las ausencias que…",
-   "medio": "Tiempo de San Juan",
-   "url": "https://www.tiempodesanjuan.com/deportes/la-seleccion-argentina-presento-su-primera-lista-sin-messi-las-sorpresas-de-scaloni-y-las-ausencias-que-sacuden-al-equipo_1793722840",
+   "titulo": "Scaloni presentó la primera lista de convocados de la Selección argentina tras el retiro de Messi",
+   "medio": "laGacetaOnline",
+   "url": "https://lagacetaonline.com.ar/deportes/scaloni-presento-la-primera-lista-de-convocados-de-la-seleccion-argentina-tras-el-retiro-de-messi/",
    "region": "ARGENTINA",
    "tema": "Lionel Messi"
   },
   {
-   "titulo": "S&P 500 y Nasdaq suben a la espera de los resultados de las elecciones de EU; Apple cae",
-   "medio": "Forbes México",
-   "url": "https://forbes.com.mx/sp-500-y-nasdaq-suben-a-la-espera-de-los-resultados-de-las-elecciones-de-eu-apple-cae/",
+   "titulo": "El encuentro entre Bob Dylan y el papa León XIV en el Vaticano",
+   "medio": "sdpnoticias",
+   "url": "https://www.sdpnoticias.com/internacional/el-encuentro-entre-bob-dylan-y-el-papa-leon-xiv-en-el-vaticano/",
    "region": "MUNDO",
-   "tema": "S&P 500"
+   "tema": "Papa León XIV"
   },
   {
-   "titulo": "Solana Sierra pasó a la segunda ronda en el WTA 125 de Cali",
-   "medio": "Diario Noticias De La Calle de Misiones",
-   "url": "https://www.noticiasdelacalle.com.ar/amp/noticias/2026/11/03/205176-solana-sierra-paso-a-la-segunda-ronda-en-el-wta-125-de-cali",
+   "titulo": "Julia Riera y Luisina Giovannini avanzaron a los cuartos de final del WTA 125 de Cali",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/deportes/2026/11/04/julia-riera-y-luisina-giovannini-avanzaron-a-los-cuartos-de-final-del-wta-125-de-cali/",
    "region": "ARGENTINA",
    "tema": "Solana Sierra"
   },
   {
-   "titulo": "Apple alerta de los riesgos de la IA: agentes que pueden actuar sin autorización",
-   "medio": "El Boletín",
-   "url": "https://www.elboletin.com/apple-alerta-de-los-riesgos-de-la-ia-agentes-que-pueden-actuar-sin-autorizacion/",
+   "titulo": "Wall Street: El Dow Jones, el Nasdaq 100 y S&P 500 se disparan tras la victoria demócrata en las elecciones…",
+   "medio": "FXStreet",
+   "url": "https://www.fxstreet.es/news/el-dow-jones-el-nasdaq-100-y-sp-500-se-disparan-tras-la-victoria-democrata-en-las-elecciones-intermedias-de-eeuu-202611041716",
+   "region": "MUNDO",
+   "tema": "S&P 500"
+  },
+  {
+   "titulo": "Uber afirma que los agentes de IA reservaron solo cuatro viajes durante la semana de Halloween",
+   "medio": "Unite.AI",
+   "url": "https://www.unite.ai/es/uber-says-ai-agents-booked-just-four-rides-during-halloween-week/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Corea del Norte rechaza la acusación del FBI por el robo a Binance",
-   "medio": "https://fomoera.com/",
-   "url": "https://fomoera.com/corea-norte-rechaza-acusacion-fbi-robo-binance/",
+   "titulo": "Hackeo a Binance de 6.300 millones de dólares empezó con una entrevista laboral falsa: así fue el origen del…",
+   "medio": "El Colombiano",
+   "url": "https://www.elcolombiano.com/negocios/binance-hackeo-millones-dolares-falsa-entrevista-trabajo-corea-del-norte-BB43172254",
    "region": "MUNDO",
    "tema": "Binance"
   }
