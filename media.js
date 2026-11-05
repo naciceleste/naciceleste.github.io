@@ -1,6 +1,16 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:2116266201391444472": {
+    "network": "x",
+    "date": "2026-10-30T20:29:15.000Z",
+    "author": "eldestapeweb",
+    "text": "\"No comprendo como alguien lo vio y dijo: quiero que me represente\"\n\n🎙️ @chiaradetinis habló con una joven abogada que reflexionó sobre el voto a Javier Milei.",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2116265911761899520/img/M0vXBIx6uTBUniXn.jpg",
+    "kind": "video",
+    "w": 1080,
+    "h": 1920
+  },
   "instagram:DfSCdwkiYFM": {
     "network": "instagram",
     "h": 1136,
