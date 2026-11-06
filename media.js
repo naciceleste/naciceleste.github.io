@@ -1,6 +1,13 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:2118415067964174839": {
+    "network": "x",
+    "date": "2026-11-05T18:48:05.000Z",
+    "author": "Xyzyn9",
+    "text": "Con 28 años fallecieron mi mujer y mi hija. Hasta los 30 estuve en la más absoluta mierda. \nDespués del entierro intenté matarme con el coche, después pastillas, venas, todo lo que se me ocurrió.\nTerminé metiendome en peleas heavy, pero heavys de verdad, con el único objetivo de",
+    "kind": "text"
+  },
   "x:2116266201391444472": {
     "network": "x",
     "date": "2026-10-30T20:29:15.000Z",
