@@ -1,167 +1,97 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-05",
+ "actualizado": "2026-11-06",
  "items": [
   {
-   "titulo": "Inteligencia artificial aumenta la desinformación sobre los migrantes, alerta la ONU",
-   "medio": "Periódico Síntesis",
-   "url": "https://sintesis.mx/2026/11/05/ia-aumenta-la-desinformacion-migrantes/",
+   "titulo": "Más de 19.000 modelos abiertos de inteligencia artificial están etiquetados en español",
+   "medio": "Andalucía Información",
+   "url": "https://www.andaluciainformacion.es/articulo/viruji/mas-19000-modelos-abiertos-inteligencia-artificial-estan-etiquetados-espanol/202611062020403529509.html",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "el frío saludo entre Javier Milei y Pedro Sánchez en la Cumbre Iberoamericana en Madrid",
-   "medio": "TN",
-   "url": "https://tn.com.ar/politica/2026/11/05/video-el-frio-saludo-entre-javier-milei-y-pedro-sanchez-en-la-cumbre-iberoamericana-en-madrid/",
+   "titulo": "Javier Milei en la Sociedad Rural: qué dijo sobre las retenciones y por qué llamó héroes a los empresarios",
+   "medio": "Aire de Santa Fe",
+   "url": "https://www.airedesantafe.com.ar/politica/javier-milei-la-sociedad-rural-que-dijo-las-retenciones-y-que-llamo-heroes-los-empresarios-n675898",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Yamandú Orsi tras el fallecimiento de Gonzalo Moratorio: «Uruguay le estará eternamente agradecido",
-   "medio": "Semanario La Prensa",
-   "url": "https://semanariolaprensa.com/yamandu-orsi-tras-el-fallecimiento-de-gonzalo-moratorio-uruguay-le-estara-eternamente-agradecido/",
+   "titulo": "¿Qué le regaló Yamandú Orsi al papa León XIV en su llegada a Uruguay?",
+   "medio": "FM Universo 97.3",
+   "url": "https://www.universoturadio.com.ar/articulo/que-le-regalo-yamandu-orsi-al-papa-leon-xiv-en-su-llegada-a-uruguay.php",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "“Eleva todavía más la dificultad”, Bryan Ruiz destacó a Ecuador como un rival de jerarquía para Costa Rica",
-   "medio": "futbolecuador.com",
-   "url": "https://www.futbolecuador.com/site/noticia/eleva-todavia-mas-la-dificultad-bryan-ruiz-destaco-a-ecuador-como-un-rival-de-jerarquia-para-costa-rica/172012",
-   "region": "COSTA RICA",
-   "tema": "Bryan Ruiz"
-  },
-  {
-   "titulo": "El presidente Zelenski llega a España en visita oficial por la Cumbre Iberoamericana",
-   "medio": "La Tribuna (México)",
-   "url": "https://tribuna.com.mx/politica-y-economia/2026/11/05/el-presidente-zelenski-llega-a-espana-en-visita-oficial-por-la-cumbre-iberoamericana_711249/",
-   "region": "ESPAÑA",
-   "tema": "Política"
-  },
-  {
-   "titulo": "Aprendizaje permanente para adaptarse al desarrollo de la inteligencia artificial.",
-   "medio": "Vietnam.vn",
-   "url": "https://www.vietnam.vn/es/hoc-tap-suot-doi-de-thich-ung-voi-su-phat-trien-cua-tri-tue-nhan-tao",
-   "region": "MUNDO",
-   "tema": "Inteligencia Artificial"
-  },
-  {
-   "titulo": "Santiago del Moro hará Bailando con las estrellas en Telefe: los famosos que participaron",
-   "medio": "NewsDigitales",
-   "url": "https://www.newsdigitales.com/nota/349224/santiago-del-moro-hara-bailando-con-las-estrellas-en-telefe-los-famosos-que-participaron/",
-   "region": "ARGENTINA",
-   "tema": "Facundo Arana"
-  },
-  {
-   "titulo": "\"Siempre optimista, sorteando con inteligencia y coraje los obstáculos\": Lacalle Pou despidió a Gonzalo…",
-   "medio": "subrayado.com.uy",
-   "url": "https://www.subrayado.com.uy/siempre-optimista-sorteando-inteligencia-y-coraje-los-obstaculos-lacalle-pou-despidio-gonzalo-moratorio-n1022766",
-   "region": "URUGUAY",
-   "tema": "Luis Alberto Lacalle"
-  },
-  {
-   "titulo": "¿Costa Rica nacionaliza a Ronaldo Cisneros? Lo que se sabe del futuro ex-Chivas tras la información de Davi...",
-   "medio": "Rebaño Pasión",
-   "url": "https://chivaspasion.bolavip.com/noticias/costa-rica-nacionaliza-a-ronaldo-cisneros-lo-que-se-sabe-del-futuro-ex-chivas-tras-la-informacion-de-david-medrano",
-   "region": "COSTA RICA",
-   "tema": "Bryan Ruiz"
-  },
-  {
-   "titulo": "Zelenski llega a España por sorpresa en el marco de la XXX Cumbre Iberoamericana",
-   "medio": "DW.com",
-   "url": "https://www.dw.com/es/zelenski-llega-a-espa%C3%B1a-por-sorpresa-en-el-marco-de-la-xxx-cumbre-iberoamericana/a-79859596",
-   "region": "ESPAÑA",
-   "tema": "Política"
-  },
-  {
-   "titulo": "Wall Street borra la subida poselectoral y el Nasdaq cae un 5,5 %, arrastrado por la IA",
-   "medio": "EFE - Agencia de noticias",
-   "url": "https://efe.com/economia/2026-11-05/wall-street-desplome-nasdaq-dow-jones-venta-acciones-ia/",
-   "region": "MUNDO",
-   "tema": "Wall Street"
-  },
-  {
-   "titulo": "Artista plástico debuta en el cine con “Helmut. El hielo y la eternidad transitoria”",
-   "medio": "Diario La Capital de Mar del Plata",
-   "url": "https://www.lacapitalmdp.com/artista-plastico-debuta-en-el-cine-con-helmut-el-hielo-y-la-eternidad-transitoria/",
-   "region": "ARGENTINA",
-   "tema": "Viggo Mortensen"
-  },
-  {
-   "titulo": "Gran Hermano Uruguay: ¿Quiénes quedaron en placa de nominación?",
-   "medio": "Telebajocero",
-   "url": "https://www.telebajocero.com/gran-hermano/gran-hermano-uruguay-quienes-quedaron-placa-nominacion-n1361058",
-   "region": "URUGUAY",
-   "tema": "Gran Hermano"
-  },
-  {
-   "titulo": "Ni un solo diputado oficialista saludó a Patricia Solano tras su juramentación",
+   "titulo": "Denuncian que diputado de pueblo soberano solicitó a colegiales que lo siguieran en redes",
    "medio": "Teletica",
-   "url": "https://www.teletica.com/politica/ni-un-solo-diputado-oficialista-saludo-a-patricia-solano-tras-su-juramentacion_420609",
+   "url": "https://www.teletica.com/multimedia/denuncian-que-diputado-de-pueblo-soberano-solicito-a-colegiales-que-lo-siguieran-en-redes_1268835",
    "region": "COSTA RICA",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Cuerpo garantiza que “no hay ninguna previsión de cerrar” el AVE Madrid-Barcelona",
-   "medio": "Demócrata",
-   "url": "https://www.democrata.es/economia/cuerpo-garantiza-que-no-hay-ninguna-prevision-de-cerrar-el-ave-madrid-barcelona/",
+   "titulo": "Resumen de la actualidad política del 6 de noviembre",
+   "medio": "RTVE.es",
+   "url": "https://www.rtve.es/noticias/20261106/elecciones-2026-actualidad-politica-directo-hoy-cronica/17302476.shtml",
    "region": "ESPAÑA",
-   "tema": "AVE"
+   "tema": "Política"
   },
   {
-   "titulo": "Wall Street se desploma arrastrado por el sector de la IA",
-   "medio": "Finanzas Digital",
-   "url": "https://finanzasdigital.com/wall-street-se-desploma-arrastrado-por-el-sector-de-la-ia/",
+   "titulo": "La IA en español despega con más de 19.000 modelos abiertos",
+   "medio": "Euronews.com",
+   "url": "https://es.euronews.com/2026/11/06/19000-modelos-inteligencia-artificial-abierta-hablan-espanol",
    "region": "MUNDO",
-   "tema": "Wall Street"
+   "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Santiago del Moro confirmó que conducirá \"Bailando con las Estrellas\" en Telefe: los detalles",
-   "medio": "Exitoina",
-   "url": "https://exitoina.perfil.com/noticias/television/santiago-del-moro-confirmo-conducira-bailando-con-las-estrellas-telefe-detalles.phtml",
+   "titulo": "El papa León XIV llegó a Uruguay y así comienza su gira por Sudamérica",
+   "medio": "Telefe Córdoba",
+   "url": "https://cordoba.mitelefe.com/internacionales/el-papa-leon-xiv-llego-a-uruguay-y-asi-comienza-su-gira-por-sudamerica-pid2571581",
    "region": "ARGENTINA",
    "tema": "Telefé"
   },
   {
-   "titulo": "Uruguay oficializó los 21 futbolistas que disputarán el Mundial sub 17",
-   "medio": "Caras y Caretas",
-   "url": "https://www.carasycaretas.com.uy/deportes/uruguay-oficializo-los-21-futbolistas-que-disputaran-el-mundial-sub-17-n100805",
+   "titulo": "El papa León XIV inicia su histórica gira por Sudamérica: Uruguay, el primer destino",
+   "medio": "Diario San Rafael",
+   "url": "https://diariosanrafael.com.ar/el-papa-leon-xiv-inicia-su-historica-gira-por-sudamerica-uruguay-el-primer-destino/",
    "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
+   "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Short: Cisneros da sus expectativas de la nueva presidenta del Poder Judicial",
-   "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/shorts/cisneros-da-sus-expectativas-de-la-nueva-presidenta-del-poder-judicial/",
+   "titulo": "Diputados chavistas aprueban presupuesto 2027 con recortes al Poder Judicial y universidades públicas",
+   "medio": "CRC 891",
+   "url": "https://crc891.com/nacionales/diputados-chavistas-aprueban-presupuesto-2027-con-recortes-al-poder-judicial-y-universidades-publicas/",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Gamarra sostiene que quien respalde al PSOE en Valladolid apoya a Puente e insta a \"dimitir\" a Sánchez",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/espana/agencias/2026/11/05/gamarra-sostiene-que-quien-respalde-al-psoe-en-valladolid-apoya-a-puente-e-insta-a-dimitir-a-sanchez/",
+   "titulo": "En España estudian con atención la filosofía política de Milei",
+   "medio": "La Política Online",
+   "url": "https://www.lapoliticaonline.com/politica/en-espana-estudian-con-atencion-la-filosofia-politica-de-milei/",
    "region": "ESPAÑA",
-   "tema": "Oscar Puente"
+   "tema": "Política"
   },
   {
-   "titulo": "AWS lanza Kiro bots: agentes con memoria desde US$20",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/aws-lanza-kiro-bots-agentes-con-memoria-desde-us20/",
+   "titulo": "Trump atribuye caída de Wall Street a la victoria demócrata",
+   "medio": "AlMomento.net",
+   "url": "https://almomento.net/trump-atribuye-caida-de-wall-street-a-la-victoria-democrata/",
    "region": "MUNDO",
-   "tema": "Grok Bot"
+   "tema": "Wall Street"
   },
   {
-   "titulo": "Santiago del Moro conducirá Bailando con las estrellas: cuándo llegará el nuevo reality a Telefe",
-   "medio": "Notife",
-   "url": "https://www.notife.com/santiago-del-moro-conducira-bailando-con-las-estrellas-cuando-llegara-el-nuevo-reality-a-telefe",
+   "titulo": "MasterChef Celebrity alcanzó su récord de rating y lideró la noche del jueves",
+   "medio": "Cadena 3 Argentina",
+   "url": "https://www.cadena3.com/amp/noticia/espectaculos/masterchef-celebrity-alcanzo-su-record-de-rating-y-lidero-la-noche-del-jueves_610841",
    "region": "ARGENTINA",
-   "tema": "Telefé"
+   "tema": "Ratings TV"
   },
   {
-   "titulo": "Uruguay anunció sus convocados para el Mundial Sub-17, con un jugador nacido en Europa",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Deportes/Uruguay-anuncio-sus-convocados-para-el-Mundial-Sub-17-con-un-jugador-nacido-en-Europa-uc981162",
+   "titulo": "Mauro Icardi habría agredido a su hija de 11 años: la denuncia de Wanda Nara",
+   "medio": "NewsDigitales",
+   "url": "https://www.newsdigitales.com/nota/349494/mauro-icardi-habria-agredido-a-su-hija-de-11-anos-la-denuncia-de-wanda-nara/",
    "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
+   "tema": "Gran Hermano"
   },
   {
    "titulo": "Santiago Peña renuncia a la Presidencia de Paraguay en medio del escándalo de Ueno Bank",
@@ -171,72 +101,100 @@ window.NOTICIAS = {
    "tema": "Banco Central"
   },
   {
-   "titulo": "Vercel: Token Pass se aplica solo en AI Gateway",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/vercel-token-pass-se-aplica-solo-en-ai-gateway/",
+   "titulo": "La Fiscalía europea investiga un posible fraude de fondos comunitarios en el mantenimiento del AVE…",
+   "medio": "Onda Cero",
+   "url": "https://www.ondacero.es/noticias/espana/fiscalia-europea-investiga-posible-fraude-fondos-comunitarios-mantenimiento-linea-ave-madridsevilla_202611066aed9def03bbf30bb041fc4e.html",
+   "region": "ESPAÑA",
+   "tema": "AVE"
+  },
+  {
+   "titulo": "Wall Street acumula pérdidas semanales tras las elecciones en Estados Unidos y el batacazo de la IA",
+   "medio": "EFE - Agencia de noticias",
+   "url": "https://efe.com/economia/2026-11-06/wall-street-cierra-semana-en-rojo-elecciones-eeuu/",
    "region": "MUNDO",
-   "tema": "Hermes Agent"
+   "tema": "Wall Street"
   },
   {
-   "titulo": "RATINGS : Perú top 10 programas TV abierta semana del 26 de octubre al 1 de noviembre",
-   "medio": "produ",
-   "url": "https://www.produ.com/television/noticias/ratings-peru-top-10-programas-tv-abierta-semana-del-26-de-octubre-al-1-de-noviembre-3/",
-   "region": "ARGENTINA",
-   "tema": "Ratings TV"
-  },
-  {
-   "titulo": "Se definió el futuro de Merentiel entre Uruguay y Boca: «Va a estar»",
-   "medio": "El Intransigente",
-   "url": "https://elintransigente.com/2026/11/05/boca-merentiel-jugara-semifinal-copa-argentina-racing-uruguay/",
-   "region": "URUGUAY",
-   "tema": "Diego Forlán"
-  },
-  {
-   "titulo": "Keel vende toda su reserva de Bitcoin y deja atrás la estrategia de Bitfarms",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/mineria/keel-vende-toda-su-reserva-de-bitcoin-y-deja-atras-la-estrategia-de-bitfarms/",
-   "region": "MUNDO",
-   "tema": "Bitcoin"
-  },
-  {
-   "titulo": "Ratings del miércoles: América y elnueve, otra vez empatados en el prime time",
+   "titulo": "Ratings del jueves: Telefe duplicó el promedio de eltrece en el prime time",
    "medio": "Inicio - Television",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-miercoles-america-y-elnueve-otra-vez-empatados-en-el-prime-time-2026-11-04/",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-jueves-telefe-duplico-el-promedio-de-eltrece-en-el-prime-time-2026-11-05/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Ante la visita del Papa León XIV",
-   "medio": "Partido Comunista Revolucionario de Argentina",
-   "url": "https://pcr.org.ar/ante-la-visita-del-papa-leon-xiv/",
-   "region": "MUNDO",
-   "tema": "Papa León XIV"
+   "titulo": "Selección Uruguaya (Fecha FIFA): convocados para enfrentar a Argentina y República Dominicana.",
+   "medio": "Cadena del Mar",
+   "url": "https://cadenadelmar.uy/deporte/seleccion-uruguaya-fecha-fifa-convocados-para-enfrentar-a-argentina-y-republica-dominicana-26128",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "La Selección argentina dejará vacante la camiseta número 10 de Messi en la próxima fecha FIFA",
-   "medio": "Info del Estero",
-   "url": "https://infodelestero.com/2026/11/05/la-seleccion-argentina-dejara-vacante-la-camiseta-numero-10-de-messi-en-la-proxima-fecha-fifa",
+   "titulo": "La Junta Electoral permitirá tachar el nombre de Óscar Puente en las papeletas del PSOE en Valladolid para…",
+   "medio": "RTVE.es",
+   "url": "https://www.rtve.es/noticias/20261106/junta-electoral-tachar-oscar-puente-papeletas-psoe-valladolid-29n/17304067.shtml",
+   "region": "ESPAÑA",
+   "tema": "Oscar Puente"
+  },
+  {
+   "titulo": "OpenAI lanza BioBasicsBench: 100 tareas de laboratorio",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/openai-lanza-biobasicsbench-100-tareas-de-laboratorio/",
+   "region": "MUNDO",
+   "tema": "Grok Bot"
+  },
+  {
+   "titulo": "La decisión de la Selección Argentina con la camiseta número 10 de Messi para los amistosos de noviembre",
+   "medio": "Aire de Santa Fe",
+   "url": "https://www.airedesantafe.com.ar/deportes/la-decision-la-seleccion-argentina-la-camiseta-numero-10-messi-los-amistosos-noviembre-n675826",
    "region": "ARGENTINA",
    "tema": "Lionel Messi"
   },
   {
+   "titulo": "Diego Forlán no convocó a Merentiel y Arruabarrena lo tendrá para la semifinal",
+   "medio": "Diario Huarpe",
+   "url": "https://www.diariohuarpe.com/nota/miguel-merentiel-quedo-afuera-de-uruguay-y-estara-ante-boca-vs-banfield-202611620230",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
+  },
+  {
+   "titulo": "Vercel suma búsqueda web de DeepSeek a su AI Gateway",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/vercel-suma-busqueda-web-de-deepseek-a-su-ai-gateway/",
+   "region": "MUNDO",
+   "tema": "Hermes Agent"
+  },
+  {
+   "titulo": "Lista de convocados de Uruguay para enfrentar a Argentina",
+   "medio": "Cuestión Entrerriana",
+   "url": "https://cuestionentrerriana.com.ar/uruguay-confirmo-su-nomina-de-28-futbolistas-para-medirse-con-argentina/",
+   "region": "URUGUAY",
+   "tema": "Diego Forlán"
+  },
+  {
+   "titulo": "Pérdidas en bitcoin: 2.000 millones en 3 días",
+   "medio": "Criptotendencias",
+   "url": "https://www.criptotendencias.com/bitcoin/perdidas-en-bitcoin/",
+   "region": "MUNDO",
+   "tema": "Bitcoin"
+  },
+  {
+   "titulo": "El papa León XIV inicia su gira en Uruguay",
+   "medio": "Prensa Libre",
+   "url": "https://www.prensalibre.com/fotogalerias/internacional/el-papa-leon-xiv-inicia-su-gira-en-uruguay/",
+   "region": "MUNDO",
+   "tema": "Papa León XIV"
+  },
+  {
    "titulo": "Venta masiva de acciones de IA hace tambalear a Wall Street; el S&P 500 se desploma 4,4%",
-   "medio": "San Antonio Express-News",
-   "url": "https://www.expressnews.com/business/article/una-venta-masiva-de-acciones-de-ia-hunde-al-s-p-22514901.php",
+   "medio": "CTPost",
+   "url": "https://www.ctpost.com/business/article/una-venta-masiva-de-acciones-de-ia-hunde-al-s-p-22514901.php",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Julia Riera y Luisina Giovannini avanzaron a los cuartos de final del WTA 125 de Cali",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/deportes/2026/11/04/julia-riera-y-luisina-giovannini-avanzaron-a-los-cuartos-de-final-del-wta-125-de-cali/",
-   "region": "ARGENTINA",
-   "tema": "Solana Sierra"
-  },
-  {
-   "titulo": "Boomi, visionaria en el Magic Quadrant de agentes IA 2026",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/boomi-visionaria-en-el-magic-quadrant-de-agentes-ia-2026/",
+   "titulo": "Perplexity lanza Teammates: agentes de IA que trabajan las 24 horas",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Ciencia-y-Tecnologia/Perplexity-lanza-Teammates-agentes-de-IA-que-trabajan-las-24-horas-uc981251",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
@@ -246,6 +204,13 @@ window.NOTICIAS = {
    "url": "https://criptoinforme.com/intercambios/binance-signalplus-claves-api-revocadas/",
    "region": "MUNDO",
    "tema": "Binance"
+  },
+  {
+   "titulo": "Destituyen al presidente de Paraguay, Santiago Peña, tras escándalo de Ueno Bank",
+   "medio": "El Universal",
+   "url": "https://www.eluniversal.com.mx/mundo/destituyen-al-presidente-de-paraguay-santiago-pena-tras-escandalo-de-ueno-bank-senado-declara-mal-desempeno-de-sus-funciones/",
+   "region": "MUNDO",
+   "tema": "Ueno Bank"
   }
  ]
 };

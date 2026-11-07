@@ -37,6 +37,8 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://www.instagram.com/p/DeucGZXgH4J/", date: "2026-11-06", tags: ["carlos valerin","ser agradecido"] },
+  { url: "https://x.com/Santictar/status/2118753841604612180", date: "2026-11-06", tags: ["milei","la señora","tobillera"] },
   { url: "https://x.com/Xyzyn9/status/2118415067964174839", date: "2026-11-05", tags: ["relatos","ponele voluntad","te quiero mucho suegro"] },
   { url: "https://x.com/eldestapeweb/status/2116266201391444472", date: "2026-11-04", tags: ["joven abogada","milei","no hay plata"] },
   { url: "https://www.instagram.com/p/DfSCdwkiYFM/", date: "2026-11-03", note: "Qué importante aprender a perder", tags: ["roca","resilencia"] },
