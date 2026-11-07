@@ -1,6 +1,24 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "instagram:DeucGZXgH4J": {
+    "network": "instagram",
+    "h": 1920,
+    "w": 1080,
+    "kind": "video",
+    "author": "carlosvalerin.cr",
+    "date": "2026-10-20T18:07:07.000Z"
+  },
+  "x:2118753841604612180": {
+    "network": "x",
+    "date": "2026-11-06T17:14:15.000Z",
+    "author": "Santictar",
+    "text": "Aver lo que subió el presiden…",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2118753811921575936/img/MazEMSabs_9Kqd-k.jpg",
+    "kind": "video",
+    "w": 720,
+    "h": 1280
+  },
   "x:2118415067964174839": {
     "network": "x",
     "date": "2026-11-05T18:48:05.000Z",
