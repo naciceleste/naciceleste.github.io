@@ -1,167 +1,174 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-06",
+ "actualizado": "2026-11-07",
  "items": [
   {
-   "titulo": "Más de 19.000 modelos abiertos de inteligencia artificial están etiquetados en español",
-   "medio": "Andalucía Información",
-   "url": "https://www.andaluciainformacion.es/articulo/viruji/mas-19000-modelos-abiertos-inteligencia-artificial-estan-etiquetados-espanol/202611062020403529509.html",
+   "titulo": "León XIV advirtió sobre los riesgos de la inteligencia artificial y pidió poner “a la persona antes que al…",
+   "medio": "Teledoce.com",
+   "url": "https://www.teledoce.com/telemundo/nacionales/leon-xiv-advirtio-sobre-los-riesgos-de-la-inteligencia-artificial-y-pidio-poner-a-la-persona-antes-que-al-algoritmo/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Javier Milei en la Sociedad Rural: qué dijo sobre las retenciones y por qué llamó héroes a los empresarios",
-   "medio": "Aire de Santa Fe",
-   "url": "https://www.airedesantafe.com.ar/politica/javier-milei-la-sociedad-rural-que-dijo-las-retenciones-y-que-llamo-heroes-los-empresarios-n675898",
+   "titulo": "Javier Milei ratificó su promesa de retenciones cero ante la Sociedad Rural Argentina",
+   "medio": "LU9 | Mar del Plata",
+   "url": "https://www.lu9mardelplata.com.ar/javier-milei-ratifico-su-promesa-de-retenciones-cero-ante-la-sociedad-rural-argentina",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "¿Qué le regaló Yamandú Orsi al papa León XIV en su llegada a Uruguay?",
-   "medio": "FM Universo 97.3",
-   "url": "https://www.universoturadio.com.ar/articulo/que-le-regalo-yamandu-orsi-al-papa-leon-xiv-en-su-llegada-a-uruguay.php",
+   "titulo": "Yamandú Orsi dio la bienvenida al papa León XIV a Uruguay: \\",
+   "medio": "Fm Cordillerana Junin",
+   "url": "https://fmcordilleranajunin.com.ar/a-nota/231463/yamandu-orsi-dio-la-bienvenida-al-papa-leon-xiv-a-uruguay",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Denuncian que diputado de pueblo soberano solicitó a colegiales que lo siguieran en redes",
-   "medio": "Teletica",
-   "url": "https://www.teletica.com/multimedia/denuncian-que-diputado-de-pueblo-soberano-solicito-a-colegiales-que-lo-siguieran-en-redes_1268835",
+   "titulo": "Día Nacional para la Prevención del Embarazo en Adolescentes",
+   "medio": "Ministerio de Educación Pública",
+   "url": "https://www.mep.go.cr/noticias/dia-nacional-prevencion-embarazo-adolescentes?page=267",
    "region": "COSTA RICA",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Resumen de la actualidad política del 6 de noviembre",
-   "medio": "RTVE.es",
-   "url": "https://www.rtve.es/noticias/20261106/elecciones-2026-actualidad-politica-directo-hoy-cronica/17302476.shtml",
+   "titulo": "Napoleonchu arrasa la política exterior de España",
+   "medio": "El Debate",
+   "url": "https://www.eldebate.com/opinion/20261108/napoleonchu-arrasa-politica-exterior-espana_478285.html",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "La IA en español despega con más de 19.000 modelos abiertos",
-   "medio": "Euronews.com",
-   "url": "https://es.euronews.com/2026/11/06/19000-modelos-inteligencia-artificial-abierta-hablan-espanol",
+   "titulo": "El papa León XIV advirtió sobre la deshumanización por la inteligencia artificial y pidió cambios en la…",
+   "medio": "Diario Neuquino",
+   "url": "https://diarioneuquino.com.ar/el-papa-leon-xiv-advirtio-sobre-la-deshumanizacion-por-la-inteligencia-artificial-y-pidio-cambios-en-la-educacion/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "El papa León XIV llegó a Uruguay y así comienza su gira por Sudamérica",
-   "medio": "Telefe Córdoba",
-   "url": "https://cordoba.mitelefe.com/internacionales/el-papa-leon-xiv-llego-a-uruguay-y-asi-comienza-su-gira-por-sudamerica-pid2571581",
+   "titulo": "Tras alejarse del espectáculo argentino, qué es de la vida de Gianella Neyra",
+   "medio": "Caras",
+   "url": "https://caras.perfil.com/noticias/celebridades/alejarse-espectaculo-argentino-vida-gianella-neyra.phtml",
    "region": "ARGENTINA",
-   "tema": "Telefé"
+   "tema": "Facundo Arana"
   },
   {
-   "titulo": "El papa León XIV inicia su histórica gira por Sudamérica: Uruguay, el primer destino",
-   "medio": "Diario San Rafael",
-   "url": "https://diariosanrafael.com.ar/el-papa-leon-xiv-inicia-su-historica-gira-por-sudamerica-uruguay-el-primer-destino/",
+   "titulo": "El expresidente uruguayo Luis Lacalle Herrera explicó por qué quiso besar el anillo del papa León XIV",
+   "medio": "C5N",
+   "url": "https://www.c5n.com/sociedad/el-expresidente-uruguayo-luis-lacalle-herrera-explico-que-quiso-besar-el-anillo-del-papa-leon-xiv-n253731",
    "region": "URUGUAY",
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Diputados chavistas aprueban presupuesto 2027 con recortes al Poder Judicial y universidades públicas",
-   "medio": "CRC 891",
-   "url": "https://crc891.com/nacionales/diputados-chavistas-aprueban-presupuesto-2027-con-recortes-al-poder-judicial-y-universidades-publicas/",
+   "titulo": "Sala IV da trámite a amparo contra no giro de fondos por parte del Gobierno al Poder Judicial",
+   "medio": "El Observador CR",
+   "url": "https://observador.cr/sala-iv-da-tramite-a-amparo-contra-no-giro-de-fondos-por-parte-del-gobierno-al-poder-judicial/",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "En España estudian con atención la filosofía política de Milei",
-   "medio": "La Política Online",
-   "url": "https://www.lapoliticaonline.com/politica/en-espana-estudian-con-atencion-la-filosofia-politica-de-milei/",
+   "titulo": "Desenredar España: El caos legislativo de los gobiernos de Sanchez, Rajoy y Zapatero genera un coste de…",
+   "medio": "Law&Trends",
+   "url": "https://www.lawandtrends.com/noticias/politica/desenredar-espana-el-caos-legislativo-de-los-gobiernos-de-sanchez-rajoy-y-zapatero-genera-un-coste-de-90-000-millones-1.html",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Trump atribuye caída de Wall Street a la victoria demócrata",
-   "medio": "AlMomento.net",
-   "url": "https://almomento.net/trump-atribuye-caida-de-wall-street-a-la-victoria-democrata/",
+   "titulo": "Wall Street en caída libre: el mercado teme una espiral de ventas forzadas y hasta dónde puede bajar",
+   "medio": "Rosario Finanzas",
+   "url": "https://rosariofinanzas.ar/noticias/wall-street-en-caida-libre-el-mercado-teme-una-espiral-de-ventas-forzadas-y-hasta-donde-puede-bajar",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "MasterChef Celebrity alcanzó su récord de rating y lideró la noche del jueves",
-   "medio": "Cadena 3 Argentina",
-   "url": "https://www.cadena3.com/amp/noticia/espectaculos/masterchef-celebrity-alcanzo-su-record-de-rating-y-lidero-la-noche-del-jueves_610841",
+   "titulo": "Miami se prepara para los Premios Martín Fierro Latino 2026: listado completo de nominados",
+   "medio": "NewsDigitales",
+   "url": "https://www.newsdigitales.com/nota/349238/miami-se-prepara-para-los-premios-martin-fierro-latino-2026-listado-completo-de-nominados/",
    "region": "ARGENTINA",
-   "tema": "Ratings TV"
+   "tema": "Telefé"
   },
   {
-   "titulo": "Mauro Icardi habría agredido a su hija de 11 años: la denuncia de Wanda Nara",
-   "medio": "NewsDigitales",
-   "url": "https://www.newsdigitales.com/nota/349494/mauro-icardi-habria-agredido-a-su-hija-de-11-anos-la-denuncia-de-wanda-nara/",
+   "titulo": "Emanuel Noir protagonizó un incidente en Concepción del Uruguay y fue detenido",
+   "medio": "Radio Dos Corrientes",
+   "url": "https://www.radiodos.com.ar/216750-emanuel-noir-protagonizo-un-incidente-en-concepcion-del-uruguay-y-fue-detenido",
    "region": "URUGUAY",
    "tema": "Gran Hermano"
   },
   {
-   "titulo": "Santiago Peña renuncia a la Presidencia de Paraguay en medio del escándalo de Ueno Bank",
-   "medio": "Diario Las Américas",
-   "url": "https://www.diariolasamericas.com/america-latina/santiago-pena-renuncia-la-presidencia-paraguay-medio-del-escandalo-ueno-bank-n5404831",
+   "titulo": "Dólar cierra la semana en ¢449",
+   "medio": "Prensa Mercosur",
+   "url": "https://prensamercosur.org/2026/11/07/dolar-cierra-la-semana-en-%C2%A2449/",
    "region": "COSTA RICA",
    "tema": "Banco Central"
   },
   {
-   "titulo": "La Fiscalía europea investiga un posible fraude de fondos comunitarios en el mantenimiento del AVE…",
-   "medio": "Onda Cero",
-   "url": "https://www.ondacero.es/noticias/espana/fiscalia-europea-investiga-posible-fraude-fondos-comunitarios-mantenimiento-linea-ave-madridsevilla_202611066aed9def03bbf30bb041fc4e.html",
+   "titulo": "La Fiscalía Europea investiga un posible fraude en el mantenimiento de las vías del AVE",
+   "medio": "Tribuna de Soria.",
+   "url": "https://www.tribunasoria.com/noticias/465512/la-fiscalia-europea-investiga-un-posible-fraude-en-el-mantenimiento-de-las-vias-del-ave",
    "region": "ESPAÑA",
    "tema": "AVE"
   },
   {
-   "titulo": "Wall Street acumula pérdidas semanales tras las elecciones en Estados Unidos y el batacazo de la IA",
-   "medio": "EFE - Agencia de noticias",
-   "url": "https://efe.com/economia/2026-11-06/wall-street-cierra-semana-en-rojo-elecciones-eeuu/",
+   "titulo": "Nasdaq rebota 1.09% tras desplome histórico, pero Wall Street cierra una semana de fuertes pérdidas",
+   "medio": "Comercio TV",
+   "url": "https://www.comercio.tv/p/nasdaq-rebota-1-09-tras-desplome-hist-rico-pero-wall-street-cierra-una-semana-de-fuertes-p-rdidas",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Ratings del jueves: Telefe duplicó el promedio de eltrece en el prime time",
+   "titulo": "Ratings del viernes: América superó a Elnueve en las tres franjas",
    "medio": "Inicio - Television",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-jueves-telefe-duplico-el-promedio-de-eltrece-en-el-prime-time-2026-11-05/",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-viernes-america-supero-a-elnueve-en-las-tres-franjas-2026-11-06/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Selección Uruguaya (Fecha FIFA): convocados para enfrentar a Argentina y República Dominicana.",
-   "medio": "Cadena del Mar",
-   "url": "https://cadenadelmar.uy/deporte/seleccion-uruguaya-fecha-fifa-convocados-para-enfrentar-a-argentina-y-republica-dominicana-26128",
+   "titulo": "La “vuelta olímpica” de León XIV en el Estadio Centenario de Uruguay - VIDEO",
+   "medio": "Rome Reports",
+   "url": "https://www.romereports.com/2026/11/08/la-vuelta-olimpica-de-leon-xiv-en-el-estadio-centenario-de-uruguay-video/",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "La Junta Electoral permitirá tachar el nombre de Óscar Puente en las papeletas del PSOE en Valladolid para…",
-   "medio": "RTVE.es",
-   "url": "https://www.rtve.es/noticias/20261106/junta-electoral-tachar-oscar-puente-papeletas-psoe-valladolid-29n/17304067.shtml",
+   "titulo": "Feijóo arenga a \"demostrar que Puente no es Valladolid ni Pedro Sánchez es España\"",
+   "medio": "Diario de Valladolid",
+   "url": "https://www.diariodevalladolid.es/valladolid/261107/287956/feijoo-valladolid.html",
    "region": "ESPAÑA",
    "tema": "Oscar Puente"
   },
   {
-   "titulo": "OpenAI lanza BioBasicsBench: 100 tareas de laboratorio",
+   "titulo": "Perplexity Teammates: agentes de IA a US$200 al mes",
    "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/openai-lanza-biobasicsbench-100-tareas-de-laboratorio/",
+   "url": "https://ecosistemastartup.com/perplexity-teammates-agentes-de-ia-a-us200-al-mes/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "La decisión de la Selección Argentina con la camiseta número 10 de Messi para los amistosos de noviembre",
-   "medio": "Aire de Santa Fe",
-   "url": "https://www.airedesantafe.com.ar/deportes/la-decision-la-seleccion-argentina-la-camiseta-numero-10-messi-los-amistosos-noviembre-n675826",
+   "titulo": "OLGA fue el streaming más visto de julio y desplazó a LUZU TV del primer lugar",
+   "medio": "https://www.lafolkargentina.com.ar/",
+   "url": "https://lafolkargentina.com.ar/nota/20591/olga-fue-el-streaming-mas-visto-de-julio-y-desplazo-a-luzu-tv-del-primer-lugar",
    "region": "ARGENTINA",
-   "tema": "Lionel Messi"
+   "tema": "Ratings TV"
   },
   {
-   "titulo": "Diego Forlán no convocó a Merentiel y Arruabarrena lo tendrá para la semifinal",
-   "medio": "Diario Huarpe",
-   "url": "https://www.diariohuarpe.com/nota/miguel-merentiel-quedo-afuera-de-uruguay-y-estara-ante-boca-vs-banfield-202611620230",
+   "titulo": "El cardenal uruguayo Sturla: «Tener al papa entre nosotros es un golazo»",
+   "medio": "HolaNews",
+   "url": "https://holanews.com/el-cardenal-uruguayo-sturla-tener-al-papa-entre-nosotros-es-un-golazo/",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Vercel suma búsqueda web de DeepSeek a su AI Gateway",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/vercel-suma-busqueda-web-de-deepseek-a-su-ai-gateway/",
+   "titulo": "Llega DeepSeek Harness 0.2.2 y además puede delegar en Codex y Claude",
+   "medio": "Pasquale Pillitteri",
+   "url": "https://pasqualepillitteri.it/es/news/30979/llega-deepseek-harness-022-codex-claude",
    "region": "MUNDO",
    "tema": "Hermes Agent"
+  },
+  {
+   "titulo": "La matera que llevó Lionel Messi al entrenamiento del Inter Miami y el detalle que ilusionó a los hinchas de…",
+   "medio": "Mnews",
+   "url": "https://mnews.com.ar/deportes/184133-La-matera-que-llevo-Lionel-Messi-al-entrenamiento-del-Inter-Miami-y-el-detalle-que-ilusiono-a-los-hinchas-de-Newell's",
+   "region": "ARGENTINA",
+   "tema": "Lionel Messi"
   },
   {
    "titulo": "Lista de convocados de Uruguay para enfrentar a Argentina",
@@ -171,44 +178,44 @@ window.NOTICIAS = {
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "Pérdidas en bitcoin: 2.000 millones en 3 días",
-   "medio": "Criptotendencias",
-   "url": "https://www.criptotendencias.com/bitcoin/perdidas-en-bitcoin/",
+   "titulo": "Bitcoin rebota a $76,000, pero salida de $1.3 mil millones en ETFs pone a prueba la recuperación",
+   "medio": "Yahoo Finanzas",
+   "url": "https://es-us.finanzas.yahoo.com/noticias/bitcoin-rebota-76-000-salida-084235707.html",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "El papa León XIV inicia su gira en Uruguay",
-   "medio": "Prensa Libre",
-   "url": "https://www.prensalibre.com/fotogalerias/internacional/el-papa-leon-xiv-inicia-su-gira-en-uruguay/",
+   "titulo": "El papa León XIV llega al Estadio Centenario",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/video/america-latina/el-papa-leon-xiv-llega-al-estadio-centenario/ZCNhpMsu/",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Venta masiva de acciones de IA hace tambalear a Wall Street; el S&P 500 se desploma 4,4%",
-   "medio": "CTPost",
-   "url": "https://www.ctpost.com/business/article/una-venta-masiva-de-acciones-de-ia-hunde-al-s-p-22514901.php",
+   "titulo": "Wall Street acumula pérdidas semanales tras elecciones en EU y 'batacazo' de la IA",
+   "medio": "El Informador",
+   "url": "https://www.informador.mx/economia/wall-street-acumula-perdidas-semanales-tras-elecciones-en-eu-y-batacazo-de-la-ia-20261106-0142.html",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Perplexity lanza Teammates: agentes de IA que trabajan las 24 horas",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Ciencia-y-Tecnologia/Perplexity-lanza-Teammates-agentes-de-IA-que-trabajan-las-24-horas-uc981251",
+   "titulo": "Uber: solo 4 viajes pedidos por agentes de IA en una semana",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/uber-solo-4-viajes-pedidos-por-agentes-de-ia-en-una-semana/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Binance borra todas las claves API vinculadas a SignalPlus por un posible problema de seguridad",
-   "medio": "Criptoinforme",
-   "url": "https://criptoinforme.com/intercambios/binance-signalplus-claves-api-revocadas/",
+   "titulo": "Director financiero de Binance presenta su dimisión tras el multimillonario hackeo a la plataforma de…",
+   "medio": "Yvke Mundial",
+   "url": "https://radiomundial.com.ve/director-financiero-de-binance-presenta-su-dimision-tras-el-multimillonario-hackeo-a-la-plataforma-de-criptomonedas/",
    "region": "MUNDO",
    "tema": "Binance"
   },
   {
-   "titulo": "Destituyen al presidente de Paraguay, Santiago Peña, tras escándalo de Ueno Bank",
-   "medio": "El Universal",
-   "url": "https://www.eluniversal.com.mx/mundo/destituyen-al-presidente-de-paraguay-santiago-pena-tras-escandalo-de-ueno-bank-senado-declara-mal-desempeno-de-sus-funciones/",
+   "titulo": "Fiscalía de Paraguay Solicita Prisión Preventiva para Santiago Peña por Caso Ueno Bank",
+   "medio": "N+",
+   "url": "https://www.nmas.com.mx/internacional/fiscalia-de-paraguay-solicita-prision-preventiva-para-santiago-pena-por-caso-ueno-bank/",
    "region": "MUNDO",
    "tema": "Ueno Bank"
   }
