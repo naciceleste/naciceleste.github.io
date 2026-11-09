@@ -156,6 +156,14 @@ window.POST_MEDIA = {
     "w": 1920,
     "h": 1080
   },
+  "instagram:DbypFAppK38": {
+    "network": "instagram",
+    "h": 960,
+    "w": 540,
+    "kind": "video",
+    "author": "fer.photographer",
+    "date": "2026-08-08T19:44:45.000Z"
+  },
   "instagram:De8yN7kiKI_": {
     "network": "instagram",
     "h": 1350,
