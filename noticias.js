@@ -164,6 +164,13 @@ window.NOTICIAS = {
    "tema": "Hermes Agent"
   },
   {
+   "titulo": "Promedios franja por franja – sábado 7 de noviembre",
+   "medio": "Television",
+   "url": "https://television.com.ar/noticias/sin-categoria/promedios-franja-por-franja-sabado-7-de-noviembre-2026-11-07/",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
    "titulo": "Llega el clásico Argentina-Uruguay: el primero sin Messi",
    "medio": "El Argentino Diario",
    "url": "https://elargentinodiario.com.ar/zona-destacada/08/11/2026/llega-el-clasico-argentina-uruguay-el-primero-sin-messi/",
