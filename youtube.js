@@ -6,6 +6,15 @@ window.YOUTUBE = {
   "url": "https://www.youtube.com/playlist?list=PLJ-DohLIgv3w",
   "videos": [
     {
+      "id": "VTmY326Sm1Y",
+      "title": "FINAL ALTERNATIVO | \"Te re daría\" - Sprite",
+      "channel": "Micaela Psinisnuc",
+      "channelUrl": "https://www.youtube.com/channel/UCovR6vg_nlPZWSNfYMHd6gA",
+      "published": "",
+      "short": false,
+      "added": "2026-11-09"
+    },
+    {
       "id": "l2nsb8BRzcs",
       "title": "Vine a Rosario por un motivo muy especial",
       "channel": "las rutas de juan",
