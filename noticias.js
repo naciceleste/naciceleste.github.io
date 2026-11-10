@@ -1,81 +1,116 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-08",
+ "actualizado": "2026-11-09",
  "items": [
   {
-   "titulo": "Seguridad de la IA en EE.UU. bajo la lupa: expertos reportan a la Casa Blanca y surgen dudas",
-   "medio": "Gestión",
-   "url": "https://gestion.pe/mundo/eeuu-alertan-sobre-posible-interferencia-politica-en-evaluaciones-de-seguridad-de-la-ia-noticia/",
+   "titulo": "Guatemala inicia la elaboración de su Estrategia Nacional de Inteligencia Artificial",
+   "medio": "Agencia Guatemalteca de Noticias",
+   "url": "https://agn.gt/guatemala-inicia-la-elaboracion-de-su-estrategia-nacional-de-inteligencia-artificial/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Javier Milei recibió al Papa León XIV en su llegada a la Argentina",
-   "medio": "Diario La Capital de Mar del Plata",
-   "url": "https://www.lacapitalmdp.com/javier-milei-recibio-al-papa-leon-xiv-en-su-llegada-a-la-argentina/",
+   "titulo": "El mensaje del papa León XIV ante Javier Milei en Argentina: “La economía debe estar al servicio de las…",
+   "medio": "El Dínamo",
+   "url": "https://www.eldinamo.cl/mundo/2026/11/09/video-el-mensaje-del-papa-leon-xiv-ante-javier-milei-en-argentina-la-economia-debe-estar-al-servicio-de-las-personas/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Yamandú Orsi dio la bienvenida al papa León XIV a Uruguay: \\",
-   "medio": "Fm Cordillerana Junin",
-   "url": "https://fmcordilleranajunin.com.ar/a-nota/231463/yamandu-orsi-dio-la-bienvenida-al-papa-leon-xiv-a-uruguay",
+   "titulo": "\"Una fiesta\" y \"somos un gran país\": el mensaje de Orsi tras la visita de León XIV a Uruguay",
+   "medio": "Teledoce.com",
+   "url": "https://www.teledoce.com/telemundo/nacionales/una-fiesta-y-somos-un-gran-pais-el-mensaje-de-orsi-tras-la-visita-de-leon-xiv-a-uruguay/",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Daniel Noboa pide 15 días de licencia a la Asamblea para hacer campaña por las elecciones seccionales",
-   "medio": "Vistazo",
-   "url": "https://www.vistazo.com/amp/actualidad/2026-11-08-daniel-noboa-pide-15-dias-licencia-asamblea-hacer-campana-elecciones-seccionales-nacional-ecuador-quito-HD11309259",
+   "titulo": "En segunda resolución, Sala IV ordena al Congreso detener discusión del presupuesto 2027",
+   "medio": "Teletica",
+   "url": "https://www.teletica.com/politica/en-segunda-resolucion-sala-iv-ordena-al-congreso-detener-discusion-del-presupuesto-2027_420848",
    "region": "COSTA RICA",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "La Crónica toma el pulso a la política española en vísperas de la campaña electoral",
-   "medio": "Levante-EMV",
-   "url": "https://www.levante-emv.com/videos/levante-tv/2026/11/08/cronica-toma-pulso-politica-espanola-136157632.html",
+   "titulo": "El Gobierno se plantea suspender TikTok en España",
+   "medio": "Diario AS",
+   "url": "https://as.com/actualidad/politica/el-gobierno-se-plantea-suspender-tiktok-en-espana-f202611-n/",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Argentina: la IA podría sumar US$5.000M al PBI",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/argentina-la-ia-podria-sumar-us5-000m-al-pbi/",
+   "titulo": "El papa advierte que la inteligencia artificial desregulada puede poner en riesgo empleos",
+   "medio": "Yahoo",
+   "url": "https://es-us.noticias.yahoo.com/papa-advierte-inteligencia-artificial-desregulada-210318334.html",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Tras alejarse del espectáculo argentino, qué es de la vida de Gianella Neyra",
-   "medio": "Caras",
-   "url": "https://caras.perfil.com/noticias/celebridades/alejarse-espectaculo-argentino-vida-gianella-neyra.phtml",
+   "titulo": "Papa León XIV cuestiona el ajuste de Javier Milei en Argentina: “La economía debe estar al servicio de las…",
+   "medio": "altavoz.pe",
+   "url": "https://altavoz.pe/internacional/papa-leon-xiv-cuestiona-el-ajuste-de-javier-milei-en-argentina-la-economia-debe-estar-al-servicio-de-las-personas/",
    "region": "ARGENTINA",
-   "tema": "Facundo Arana"
+   "tema": "Javier Milei"
   },
   {
-   "titulo": "El expresidente uruguayo Luis Lacalle Herrera explicó por qué quiso besar el anillo del papa León XIV",
-   "medio": "C5N",
-   "url": "https://www.c5n.com/sociedad/el-expresidente-uruguayo-luis-lacalle-herrera-explico-que-quiso-besar-el-anillo-del-papa-leon-xiv-n253731",
+   "titulo": "Los principales mensajes del Papa y los momentos destacados de su visita a Uruguay",
+   "medio": "El Eco Digital",
+   "url": "https://elecodigital.com.uy/sociedad/los-principales-mensajes-del-papa-y-los-momentos-destacados-de-su-visita-a-uruguay/",
    "region": "URUGUAY",
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Semana inicia con primer encuentro entre Laura Fernández y presidenta de la Corte",
-   "medio": "Teletica",
-   "url": "https://www.teletica.com/politica/semana-inicia-con-primer-encuentro-entre-laura-fernandez-y-presidenta-de-la-corte_420757",
+   "titulo": "Gobierno de Costa Rica revisará restricciones presupuestarias del Poder Judicial para 2027",
+   "medio": "CRprensa.com",
+   "url": "https://crprensa.com/2026/11/09/gobierno-de-costa-rica-revisara-restricciones-presupuestarias-del-poder-judicial-para-2027/",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Debacle de la izquierda: PP y Vox suman ya 212 escaños y el 53% de los votos",
-   "medio": "Vozpopuli",
-   "url": "https://www.vozpopuli.com/espana/politica/debacle-de-la-izquierda-pp-y-vox-suman-ya-212-escanos-y-el-53-de-los-votos.html",
+   "titulo": "El Gobierno plantea paralizar los servicios de TikTok en España por una investigación sobre casos de abuso…",
+   "medio": "El Independiente",
+   "url": "https://www.elindependiente.com/espana/2026/11/09/el-gobierno-plantea-paralizar-los-servicios-de-tiktok-en-espana-por-una-investigacion-sobre-casos-de-abuso-infantil/",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Jueves negro en Wall Street: ¿Se pinchó la burbuja o está recalculando?",
-   "medio": "Prensa Mercosur",
-   "url": "https://prensamercosur.org/2026/11/08/jueves-negro-en-wall-street-se-pincho-la-burbuja-o-esta-recalculando/",
+   "titulo": "Wall Street se dispara, el Dow Jones sube más de 1.100 puntos.",
+   "medio": "Vietnam.vn",
+   "url": "https://www.vietnam.vn/es/pho-wall-but-pha-dow-jones-tang-hon-1-100-diem",
+   "region": "MUNDO",
+   "tema": "Wall Street"
+  },
+  {
+   "titulo": "De la gloria del bizarro al presente: qué fue de la vida de los mediáticos de ZAP TV",
+   "medio": "NewsDigitales",
+   "url": "https://www.newsdigitales.com/nota/349241/de-la-gloria-del-bizarro-al-presente-que-fue-de-la-vida-de-los-mediaticos-de-zap-tv/",
+   "region": "ARGENTINA",
+   "tema": "Facundo Arana"
+  },
+  {
+   "titulo": "“En casa son fans de Gran Hermano”",
+   "medio": "caras.uy",
+   "url": "https://www.caras.uy/noticias/exclusivo-caras/en-casa-son-fans-de-gran-hermano.phtml",
+   "region": "URUGUAY",
+   "tema": "Gran Hermano"
+  },
+  {
+   "titulo": "De Ormuz a la mesa costarricense: cuando la geopolítica golpea el bolsillo",
+   "medio": "Delfino.cr",
+   "url": "https://delfino.cr/2026/11/de-ormuz-a-la-mesa-costarricense-cuando-la-geopolitica-golpea-el-bolsillo",
+   "region": "COSTA RICA",
+   "tema": "Banco Central"
+  },
+  {
+   "titulo": "Transportes fija servicios mínimos en Renfe de hasta el 75% en Cercanías y del 73% en AVE",
+   "medio": "Valencia Plaza",
+   "url": "https://valenciaplaza.com/valenciaplaza/nacional/transportes-decreta-servicios-minimos-del-75-para-cercanias-en-hora-punta-el-11-de-noviembre",
+   "region": "ESPAÑA",
+   "tema": "AVE"
+  },
+  {
+   "titulo": "Bolsa de Seúl sube más del 5% impulsada por Wall Street y caída del petróleo",
+   "medio": "Prensa Libre",
+   "url": "https://www.prensalibre.com/ahora/internacional/bolsa-de-seul-sube-mas-del-5-impulsada-por-wall-street-y-caida-del-petroleo/",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
@@ -87,135 +122,121 @@ window.NOTICIAS = {
    "tema": "Telefé"
   },
   {
-   "titulo": "La Joaqui (Argentina): cuestionó el miedo a tener un hijo homosexual con una frase ovacionada.",
+   "titulo": "Deportivo Maldonado (Copa AUF Uruguay): perdió 2-1 ante Nacional y quedó eliminado.",
    "medio": "Cadena del Mar",
-   "url": "https://cadenadelmar.uy/espectaculo/la-joaqui-argentina-cuestiono-el-miedo-a-tener-un-hijo-homosexual-con-una-frase-ovacionada-26169",
-   "region": "URUGUAY",
-   "tema": "Gran Hermano"
-  },
-  {
-   "titulo": "De Baninter a Ueno Bank: las quiebras bancarias que han sacudido a América Latina",
-   "medio": "20Minutos",
-   "url": "https://www.20minutos.es/internacional/baninter-ueno-bank-las-quiebras-bancarias-que-han-sacudido-america-latina_7058564_0.amp.html",
-   "region": "COSTA RICA",
-   "tema": "Banco Central"
-  },
-  {
-   "titulo": "Retiran los últimos dos vagones del AVE y la Policía Judicial seguirá investigando sobre el terreno",
-   "medio": "Andalucía Información",
-   "url": "https://www.andaluciainformacion.es/articulo/espana/retiran-ultimos-dos-vagones-ave-policia-judicial-seguira-investigando-terreno/202611071610213529833.amp.html",
-   "region": "ESPAÑA",
-   "tema": "AVE"
-  },
-  {
-   "titulo": "Futuros de Wall St mixtos por IA; se esperan datos de inflación",
-   "medio": "Yahoo Finanzas",
-   "url": "https://es-us.finanzas.yahoo.com/noticias/futuros-wall-st-mixtos-ia-012009477.html",
-   "region": "MUNDO",
-   "tema": "Wall Street"
-  },
-  {
-   "titulo": "Ratings del sábado: Eltrece le ganó las tardes a Telefe",
-   "medio": "Inicio - Television",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-sabado-telefe-gano-el-dia-2026-11-07/",
-   "region": "ARGENTINA",
-   "tema": "Ratings TV"
-  },
-  {
-   "titulo": "DUELO DE URUGUAYOS: GOLES DE PIQUEREZ Y EL PUMITA",
-   "medio": "La oral deportiva -",
-   "url": "https://laoraldeportiva.com.uy/2026/11/08/fluminense-se-mete-entre-los-cuatro-mejores/",
+   "url": "https://cadenadelmar.uy/deporte/deportivo-maldonado-copa-auf-uruguay-perdio-2-1-ante-nacional-y-quedo-eliminado-26205",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Feijóo y Sánchez ante tres semanas decisivas para España",
-   "medio": "Hechos de Hoy",
-   "url": "https://hechosdehoy.com/feijoo-y-sanchez-ante-tres-semanas-decisivas-para-espana/",
+   "titulo": "Buxadé (Vox) acusa al PSOE de reírse de los españoles al aplaudir a Óscar Puente",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/espana/agencias/2026/11/09/buxade-vox-acusa-al-psoe-de-reirse-de-los-espanoles-al-aplaudir-a-oscar-puente/",
    "region": "ESPAÑA",
    "tema": "Oscar Puente"
   },
   {
-   "titulo": "Agentes de IA: Gartner reporta alza de 1.445% en consultas",
+   "titulo": "Exact: el framework de Expo para apps y agentes de IA",
    "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/agentes-de-ia-gartner-reporta-alza-de-1-445-en-consultas/",
+   "url": "https://ecosistemastartup.com/exact-el-framework-de-expo-para-apps-y-agentes-de-ia/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Lionel Messi hizo historia en la MLS: ganó la Bota de Oro por segundo año consecutivo",
-   "medio": "617 News",
-   "url": "https://617.news/lionel-messi-bota-de-oro/",
-   "region": "ARGENTINA",
-   "tema": "Lionel Messi"
-  },
-  {
-   "titulo": "Selección Uruguaya (Fecha FIFA): convocados para enfrentar a Argentina y República Dominicana.",
-   "medio": "Cadena del Mar",
-   "url": "https://cadenadelmar.uy/deporte/seleccion-uruguaya-fecha-fifa-convocados-para-enfrentar-a-argentina-y-republica-dominicana-26128",
-   "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
-  },
-  {
-   "titulo": "Nous Research lanza Arete-27B, un Qwen más occidental con la propaganda en el 1 %",
-   "medio": "Pasquale Pillitteri",
-   "url": "https://pasqualepillitteri.it/es/news/31092/arete-27b-nous-research-qwen-valores-occidentales",
-   "region": "MUNDO",
-   "tema": "Hermes Agent"
-  },
-  {
-   "titulo": "Promedios franja por franja – sábado 7 de noviembre",
-   "medio": "Television",
-   "url": "https://television.com.ar/noticias/sin-categoria/promedios-franja-por-franja-sabado-7-de-noviembre-2026-11-07/",
+   "titulo": "28,5 puntos de rating: el histórico pico de la cadena nacional por la misa del papa León XIV en Palermo",
+   "medio": "Diario Río Negro",
+   "url": "https://www.rionegro.com.ar/redes/285-puntos-de-rating-el-historico-pico-de-la-cadena-nacional-por-la-misa-del-papa-leon-xiv-en-palermo-4791149/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Llega el clásico Argentina-Uruguay: el primero sin Messi",
-   "medio": "El Argentino Diario",
-   "url": "https://elargentinodiario.com.ar/zona-destacada/08/11/2026/llega-el-clasico-argentina-uruguay-el-primero-sin-messi/",
+   "titulo": "“¡Hasta siempre, Celeste!”: Sindy Ramírez se despidió tras 19 años como referente de la selección uruguaya",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/deportes/2026/11/10/hasta-siempre-celeste-sindy-ramirez-se-despidio-tras-19-anos-como-referente-de-la-seleccion-uruguaya/",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
+  },
+  {
+   "titulo": "Vercel sube a 2 GB el límite de capas de su registro Docker",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/vercel-sube-a-2-gb-el-limite-de-capas-de-su-registro-docker/",
+   "region": "MUNDO",
+   "tema": "Hermes Agent"
+  },
+  {
+   "titulo": "Rating: cuánto midió Gran Hermano Generación Dorada tras la eliminación de Luana Fernández",
+   "medio": "Exitoina",
+   "url": "https://exitoina.perfil.com/noticias/rating/rating-cuanto-midio-gran-hermano-generacion-dorada-tras-eliminacion-luana-fernandez.phtml",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
+   "titulo": "El gran momento de Mele: de la clasificación con Independiente a ser citado contra Argentina",
+   "medio": "TyC Sports",
+   "url": "https://www.tycsports.com/independiente/el-gran-momento-de-mele-de-la-clasificacion-con-independiente-a-ser-citado-contra-argentina-id770960.html",
    "region": "URUGUAY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "Estas casas en Finlandia reciben calefacción gratuita de los mineros de bitcoin (siempre que BTC se mantenga…",
-   "medio": "Cryptonews.net",
-   "url": "https://cryptonews.net/es/news/mining/33720950/",
+   "titulo": "Los ETF Bitcoin registran su mayor salida semanal desde junio por USD $1.280 millones",
+   "medio": "DiarioBitcoin",
+   "url": "https://www.diariobitcoin.com/estados-unidos/los-etf-bitcoin-registran-su-mayor-salida-semanal-desde-junio-por-usd-1-280-millones/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "Primer discurso del papa León XIV en Argentina: \"La economía debe estar al servicio de la persona y no la…",
-   "medio": "Diario Río Negro",
-   "url": "https://www.rionegro.com.ar/sociedad/primer-discurso-del-papa-leon-xiv-en-argentina-la-economia-debe-estar-al-servicio-de-la-persona-y-no-la-persona-al-servicio-de-la-economia-4790381/",
+   "titulo": "Messi podría volver al Monumental: River e Inter Miami avanzan por un amistoso en enero",
+   "medio": "Los Andes",
+   "url": "https://www.losandes.com.ar/deportes/messi-podria-volver-al-monumental-river-e-inter-miami-avanzan-un-amistoso-enero-n6013596",
+   "region": "ARGENTINA",
+   "tema": "Lionel Messi"
+  },
+  {
+   "titulo": "El papa León XIV se reunió con víctimas de abusos sexuales en la Iglesia durante su visita a la Argentina",
+   "medio": "La Voz del Interior",
+   "url": "https://www.lavoz.com.ar/ciudadanos/papa-leon-xiv-reunio-victimas-abusos-sexuales-iglesia-visita-argentina_0_pcDS6tQjp3.html",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "La semana que viene: el IPC y las cuentas de empresas tecnológicas ponen a prueba a un mercado frágil",
-   "medio": "FXEmpire",
-   "url": "https://www.fxempire.es/forecasts/article/la-semana-que-viene-el-ipc-y-las-cuentas-tecnologicas-ponen-a-prueba-un-mercado-bursatil-fragil-305157",
+   "titulo": "Papa León XIV oficia en Buenos Aires una misa ante más de dos millones de personas",
+   "medio": "Insular FM",
+   "url": "https://www.insularfm.cl/papa-leon-xiv-oficia-en-buenos-aires-una-misa-ante-mas-de-dos-millones-de-personas/",
+   "region": "MUNDO",
+   "tema": "Papa León XIV"
+  },
+  {
+   "titulo": "Papa León XIV se reunió en Argentina con cinco víctimas de abuso en la Iglesia",
+   "medio": "Noticias Caracol",
+   "url": "https://www.noticiascaracol.com/mundo/papa-leon-xiv-se-reunio-en-argentina-con-cinco-victimas-de-abuso-en-la-iglesia-cb20",
+   "region": "MUNDO",
+   "tema": "Papa León XIV"
+  },
+  {
+   "titulo": "Sólidas subidas para Dow Jones, S&P 500 y Nasdaq pese al castigo a NVIDIA",
+   "medio": "Yahoo",
+   "url": "https://es.finance.yahoo.com/noticias/s%C3%B3lidas-subidas-dow-jones-s-143000547.html",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Empresas LATAM: 40% usa IA y solo 18% la gobierna",
-   "medio": "Vive Click",
-   "url": "https://vive.click/empresas-latam-40-usa-ia-y-solo-18-la-gobierna/",
+   "titulo": "Agentes de IA en Uber: solo cuatro viajes y 500 pedidos",
+   "medio": "La Expresión - Periódico Digital",
+   "url": "https://laexpresion.com.mx/2026/11/09/uber-cuatro-viajes-agentes-inteligencia-artificial/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Binance cambia de director financiero tras el hackeo",
-   "medio": "Criptoinforme",
-   "url": "https://criptoinforme.com/intercambios/binance-director-financiero-kaiser-ng-justin-yek/",
+   "titulo": "Google presenta TPU 8tx y TPU 8i Max: nuevos chips de IA para agentes autónomos y contextos de 1M de tokens",
+   "medio": "madboxpc",
+   "url": "https://www.madboxpc.com/google-tpu-8tx-tpu-8i-max-octava-generacion-ia-agentes/",
    "region": "MUNDO",
-   "tema": "Binance"
+   "tema": "Agentes IA"
   },
   {
-   "titulo": "Allanamiento a Santiago Peña en Paraguay por caso Ueno Bank",
-   "medio": "HCH",
-   "url": "https://hch.tv/allanamiento-a-santiago-pena-vivienda-san-bernardino/",
+   "titulo": "Paraguay pidió ayuda a la Argentina para rastrear activos de Ueno Bank",
+   "medio": "estas informado",
+   "url": "https://estasinformado.com.ar/paraguay-pidio-ayuda-a-la-argentina-para-rastrear-activos-de-ueno-bank/",
    "region": "MUNDO",
    "tema": "Ueno Bank"
   }
