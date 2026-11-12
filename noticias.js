@@ -1,25 +1,25 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-10",
+ "actualizado": "2026-11-11",
  "items": [
   {
-   "titulo": "Nueva York creará el primer centro estatal para evaluar la seguridad de la inteligencia artificial",
-   "medio": "N Digital",
-   "url": "https://n.com.do/2026/11/10/nueva-york-creara-el-primer-centro-estatal-para-evaluar-la-seguridad-de-la-inteligencia-artificial/",
+   "titulo": "OEA advierte sobre riesgos para la democracia y el uso de inteligencia artificial en elecciones de América…",
+   "medio": "Prensa Libre",
+   "url": "https://www.prensalibre.com/ahora/internacional/oea-advierte-sobre-riesgos-para-la-democracia-y-el-uso-de-inteligencia-artificial-en-elecciones-de-america-latina/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Javier Milei supervisó el operativo de seguridad por la visita del papa León XIV",
-   "medio": "Ambito",
-   "url": "https://www.ambito.com/politica/javier-milei-superviso-el-operativo-seguridad-la-visita-del-papa-leon-xiv-n6343746",
+   "titulo": "El papa León XIV se despidió de la Argentina ante un Javier Milei emocionado",
+   "medio": "BHInfo",
+   "url": "https://www.bhinfo.com.ar/noticia/29768-El_papa_Leon_XIV_se_despidio_de_la_Argentina_ante_un_Javier_Milei_emocionado-03102026",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "El Papa en Uruguay",
-   "medio": "Política Obrera",
-   "url": "https://politicaobrera.com/17173-el-papa-en-uruguay/",
+   "titulo": "Orsi participó en la inauguración de centro logístico de Maersk en Montevideo",
+   "medio": "Revista CERO",
+   "url": "https://www.revistacero.com.uy/orsi-inauguracion-centro-logistico-maersk-montevideo/",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
@@ -38,205 +38,205 @@ window.NOTICIAS = {
    "tema": "Política"
   },
   {
-   "titulo": "Nueva York tendrá el primer centro estatal de EE.UU. para evaluar la seguridad de la inteligencia artificial",
-   "medio": "Diario de Yucatán",
-   "url": "https://www.yucatan.com.mx/mundo/2026/11/10/nueva-york-tendra-el-primer-centro-estatal-de-ee-uu-para-evaluar-la-seguridad-de-la-inteligencia-artificial.html",
+   "titulo": "La inteligencia artificial en el mundo de las inversiones",
+   "medio": "Gestión",
+   "url": "https://gestion.pe/g-de-gestion/columnistas/las-inversiones-y-la-inteligencia-artificial-asesores-financieros-acciones-capital-industria-noticia/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Mensajes clave de la visita del papa León XIV a Argentina y el encuentro con Javier Milei",
-   "medio": "Univision",
-   "url": "https://www.univision.com/noticias/mensajes-clave-de-la-visita-del-papa-leon-xiv-a-argentina-y-el-encuentro-con-javier-milei-video",
+   "titulo": "Javier Milei se conmovió al despedir al papa León XIV en Argentina",
+   "medio": "El Comercio Perú",
+   "url": "https://elcomercio.pe/videos/elcomercio/javier-milei-se-conmovio-al-despedir-al-papa-leon-xiv-en-argentina-previo-a-su-partida-a-peru-noticia/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Papa León XIV (Uruguay): Orsi y expresidentes lo recibieron en Plaza Independencia.",
-   "medio": "Cadena del Mar",
-   "url": "https://cadenadelmar.uy/nacional/papa-leon-xiv-uruguay-orsi-y-expresidentes-lo-recibieron-en-plaza-independencia-26121",
+   "titulo": "Da Silva en acto de la 40: “¿Estamos esperando a que venga Lacalle Pou? No, señor”",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Noticias/Da-Silva-en-acto-de-la-40--Estamos-esperando-a-que-venga-Lacalle-Pou-No-senor--uc981921",
    "region": "URUGUAY",
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Patricia Vargas no dijo a Laura Fernández que presentó gestión para frenar presupuesto 2027",
-   "medio": "Teletica",
-   "url": "https://www.teletica.com/amp/politica/patricia-vargas-no-dijo-a-laura-fernandez-que-presento-gestion-para-frenar-presupuesto-2027_420912",
+   "titulo": "Chaves acusa a Sala IV de \"dictadura judicial\" por suspensión de discusión y votación del presupuesto",
+   "medio": "Delfino.cr",
+   "url": "https://delfino.cr/2026/11/chaves-acusa-a-sala-iv-de-dictadura-judicial-por-suspension-de-discusion-y-votacion-del-presupuesto",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Última hora política en España, en directo hoy: los piquetes se movilizan en centros de trabajo",
-   "medio": "RTVE.es",
-   "url": "https://www.rtve.es/noticias/20261110/ultima-hora-politica-espana-directo-hoy-cronica/17306875.shtml",
+   "titulo": "España vive huelga general y protestas por la vivienda antes de elecciones",
+   "medio": "DW.com",
+   "url": "https://www.dw.com/es/espa%C3%B1a-vive-huelga-general-y-protestas-por-la-vivienda-antes-de-elecciones/a-79924314",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Wall Street abre en rojo tras un dato de inflación en EE. UU. peor de lo previsto",
-   "medio": "Criptotendencias",
-   "url": "https://www.criptotendencias.com/finanzas-y-bolsa/wall-street-abre-en-rojo-inflacion/",
+   "titulo": "Wall Street cierra al alza, impulsado por el sector de la IA y el alivio en Nvidia",
+   "medio": "El Informador",
+   "url": "https://www.informador.mx/economia/wall-street-cierra-al-alza-impulsado-por-el-sector-de-la-ia-y-el-alivio-en-nvidia-20261111-0189.html",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Conmoción en la cumbia argentina: murió Marcos Camino, uno de los fundadores de Los Palmeras",
-   "medio": "Los Andes",
-   "url": "https://www.losandes.com.ar/espectaculos/conmocion-la-cumbia-argentina-murio-marcos-camino-uno-los-fundadores-los-palmeras-n6013762",
+   "titulo": "Así es la casa de Facundo Arana y María Susini en el Tigre: mucha naturaleza, madera y chimenea",
+   "medio": "Radio Mitre",
+   "url": "https://radiomitre.cienradios.com/espectaculos/asi-es-la-casa-de-facundo-arana-y-maria-susini-en-el-tigre-mucha-naturaleza-madera-y-chimenea/",
    "region": "ARGENTINA",
    "tema": "Facundo Arana"
   },
   {
-   "titulo": "¿Quién quedó eliminada de Gran Hermano Uruguay ayer con el 80% de los votos?",
-   "medio": "Telebajocero",
-   "url": "https://www.telebajocero.com/gran-hermano/quien-quedo-eliminada-gran-hermano-uruguay-ayer-el-80-los-votos-n1361248",
+   "titulo": "“Demostré ser mucho más que una simple cheta”: Agustina Zerbino habla de su salida de GH",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Noticias/-Demostre-ser-mucho-mas-que-una-simple-cheta--Agustina-Zerbino-habla-de-su-salida-de-GH-uc981901",
    "region": "URUGUAY",
    "tema": "Gran Hermano"
   },
   {
-   "titulo": "El Partido Colorado expulsó de sus filas a Santiago Peña tras el escándalo de Ueno Bank",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/america/america-latina/2026/11/10/el-partido-colorado-expulso-de-sus-filas-a-santiago-pena-tras-el-escandalo-de-ueno-bank/?outputType=amp-type",
+   "titulo": "El dólar sigue bajando este miércoles 11 de noviembre: así amaneció el tipo de cambio en Costa Rica",
+   "medio": "Tome pal pinto",
+   "url": "https://tomepalpinto.com/2026/11/11/%F0%9F%94%B4-buenasnoticias-el-dolar-sigue-bajando-este-miercoles-11-de-noviembre-asi-amanecio-en-costa-rica/",
    "region": "COSTA RICA",
    "tema": "Banco Central"
   },
   {
-   "titulo": "Transportes fija servicios mínimos de hasta el 73% en AVE y del 75% en Cercanías por la huelga general",
-   "medio": "Demócrata",
-   "url": "https://www.democrata.es/economia/transportes-fija-servicios-minimos-de-hasta-el-73-en-ave-y-del-75-en-cercanias-por-la-huelga-general/",
+   "titulo": "Renfe cifra en 9% el seguimiento de la huelga, con 16% de supresiones en AVE y 22,4% en Cercanías Madrid",
+   "medio": "Europa Press",
+   "url": "https://www.europapress.es/economia/transportes-00343/noticia-renfe-cifra-seguimiento-huelga-16-supresiones-ave-224-cercanias-madrid-20261111200440.html",
    "region": "ESPAÑA",
    "tema": "AVE"
   },
   {
-   "titulo": "Wall Street cierra a la baja por datos de la inflación",
-   "medio": "CR Hoy",
-   "url": "https://crhoy.com/economia/wall-street-cierra-a-la-baja-por-datos-de-la-inflacion/",
+   "titulo": "Futuros de Wall Street suben impulsados por resultados de CoreWeave y recuperación de acciones tecnológicas…",
+   "medio": "Revista ADVFN",
+   "url": "https://mx.advfn.com/noticias-de-mercado/article/10151/futuros-de-wall-street-suben-impulsados-por-resultados-de-coreweave-y-recuperacion-de-acciones-tecnologicas-dow-jones-sp-nasdaq",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Expectativa y vigilia en Luján por la última misa del papa León XIV en Argentina",
-   "medio": "Telefe Noticias",
-   "url": "https://noticias.mitelefe.com/actualidad/expectativa-y-vigilia-en-lujan-por-la-ultima-misa-del-papa-leon-xiv-en-argentina-pid2571851",
+   "titulo": "El papa León XIV cierra su visita a la Argentina con una misa multitudinaria en la Basílica de Luján",
+   "medio": "Telefe Rosario",
+   "url": "https://rosario.mitelefe.com/informacion-general/el-papa-leon-xiv-cierra-su-visita-a-la-argentina-con-una-misa-multitudinaria-en-la-basilica-de-lujan-pid2571891",
    "region": "ARGENTINA",
    "tema": "Telefé"
   },
   {
-   "titulo": "Argentina vs Uruguay: Forlán ya tiene a sus 28 convocados para el amistoso",
-   "medio": "Diario Extra",
-   "url": "https://www.extra.ec/noticia/deportes/argentina-vs-uruguay-forlan-28-convocados-amistoso-167550.html",
+   "titulo": "Forlán palpitó el Argentina-Uruguay: «Por más amistoso que sea, HAY UNA RIVALIDAD con mucha historia",
+   "medio": "https://santafedeportivo.com.ar/",
+   "url": "https://santafedeportivo.com.ar/2026/11/11/forlan-palpito-el-argentina-uruguay-por-mas-amistoso-que-sea-hay-una-rivalidad-con-mucha-historia/",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Sánchez sobre la dimisión de Puente: Sin habérmelo consultado, fue un acierto",
-   "medio": "EFE - Agencia de noticias",
-   "url": "https://efe.com/espana/2026-11-10/sanchez-entrevista-septima-puente-elecciones/",
+   "titulo": "El escondite de Óscar Puente, 57 años, tras dimitir por la tragedia de Urda: pasó su infancia y son famosos…",
+   "medio": "Hoy Aragón",
+   "url": "https://www.hoyaragon.es/espana/oscar-puente-escondite/20261111212832152348.html",
    "region": "ESPAÑA",
    "tema": "Oscar Puente"
   },
   {
-   "titulo": "Palo Alto Collaboration Company ofrece a América Latina acceso prioritario a Pana IA",
-   "medio": "Excélsior",
-   "url": "https://www.excelsior.com.mx/tecnologia/palo-alto-collaboration-company-ofrece-america-latina-acceso-prioritario-pana-ia",
+   "titulo": "Agentes de IA: 82% de empresas no sabe cuáles operan",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/agentes-de-ia-82-de-empresas-no-sabe-cuales-operan/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "MasterChef Celebrity Domina el Rating de la Noche del Lunes",
-   "medio": "Radio El Condor",
-   "url": "https://fmradioelcondor.com.ar/masterchef-celebrity-domina-el-rating-de-la-noche-del-lunes/",
+   "titulo": "MasterChef Celebrity destaca en rating con 12.1 puntos en su gala de eliminación",
+   "medio": "Cadena 3 Argentina",
+   "url": "https://www.cadena3.com/amp/noticia/espectaculos/masterchef-celebrity-destaca-en-rating-con-121-puntos-en-su-gala-de-eliminacion_612066",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Forlán ya tiene su plantilla completa para el amistoso de Uruguay ante Argentina",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/espana/agencias/2026/11/10/forlan-ya-tiene-su-plantilla-completa-para-el-amistoso-de-uruguay-ante-argentina/",
+   "titulo": "Diego Forlán palpitó el Argentina-Uruguay: \"Hay una rivalidad con mucha historia\"",
+   "medio": "Diario Popular",
+   "url": "https://www.diariopopular.com.ar/futbol/diego-forlan-palpito-el-argentina-uruguay-hay-una-rivalidad-mucha-historia-n928769",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Rescale pone agentes de ingeniería a trabajar en el diseño del reactor Hermes 2",
-   "medio": "Unite.AI",
-   "url": "https://www.unite.ai/es/rescale-puts-engineering-agents-to-work-on-hermes-2-reactor-design/",
+   "titulo": "ASUS presentó en Latinoamérica la ProArt P16: la potente laptop pensada para la inteligencia artificial…",
+   "medio": "El Destape",
+   "url": "https://www.eldestapeweb.com/tecnologia/asus-presento-latinoamerica-proart-p16-potente-laptop-pensada-inteligencia-artificial-empresarial-2026111114635",
    "region": "MUNDO",
    "tema": "Hermes Agent"
   },
   {
-   "titulo": "MasterChef Celebrity lidera la noche del lunes con 12 puntos de rating",
-   "medio": "Cadena 3 Argentina",
-   "url": "https://www.cadena3.com/amp/noticia/espectaculos/masterchef-celebrity-lidera-la-noche-del-lunes-con-12-puntos-de-rating_611756",
+   "titulo": "Ratings del martes: América y Elnueve empataron en el promedio general",
+   "medio": "Inicio - Television",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-martes-america-y-elnueve-empataron-en-el-promedio-general-2026-11-10/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "​Atajó en Defensa y Justicia y se perfila para ser titular en Uruguay contra Argentina",
-   "medio": "Fuego24",
-   "url": "https://fuego24.com/deportes/atajo-en-defensa-y-justicia-y-se-perfila-para-ser-titular-en-uruguay-contra-argentina/",
+   "titulo": "\"Por más amistosos que sean...\": la advertencia que le dio Diego Forlán a la Selección argentina",
+   "medio": "Ambito",
+   "url": "https://www.ambito.com/deportes/por-mas-amistosos-que-sean-la-advertencia-que-le-dio-diego-forlan-la-seleccion-argentina-n6344204",
    "region": "URUGUAY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "Miami-Dade comienza a aceptar bitcoin para pagar impuestos a la propiedad",
-   "medio": "Telemundo Miami (51)",
-   "url": "https://www.telemundo51.com/video/noticiero-t51/miami-dade-comienza-a-aceptar-bitcoin-para-pagar-impuestos-a-la-propiedad/2846924/",
+   "titulo": "Custodia de bitcoin: Deutsche Bank la lanza con licencia MiCA",
+   "medio": "Criptotendencias",
+   "url": "https://www.criptotendencias.com/empresa/custodia-de-bitcoin-deutsche-bank/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "La selección argentina se prepara para los amistosos ante Uruguay y Costa Rica",
-   "medio": "La Capital",
-   "url": "https://www.lacapital.com.ar/ovacion/la-seleccion-argentina-se-prepara-los-amistosos-uruguay-y-costa-rica-n10291375.html",
+   "titulo": "Lionel Scaloni renovará como DT de la Selección Argentina hasta 2030",
+   "medio": "laGacetaOnline",
+   "url": "https://lagacetaonline.com.ar/deportes/lionel-scaloni-renovara-como-dt-de-la-seleccion-argentina-hasta-2030/",
    "region": "ARGENTINA",
    "tema": "Lionel Messi"
   },
   {
-   "titulo": "El papa León XIV pide en Buenos Aires ante un millón de jóvenes que resistan a los nuevos ídolos",
-   "medio": "EFE - Agencia de noticias",
-   "url": "https://efe.com/mundo/2026-11-11/papa-leon-xiv-jovenes-vigilia-monumento-espanoles-buenos-aires/",
+   "titulo": "El papa León XIV inicia en Perú la última etapa de su gira por Sudamérica",
+   "medio": "Diario Las Américas",
+   "url": "https://www.diariolasamericas.com/america-latina/el-papa-leon-xiv-inicia-peru-la-ultima-etapa-su-gira-sudamerica-n5405176",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Papa León XIV pide a los jóvenes en Argentina que no caigan \"ante los nuevos ídolos que reclaman su adoración\"",
-   "medio": "RPP Noticias",
-   "url": "https://rpp.pe/mundo/actualidad/papa-leon-xiv-pide-a-los-jovenes-en-argentina-que-no-caigan-ante-los-nuevos-idolos-que-reclaman-su-adoracion-noticia-1717116",
+   "titulo": "León XIV llega a Perú, su país adoptivo, última etapa de su gira latinoamericana",
+   "medio": "DW.com",
+   "url": "https://www.dw.com/es/le%C3%B3n-xiv-llega-a-per%C3%BA-su-pa%C3%ADs-adoptivo-%C3%BAltima-etapa-de-su-gira-latinoamericana/a-79924922",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "La visita del papa León XIV a la Argentina, en fotos",
-   "medio": "Página|12",
-   "url": "https://www.pagina12.com.ar/2026/11/09/la-visita-del-papa-leon-xiv-a-la-argentina-en-fotos/",
+   "titulo": "Fotos destacadas de la visita del papa León XIV a Perú, la última parada de su gira por Sudamérica",
+   "medio": "Audacy",
+   "url": "https://www.audacy.com/winsnoticias/noticias/peru-papa-leon-xiv-fotos-53c4967efe662c914088dfb04161cf74",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Dow Jones, S&P 500 y Nasdaq se giran a la baja tras un IPC por encima de lo esperado",
-   "medio": "Yahoo",
-   "url": "https://es.finance.yahoo.com/noticias/dow-jones-s-p-500-143000892.html",
+   "titulo": "El S&P 500 y el Nasdaq suben tras los resultados de CoreWeave, que alivian las preocupaciones sobre el gasto…",
+   "medio": "Forbes México",
+   "url": "https://forbes.com.mx/el-sp-500-y-el-nasdaq-suben-tras-los-resultados-de-coreweave-que-alivian-las-preocupaciones-sobre-el-gasto-en-ia/",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Harvey lleva sus agentes de IA jurídica a Outlook",
+   "titulo": "España: 36% usa agentes de IA en cadena de suministro",
    "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/harvey-lleva-sus-agentes-de-ia-juridica-a-outlook/",
+   "url": "https://ecosistemastartup.com/espana-36-usa-agentes-de-ia-en-cadena-de-suministro/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "IBM y Microsoft lanzan Imagine Enterprise para agentes de IA industriales",
-   "medio": "Unite.AI",
-   "url": "https://www.unite.ai/es/ibm-and-microsoft-launch-imagine-enterprise-for-industry-ai-agents/",
+   "titulo": "Rox capta 100 millones de dólares para sus agentes de ventas con IA",
+   "medio": "https://fomoera.com/",
+   "url": "https://fomoera.com/rox-serie-b-agentes-ia-ventas/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "El gobernante Partido Colorado expulsa al expresidente Santiago Peña tras escándalo por Ueno Bank",
-   "medio": "Diario Las Américas",
-   "url": "https://www.diariolasamericas.com/america-latina/el-gobernante-partido-colorado-expulsa-al-expresidente-santiago-pena-escandalo-ueno-bank-n5405094",
+   "titulo": "Paraguay: Santiago Peña se expone hasta a 15 años de prisión por el caso de Ueno bank, según la Fiscalía",
+   "medio": "Página|12",
+   "url": "https://www.pagina12.com.ar/2026/11/11/paraguay-santiago-pena-se-expone-hasta-a-15-anos-de-prision-por-el-caso-de-ueno-bank-segun-la-fiscalia/",
    "region": "MUNDO",
    "tema": "Ueno Bank"
   }
