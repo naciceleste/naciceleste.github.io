@@ -37,6 +37,12 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://x.com/CatholicArena/status/2119429809956671911", date: "2026-11-12", tags: ["leon xiv","fotón","te quiero mucho perrito"] },
+  { url: "https://www.instagram.com/p/DfhSJCGsPYr/", date: "2026-11-12", note: "Hagan lo que hay que hacer y después hagan lo que les gusta", tags: ["no te tomes la vida tan en serio","reirse","lo absurdo de la vida"] },
+  { url: "https://x.com/PERIODlSTAPERON/status/2119987367138201704", date: "2026-11-12", tags: ["leon xiv","milei","que buen gancho de derecha tiene el papa"] },
+  { url: "https://www.instagram.com/p/DfndJy5gsFD/", date: "2026-11-12", tags: ["sin miedo papi"] },
+  { url: "https://x.com/RoxiR0633390/status/2120215359278170497", date: "2026-11-12", tags: ["introvertidos","no lo entenderías"] },
+  { url: "https://x.com/roroan1210/status/2120647760110391473", date: "2026-11-12", tags: ["sé amable","amabilidad, pásala"] },
   { url: "https://www.instagram.com/p/DeucGZXgH4J/", date: "2026-11-06", tags: ["carlos valerin","ser agradecido"] },
   { url: "https://x.com/Santictar/status/2118753841604612180", date: "2026-11-06", tags: ["milei","la señora","tobillera"] },
   { url: "https://x.com/Xyzyn9/status/2118415067964174839", date: "2026-11-05", tags: ["relatos","ponele voluntad","te quiero mucho suegro"] },
