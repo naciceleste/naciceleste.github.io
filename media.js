@@ -1,6 +1,80 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:2119429809956671911": {
+    "network": "x",
+    "date": "2026-11-08T14:00:18.000Z",
+    "author": "CatholicArena",
+    "text": "First time seeing a starstruck dog.",
+    "image": "https://pbs.twimg.com/media/HWm6LbgWUAAeh-F.jpg",
+    "kind": "photo",
+    "w": 1080,
+    "h": 1011,
+    "focus": {
+      "x": 0,
+      "y": 48,
+      "w": 1080,
+      "h": 605
+    }
+  },
+  "instagram:DfhSJCGsPYr": {
+    "network": "instagram",
+    "h": 1280,
+    "w": 720,
+    "kind": "video",
+    "author": "ordonezmaurob",
+    "date": "2026-11-09T12:02:44.000Z"
+  },
+  "x:2119987367138201704": {
+    "network": "x",
+    "date": "2026-11-10T02:55:50.000Z",
+    "author": "PERIODlSTAPERON",
+    "text": "Sublime",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119987310326390784/img/FHSwqjjC2oQULEoO.jpg",
+    "kind": "video",
+    "w": 1276,
+    "h": 718
+  },
+  "instagram:DfndJy5gsFD": {
+    "network": "instagram",
+    "h": 2347,
+    "w": 1320,
+    "kind": "video",
+    "author": "baduomo",
+    "date": "2026-11-11T21:33:41.000Z"
+  },
+  "x:2120215359278170497": {
+    "network": "x",
+    "date": "2026-11-10T18:01:48.000Z",
+    "author": "RoxiR0633390",
+    "text": "Yo, esperando que el vecino se vaya para poder salir:",
+    "image": "https://pbs.twimg.com/media/HWyEn_ZWUAAnLUT.jpg",
+    "kind": "photo",
+    "w": 1018,
+    "h": 549,
+    "focus": {
+      "x": 0,
+      "y": 0,
+      "w": 980,
+      "h": 549
+    }
+  },
+  "x:2120647760110391473": {
+    "network": "x",
+    "date": "2026-11-11T22:40:00.000Z",
+    "author": "roroan1210",
+    "text": "Siempre",
+    "image": "https://pbs.twimg.com/media/HWs8Mm-WAAAP_03.jpg",
+    "kind": "photo",
+    "w": 1024,
+    "h": 1374,
+    "focus": {
+      "x": 0,
+      "y": 297,
+      "w": 1024,
+      "h": 573
+    }
+  },
   "instagram:DeucGZXgH4J": {
     "network": "instagram",
     "h": 1920,
