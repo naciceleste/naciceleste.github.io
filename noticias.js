@@ -192,6 +192,13 @@ window.NOTICIAS = {
    "tema": "Diego Forlán"
   },
   {
+   "titulo": "Las claves del rating del viernes: la Selección Argentina impulsó a Telefe a una victoria aplastante",
+   "medio": "Chisme",
+   "url": "https://chisme.com.ar/noticia/las-claves-del-rating-del-viernes-la-seleccion-argentina-impulso-a-telefe-a-una-victoria-aplastante/",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
    "titulo": "ETF de Bitcoin pierden USD $2.350 millones en dos semanas y BlackRock suma 11 jornadas de retiros",
    "medio": "DiarioBitcoin",
    "url": "https://www.diariobitcoin.com/estados-unidos/etf-de-bitcoin-pierden-usd-2-350-millones-en-dos-semanas-y-blackrock-suma-11-jornadas-de-retiros/",
