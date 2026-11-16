@@ -143,11 +143,11 @@ window.NOTICIAS = {
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Messi regresa a Argentina para un amistoso del Inter Miami ante el River Plate",
-   "medio": "Diario Las Américas",
-   "url": "https://www.diariolasamericas.com/deportes/messi-regresa-argentina-un-amistoso-del-inter-miami-el-river-plate-n5405314",
+   "titulo": "Exclusivo: los números de rating del sábado 14 de noviembre",
+   "medio": "Chisme",
+   "url": "https://chisme.com.ar/noticia/exclusivo-los-numeros-de-rating-del-sabado-14-de-noviembre/",
    "region": "ARGENTINA",
-   "tema": "Lionel Messi"
+   "tema": "Ratings TV"
   },
   {
    "titulo": "Argentina perdió 2-1 ante Uruguay sin Messi en La Bombonera",
@@ -169,6 +169,13 @@ window.NOTICIAS = {
    "url": "https://ecosistemastartup.com/softeng-dirigir-agentes-de-ia-como-equipos-humanos/",
    "region": "MUNDO",
    "tema": "Grok Bot"
+  },
+  {
+   "titulo": "Messi regresa a Argentina para un amistoso del Inter Miami ante el River Plate",
+   "medio": "Diario Las Américas",
+   "url": "https://www.diariolasamericas.com/deportes/messi-regresa-argentina-un-amistoso-del-inter-miami-el-river-plate-n5405314",
+   "region": "ARGENTINA",
+   "tema": "Lionel Messi"
   },
   {
    "titulo": "La Selección Argentina volvió a entrenarse tras la derrota ante Uruguay y prepara su viaje a Córdoba",
