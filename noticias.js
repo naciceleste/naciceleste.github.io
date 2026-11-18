@@ -241,6 +241,13 @@ window.NOTICIAS = {
    "tema": "Agentes IA"
   },
   {
+   "titulo": "EDX Markets planea liquidar operaciones con USDG mediante una alianza con Paxos",
+   "medio": "Securities.io",
+   "url": "https://www.securities.io/es/edx-markets-plans-usdg-settlement-through-paxos-partnership/",
+   "region": "MUNDO",
+   "tema": "Paxos"
+  },
+  {
    "titulo": "Nu obtiene licencia bancaria en Brasil tras la aprobación de compra de Banco Porto Real",
    "medio": "EL CEO",
    "url": "https://elceo.com/negocios/nu-concreta-compra-banco-porto-real-consigue-licencia-bancaria-brasil/",
