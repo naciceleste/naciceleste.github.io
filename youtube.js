@@ -6,6 +6,24 @@ window.YOUTUBE = {
   "url": "https://www.youtube.com/playlist?list=PLJ-DohLIgv3w",
   "videos": [
     {
+      "id": "i6eExoqAkjA",
+      "title": "Lo que NADIE te cuenta de CALLE CORRIENTES",
+      "channel": "Fieles",
+      "channelUrl": "https://www.youtube.com/channel/UCkIElmDhcF2L23yGKYPk6zA",
+      "published": "",
+      "short": false,
+      "added": "2026-11-17"
+    },
+    {
+      "id": "b_x8AGhbvRY",
+      "title": "El mundo de los CHOFERES de COLECTIVO desde adentro: Violencia, Tragedias y Situaciones Insólitas.",
+      "channel": "Fieles",
+      "channelUrl": "https://www.youtube.com/channel/UCkIElmDhcF2L23yGKYPk6zA",
+      "published": "",
+      "short": false,
+      "added": "2026-11-17"
+    },
+    {
       "id": "VTmY326Sm1Y",
       "title": "FINAL ALTERNATIVO | \"Te re daría\" - Sprite",
       "channel": "Micaela Psinisnuc",
