@@ -8,6 +8,8 @@ Duplicate URLs/pins: the last sheet row wins. Empty cells clear tags/note/pin.
 Medios accepts known outlet names or domains, separated by commas/semicolons.
 Unknown notes are reported, never guessed into domains. News shortfalls are
 reported, never filled with stale/unverified articles. All limits are wall time.
+Bing News RSS is the automatic fallback per topic when Google fails or falls short.
+--solo-respaldo (or REVISION_SOLO_RESPALDO=1/true/si/yes) skips Google and uses Bing.
 """
 
 import argparse
@@ -19,6 +21,7 @@ from email.utils import parsedate_to_datetime
 import html
 import json
 import multiprocessing
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -38,6 +41,7 @@ HARD_SECONDS = 240
 HTTP_TIMEOUT = 7
 WORKERS = 16
 GOOGLE_SLOTS = threading.BoundedSemaphore(4)
+BING_SLOTS = threading.BoundedSemaphore(4)
 RATE_LOCK = threading.Lock()
 RATE_LIMITED = set()
 HEADER = '/* Generado por la revisión diaria (8 p. m.). No editar a mano. */'
@@ -169,10 +173,11 @@ def blocked(url):
 
 def request(url, deadline, data=None, *, redirect_only=False):
     domain = host(url)
+    slots = GOOGLE_SLOTS if domain == 'news.google.com' else BING_SLOTS if domain == 'bing.com' else None
     acquired = False
     try:
-        if domain == 'news.google.com':
-            acquired = GOOGLE_SLOTS.acquire(timeout=max(0, deadline - time.monotonic()))
+        if slots is not None:
+            acquired = slots.acquire(timeout=max(0, deadline - time.monotonic()))
             if not acquired:
                 raise TimeoutError('Presupuesto de tiempo agotado')
         with RATE_LOCK:
@@ -192,7 +197,7 @@ def request(url, deadline, data=None, *, redirect_only=False):
             raise
     finally:
         if acquired:
-            GOOGLE_SLOTS.release()
+            slots.release()
 
 
 def _request(url, deadline, data=None, *, redirect_only=False):
@@ -461,6 +466,52 @@ def similar(a, b, threshold=0.45):
                 and len(a & b) / len(a | b) >= threshold)
 
 
+def looks_spanish(title):
+    if re.search(r'[\u0400-\u04FF\u0600-\u06FF\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF\uFF00-\uFFEF]', title):
+        return False
+    words = re.findall(r'[a-z0-9]+', norm(title))
+    if not words:
+        return False
+    if any(w in words for w in ('nao', 'tambem', 'voce', 'voces', 'milhoes', 'bilhoes',
+                                 'apos', 'pelo', 'pela', 'pelos', 'pelas', 'numa', 'do',
+                                 'veja', 'hoje', 'isso', 'isto', 'sem', 'muito', 'pra')):
+        return False
+    english = sum(w in words for w in ('the', 'and', 'of', 'for', 'with', 'from', 'that', 'this',
+                                       'its', 'just', 'into', 'about', 'after', 'their', 'have',
+                                       'has', 'was', 'were', 'will', 'been', 'than', 'today',
+                                       'as', 'more', 'over', 'before'))
+    spanish = sum(w in words for w in ('de', 'del', 'la', 'el', 'los', 'las', 'un', 'una', 'que',
+                                       'por', 'para', 'con', 'en', 'su', 'sus', 'es', 'se', 'al',
+                                       'lo', 'le', 'mas', 'como', 'sobre', 'este', 'esta', 'entre',
+                                       'hoy', 'despues', 'durante', 'ante', 'tras'))
+    return not ((english and spanish == 0) or (english >= 2 and english > spanish))
+
+
+def mentions_topic(topic, title):
+    """Require the topic to appear in the headline, with light stemming."""
+    haystack, needle = norm(title), norm(topic['tema']).strip()
+    if not needle:
+        return False
+    if needle in haystack:
+        return True
+    compact = re.sub(r'[^a-z0-9]+', '', needle)
+    if len(compact) >= 4 and compact in re.sub(r'[^a-z0-9]+', '', haystack):
+        return True
+    words = re.findall(r'[a-z0-9]+', haystack)
+    tokens = [t for t in re.findall(r'[a-z0-9]+', needle) if t not in STOP_WORDS and len(t) > 1]
+    long = [t for t in tokens if len(t) >= 4] or tokens
+    if not long:
+        return False
+    def present(token):
+        stem = token[:-1] if len(token) > 3 and token.endswith('s') else token
+        for word in words:
+            base = word[:-1] if len(word) > 3 and word.endswith('s') else word
+            if stem == base or (len(stem) >= 4 and (word.startswith(stem) or stem.startswith(base) and len(base) >= 4)):
+                return True
+        return False
+    return all(present(token) for token in long)
+
+
 def fetch_rss(job, now, deadline):
     topic, query = job
     gl = topic['region'] if topic['region'] in ('AR', 'UY', 'CR', 'ES') else 'US'
@@ -486,10 +537,71 @@ def fetch_rss(job, now, deadline):
         title = clean_title(entry.findtext('title', ''), outlet)
         link = entry.findtext('link', '')
         if title and link and outlet:
+            if not looks_spanish(title):
+                skipped.append({'url': link, 'topic': topic['tema'],
+                                'reason': 'Titular no está en español'})
+                continue
             items.append({'titulo': title, 'medio': outlet, 'url': link,
                           'region': topic['region'], 'tema': topic['tema'],
                           '_tokens': title_tokens(title), '_outlet': host(source_url) or norm(outlet),
-                          '_time': date.timestamp()})
+                          '_time': date.timestamp(), '_source': 'google'})
+    return {'items': items, 'skipped': skipped}
+
+
+def unwrap_bing(url):
+    seen = set()
+    while url not in seen:
+        seen.add(url)
+        domain = host(url)
+        if not any(domain == d or domain.endswith('.' + d) for d in ('bing.com', 'msn.com')):
+            break
+        target = dict(parse_qsl(urlsplit(url).query)).get('url')
+        if not target:
+            break
+        url = target
+    return url
+
+
+def fetch_bing_rss(job, now, deadline):
+    topic, query = job
+    region = topic['region'].upper()
+    cc = {'AR': 'AR', 'ARGENTINA': 'AR', 'UY': 'UY', 'URUGUAY': 'UY',
+          'CR': 'CR', 'COSTA RICA': 'CR', 'ES': 'ES', 'ESPAÑA': 'ES'}.get(region, 'US')
+    params = urlencode({'q': query, 'format': 'rss', 'setlang': 'es', 'cc': cc,
+                        'mkt': 'es-' + cc, 'qft': 'sortbydate="1"'})
+    _, body = request('https://www.bing.com/news/search?' + params, deadline)
+    items, skipped = [], []
+    for entry in ET.fromstring(body).findall('.//item'):
+        try:
+            date = parsedate_to_datetime(entry.findtext('pubDate', ''))
+            if date.tzinfo is None:
+                date = date.replace(tzinfo=timezone.utc)
+            if not now - timedelta(hours=36) <= date <= now:
+                continue
+        except (TypeError, ValueError, OverflowError):
+            continue
+        outlet = next((child.text or '' for child in entry
+                       if child.tag.rsplit('}', 1)[-1] == 'Source'), '').strip()
+        link = unwrap_bing(entry.findtext('link', '').strip())
+        if blocked(link):
+            skipped.append({'url': link, 'topic': topic['tema'],
+                            'reason': 'Dominio bloqueado/paywall: ' + host(link)})
+            continue
+        title = clean_title(entry.findtext('title', ''), outlet)
+        if not (title and link and outlet):
+            continue
+        if not looks_spanish(title):
+            skipped.append({'url': link, 'topic': topic['tema'],
+                            'reason': 'Titular no está en español'})
+            continue
+        if not mentions_topic(topic, title):
+            skipped.append({'url': link, 'topic': topic['tema'],
+                            'reason': 'Titular no menciona el tema'})
+            continue
+        items.append({'titulo': title, 'medio': outlet, 'url': link,
+                      'region': topic['region'], 'tema': topic['tema'],
+                      '_tokens': title_tokens(title), '_outlet': host(link) or norm(outlet),
+                      '_time': date.timestamp(), '_source': 'bing'})
     return {'items': items, 'skipped': skipped}
 
 
@@ -550,7 +662,7 @@ def canonical_news(url):
 
 
 def verify_article(item, deadline):
-    url = decode_google(item['url'], deadline)
+    url = decode_google(unwrap_bing(item['url']), deadline)
     if blocked(url):
         raise ValueError('Dominio bloqueado/paywall: ' + host(url))
     final, body = request(url, deadline)
@@ -567,8 +679,9 @@ def verify_article(item, deadline):
     return canonical_news(final)
 
 
-def rebuild_news(topics, maximum, previous, today, deadline, report):
+def rebuild_news(topics, maximum, previous, today, deadline, report, solo_respaldo=False):
     now = datetime.now(timezone.utc)
+    maximum = min(40, max(0, maximum))
     jobs, owners = [], []
     for index, topic in enumerate(topics):
         if not topic['count'] or not maximum:
@@ -584,34 +697,71 @@ def rebuild_news(topics, maximum, previous, today, deadline, report):
         for query in queries:
             jobs.append((topic, query))
             owners.append(index)
-    rss = parallel(jobs, lambda job: fetch_rss(job, now, deadline), min(deadline, time.monotonic() + 45))
     candidates = [[] for _ in topics]
-    for index, (feed, error) in sorted(rss.items()):
-        if error:
-            report['errors'].append({'stage': 'rss', 'topic': jobs[index][0]['tema'], 'reason': error})
-        else:
-            candidates[owners[index]].extend(feed['items'])
-            report['skipped_links'].extend(feed['skipped'])
-    for index, items in enumerate(candidates):
-        unique = {i['url']: i for i in items}
-        items = list(unique.values())
-        for item in items:
-            item['_coverage'] = len({other['_outlet'] for other in items
-                                     if similar(item['_tokens'], other['_tokens'])})
-        candidates[index] = sorted(items, key=lambda i: (-i['_coverage'], -i['_time'], i['url']))[:60]
     selected = [[] for _ in topics]
+    attempted = [set() for _ in topics]
+    fallback_topics, failed_google = set(), set()
+    report['fallback_used'] = bool(solo_respaldo)
+
+    def remaining(index):
+        capacity = max(0, maximum - sum(len(items) for items in selected[:index]))
+        return min(topics[index]['count'], capacity) - len(selected[index])
+
+    def fetch_topics(indices, source):
+        indices = set(indices)
+        chosen = [i for i, owner in enumerate(owners) if owner in indices]
+        if not chosen or time.monotonic() >= deadline:
+            return
+        if source == 'bing':
+            fallback_topics.update(owners[i] for i in chosen)
+            report['fallback_used'] = True
+        fetch = fetch_bing_rss if source == 'bing' else fetch_rss
+        rss_deadline = min(deadline, time.monotonic() + 45)
+        rss = parallel([jobs[i] for i in chosen], lambda job: fetch(job, now, rss_deadline), rss_deadline)
+        for n, (feed, error) in sorted(rss.items()):
+            index = chosen[n]
+            owner = owners[index]
+            if error:
+                if source == 'google':
+                    failed_google.add(owner)
+                report['errors'].append({'stage': 'rss', 'topic': topics[owner]['tema'],
+                                         'source': source, 'reason': error})
+            else:
+                candidates[owner].extend({**item, 'url': unwrap_bing(item['url']), '_source': source}
+                                         for item in feed['items'])
+                report['skipped_links'].extend(feed['skipped'])
+        for index in indices:
+            unique = {}
+            for item in candidates[index]:
+                unique.setdefault(item['url'], item)
+            items = list(unique.values())
+            for item in items:
+                item['_coverage'] = len({other['_outlet'] for other in items
+                                         if similar(item['_tokens'], other['_tokens'])})
+            candidates[index] = sorted(items, key=lambda i: (-i['_coverage'], -i['_time'], i['url']))[:60]
+
+    if not solo_respaldo:
+        fetch_topics(range(len(topics)), 'google')
+    fetch_topics([i for i in range(len(topics)) if remaining(i) > 0 and
+                  (solo_respaldo or i in failed_google or 'news.google.com' in RATE_LIMITED
+                   or len(candidates[i]) < remaining(i))], 'bing')
     cache, seen_urls, seen_titles = {}, set(), []
-    positions = [0] * len(topics)
     # Each round verifies a small batch per topic, avoiding one topic monopolizing workers.
     while time.monotonic() < deadline:
+        if sum(map(len, selected)) >= maximum:
+            break
+        if 'news.google.com' in RATE_LIMITED:
+            fetch_topics([i for i in range(len(topics)) if remaining(i) > 0
+                          and i not in fallback_topics], 'bing')
         batch, refs = [], []
         for index, topic in enumerate(topics):
-            remaining = min(topic['count'], maximum) - len(selected[index])
-            if remaining <= 0:
+            needed = remaining(index)
+            if needed <= 0:
                 continue
-            start = positions[index]
-            chunk = candidates[index][start:start + min(4, remaining + 1)]
-            positions[index] += len(chunk)
+            chunk = [item for item in candidates[index] if item['url'] not in attempted[index]
+                     and not (host(item['url']) == 'news.google.com' and 'news.google.com' in RATE_LIMITED)]
+            chunk = chunk[:min(4, needed + 1)]
+            attempted[index].update(item['url'] for item in chunk)
             batch.extend(chunk)
             refs.extend([index] * len(chunk))
         if not batch:
@@ -625,7 +775,7 @@ def rebuild_news(topics, maximum, previous, today, deadline, report):
             if error:
                 report['skipped_links'].append({'url': item['url'], 'topic': item['tema'], 'reason': error})
                 continue
-            if len(selected[index]) >= min(topics[index]['count'], maximum):
+            if remaining(index) <= 0:
                 continue
             key = re.sub(r'^https?://(?:www\.)?', '', url).rstrip('/')
             if key in seen_urls or any(similar(item['_tokens'], t, 0.8) for t in seen_titles):
@@ -635,26 +785,34 @@ def rebuild_news(topics, maximum, previous, today, deadline, report):
             seen_urls.add(key)
             seen_titles.append(item['_tokens'])
             selected[index].append({k: url if k == 'url' else item[k]
-                                    for k in ('titulo', 'medio', 'url', 'region', 'tema')})
-        if 'news.google.com' in RATE_LIMITED:
-            break
+                                    for k in ('titulo', 'medio', 'url', 'region', 'tema', '_source')})
+        fetch_topics([i for i in range(len(topics)) if remaining(i) > 0
+                      and i not in fallback_topics
+                      and not any(item['url'] not in attempted[i]
+                                  and not (host(item['url']) == 'news.google.com'
+                                           and 'news.google.com' in RATE_LIMITED)
+                                  for item in candidates[i])], 'bing')
     for domain in sorted(RATE_LIMITED):
         report['errors'].append({'stage': 'http', 'reason': 'HTTP 429: solicitudes suspendidas para ' + domain})
     output, capacity = [], maximum
-    for topic, items in zip(topics, selected):
+    for index, (topic, items) in enumerate(zip(topics, selected)):
         kept = items[:capacity]
         capacity -= len(kept)
-        output.extend(kept)
+        sources = {item['_source'] for item in kept}
+        output.extend({k: v for k, v in item.items() if k != '_source'} for item in kept)
         result = {'row': topic['row'], 'region': topic['region'], 'tema': topic['tema'],
-                  'requested': topic['count'], 'verified': len(items), 'filled': len(kept)}
+                  'requested': topic['count'], 'verified': len(items), 'filled': len(kept),
+                  'source': '+'.join(s for s in ('google', 'bing') if s in sources) or 'ninguna'}
         report['news_per_topic'].append(result)
         if len(kept) < topic['count']:
             if capacity == 0:
                 reason = 'límite G2'
-            elif 'news.google.com' in RATE_LIMITED:
-                reason = 'Google News limitó las solicitudes (HTTP 429)'
             elif time.monotonic() >= deadline:
                 reason = 'tiempo agotado'
+            elif 'news.google.com' in RATE_LIMITED and index not in fallback_topics:
+                reason = 'Google News limitó las solicitudes (HTTP 429)'
+            elif index in fallback_topics and 'bing.com' in RATE_LIMITED:
+                reason = ('Google News y Bing News' if 'news.google.com' in RATE_LIMITED else 'Bing News') + ' limitaron las solicitudes (HTTP 429)'
             else:
                 reason = 'sin suficientes noticias recientes, únicas y accesibles'
             report['topics_unfilled'].append({**result, 'reason': reason})
@@ -673,7 +831,7 @@ def rebuild_news(topics, maximum, previous, today, deadline, report):
 
 def empty_report(dry_run):
     return {'dry_run': dry_run, 'posts': {}, 'skipped_links': [], 'news_per_topic': [],
-            'topics_unfilled': [], 'errors': [], 'warnings': [], 'changed_files': []}
+            'topics_unfilled': [], 'errors': [], 'warnings': [], 'changed_files': [], 'fallback_used': False}
 
 
 def build(args, report):
@@ -685,7 +843,8 @@ def build(args, report):
     topics, maximum = load_topics(Path(args.temas) if args.temas else None, previous['NOTICIAS'])
     today = today_cr()
     posts = rebuild_posts(originals['posts.js'], previous['POSTS'], rows, today, deadline, report)
-    news = rebuild_news(topics, maximum, previous['NOTICIAS'], today, deadline, report)
+    news = rebuild_news(topics, maximum, previous['NOTICIAS'], today, deadline, report,
+                        solo_respaldo=args.solo_respaldo)
     comment = re.match(r'\s*(/\*[\s\S]*?\*/)', originals['noticias.js'])
     news_source = (comment[1] if comment else HEADER) + '\nwindow.NOTICIAS = ' + json.dumps(news, ensure_ascii=False, indent=1) + ';\n'
     sources = {'posts.js': posts, 'noticias.js': news_source}
@@ -716,8 +875,9 @@ def publish(originals, sources, report, no_push, deadline):
     if not changed:
         report['git'] = 'sin cambios'
         return
-    if any(e.get('stage') == 'http' and 'news.google.com' in e.get('reason', '')
-           for e in report.get('errors', [])):
+    if not report.get('fallback_used') and any(
+            e.get('stage') == 'http' and 'news.google.com' in e.get('reason', '')
+            for e in report.get('errors', [])):
         raise RuntimeError('Google News limitó las solicitudes; se conserva el contenido previo y no se hace commit')
     def git(*command, timeout=8):
         remaining = deadline - time.monotonic()
@@ -750,6 +910,9 @@ def main(argv=None):
     parser.add_argument('--temas', help='JSON {rows, max}; si falta reutiliza noticias.js')
     parser.add_argument('--dry-run', action='store_true', help='Valida y reporta sin escribir ni hacer commit/push')
     parser.add_argument('--no-push', action='store_true', help='Escribe y hace commit, pero no push')
+    parser.add_argument('--solo-respaldo', action='store_true',
+                        default=os.environ.get('REVISION_SOLO_RESPALDO', '').strip().lower() in ('1', 'true', 'si', 'yes'),
+                        help='Usa solo Bing News RSS, sin consultar Google')
     args = parser.parse_args(argv)
     started = time.monotonic()
     # A process boundary also bounds stalled DNS, slow-drip HTTP and executor teardown.
