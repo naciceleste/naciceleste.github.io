@@ -1,242 +1,228 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-17",
+ "actualizado": "2026-11-18",
  "items": [
   {
-   "titulo": "“Los ciberataques impulsados por inteligencia artificial avanzan hacia una nueva fase”: Google advierte…",
+   "titulo": "Anthropic fija en 83 dólares el precio de su salida a Bolsa en la mayor OPI de la historia",
    "medio": "Infobae",
-   "url": "https://www.infobae.com/tecno/2026/11/17/los-ciberataques-impulsados-por-inteligencia-artificial-avanzan-hacia-una-nueva-fase-google-advierte-supervision-humana/",
+   "url": "https://www.infobae.com/america/agencias/2026/11/19/anthropic-fija-en-83-dolares-el-precio-de-su-salida-a-bolsa-en-la-mayor-opi-de-la-historia/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "JAVIER MILEI CELEBRÓ LAS DECLARACIONES DEL PAPA LEÓN XIV",
-   "medio": "MisionesOnline",
-   "url": "https://misionesonline.net/2026/11/17/javier-milei-celebro-las-declaraciones-del-papa-leon-xiv-sobre-la-argentina-pero-evito-referirse-a-los-cuestionamientos-por-el-tono-violento/",
+   "titulo": "“Ahora piensa como los populistas de izquierda”: la dura respuesta de Cavallo a Milei",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/economia/2026/11/18/ahora-piensa-como-los-populistas-de-izquierda-la-dura-respuesta-de-cavallo-a-milei-tras-sus-criticas-contra-el-ex-ministro/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Venezuela rechaza declaraciones injerencistas de Yamandú Orsi",
-   "medio": "Radio Nacional de Venezuela - RNV",
-   "url": "https://rnv.gob.ve/venezuela-rechaza-declaraciones-del-presidente-de-uruguay-yamandu-orsi-y-reivindica-su-soberania-nacional/",
+   "titulo": "Ministros de Trabajo del Mercosur crearán el pasaporte de habilidades, para reconocer profesión de migrantes…",
+   "medio": "Subrayado",
+   "url": "https://www.subrayado.com.uy/ministros-trabajo-del-mercosur-crearan-el-pasaporte-habilidades-reconocer-profesion-migrantes-la-region-n1023789",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Bryan Ruiz define el once de Costa Rica para enfrentar a Argentina",
-   "medio": "El Mundo CR",
-   "url": "https://elmundo.cr/deportes/bryan-ruiz-define-el-once-de-costa-rica-para-enfrentar-a-argentina/",
+   "titulo": "Bryan Ruiz pone el pecho a las balas y reconoce cuál fue su error más grande tras el 7-0 ante Argentina",
+   "medio": "La Teja",
+   "url": "https://www.lateja.cr/deportes/bryan-ruiz-pone-el-pecho-a-las-balas-y-reconoce/CMNBWULLPFCBNLUZYCW4NHSQQA/story/",
    "region": "COSTA RICA",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Buruaga defiende un Gobierno de España \"aliado de Cantabria como fue el de Rajoy\" para dar la vuelta a años…",
-   "medio": "PP de Cantabria",
-   "url": "https://ppcantabria.org/actualidad/noticias/13532-buruaga-defiende-un-gobierno-de-espana-aliado-de-cantabria-como-fue-el-de-rajoy-para-dar-la-vuelta-a-anos-de-abandono-del-sanchismo",
+   "titulo": "Sánchez asegura que ha \"asumido\" responsabilidades por la corrupción y Feijóo le replica que él \"no ha pagado\"",
+   "medio": "20minutos",
+   "url": "https://www.20minutos.es/nacional/sanchez-asegura-que-ha-asumido-responsabilidades-por-corrupcion-feijoo-le-replica-que-no-ha-pagado_7062880_0.html",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Google y el FBI alertan sobre una nueva era de ciberataques impulsados por inteligencia artificial",
-   "medio": "Análisis Urbano",
-   "url": "https://analisisurbano.org/noticia/google-y-el-fbi-alertan-sobre-una-nueva-era-de-ciberataques-impulsados-por-inteligencia-artificial",
+   "titulo": "Fiebre por la IA: Anthropic recaudó más de u$s107.000 millones en su salida a Bolsa y pulverizó el récord de…",
+   "medio": "Ámbito",
+   "url": "https://www.ambito.com/finanzas/fiebre-la-ia-anthropic-recaudo-mas-us107000-millones-su-salida-bolsa-y-pulverizo-el-record-spacex-n6346934",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "León XIV pidió a Javier Milei proteger a los más necesitados y cuestionó el uso de \"lenguaje violento\"",
-   "medio": "El Eco",
-   "url": "https://www.eleco.com.ar/nacionales/leon-xiv-pidio-a-javier-milei-proteger-a-los-mas-necesitados-y-cuestiono-el-uso-de-lenguaje-violento",
+   "titulo": "Javier Milei, en vivo: El PRO ratificó su postura en contra de las colectoras y valoró la decisión del…",
+   "medio": "TN",
+   "url": "https://tn.com.ar/politica/2026/11/18/milei-volvio-a-criticar-la-justicia-social-y-defendio-su-modelo-economico-ingresamos-en-el-siglo-de-oro-liberal/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Orsi convocó a empresarios españoles a invertir en Uruguay y respaldó llamado a elecciones libres en Venezuela",
-   "medio": "Diario La R",
-   "url": "https://grupormultimedio.com/orsi-convoco-a-empresarios-espanoles-a-invertir-en-uruguay-y-respaldo-llamado-a-elecciones-libres-en-venezuela-id211505/",
-   "region": "URUGUAY",
-   "tema": "Luis Alberto Lacalle"
-  },
-  {
-   "titulo": "Bryan Ruiz explica la diferencia entre Costa Rica y Argentina",
-   "medio": "Fútbol Centroamérica",
-   "url": "https://futbolcentroamerica.com/noticias/bryan-ruiz-explica-la-diferencia-entre-costa-rica-y-argentina-la-mayor-diferencia-es-la-intensidad-prolongada-en-el-juego-aUhzm6u57s0P",
-   "region": "COSTA RICA",
-   "tema": "Bryan Ruiz"
-  },
-  {
-   "titulo": "Las tristes carencias de esta clase política",
-   "medio": "Libertad Digital",
-   "url": "https://www.libertaddigital.com/espana/politica/2026-11-17/jose-garcia-dominguez-las-tristes-carencias-de-esta-clase-politica-7493685/",
-   "region": "ESPAÑA",
-   "tema": "Política"
-  },
-  {
-   "titulo": "Wall Street cierra en rojo tras las fallas tecnológicas y a la espera de resultados de Nvidia",
-   "medio": "EFE - Agencia de noticias",
-   "url": "https://efe.com/economia/2026-11-17/wall-street-cierre-tecnologicas/",
-   "region": "MUNDO",
-   "tema": "Wall Street"
-  },
-  {
-   "titulo": "Partido gratis, Argentina vs. Costa Rica EN VIVO: ver en directo TyC Sports y Telefe",
-   "medio": "Depor",
-   "url": "https://depor.com/futbol-internacional/argentina/pelota-libre-tv-en-vivo-argentina-vs-costa-rica-canales-de-tv-ver-tyc-sports-mi-telefe-directv-transmision-en-directo-por-internet-video-noticia/",
-   "region": "ARGENTINA",
-   "tema": "Telefé"
-  },
-  {
-   "titulo": "Vuelco en Gran Hermano 3: Mati Mattel se declara primer confirmado y CHV sorprende",
-   "medio": "Central Noticia",
-   "url": "https://www.centralnoticia.cl/tendencia/2026/11/17/mati-mattel-gran-hermano-3/436404/",
+   "titulo": "Así será la etapa final de “Gran Hermano Uruguay”: ¿Cómo serán las eliminaciones?",
+   "medio": "Telebajo Cero",
+   "url": "https://www.telebajocero.com/gran-hermano/asi-sera-la-etapa-final-gran-hermano-uruguay-como-seran-las-eliminaciones-n1361491",
    "region": "URUGUAY",
    "tema": "Gran Hermano"
   },
   {
-   "titulo": "Asamblea Legislativa exige la renuncia del fiscal general Carlo Díaz tras visita al CACCO",
-   "medio": "El Mundo CR",
-   "url": "https://elmundo.cr/costa-rica/asamblea-legislativa-exige-la-renuncia-del-fiscal-general-carlo-diaz-tras-visita-al-cacco/",
+   "titulo": "Bryan Ruiz tras derrota: “Nos desnudaron completamente”",
+   "medio": "Diario Extra",
+   "url": "https://www.diarioextra.com/noticia/bryan-ruiz-tras-derrota-nos-desnudaron-completamente/",
    "region": "COSTA RICA",
-   "tema": "Asamblea Legislativa"
+   "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Arcadi España dice que en el PSOE de Puente «no insultamos a nadie»",
-   "medio": "El Debate",
-   "url": "https://www.eldebate.com/espana/castilla-y-leon/20261117/arcadi-espana-dice-psoe-puente-no-insultamos-nadie_482183.html",
+   "titulo": "Feijóo defiende poder pactar con Vox y rechaza lecciones de Sánchez: \"No pactaré con quien pida excarcelar…",
+   "medio": "Europa Press",
+   "url": "https://www.europapress.es/nacional/noticia-feijoo-defiende-poder-pactar-vox-rechaza-lecciones-sanchez-no-pactare-quien-pida-excarcelar-etarras-20261118113058.html",
    "region": "ESPAÑA",
-   "tema": "Oscar Puente"
+   "tema": "Política"
   },
   {
-   "titulo": "Futuros de Wall Street cautos antes de resultados de Nvidia",
-   "medio": "Yahoo Finanzas",
-   "url": "https://es-us.finanzas.yahoo.com/noticias/futuros-wall-street-cautos-resultados-010312351.html",
+   "titulo": "Wall Street cierra mixto tras resultados trimestrales de Nvidia y minutas de la Fed",
+   "medio": "El Economista",
+   "url": "https://www.eleconomista.com.mx/mercados/wall-street-cierra-mixto-resultados-trimestrales-nvidia-minutas-fed-20261118-844625.html",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Rating del lunes 16 de noviembre en Chile: cómo le fue a CHV, Mega, Canal 13 y TVN",
-   "medio": "La Tercera",
-   "url": "https://www.latercera.com/servicios/noticia/rating-del-lunes-16-de-noviembre-en-chile-como-le-fue-a-chv-mega-canal-13-y-tvn/",
+   "titulo": "Telefe dominó el rating en una noche de sorpresas: el pico de la Selección y la apuesta de MasterChef…",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/teleshow/2026/11/18/telefe-domino-el-rating-en-una-noche-de-sorpresas-el-pico-de-la-seleccion-y-la-apuesta-de-masterchef-celebrity/",
    "region": "ARGENTINA",
-   "tema": "Ratings TV"
+   "tema": "Telefé"
   },
   {
-   "titulo": "Goleada celeste en el Campus: Uruguay cerró el año apabullando 5-0 a República Dominicana en Maldonado",
-   "medio": "Semanario La Prensa",
-   "url": "https://semanariolaprensa.com/goleada-celeste-en-el-campus-uruguay-cerro-el-ano-apabullando-5-0-a-republica-dominicana-en-maldonado/",
+   "titulo": "5-0. Uruguay acaba el 2026 con una goleada a República Dominicana",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/america/agencias/2026/11/18/5-0-uruguay-acaba-el-2026-con-una-goleada-a-republica-dominicana/",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Costa Rica destaca en informe de la OCDE sobre sistemas de justicia y experiencia de usuarios",
-   "medio": "El Mundo CR",
-   "url": "https://elmundo.cr/costa-rica/costa-rica-destaca-en-informe-de-la-ocde-sobre-sistemas-de-justicia-y-experiencia-de-usuarios/",
+   "titulo": "Diputados aprueban reelección por 8 años más de la magistrada Roxana Chacón",
+   "medio": "Monumental",
+   "url": "https://www.monumental.co.cr/2026/11/18/diputados-aprueban-reeleccion-por-8-anos-mas-de-la-magistrada-roxana-chacon/",
+   "region": "COSTA RICA",
+   "tema": "Asamblea Legislativa"
+  },
+  {
+   "titulo": "Óscar Puente tiene claro quién va a sustituir a Pedro Sánchez en el PSOE: \"Me parece un político especial, y…",
+   "medio": "OKDiario",
+   "url": "https://okdiario.com/espana/oscar-puente-tiene-claro-quien-va-sustituir-pedro-sanchez-psoe-parece-politico-especial-ademas-hombre-que-pais-como-nuestro-no-vendria-mal-21030473",
+   "region": "ESPAÑA",
+   "tema": "Oscar Puente"
+  },
+  {
+   "titulo": "Wall Street: Nvidia cayó 2,9% pese a buenos resultados, pero el Nasdaq creció en la previa del debut…",
+   "medio": "Ámbito",
+   "url": "https://www.ambito.com/finanzas/los-futuros-wall-street-adelantan-un-rebote-luego-que-los-buenos-resultados-nvidia-calmaran-al-mercado-n6346491",
+   "region": "MUNDO",
+   "tema": "Wall Street"
+  },
+  {
+   "titulo": "Rating: cuánto midió el amistoso entre la Selección Argentina y Costa Rica y la séptima gala de eliminación…",
+   "medio": "Exitoina",
+   "url": "https://exitoina.perfil.com/noticias/rating/rating-cuanto-midio-amistoso-entre-seleccion-argentina-costa-rica-septima-gala-eliminacion-masterchef-celebrity.phtml",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
+   "titulo": "5-0: Gol de Valverde en el triunfo de Uruguay contra la República Dominicana",
+   "medio": "Real Madrid",
+   "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/cronica-uruguay-republica-dominicana-18-11-2026",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
+  },
+  {
+   "titulo": "PPSO buscará investigar al Poder Judicial por el trámite que dio a denuncias de Camilo Rodríguez",
+   "medio": "Delfino",
+   "url": "https://delfino.cr/2026/11/ppso-buscara-investigar-al-poder-judicial-por-el-tramite-que-dio-a-denuncias-de-camilo-rodriguez",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "¿Cuánto cuesta la IA en 2026? La comparación de precios completa",
-   "medio": "Fello AI",
-   "url": "https://felloai.com/es/comparacion-precios-ia/",
+   "titulo": "NewCore acusa a Grok Bot de intentar entrar en el correo y las apps de trabajo sin que nadie se lo pidiera",
+   "medio": "WWWhat's New",
+   "url": "https://wwwhatsnew.com/2026/11/18/newcore-grok-bot-acceso-correo-apps-sin-permiso/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "MasterChef Celebrity se destaca en el rating del 16 de noviembre con picos de 13,6 puntos",
-   "medio": "Cadena 3 Argentina",
-   "url": "https://www.cadena3.com/amp/noticia/espectaculos/masterchef-celebrity-se-destaca-en-el-rating-del-16-de-noviembre-con-picos-de-136-puntos_613939",
+   "titulo": "Rating del martes 17 de noviembre: MasterChef Celebrity y Argentina-Costa Rica",
+   "medio": "Estamos Entre Ríos",
+   "url": "https://estamosentrerios.com/2026/11/18/rating-martes-17-noviembre-masterchef-celebrity-argentina-costa-rica/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Uruguay (Maldonado): la Celeste goleó 5-0 a República Dominicana y cerró el año con una victoria en el CAMPUS.",
-   "medio": "Cadena del Mar",
-   "url": "https://cadenadelmar.uy/deporte/uruguay-maldonado-la-celeste-goleo-5-0-a-republica-dominicana-y-cerro-el-ano-con-una-victoria-en-el-campus-26475",
-   "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
-  },
-  {
-   "titulo": "El presidente del Banco Central defendió las reformas económicas y aseguró que impulsarán la inversión y el…",
-   "medio": "Radio 3 Cadena Patagonia",
-   "url": "https://radio3cadenapatagonia.com.ar/el-presidente-del-banco-central-defendio-las-reformas-economicas-y-aseguro-que-impulsaran-la-inversion-y-el-empleo/",
-   "region": "COSTA RICA",
-   "tema": "Banco Central"
-  },
-  {
-   "titulo": "Pokee AI: agentes IA con despliegue privado",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/pokee-ai-agentes-ia-con-despliegue-privado/",
-   "region": "MUNDO",
-   "tema": "Grok Bot"
-  },
-  {
-   "titulo": "¿Messi al cuerpo técnico de la Selección Argentina? La respuesta de Lionel Scaloni",
-   "medio": "Perfil",
-   "url": "https://442.perfil.com/noticias/seleccion-argentina/messi-al-cuerpo-tecnico-de-la-seleccion-argentina-la-respuesta-de-lionel-scaloni.phtml",
-   "region": "ARGENTINA",
-   "tema": "Lionel Messi"
-  },
-  {
-   "titulo": "Uruguay goleó 5-0 a República Dominicana en amistoso internacional en Maldonado",
-   "medio": "El Diario Ecuador",
-   "url": "https://www.eldiario.ec/deportes/uruguay-goleo-5-0-a-republica-dominicana-en-amistoso-internacional-en-maldonado-17112026/",
+   "titulo": "Diego Forlán: “Fue una convivencia espectacular y estoy muy agradecido”",
+   "medio": "Tenfield",
+   "url": "https://www.tenfield.com.uy/diego-forlan-fue-una-convivencia-espectacular-y-estoy-muy-agradecido-con-ellos/",
    "region": "URUGUAY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "Vercel Blob ya borra archivos solo con TTL de 1 a 730 días",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/vercel-blob-ya-borra-archivos-solo-con-ttl-de-1-a-730-dias/",
-   "region": "MUNDO",
-   "tema": "Hermes Agent"
+   "titulo": "Nuevo mínimo histórico: Tipo de cambio del dólar cae a ¢444,85 en Monex",
+   "medio": "El Observador CR",
+   "url": "https://observador.cr/nuevo-minimo-historico-tipo-de-cambio-del-dolar-cae-a-44485-en-monex/",
+   "region": "COSTA RICA",
+   "tema": "Banco Central"
   },
   {
-   "titulo": "Grayscale ve puntos de entrada atractivos mientras Bitcoin cae a USD $64.000",
-   "medio": "Cryptonews.net",
-   "url": "https://cryptonews.net/es/news/bitcoin/33765223/",
+   "titulo": "Grok Bot pidió datos corporativos sin permiso, ignoró que le dijeran que parara y luego lo negó",
+   "medio": "Aitualizate",
+   "url": "https://aitualizate.com/articulo/grok-bot-accesos-sin-permiso-newcore-xai",
+   "region": "MUNDO",
+   "tema": "Grok Bot"
+  },
+  {
+   "titulo": "“Vos sos el sucesor de mi hijo”: revelan una charla secreta entre la mamá de Lionel Messi y Nico Paz",
+   "medio": "Ámbito",
+   "url": "https://www.ambito.com/deportes/vos-sos-el-sucesor-mi-hijo-revelan-una-charla-secreta-la-mama-lionel-messi-y-nico-paz-n6346811",
+   "region": "ARGENTINA",
+   "tema": "Lionel Messi"
+  },
+  {
+   "titulo": "Precio del bitcoin estancado en 64.600 dólares tras Nvidia",
+   "medio": "BitDiario",
+   "url": "https://bitdiario.com/precio-del-bitcoin-64600-nvidia-actas-fed-xrp-18-noviembre-2026/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "El papa León XIV sobre una visita a México: \"Pueden soñar, porque llegaré\"",
-   "medio": "Diario de Yucatán",
-   "url": "https://www.yucatan.com.mx/mundo/2026/11/17/el-papa-leon-xiv-sobre-una-visita-a-mexico-pueden-sonar-porque-llegare.html",
+   "titulo": "Conferencia Episcopal Peruana admite “limitaciones y fallas” en misa final de León XIV, pero destaca…",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/peru/2026/11/18/conferencia-episcopal-peruana-admite-limitaciones-y-fallas-en-misa-final-de-leon-xiv-pero-destaca-organizacion-de-la-gira/",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Papa León XIV abre la posibilidad de visitar a México y a la virgen de Guadalupe : 'Pueden soñar... llegaré'",
-   "medio": "Mediotiempo",
-   "url": "https://www.mediotiempo.com/actualidad/virales/papa-leon-xiv-asegura-que-tiene-planeado-visitar-a-mexico-llegare",
+   "titulo": "Nos lleva en el corazón: papa León XIV usa la cruz pectoral de plata que le regalaron durante su visita al…",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/peru/2026/11/19/nos-lleva-en-el-corazon-papa-leon-xiv-usa-la-cruz-pectoral-de-plata-que-le-regalaron-durante-su-visita-al-peru/",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "'Pueden Soñar': Papa León XIV Deja Abierta la Posibilidad de Visitar México",
-   "medio": "N+",
-   "url": "https://www.nmas.com.mx/internacional/foro-tv-video-pueden-sonar-papa-leon-xiv-deja-abierta-la-posibilidad-de-visitar-mexico/",
+   "titulo": "Papacóptero que utilizó el papa León XIV en Perú será exhibido en la Base Aérea Las Palmas",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/peru/2026/11/19/papacoptero-que-utilizo-el-papa-leon-xiv-en-peru-sera-puesto-en-la-base-aerea-las-palmas/",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Goldman Sachs proyecta un fuerte avance del S&P 500 en 2027",
-   "medio": "iProUP",
-   "url": "https://www.iproup.com/finanzas/73145-goldman-sachs-proyecta-un-fuerte-avance-del-sp-500-en-2027",
+   "titulo": "S&P 500 suma cinco días de pérdidas arrastrado por Nvidia, mientras el oro y el cobre se hunden",
+   "medio": "Bloomberg Línea",
+   "url": "https://www.bloomberglinea.com/mercados/sp-500-avanza-tras-resultados-de-nvidia-mientras-el-oro-se-hunde-a-precios-no-vistos-desde-2025/",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "California demanda a OpenAI: 80 fugas de agentes de IA",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/california-demanda-a-openai-80-fugas-de-agentes-de-ia/",
+   "titulo": "El agente Gemini Spark de Google ahora se llama 'Tasks' y está disponible de forma gratuita en Estados Unidos",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/america/agencias/2026/11/18/el-agente-gemini-spark-de-google-ahora-se-llama-tasks-y-esta-disponible-de-forma-gratuita-en-estados-unidos/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "California demanda a OpenAI por agentes de IA sin control",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/california-demanda-a-openai-por-agentes-de-ia-sin-control/",
+   "titulo": "Microsoft lanza Perception, su nueva plataforma de ciberseguridad con agentes de IA",
+   "medio": "El Economista",
+   "url": "https://www.eleconomista.com.mx/tecnologia/microsoft-lanza-perception-nueva-plataforma-ciberseguridad-agentes-ia-20261118-844569.html",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
@@ -248,16 +234,9 @@ window.NOTICIAS = {
    "tema": "Paxos"
   },
   {
-   "titulo": "Nu obtiene licencia bancaria en Brasil tras la aprobación de compra de Banco Porto Real",
-   "medio": "EL CEO",
-   "url": "https://elceo.com/negocios/nu-concreta-compra-banco-porto-real-consigue-licencia-bancaria-brasil/",
-   "region": "MUNDO",
-   "tema": "Nubank"
-  },
-  {
-   "titulo": "Junta directiva de Nvidia descarta restituir a Jensen Huang como director ejecutivo",
-   "medio": "Diario Las Américas",
-   "url": "https://www.diariolasamericas.com/eeuu/junta-directiva-nvidia-descarta-restituir-jensen-huang-como-director-ejecutivo-n5405462",
+   "titulo": "Nvidia duplica sus ingresos gracias a la IA en plena crisis",
+   "medio": "Euronews",
+   "url": "https://es.euronews.com/2026/11/18/la-fuerte-demanda-de-chips-de-ia-duplica-ingresos-de-nvidia-tras-la-salida-de-huang",
    "region": "MUNDO",
    "tema": "Nvidia"
   }
