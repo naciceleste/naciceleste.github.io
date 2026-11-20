@@ -1,244 +1,125 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-18",
+ "actualizado": "2026-11-19",
  "items": [
   {
-   "titulo": "Anthropic fija en 83 dólares el precio de su salida a Bolsa en la mayor OPI de la historia",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/11/19/anthropic-fija-en-83-dolares-el-precio-de-su-salida-a-bolsa-en-la-mayor-opi-de-la-historia/",
+   "titulo": "Anthropic Debuta en Wall Street con Alza de 34% y Alcanza una Valoración de 2 Billones",
+   "medio": "N+ Noticias",
+   "url": "https://www.nmas.com.mx/economia/acciones-anthropic-debutan-wall-street-alza-de-34-valoracion-2-billones-de-dolares/",
    "region": "MUNDO",
-   "tema": "Inteligencia Artificial"
+   "tema": "Wall Street"
   },
   {
-   "titulo": "“Ahora piensa como los populistas de izquierda”: la dura respuesta de Cavallo a Milei",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/economia/2026/11/18/ahora-piensa-como-los-populistas-de-izquierda-la-dura-respuesta-de-cavallo-a-milei-tras-sus-criticas-contra-el-ex-ministro/",
+   "titulo": "Javier Milei recordó los atentados en la Argentina y defendió el juicio en ausencia: “La Justicia por fin…",
+   "medio": "Contexto Tucumán",
+   "url": "https://www.contextotucuman.com/nota/428923/javier-milei-recordo-los-atentados-en-la-argentina-y-defendio-el-juicio-en-ausencia-la-justicia-por-fin-empieza-a-moverse.html",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Ministros de Trabajo del Mercosur crearán el pasaporte de habilidades, para reconocer profesión de migrantes…",
-   "medio": "Subrayado",
-   "url": "https://www.subrayado.com.uy/ministros-trabajo-del-mercosur-crearan-el-pasaporte-habilidades-reconocer-profesion-migrantes-la-region-n1023789",
+   "titulo": "Yamandú Orsi volvió a respaldar a Cristina Lustemberg en la previa a su interpelación",
+   "medio": "Ámbito Financiero",
+   "url": "https://www.ambito.com/uruguay/yamandu-orsi-volvio-respaldar-cristina-lustemberg-la-previa-su-interpelacion-n6347276",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Bryan Ruiz pone el pecho a las balas y reconoce cuál fue su error más grande tras el 7-0 ante Argentina",
-   "medio": "La Teja",
-   "url": "https://www.lateja.cr/deportes/bryan-ruiz-pone-el-pecho-a-las-balas-y-reconoce/CMNBWULLPFCBNLUZYCW4NHSQQA/story/",
-   "region": "COSTA RICA",
-   "tema": "Bryan Ruiz"
-  },
-  {
-   "titulo": "Sánchez asegura que ha \"asumido\" responsabilidades por la corrupción y Feijóo le replica que él \"no ha pagado\"",
-   "medio": "20minutos",
-   "url": "https://www.20minutos.es/nacional/sanchez-asegura-que-ha-asumido-responsabilidades-por-corrupcion-feijoo-le-replica-que-no-ha-pagado_7062880_0.html",
-   "region": "ESPAÑA",
-   "tema": "Política"
-  },
-  {
-   "titulo": "Fiebre por la IA: Anthropic recaudó más de u$s107.000 millones en su salida a Bolsa y pulverizó el récord de…",
-   "medio": "Ámbito",
-   "url": "https://www.ambito.com/finanzas/fiebre-la-ia-anthropic-recaudo-mas-us107000-millones-su-salida-bolsa-y-pulverizo-el-record-spacex-n6346934",
-   "region": "MUNDO",
-   "tema": "Inteligencia Artificial"
-  },
-  {
-   "titulo": "Javier Milei, en vivo: El PRO ratificó su postura en contra de las colectoras y valoró la decisión del…",
-   "medio": "TN",
-   "url": "https://tn.com.ar/politica/2026/11/18/milei-volvio-a-criticar-la-justicia-social-y-defendio-su-modelo-economico-ingresamos-en-el-siglo-de-oro-liberal/",
-   "region": "ARGENTINA",
-   "tema": "Javier Milei"
-  },
-  {
-   "titulo": "Así será la etapa final de “Gran Hermano Uruguay”: ¿Cómo serán las eliminaciones?",
-   "medio": "Telebajo Cero",
-   "url": "https://www.telebajocero.com/gran-hermano/asi-sera-la-etapa-final-gran-hermano-uruguay-como-seran-las-eliminaciones-n1361491",
-   "region": "URUGUAY",
-   "tema": "Gran Hermano"
-  },
-  {
-   "titulo": "Bryan Ruiz tras derrota: “Nos desnudaron completamente”",
+   "titulo": "Bryan Ruiz: “Fue una equivocación aceptar jugar contra Argentina”",
    "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/noticia/bryan-ruiz-tras-derrota-nos-desnudaron-completamente/",
+   "url": "https://www.diarioextra.com/noticia/bryan-ruiz-fue-una-equivocacion-aceptar-jugar-contra-argentina/",
    "region": "COSTA RICA",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Feijóo defiende poder pactar con Vox y rechaza lecciones de Sánchez: \"No pactaré con quien pida excarcelar…",
-   "medio": "Europa Press",
-   "url": "https://www.europapress.es/nacional/noticia-feijoo-defiende-poder-pactar-vox-rechaza-lecciones-sanchez-no-pactare-quien-pida-excarcelar-etarras-20261118113058.html",
-   "region": "ESPAÑA",
-   "tema": "Política"
-  },
-  {
-   "titulo": "Wall Street cierra mixto tras resultados trimestrales de Nvidia y minutas de la Fed",
-   "medio": "El Economista",
-   "url": "https://www.eleconomista.com.mx/mercados/wall-street-cierra-mixto-resultados-trimestrales-nvidia-minutas-fed-20261118-844625.html",
-   "region": "MUNDO",
-   "tema": "Wall Street"
-  },
-  {
-   "titulo": "Telefe dominó el rating en una noche de sorpresas: el pico de la Selección y la apuesta de MasterChef…",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/teleshow/2026/11/18/telefe-domino-el-rating-en-una-noche-de-sorpresas-el-pico-de-la-seleccion-y-la-apuesta-de-masterchef-celebrity/",
-   "region": "ARGENTINA",
-   "tema": "Telefé"
-  },
-  {
-   "titulo": "5-0. Uruguay acaba el 2026 con una goleada a República Dominicana",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/11/18/5-0-uruguay-acaba-el-2026-con-una-goleada-a-republica-dominicana/",
-   "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
-  },
-  {
-   "titulo": "Diputados aprueban reelección por 8 años más de la magistrada Roxana Chacón",
-   "medio": "Monumental",
-   "url": "https://www.monumental.co.cr/2026/11/18/diputados-aprueban-reeleccion-por-8-anos-mas-de-la-magistrada-roxana-chacon/",
-   "region": "COSTA RICA",
-   "tema": "Asamblea Legislativa"
-  },
-  {
-   "titulo": "Óscar Puente tiene claro quién va a sustituir a Pedro Sánchez en el PSOE: \"Me parece un político especial, y…",
-   "medio": "OKDiario",
-   "url": "https://okdiario.com/espana/oscar-puente-tiene-claro-quien-va-sustituir-pedro-sanchez-psoe-parece-politico-especial-ademas-hombre-que-pais-como-nuestro-no-vendria-mal-21030473",
+   "titulo": "“Óscar puente ex-ministro de la muerte”, uno de los lemas de Hazte Oír en su caravana que arranca en…",
+   "medio": "La Razón",
+   "url": "https://www.larazon.es/castilla-y-leon/oscar-puente-exministro-muerte-uno-lemas-hazte-oir-caravana-que-arranca-valladolid_202611196aff51ca21e74551e81f993b.html",
    "region": "ESPAÑA",
    "tema": "Oscar Puente"
   },
   {
-   "titulo": "Wall Street: Nvidia cayó 2,9% pese a buenos resultados, pero el Nasdaq creció en la previa del debut…",
-   "medio": "Ámbito",
-   "url": "https://www.ambito.com/finanzas/los-futuros-wall-street-adelantan-un-rebote-luego-que-los-buenos-resultados-nvidia-calmaran-al-mercado-n6346491",
+   "titulo": "Anthropic alcanza una valoración de 2 billones de dólares tras debut en Wall Street",
+   "medio": "Excélsior",
+   "url": "https://www.excelsior.com.mx/finanzas/anthropic-alcanza-valoracion-2-billones-dolares-tras-debut-wall-street",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Rating: cuánto midió el amistoso entre la Selección Argentina y Costa Rica y la séptima gala de eliminación…",
-   "medio": "Exitoina",
-   "url": "https://exitoina.perfil.com/noticias/rating/rating-cuanto-midio-amistoso-entre-seleccion-argentina-costa-rica-septima-gala-eliminacion-masterchef-celebrity.phtml",
+   "titulo": "Rating de C5N: cómo quedó en octubre detrás de TN y por delante de A24 y Crónica TV",
+   "medio": "El Intransigente",
+   "url": "https://elintransigente.com/2026/11/19/rating-c5n-como-quedo-octubre-detras-tn-delante-a24-cronica-tv/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "5-0: Gol de Valverde en el triunfo de Uruguay contra la República Dominicana",
-   "medio": "Real Madrid",
-   "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/cronica-uruguay-republica-dominicana-18-11-2026",
+   "titulo": "Gran Hermano Uruguay entra en doble eliminación: quiénes quedaron en placa para el domingo y el lunes",
+   "medio": "Telebajocero",
+   "url": "https://www.telebajocero.com/gran-hermano/gran-hermano-uruguay-entra-doble-eliminacion-quienes-quedaron-placa-el-domingo-y-el-lunes-n1361543",
    "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
+   "tema": "Gran Hermano"
   },
   {
-   "titulo": "PPSO buscará investigar al Poder Judicial por el trámite que dio a denuncias de Camilo Rodríguez",
-   "medio": "Delfino",
-   "url": "https://delfino.cr/2026/11/ppso-buscara-investigar-al-poder-judicial-por-el-tramite-que-dio-a-denuncias-de-camilo-rodriguez",
+   "titulo": "Bryan Ruiz: La equivocación más grande fue aceptar el amistoso contra Argentina",
+   "medio": "Teletica",
+   "url": "https://www.teletica.com/multimedia/bryan-ruiz-la-equivocacion-mas-grande-fue-aceptar-el-amistoso-contra-argentina_1269834",
    "region": "COSTA RICA",
-   "tema": "Poder Judicial"
+   "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "NewCore acusa a Grok Bot de intentar entrar en el correo y las apps de trabajo sin que nadie se lo pidiera",
-   "medio": "WWWhat's New",
-   "url": "https://wwwhatsnew.com/2026/11/18/newcore-grok-bot-acceso-correo-apps-sin-permiso/",
+   "titulo": "Elon Musk pone a Grok a trabajar en la contabilidad de SpaceXSI: cinco agentes de IA ya tienen puestos fijos…",
+   "medio": "Computer Hoy on MSN",
+   "url": "https://www.msn.com/es-es/noticias/otras/elon-musk-pone-a-grok-a-trabajar-en-la-contabilidad-de-spacexsi-cinco-agentes-de-ia-ya-tienen-puestos-fijos-en-la-empresa/ar-AA2hJLbA",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Rating del martes 17 de noviembre: MasterChef Celebrity y Argentina-Costa Rica",
-   "medio": "Estamos Entre Ríos",
-   "url": "https://estamosentrerios.com/2026/11/18/rating-martes-17-noviembre-masterchef-celebrity-argentina-costa-rica/",
+   "titulo": "Debates presidenciales: El rating de 2023 destroza la excusa de Milei",
+   "medio": "Urgente24",
+   "url": "https://urgente24.com/actualidad/debates-presidenciales-el-rating-2023-destroza-la-excusa-milei-n637108",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Diego Forlán: “Fue una convivencia espectacular y estoy muy agradecido”",
-   "medio": "Tenfield",
-   "url": "https://www.tenfield.com.uy/diego-forlan-fue-una-convivencia-espectacular-y-estoy-muy-agradecido-con-ellos/",
-   "region": "URUGUAY",
-   "tema": "Diego Forlán"
-  },
-  {
-   "titulo": "Nuevo mínimo histórico: Tipo de cambio del dólar cae a ¢444,85 en Monex",
-   "medio": "El Observador CR",
-   "url": "https://observador.cr/nuevo-minimo-historico-tipo-de-cambio-del-dolar-cae-a-44485-en-monex/",
+   "titulo": "Defensora rechaza renunciar tras moción de censura en la Asamblea Legislativa",
+   "medio": "El Mundo CR",
+   "url": "https://elmundo.cr/costa-rica/defensora-rechaza-renunciar-tras-mocion-de-censura-en-la-asamblea-legislativa/",
    "region": "COSTA RICA",
-   "tema": "Banco Central"
+   "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Grok Bot pidió datos corporativos sin permiso, ignoró que le dijeran que parara y luego lo negó",
-   "medio": "Aitualizate",
-   "url": "https://aitualizate.com/articulo/grok-bot-accesos-sin-permiso-newcore-xai",
+   "titulo": "Empresas comienzan a cerrar la puerta a los agentes de IA de sus clientes",
+   "medio": "Publimetro on MSN",
+   "url": "https://www.msn.com/es-cl/noticias/otras/empresas-comienzan-a-cerrar-la-puerta-a-los-agentes-de-ia-de-sus-clientes/ar-AA2hNCdE",
    "region": "MUNDO",
-   "tema": "Grok Bot"
+   "tema": "Agentes IA"
   },
   {
-   "titulo": "“Vos sos el sucesor de mi hijo”: revelan una charla secreta entre la mamá de Lionel Messi y Nico Paz",
-   "medio": "Ámbito",
-   "url": "https://www.ambito.com/deportes/vos-sos-el-sucesor-mi-hijo-revelan-una-charla-secreta-la-mama-lionel-messi-y-nico-paz-n6346811",
+   "titulo": "Juan Sebastián Verón se rindió ante Nico Paz y lo comparó con Lionel Messi y Diego Maradona",
+   "medio": "0221",
+   "url": "https://www.0221.com.ar/deportes/juan-sebastian-veron-se-rindio-nico-paz-y-lo-comparo-lionel-messi-y-diego-maradona-n137731",
    "region": "ARGENTINA",
    "tema": "Lionel Messi"
   },
   {
-   "titulo": "Precio del bitcoin estancado en 64.600 dólares tras Nvidia",
-   "medio": "BitDiario",
-   "url": "https://bitdiario.com/precio-del-bitcoin-64600-nvidia-actas-fed-xrp-18-noviembre-2026/",
-   "region": "MUNDO",
-   "tema": "Bitcoin"
-  },
-  {
-   "titulo": "Conferencia Episcopal Peruana admite “limitaciones y fallas” en misa final de León XIV, pero destaca…",
+   "titulo": "Presidenta de Costa Rica defiende restricciones sobre USD 67 millones del Poder Judicial y descarta negociar…",
    "medio": "Infobae",
-   "url": "https://www.infobae.com/peru/2026/11/18/conferencia-episcopal-peruana-admite-limitaciones-y-fallas-en-misa-final-de-leon-xiv-pero-destaca-organizacion-de-la-gira/",
-   "region": "MUNDO",
-   "tema": "Papa León XIV"
+   "url": "https://www.infobae.com/costa-rica/2026/11/20/presidenta-de-costa-rica-defiende-restricciones-sobre-usd-67-millones-del-poder-judicial-y-descarta-negociar-por-buena-voluntad/",
+   "region": "COSTA RICA",
+   "tema": "Poder Judicial"
   },
   {
-   "titulo": "Nos lleva en el corazón: papa León XIV usa la cruz pectoral de plata que le regalaron durante su visita al…",
+   "titulo": "El plan de Microsoft ya suma 50 millones de agentes IA para empresas",
    "medio": "Infobae",
-   "url": "https://www.infobae.com/peru/2026/11/19/nos-lleva-en-el-corazon-papa-leon-xiv-usa-la-cruz-pectoral-de-plata-que-le-regalaron-durante-su-visita-al-peru/",
-   "region": "MUNDO",
-   "tema": "Papa León XIV"
-  },
-  {
-   "titulo": "Papacóptero que utilizó el papa León XIV en Perú será exhibido en la Base Aérea Las Palmas",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/peru/2026/11/19/papacoptero-que-utilizo-el-papa-leon-xiv-en-peru-sera-puesto-en-la-base-aerea-las-palmas/",
-   "region": "MUNDO",
-   "tema": "Papa León XIV"
-  },
-  {
-   "titulo": "S&P 500 suma cinco días de pérdidas arrastrado por Nvidia, mientras el oro y el cobre se hunden",
-   "medio": "Bloomberg Línea",
-   "url": "https://www.bloomberglinea.com/mercados/sp-500-avanza-tras-resultados-de-nvidia-mientras-el-oro-se-hunde-a-precios-no-vistos-desde-2025/",
-   "region": "MUNDO",
-   "tema": "S&P 500"
-  },
-  {
-   "titulo": "El agente Gemini Spark de Google ahora se llama 'Tasks' y está disponible de forma gratuita en Estados Unidos",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/11/18/el-agente-gemini-spark-de-google-ahora-se-llama-tasks-y-esta-disponible-de-forma-gratuita-en-estados-unidos/",
+   "url": "https://www.infobae.com/tecno/2026/11/19/el-plan-de-microsoft-ya-suma-50-millones-de-agentes-ia-para-empresas/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Microsoft lanza Perception, su nueva plataforma de ciberseguridad con agentes de IA",
-   "medio": "El Economista",
-   "url": "https://www.eleconomista.com.mx/tecnologia/microsoft-lanza-perception-nueva-plataforma-ciberseguridad-agentes-ia-20261118-844569.html",
-   "region": "MUNDO",
-   "tema": "Agentes IA"
-  },
-  {
-   "titulo": "EDX Markets planea liquidar operaciones con USDG mediante una alianza con Paxos",
-   "medio": "Securities.io",
-   "url": "https://www.securities.io/es/edx-markets-plans-usdg-settlement-through-paxos-partnership/",
-   "region": "MUNDO",
-   "tema": "Paxos"
-  },
-  {
-   "titulo": "Nvidia duplica sus ingresos gracias a la IA en plena crisis",
-   "medio": "Euronews",
-   "url": "https://es.euronews.com/2026/11/18/la-fuerte-demanda-de-chips-de-ia-duplica-ingresos-de-nvidia-tras-la-salida-de-huang",
-   "region": "MUNDO",
-   "tema": "Nvidia"
+   "titulo": "Banco Central reporta apreciación de 5.43 % del peso dominicano frente al dólar",
+   "medio": "El Nacional",
+   "url": "https://elnacional.com.do/economia/banco-central-reporta-apreciacion-5-43-peso-dominicano-frente-dolar_586714.html",
+   "region": "COSTA RICA",
+   "tema": "Banco Central"
   }
  ]
 };

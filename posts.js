@@ -37,6 +37,7 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://x.com/CarlitosX1979/status/2122300842103513399", date: "2026-11-19", tags: ["lagarto","pajaros"] },
   { url: "https://x.com/CatholicArena/status/2119429809956671911", date: "2026-11-12", tags: ["leon xiv","fotón","te quiero mucho perrito"] },
   { url: "https://www.instagram.com/p/DfhSJCGsPYr/", date: "2026-11-12", note: "Hagan lo que hay que hacer y después hagan lo que les gusta", tags: ["no te tomes la vida tan en serio","reirse","lo absurdo de la vida"] },
   { url: "https://x.com/PERIODlSTAPERON/status/2119987367138201704", date: "2026-11-12", tags: ["leon xiv","milei","que buen gancho de derecha tiene el papa"] },
