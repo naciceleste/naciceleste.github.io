@@ -1,6 +1,16 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "x:2122300842103513399": {
+    "network": "x",
+    "date": "2026-11-16T12:08:45.000Z",
+    "author": "CarlitosX1979",
+    "text": "el lagarto overo es una excusa para escuchar el sonido ambiente del jardín con sus pájaros.",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122300767742668800/img/pk1K2iftp-aWcUyv.jpg",
+    "kind": "video",
+    "w": 1440,
+    "h": 1080
+  },
   "x:2119429809956671911": {
     "network": "x",
     "date": "2026-11-08T14:00:18.000Z",
@@ -163,8 +173,8 @@ window.POST_MEDIA = {
   },
   "instagram:DfAnpgDsD8S": {
     "network": "instagram",
-    "h": 2160,
-    "w": 1215,
+    "h": 1672,
+    "w": 941,
     "kind": "video",
     "author": "nacho.perezr",
     "date": "2026-10-27T19:36:36.000Z"
