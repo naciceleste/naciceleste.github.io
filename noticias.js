@@ -178,6 +178,13 @@ window.NOTICIAS = {
    "tema": "Lionel Messi"
   },
   {
+   "titulo": "Porzecanski: “La figura de Lacalle Pou opera de un modo fantasmagórico, está, pero no está”",
+   "medio": "Radio Sarandí",
+   "url": "https://www.sarandi690.com.uy/noticias/icooiepDNwvbbEBltgAx",
+   "region": "URUGUAY",
+   "tema": "Luis Alberto Lacalle"
+  },
+  {
    "titulo": "Vercel logra la certificación ISO 42001 en gobernanza de IA",
    "medio": "El Ecosistema Startup",
    "url": "https://ecosistemastartup.com/vercel-logra-la-certificacion-iso-42001-en-gobernanza-de-ia/",
