@@ -1,242 +1,256 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-19",
+ "actualizado": "2026-11-20",
  "items": [
   {
-   "titulo": "Javier Milei recordó los atentados en la Argentina y defendió el juicio en ausencia: “La Justicia por fin…",
-   "medio": "Contexto Tucumán",
-   "url": "https://www.contextotucuman.com/nota/428923/javier-milei-recordo-los-atentados-en-la-argentina-y-defendio-el-juicio-en-ausencia-la-justicia-por-fin-empieza-a-moverse.html",
+   "titulo": "Wall Street se desploma en medio de la venta masiva de acciones de inteligencia artificial.",
+   "medio": "Vietnam.vn",
+   "url": "https://www.vietnam.vn/es/pho-wall-lao-doc-truoc-lan-song-ban-thao-co-phieu-ai",
+   "region": "MUNDO",
+   "tema": "Inteligencia Artificial"
+  },
+  {
+   "titulo": "Llegada de Tesla a Argentina con Javier Milei y Elon Musk",
+   "medio": "Cuestión Entrerriana",
+   "url": "https://cuestionentrerriana.com.ar/milei-en-la-presentacion-de-tesla-musk-es-un-benefactor-de-la-humanidad/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Yamandú Orsi volvió a respaldar a Cristina Lustemberg en la previa a su interpelación",
-   "medio": "Ámbito Financiero",
-   "url": "https://www.ambito.com/uruguay/yamandu-orsi-volvio-respaldar-cristina-lustemberg-la-previa-su-interpelacion-n6347276",
+   "titulo": "Orsi inauguró edificio de Zona Franca del Plata en Colonia",
+   "medio": "Medios Públicos",
+   "url": "https://mediospublicos.uy/orsi-inauguro-edificio-de-zona-franca-del-plata-en-colonia/",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Bryan Ruiz: “Fue una equivocación aceptar jugar contra Argentina”",
-   "medio": "Diario Extra",
-   "url": "https://www.diarioextra.com/noticia/bryan-ruiz-fue-una-equivocacion-aceptar-jugar-contra-argentina/",
+   "titulo": "Bryan Ruiz se arrepiente de haber jugado amistoso contra Argentina",
+   "medio": "Deportes TVC",
+   "url": "https://www.deportestvc.com/futbol-internacional/bryan-ruiz-se-arrepiente-de-haber-jugado-contra-argentina-2026-11-19",
    "region": "COSTA RICA",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Anthropic Debuta en Wall Street con Alza de 34% y Alcanza una Valoración de 2 Billones",
-   "medio": "N+ Noticias",
-   "url": "https://www.nmas.com.mx/economia/acciones-anthropic-debutan-wall-street-alza-de-34-valoracion-2-billones-de-dolares/",
-   "region": "MUNDO",
-   "tema": "Wall Street"
-  },
-  {
-   "titulo": "“Óscar puente ex-ministro de la muerte”, uno de los lemas de Hazte Oír en su caravana que arranca en…",
-   "medio": "La Razón",
-   "url": "https://www.larazon.es/castilla-y-leon/oscar-puente-exministro-muerte-uno-lemas-hazte-oir-caravana-que-arranca-valladolid_202611196aff51ca21e74551e81f993b.html",
-   "region": "ESPAÑA",
-   "tema": "Oscar Puente"
-  },
-  {
-   "titulo": "Rating de C5N: cómo quedó en octubre detrás de TN y por delante de A24 y Crónica TV",
-   "medio": "El Intransigente",
-   "url": "https://elintransigente.com/2026/11/19/rating-c5n-como-quedo-octubre-detras-tn-delante-a24-cronica-tv/",
-   "region": "ARGENTINA",
-   "tema": "Ratings TV"
-  },
-  {
-   "titulo": "Gran Hermano Uruguay entra en doble eliminación: quiénes quedaron en placa para el domingo y el lunes",
-   "medio": "Telebajocero",
-   "url": "https://www.telebajocero.com/gran-hermano/gran-hermano-uruguay-entra-doble-eliminacion-quienes-quedaron-placa-el-domingo-y-el-lunes-n1361543",
-   "region": "URUGUAY",
-   "tema": "Gran Hermano"
-  },
-  {
-   "titulo": "Bryan Ruiz: La equivocación más grande fue aceptar el amistoso contra Argentina",
-   "medio": "Teletica",
-   "url": "https://www.teletica.com/multimedia/bryan-ruiz-la-equivocacion-mas-grande-fue-aceptar-el-amistoso-contra-argentina_1269834",
-   "region": "COSTA RICA",
-   "tema": "Bryan Ruiz"
-  },
-  {
-   "titulo": "Anthropic alcanza una valoración de 2 billones de dólares tras debut en Wall Street",
-   "medio": "Excélsior",
-   "url": "https://www.excelsior.com.mx/finanzas/anthropic-alcanza-valoracion-2-billones-dolares-tras-debut-wall-street",
-   "region": "MUNDO",
-   "tema": "Wall Street"
-  },
-  {
-   "titulo": "Corrupción, vivienda, pensiones y las tragedias ferroviarias protagonizan un sobrio debate entre Sánchez y…",
-   "medio": "RTVE",
-   "url": "https://www.rtve.es/noticias/20261120/debate-electoral-pedro-sanchez-feijoo-elecciones-2026-cronica/17318763.shtml",
+   "titulo": "Resumen del debate cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo",
+   "medio": "RTVE.es",
+   "url": "https://www.rtve.es/noticias/20261119/debate-electoral-pedro-sanchez-feijoo-directo-elecciones-2026/17318412.shtml",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Debates presidenciales: El rating de 2023 destroza la excusa de Milei",
-   "medio": "Urgente24",
-   "url": "https://urgente24.com/actualidad/debates-presidenciales-el-rating-2023-destroza-la-excusa-milei-n637108",
-   "region": "ARGENTINA",
-   "tema": "Ratings TV"
-  },
-  {
-   "titulo": "Ranking FIFA: Uruguay sigue entre las 20 mejores selecciones tras dos triunfos",
-   "medio": "Nación UY",
-   "url": "https://nacion.com.uy/redaccion/ranking-fifa-noviembre-uruguay-2026",
-   "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
-  },
-  {
-   "titulo": "Defensora rechaza renunciar tras moción de censura en la Asamblea Legislativa",
-   "medio": "El Mundo CR",
-   "url": "https://elmundo.cr/costa-rica/defensora-rechaza-renunciar-tras-mocion-de-censura-en-la-asamblea-legislativa/",
-   "region": "COSTA RICA",
-   "tema": "Asamblea Legislativa"
-  },
-  {
-   "titulo": "Elon Musk pone a Grok a trabajar en la contabilidad de SpaceXSI: cinco agentes de IA ya tienen puestos fijos…",
-   "medio": "Computer Hoy on MSN",
-   "url": "https://www.msn.com/es-es/noticias/otras/elon-musk-pone-a-grok-a-trabajar-en-la-contabilidad-de-spacexsi-cinco-agentes-de-ia-ya-tienen-puestos-fijos-en-la-empresa/ar-AA2hJLbA",
+   "titulo": "CCSS utilizará inteligencia artificial para detectar cáncer de mama mediante mamografías",
+   "medio": "Radio Monumental",
+   "url": "https://www.monumental.co.cr/2026/11/20/ccss-utilizara-inteligencia-artificial-para-detectar-cancer-de-mama-mediante-mamografias/",
    "region": "MUNDO",
-   "tema": "Grok Bot"
+   "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Sánchez ofrece un pacto para blindar las pensiones en la Constitución y Feijóo lo rechaza",
-   "medio": "eldiario",
-   "url": "https://www.eldiario.es/politica/debate-sanchez-feijoo-directo-ultima-hora-cara-cara-electoral_6_13678432_1126720.html",
-   "region": "ESPAÑA",
-   "tema": "Política"
-  },
-  {
-   "titulo": "Juan Sebastián Verón se rindió ante Nico Paz y lo comparó con Lionel Messi y Diego Maradona",
-   "medio": "0221",
-   "url": "https://www.0221.com.ar/deportes/juan-sebastian-veron-se-rindio-nico-paz-y-lo-comparo-lionel-messi-y-diego-maradona-n137731",
-   "region": "ARGENTINA",
-   "tema": "Lionel Messi"
-  },
-  {
-   "titulo": "¿Cómo quedó Uruguay en el ranking FIFA tras los amistosos de noviembre?",
-   "medio": "Caras y Caretas",
-   "url": "https://www.carasycaretas.com.uy/deportes/como-quedo-uruguay-el-ranking-fifa-los-amistosos-noviembre-n101197",
-   "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
-  },
-  {
-   "titulo": "Presidenta de Costa Rica defiende restricciones sobre USD 67 millones del Poder Judicial y descarta negociar…",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/costa-rica/2026/11/20/presidenta-de-costa-rica-defiende-restricciones-sobre-usd-67-millones-del-poder-judicial-y-descarta-negociar-por-buena-voluntad/",
-   "region": "COSTA RICA",
-   "tema": "Poder Judicial"
-  },
-  {
-   "titulo": "Empresas comienzan a cerrar la puerta a los agentes de IA de sus clientes",
-   "medio": "Publimetro on MSN",
-   "url": "https://www.msn.com/es-cl/noticias/otras/empresas-comienzan-a-cerrar-la-puerta-a-los-agentes-de-ia-de-sus-clientes/ar-AA2hNCdE",
-   "region": "MUNDO",
-   "tema": "Agentes IA"
-  },
-  {
-   "titulo": "Javier Milei en la AMIA: Frente al terrorismo y antisemitismo no medimos conveniencias",
-   "medio": "C5N",
-   "url": "https://www.c5n.com/politica/javier-milei-la-amia-frente-al-terrorismo-y-antisemitismo-no-medimos-conveniencias-n254848",
+   "titulo": "Javier Milei celebró el desembarco de Tesla en Argentina: “Esto también es devolverle la libertad”",
+   "medio": "Diario Río Negro",
+   "url": "https://www.rionegro.com.ar/politica/javier-milei-celebro-el-desembarco-de-tesla-en-argentina-esto-tambien-es-devolverle-la-libertad-4807406/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Diego Forlán: “Hay un buen plantel y mucha calidad”",
-   "medio": "Diario El Telégrafo",
-   "url": "https://www.eltelegrafo.com/2026/11/diego-forlan-hay-un-buen-plantel-y-mucha-calidad/",
+   "titulo": "Marta Fort y uruguayo Juan Manuel Ramírez: cenas de USD 1.000, alcohol y diferencias que terminaron el…",
+   "medio": "Cadena del Mar",
+   "url": "https://cadenadelmar.uy/espectaculo/marta-fort-y-uruguayo-juan-manuel-ramirez-cenas-de-usd-1000-alcohol-y-diferencias-que-terminaron-el-noviazgo-26549",
    "region": "URUGUAY",
-   "tema": "Diego Forlán"
+   "tema": "Gran Hermano"
   },
   {
-   "titulo": "Banco Central reporta apreciación de 5.43 % del peso dominicano frente al dólar",
-   "medio": "El Nacional",
-   "url": "https://elnacional.com.do/economia/banco-central-reporta-apreciacion-5-43-peso-dominicano-frente-dolar_586714.html",
+   "titulo": "Costa Rica se arrepiente de haber jugado contra Argentina ¿Por qué?",
+   "medio": "www.xeudeportes.mx",
+   "url": "https://www.xeudeportes.mx/futbol-internacional/1440843/costa-rica-se-arrepiente-de-haber-jugado-contra-argentina-por-que",
    "region": "COSTA RICA",
-   "tema": "Banco Central"
+   "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "El plan de Microsoft ya suma 50 millones de agentes IA para empresas",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/tecno/2026/11/19/el-plan-de-microsoft-ya-suma-50-millones-de-agentes-ia-para-empresas/",
+   "titulo": "Apuestas Elecciones España: Mejores cuotas y mercados",
+   "medio": "Transfermarkt",
+   "url": "https://www.transfermarkt.es/apuestas/elecciones-espana/",
+   "region": "ESPAÑA",
+   "tema": "Política"
+  },
+  {
+   "titulo": "Anthropic cae 8.5% en su segundo día en Wall Street",
+   "medio": "El Horizonte",
+   "url": "https://www.elhorizonte.mx/finanzas/anthropic-cae-8-5-en-su-segundo-dia-en-wall-street/6241033778",
    "region": "MUNDO",
-   "tema": "Agentes IA"
+   "tema": "Wall Street"
   },
   {
-   "titulo": "Telefé puso fecha para el \"Bailando de las estrellas\" de Santiago del Moro",
-   "medio": "El Liberal",
-   "url": "https://www.elliberal.com.ar/nota/98488/2026/11/telefe-puso-fecha-para-el-bailando-de-las-estrellas-de-santiago-del-moro",
+   "titulo": "Juana Viale y Andy Kusnetzoff: horarios e invitados del fin de semana",
+   "medio": "El Argentino Diario",
+   "url": "https://elargentinodiario.com.ar/espectaculos/20/11/2026/juana-viale-y-andy-kusnetzoff-horarios-e-invitados-del-fin-de-semana/",
    "region": "ARGENTINA",
    "tema": "Telefé"
   },
   {
-   "titulo": "Marca personal: la importancia de construir una identidad propia en la era de la inteligencia artificial",
-   "medio": "HOLA.com",
-   "url": "https://www.hola.com/us-es/lifestyle/20261119936174/la-importancia-de-construir-una-marca-personal-en-la-actualidad/",
-   "region": "MUNDO",
-   "tema": "Inteligencia Artificial"
+   "titulo": "Uruguay (Maldonado): la Celeste goleó 5-0 a República Dominicana y cerró el año con una victoria en el CAMPUS.",
+   "medio": "Cadena del Mar",
+   "url": "https://cadenadelmar.uy/deporte/uruguay-maldonado-la-celeste-goleo-5-0-a-republica-dominicana-y-cerro-el-ano-con-una-victoria-en-el-campus-26475",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Alumnos de Conalep Mexicali 1 crean radio con inteligencia artificial para apoyar a personas con Alzheimer",
-   "medio": "EL IMPARCIAL",
-   "url": "https://www.elimparcial.com/mxl/mexicali/2026/11/19/alumnos-de-conalep-mexicali-1-crean-radio-con-inteligencia-artificial-para-apoyar-a-personas-con-alzheimer/",
-   "region": "MUNDO",
-   "tema": "Inteligencia Artificial"
+   "titulo": "Presupuesto 2027: Sala IV ordena eliminar normas cuestionadas por el Poder Judicial y rebaja al FEES",
+   "medio": "AmeliaRueda.com",
+   "url": "https://ameliarueda.com/noticia/presupuesto-2027-sala-iv-ordena-eliminar-normas-cuestionadas-por-el-poder-judicial-y-rebaja-al-fees-noticias-costa-rica",
+   "region": "COSTA RICA",
+   "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "NewCore acusa a Grok Bot de intentar leer 31 veces el correo y las apps de trabajo de sus empleados",
-   "medio": "Actualidad Artificial",
-   "url": "https://actualidadartificial.com/newcore-grok-bot-31-intentos-correo-apps/",
+   "titulo": "Hazte Oír arranca en Valladolid una gira nacional con mensajes contra Sánchez y Óscar Puente",
+   "medio": "Tribuna de Valladolid.",
+   "url": "https://www.tribunavalladolid.com/noticias/467296/hazte-oir-arranca-en-valladolid-una-gira-nacional-con-mensajes-contra-sanchez-y-oscar-puente",
+   "region": "ESPAÑA",
+   "tema": "Oscar Puente"
+  },
+  {
+   "titulo": "Wall Street cierra con fuertes caídas por desplome de acciones vinculadas a la IA",
+   "medio": "UnoTV",
+   "url": "https://www.unotv.com/negocios/wall-street-cierra-con-fuertes-caidas-por-desplome-de-acciones-vinculadas-a-la-ia/",
+   "region": "MUNDO",
+   "tema": "Wall Street"
+  },
+  {
+   "titulo": "Ratings del jueves: América y Elnueve iguales en el prime time",
+   "medio": "Inicio - Television",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-jueves-america-y-elnueve-iguales-en-el-prime-time-2026-11-19/",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
+   "titulo": "Argentina tropezó inesperadamente ante Uruguay en La Bombonera y dejando interrogantes en una nueva etapa",
+   "medio": "https://www.lafolkargentina.com.ar/",
+   "url": "https://lafolkargentina.com.ar/nota/21381/argentina-tropezo-inesperadamente-ante-uruguay-en-la-bombonera-y-dejando-interrogantes-en-una-nueva-etapa",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
+  },
+  {
+   "titulo": "Sala IV ordena eliminar bloqueo al Poder Judicial y recorte a universidades en presupuesto 2027",
+   "medio": "AM Prensa",
+   "url": "https://www.amprensa.com/en/2026/11/sala-iv-ordena-eliminar-bloqueo-poder-judicial-recorte",
+   "region": "COSTA RICA",
+   "tema": "Poder Judicial"
+  },
+  {
+   "titulo": "Apple prepara su propio agente de inteligencia artificial para competir con OpenAI, Meta y Anthropic",
+   "medio": "Ambito",
+   "url": "https://www.ambito.com/tecnologia/apple-prepara-su-propio-agente-inteligencia-artificial-competir-openai-meta-y-anthropic-n6347495/amp",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "¡Alarma en Bitcoin! Tocó su mínimo desde julio tras las actas de la FED y los US$60.000 tiemblan",
-   "medio": "DolarHoy",
-   "url": "https://dolarhoy.com/bitcoins/alarma-en-bitcoin-toco-su-minimo-desde-julio-tras-las-actas-de-la-fed-y-los-us-60-000-tiemblan-2026111910400",
+   "titulo": "Beto Casella le respondió a la ‘Negra’ Vernaci tras asegurar el bajo rating de ‘BTV’: “Desbocada”",
+   "medio": "Net tv",
+   "url": "https://www.canalnet.tv/programas/entrometidos-en-la-tele/beto-casella-le-respondio-a-la-negra-vernaci-tras-asegurar-el-bajo-rating-de-btv-desbocada_20261120/",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
+   "titulo": "Forlán podría dejar de ser interino en Uruguay por una particular condición",
+   "medio": "TyC Sports",
+   "url": "https://www.tycsports.com/uruguay/futbol-de-uruguay/forlan-podria-dejar-de-ser-interino-en-uruguay-por-una-particular-condicion-id772340.html",
+   "region": "URUGUAY",
+   "tema": "Diego Forlán"
+  },
+  {
+   "titulo": "Banco Central destaca apreciación de 5.43 % del peso dominicano frente al dólar en 2026",
+   "medio": "Acento",
+   "url": "https://acento.com.do/economia/banco-central-destaca-apreciacion-de-5-43-del-peso-dominicano-frente-al-dolar-en-2026-9793626.html",
+   "region": "COSTA RICA",
+   "tema": "Banco Central"
+  },
+  {
+   "titulo": "Apple desarrolla un agente autónomo de IA para competir con OpenAI, Anthropic y Meta",
+   "medio": "Bloomberg Línea",
+   "url": "https://www.bloomberglinea.com/tecnologia/apple-desarrolla-un-agente-autonomo-de-ia-para-competir-con-openai-anthropic-y-meta/?outputType=amp",
+   "region": "MUNDO",
+   "tema": "Grok Bot"
+  },
+  {
+   "titulo": "No es Lionel Messi: la MLS galardonó a un argentino con el mejor gol del año",
+   "medio": "Los Andes",
+   "url": "https://www.losandes.com.ar/deportes/no-es-lionel-messi-la-mls-galardono-un-argentino-el-mejor-gol-del-ano-n6014937",
+   "region": "ARGENTINA",
+   "tema": "Lionel Messi"
+  },
+  {
+   "titulo": "Vercel logra la certificación ISO 42001 en gobernanza de IA",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/vercel-logra-la-certificacion-iso-42001-en-gobernanza-de-ia/",
+   "region": "MUNDO",
+   "tema": "Hermes Agent"
+  },
+  {
+   "titulo": "Cae bitcoin por debajo de los Dls. 60,000",
+   "medio": "El Diario",
+   "url": "https://diario.mx/economia/2026/nov/20/cae-bitcoin-por-debajo-de-los-dls-60000-1149655.html",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "De los 35 °C de Pucallpa a los 7 °C de Cusco: El contraste térmico que vivió el papa León XIV en Perú",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/peru/2026/11/20/de-los-35-c-de-pucallpa-a-los-7-c-de-cusco-el-contraste-termico-que-vivio-el-papa-leon-xiv-en-peru/",
+   "titulo": "El papa León XIV no afirmó que solo existe el hombre y la mujer",
+   "medio": "EFE Verifica",
+   "url": "https://verifica.efe.com/papa-leon-xiv-solo-existe-hombre-mujer/",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Presuntos ladrones aprovecharon la visita del papa León XIV para robar celulares a los fieles que fueron a…",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/peru/2026/11/20/presuntos-ladrones-aprovecharon-la-visita-del-papa-leon-xiv-para-robar-celulares-a-los-fieles-que-fueron-a-recibirlo-en-lima/",
+   "titulo": "Papa León XIV es nombrado hermano mayor universal de las hermandades del Señor de los Milagros",
+   "medio": "Radio Onda Azul",
+   "url": "https://radioondaazul.com/papa-leon-xiv-es-nombrado-hermano-mayor-universal-de-las-hermandades-del-senor-de-los-milagros/",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Luis Galarreta pide disculpas por fallas en misa del papa León XIV en Las Palmas y anuncia que se…",
-   "medio": "El Comercio",
-   "url": "https://elcomercio.pe/lima/papa-leon-xiv-luis-galarreta-pide-disculpas-por-fallas-en-misa-del-papa-leon-xiv-en-las-palmas-y-anuncia-que-se-investigaran-responsabilidades-apuesplan-ultimas-noticia/",
+   "titulo": "León XIV luce en la Plaza de San Pedro la cruz pectoral con las reliquias de los santos de Perú",
+   "medio": "Portaluz",
+   "url": "https://portaluz.org/vaticano/leon-xiv-luce-plaza-san-pedro-cruz-pectoral-reliquias-santos-peru-n7276",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "El S&P 500 pierde 140 puntos en medio de las crecientes apuestas de subidas de tasas por la Fed",
-   "medio": "FXStreet",
-   "url": "https://www.fxstreet.es/news/el-sp-500-pierde-140-puntos-en-medio-de-las-crecientes-apuestas-de-subidas-de-tasas-por-la-fed-202611192113",
+   "titulo": "'Viernes negro' en sector tecnológico: Nasdaq se desploma 5.28 %, arrastrado por Nvidia y Anthropic",
+   "medio": "El Informador",
+   "url": "https://www.informador.mx/economia/viernes-negro-en-sector-tecnologico-nasdaq-se-desploma-5.28--arrastrado-por-nvidia-y-anthropic-20261120-0129.html",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Nu concreta compra de Banco Porto Real y obtiene licencia bancaria en Brasil",
-   "medio": "La Cartera",
-   "url": "https://lacartera.mx/nu-concreta-compra-de-banco-porto-real-y-obtiene-licencia-bancaria-en-brasil/",
+   "titulo": "Signal bloquea capturas de pantalla contra agentes de IA",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/signal-bloquea-capturas-de-pantalla-contra-agentes-de-ia-2/",
+   "region": "MUNDO",
+   "tema": "Agentes IA"
+  },
+  {
+   "titulo": "Signal restringe capturas de pantalla para evitar que agentes de IA lean mensajes",
+   "medio": "Forbes México",
+   "url": "https://forbes.com.mx/signal-restringe-capturas-de-pantalla-para-evitar-que-agentes-de-ia-lean-mensajes/",
+   "region": "MUNDO",
+   "tema": "Agentes IA"
+  },
+  {
+   "titulo": "EDX y Paxos Asocian una Nueva Ruta de Liquidez con Liquidación en USDG",
+   "medio": "FinanceFeeds",
+   "url": "https://financefeeds.com/es/edx-paxos-ruta-liquidez-usdg/",
+   "region": "MUNDO",
+   "tema": "Paxos"
+  },
+  {
+   "titulo": "Rival de Nubank en Colombia tomó decisión de peso con tasas de interés para CTD desde noviembre",
+   "medio": "Pulzo",
+   "url": "https://www.pulzo.com/economia/pibank-rival-nubank-colombia-subio-tasas-interes-ctd-noviembre-PP5360540",
    "region": "MUNDO",
    "tema": "Nubank"
   },
   {
-   "titulo": "La nueva dirección de Nvidia acelera aumentos salariales y bonificaciones para levantar la moral",
-   "medio": "El Economista",
-   "url": "https://www.eleconomista.com.mx/tecnologia/nueva-direccion-nvidia-acelera-aumentos-salariales-bonificaciones-levantar-moral-20261119-844773.html",
+   "titulo": "Trump dice que Nvidia debería dar una “segunda oportunidad” a Jensen Huang",
+   "medio": "Imagen Radio",
+   "url": "https://www.imagenradio.com.mx/finanzas/trump-dice-que-nvidia-deberia-dar-segunda-oportunidad-jensen-huang",
    "region": "MUNDO",
    "tema": "Nvidia"
   }
