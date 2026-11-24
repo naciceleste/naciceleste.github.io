@@ -1,181 +1,251 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-22",
+ "actualizado": "2026-11-23",
  "items": [
   {
-   "titulo": "Financial Times advirtió por el aumento del riesgo país y las dudas de financiamiento en Argentina",
-   "medio": "Agencia Noticias Argentinas",
-   "url": "https://noticiasargentinas.com/economia/financial-times-advirtio-por-el-aumento-del-riesgo-pais-y-las-dudas-de-financiamiento-en-argentina_a6b031a0c4cb99a4fdb5c1168",
+   "titulo": "El secretario general de la ONU advierte del aumento en \"riesgos\" de la inteligencia artificial",
+   "medio": "Listin Diario",
+   "url": "https://listindiario.com/las-mundiales/20261123/secretario-general-onu-advierte-aumento-riesgos-inteligencia-artificial_931227.html",
+   "region": "MUNDO",
+   "tema": "Inteligencia Artificial"
+  },
+  {
+   "titulo": "La confianza en el Gobierno de Javier Milei subió 4,1% en noviembre",
+   "medio": "La Opinión Austral",
+   "url": "https://laopinionaustral.com.ar/argentina/la-confianza-en-el-gobierno-de-javier-milei-subio-41-en-noviembre-735601.html",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Yamandú Orsi votó en las elecciones del BPS y destacó la importancia de \"cuidar y fortalecer las…",
-   "medio": "Telenoche",
-   "url": "https://www.telenoche.com.uy/nacionales/yamandu-orsi-voto-las-elecciones-del-bps-y-destaco-la-importancia-cuidar-y-fortalecer-las-instituciones-n5407614",
+   "titulo": "Orsi encabezó reconocimiento a campeonas sub-17 de handball playa",
+   "medio": "Revista CERO",
+   "url": "https://www.revistacero.com.uy/orsi-reconocimiento-campeonas-sub-17-handball-playa/",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Jafet Soto pide a Bryan Ruiz buscar asesoría y propone a Ronald González para encabezar un consejo",
+   "titulo": "Allan Pérez Baltodano reflexiona sobre la presión estética del verano y la importancia del bienestar personal",
    "medio": "Everardo Herrera",
-   "url": "https://everardoherrera.com/index.php/seleccion-nacional-costa-rica/67-seleccion/138474-jafet-soto-pide-a-bryan-ruiz-buscar-asesoria-y-propone-a-ronald-gonzalez-para-encabezar-un-consejo",
+   "url": "https://everardoherrera.com/index.php/futbol-costa-rica/88-futbol-costa-rica-4/138499-allan-perez-baltodano-reflexiona-sobre-la-presion-estetica-del-verano-y-la-importancia-del-bienestar-personal",
    "region": "COSTA RICA",
    "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Inteligencia artificial y finanzas: cómo la usan los adolescentes argentinos para consultar sobre inversiones",
-   "medio": "Bloomberg Línea",
-   "url": "https://www.bloomberglinea.com/latinoamerica/argentina/inteligencia-artificial-y-finanzas-como-la-usan-los-adolescentes-argentinos-para-consultar-sobre-inversiones/",
-   "region": "MUNDO",
-   "tema": "Inteligencia Artificial"
-  },
-  {
-   "titulo": "¿Habrá remontada? Sánchez tiene seis días para evitar un gobierno de extrema derecha en España",
-   "medio": "Crónica",
-   "url": "https://www.cronica.com.mx/mundo/2026/11/22/habra-remontada-sanchez-tiene-seis-dias-para-evitar-un-gobierno-de-extrema-derecha-en-espana/",
+   "titulo": "El debate a ocho dibuja la realidad política de España: el PP solo puede gobernar con Vox y la ultraderecha…",
+   "medio": "Cadena SER",
+   "url": "https://cadenaser.com/nacional/2026/11/24/el-debate-a-ocho-dibuja-la-realidad-politica-de-espana-el-pp-solo-puede-gobernar-con-vox-y-la-ultraderecha-aleja-al-resto-de-partidos-cadena-ser/?outputType=amp",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Rating del sábado: El Trece superó a Telefe y PH lideró",
-   "medio": "Impacto Castex Diario Digital",
-   "url": "https://impactocastex.com.ar/espectaculos/19658/rating-del-sabado-el-trece-supero-a-telefe-y-ph-lidero",
-   "region": "ARGENTINA",
-   "tema": "Ratings TV"
-  },
-  {
-   "titulo": "Argentina revive y Uruguay avanza en Mundial Sub-17 de fútbol",
-   "medio": "Prensa Latina",
-   "url": "https://www.prensa-latina.cu/2026/11/22/argentina-revive-y-uruguay-avanza-en-mundial-sub-17-de-futbol/",
-   "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
-  },
-  {
-   "titulo": "Esto hizo Bryan Ruiz tras el duro golpe que recibió Costa Rica ante Argentina",
-   "medio": "La Teja",
-   "url": "https://www.lateja.cr/deportes/esto-hizo-bryan-ruiz-tras-el-duro-golpe-que/NTFCXBS7DRBQNFTVHYMFSGLCJI/story/",
-   "region": "COSTA RICA",
-   "tema": "Bryan Ruiz"
-  },
-  {
-   "titulo": "Matemático de Anthropic afirma haber demostrado la hipótesis de Riemann con ayuda de inteligencia artificial",
-   "medio": "Pulzo",
-   "url": "https://www.pulzo.com/tecnologia/resolucion-de-la-hipotesis-de-riemann-con-ia-levent-alpoge-y-claude-anthropic-PP5361707A",
+   "titulo": "Suecia tiene previsto sumarse a la iniciativa francesa de IA militar",
+   "medio": "Nordic Defence Sector",
+   "url": "https://nordicdefencesector.com/es/article/sweden-intends-to-join-french-initiative-for-military-ai",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Así prepara Abascal la llegada de VOX al Gobierno de España",
-   "medio": "Periodista Digital",
-   "url": "https://www.periodistadigital.com/politica/partidos-politicos/20261122/prepara-abascal-llegada-vox-gobierno-espana-noticia-689405269635/",
-   "region": "ESPAÑA",
-   "tema": "Política"
-  },
-  {
-   "titulo": "Las claves del rating del sábado: eltrece ganó la jornada por una décima",
-   "medio": "chisme",
-   "url": "https://chisme.com.ar/noticia/las-claves-del-rating-del-sabado-eltrece-gano-la-jornada-por-una-decima/",
-   "region": "ARGENTINA",
-   "tema": "Ratings TV"
-  },
-  {
-   "titulo": "Uruguay a paso firme en la Copa Mundial Sub17",
-   "medio": "CONMEBOL",
-   "url": "https://www.conmebol.com/noticias/uruguay-a-paso-firme-en-la-copa-mundial-sub17/",
-   "region": "URUGUAY",
-   "tema": "Selección Uruguaya"
-  },
-  {
-   "titulo": "La Asamblea tiene hasta el 29 de noviembre para votar el presupuesto de 2027",
-   "medio": "NÍTIDO",
-   "url": "https://nitido.cr/politica/asamblea-tiene-29-noviembre-votar-presupuesto",
-   "region": "COSTA RICA",
-   "tema": "Asamblea Legislativa"
-  },
-  {
-   "titulo": "Papa León XIV Expresa Solidaridad con Países del Pacífico Afectados por Sequía",
-   "medio": "N+ Noticias",
-   "url": "https://www.nmas.com.mx/internacional/foro-tv-video-papa-leon-xiv-expresa-solidaridad-con-paises-del-pacifico-afectados-por-sequia/",
-   "region": "MUNDO",
-   "tema": "Papa León XIV"
-  },
-  {
-   "titulo": "Lionel Messi agrede a Gonzalo Tapia en pleno partido y así reaccionó la prensa argentina",
-   "medio": "Televisión Nacional de Chile on MSN",
-   "url": "https://www.msn.com/es-cl/deportes/futbol/lionel-messi-agrede-a-gonzalo-tapia-en-pleno-partido-y-as%C3%AD-reaccion%C3%B3-la-prensa-argentina/ar-AA2hZfsf",
-   "region": "ARGENTINA",
-   "tema": "Lionel Messi"
-  },
-  {
-   "titulo": "Signal bloquea a los agentes de IA de iOS 27 y Android y alerta contra Gemini y Siri",
-   "medio": "Moncloa on MSN",
-   "url": "https://www.msn.com/es-es/noticias/otras/signal-bloquea-a-los-agentes-de-ia-de-ios-27-y-android-y-alerta-contra-gemini-y-siri/ar-AA2hZrcR",
-   "region": "MUNDO",
-   "tema": "Agentes IA"
-  },
-  {
-   "titulo": "La incómoda videollamada de Elon Musk a Milei por la llegada de Tesla a la Argentina",
-   "medio": "San Juan 8",
-   "url": "https://www.sanjuan8.com/informacion-general/la-incomoda-videollamada-elon-musk-milei-la-llegada-tesla-la-argentina-n1618894",
+   "titulo": "La confianza en el gobierno de Javier Milei creció un 4,1% en noviembre",
+   "medio": "Diario Crónica",
+   "url": "https://www.diariocronica.com.ar/noticias/2026/11/23/179574-la-confianza-en-el-gobierno-de-javier-milei-crecio-un-4_1por_ciento-en-noviembre",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Wells Fargo: agentes de IA bajo el riesgo del cliente",
-   "medio": "ecosistemastartup",
-   "url": "https://ecosistemastartup.com/wells-fargo-agentes-de-ia-bajo-el-riesgo-del-cliente/",
-   "region": "MUNDO",
-   "tema": "Agentes IA"
+   "titulo": "La polémica actitud de un participante de Gran Hermano Uruguay que generó revuelo en redes",
+   "medio": "La 100",
+   "url": "https://la100.cienradios.com/espectaculos/la-polemica-actitud-de-un-participante-de-gran-hermano-uruguay-que-genero-revuelo-en-redes/",
+   "region": "URUGUAY",
+   "tema": "Gran Hermano"
   },
   {
-   "titulo": "PH, Podemos Hablar: invitados confirmados para el sábado 21 de noviembre",
-   "medio": "Nueva CABA",
-   "url": "https://nuevacaba.com/2026/11/21/ph-podemos-hablar-invitados-21-noviembre/",
-   "region": "ARGENTINA",
-   "tema": "Telefé"
+   "titulo": "¡Jafet Soto le lanza mensaje a Bryan Ruiz tras el 7-0 en Argentina!",
+   "medio": "AM Prensa",
+   "url": "https://www.amprensa.com/2026/11/jafet-soto-lanza-mensaje-bryan-ruiz-7-0-argentina",
+   "region": "COSTA RICA",
+   "tema": "Bryan Ruiz"
   },
   {
-   "titulo": "Jensen Huang, ex CEO de NVIDIA: “Les deseo mucho dolor y sufrimiento”",
-   "medio": "El Cronista on MSN",
-   "url": "https://www.msn.com/es-mx/dinero/general/jensen-huang-ex-ceo-de-nvidia-les-deseo-mucho-dolor-y-sufrimiento/ar-AA2hZbod",
-   "region": "MUNDO",
-   "tema": "Nvidia"
+   "titulo": "Un venezolano que reside en España lo deja claro: «Las políticas que está aplicando Pedro Sánchez aquí son ...",
+   "medio": "OkDiario",
+   "url": "https://okdiario.com/curiosidades/venezolano-que-reside-espana-lo-deja-claro-politicas-que-esta-aplicando-pedro-sanchez-aqui-son-mismas-que-venezuela-20721033",
+   "region": "ESPAÑA",
+   "tema": "Política"
   },
   {
-   "titulo": "El ticker de la semana: Anthropic debuta y los chips se hunden",
-   "medio": "The Officer",
-   "url": "https://theofficer.es/el-ticker-de-la-semana-anthropic-debuta-y-los-chips-se-hunden/",
+   "titulo": "Wall Street se dispara tras regreso de Huang a Nvidia",
+   "medio": "CR Hoy",
+   "url": "https://crhoy.com/wall-street-se-dispara-tras-regreso-de-huang-a-nvidia/",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "El precio del bitcoin se desploma: caída en noviembre borra ganancias de verano",
-   "medio": "Bitcoin News",
-   "url": "https://news.bitcoin.com/es/market-updates/el-precio-del-bitcoin-se-desploma-caida-en-noviembre-borra-ganancias-de-verano/",
+   "titulo": "Chapeaux abrió Masterchef Celebrity Argentina con \"Me provoca\"",
+   "medio": "Telefe",
+   "url": "https://www.mitelefe.com/masterchef-celebrity/mejores-momentos/chapeaux-abrio-masterchef-celebrity-argentina-con-me-provoca",
+   "region": "ARGENTINA",
+   "tema": "Telefé"
+  },
+  {
+   "titulo": "Uruguay goleó 4 a 1 a Haití y aseguró su clasificación en el Mundial Sub-17",
+   "medio": "FM Gente",
+   "url": "https://www.fmgente.com.uy/noticias/uruguay-goleo-haiti-aseguro-clasificacion-84771.html",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
+  },
+  {
+   "titulo": "Asamblea crea comisión investigadora por visita de Defensora al Cacco",
+   "medio": "CR Hoy",
+   "url": "https://crhoy.com/nacionales/asamblea-crea-comision-investigadora-por-visita-de-defensora-al-cacco/",
+   "region": "COSTA RICA",
+   "tema": "Asamblea Legislativa"
+  },
+  {
+   "titulo": "El Barómetro del CIS sitúa al PSOE casi diez puntos por encima del PP, mientras baja Vox",
+   "medio": "Valencia Plaza",
+   "url": "https://valenciaplaza.com/valenciaplaza/nacional/el-barometro-del-cis-situa-al-psoe-casi-diez-puntos-por-encima-del-pp-mientras-baja-vox",
+   "region": "ESPAÑA",
+   "tema": "Oscar Puente"
+  },
+  {
+   "titulo": "Nvidia se dispara tras regreso de Jensen Huang y lidera alzas en Wall Street",
+   "medio": "Rosario Finanzas",
+   "url": "https://rosariofinanzas.ar/noticias/nvidia-se-dispara-tras-regreso-de-jensen-huang-y-lidera-alzas-en-wall-street",
+   "region": "MUNDO",
+   "tema": "Wall Street"
+  },
+  {
+   "titulo": "Rating del domingo 22 de noviembre en Chile: cómo le fue a CHV, Mega, Canal 13 y TVN",
+   "medio": "La Tercera",
+   "url": "https://www.latercera.com/servicios/noticia/rating-del-domingo-22-de-noviembre-en-chile-como-le-fue-a-chv-mega-canal-13-y-tvn/",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
+   "titulo": "Uruguay Sub 17 goleó a Haití y aseguró la clasificación",
+   "medio": "El Telégrafo",
+   "url": "https://www.eltelegrafo.com/2026/11/uruguay-sub-17-goleo-a-haiti-y-aseguro-la-clasificacion/",
+   "region": "URUGUAY",
+   "tema": "Selección Uruguaya"
+  },
+  {
+   "titulo": "Reforma a la Contraloría necesitará 38 votos tras decisión de Corte Plena sobre afectación al Poder Judicial",
+   "medio": "Radio Monumental",
+   "url": "https://www.monumental.co.cr/2026/11/23/reforma-a-la-contraloria-necesitara-38-votos-tras-decision-de-corte-plena-sobre-afectacion-al-poder-judicial/",
+   "region": "COSTA RICA",
+   "tema": "Poder Judicial"
+  },
+  {
+   "titulo": "Virginia y Oregón demandan a SpaceX por deepfakes de Grok",
+   "medio": "Tecnología Geek",
+   "url": "https://tecnologiageek.com/deepfakes-grok-demanda-virginia-oregon/",
+   "region": "MUNDO",
+   "tema": "Grok Bot"
+  },
+  {
+   "titulo": "Ratings del domingo: Telefe volvió a tomar distancia de eltrece",
+   "medio": "Inicio - Television",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-domingo-telefe-volvio-a-tomar-distancia-de-eltrece-2026-11-22/",
+   "region": "ARGENTINA",
+   "tema": "Ratings TV"
+  },
+  {
+   "titulo": "Clásico del Río de la Plata en La Bombonera: la Selección argentina recibe a Uruguay en el inicio de la…",
+   "medio": "HOY ROJAS",
+   "url": "https://hoyrojas.com.ar/index1.php?que=noticias&id=52220",
+   "region": "URUGUAY",
+   "tema": "Diego Forlán"
+  },
+  {
+   "titulo": "Elías Bauman: EE.UU. es el principal comprador de Nicaragua, “otros compiten con los tuyos y rara vez te…",
+   "medio": "Howl.Link",
+   "url": "https://t.co/VkE6EAGZfm",
+   "region": "COSTA RICA",
+   "tema": "Banco Central"
+  },
+  {
+   "titulo": "Virginia y Oregón demandan a SpaceX por abuso infantil en Grok",
+   "medio": "Xpectro",
+   "url": "https://xpectrofm.com/virginia-y-oregon-demandan-a-spacex-por-abuso-infantil-en-grok/",
+   "region": "MUNDO",
+   "tema": "Grok Bot"
+  },
+  {
+   "titulo": "Ranking de salarios de la MLS 2026: la millonaria cifra que cobra Lionel Messi en Inter Miami",
+   "medio": "Perfil - 442",
+   "url": "https://442.perfil.com/noticias/futbol/ranking-de-salarios-de-la-mls-2026-la-millonaria-cifra-que-cobra-lionel-messi-en-inter-miami.phtml",
+   "region": "ARGENTINA",
+   "tema": "Lionel Messi"
+  },
+  {
+   "titulo": "ASUS ProArt GR1X: mini PC con NVIDIA RTX Spark, 128 GB de memoria y hasta 1 petaflop para IA local",
+   "medio": "madboxpc",
+   "url": "https://www.madboxpc.com/asus-proart-gr1x-nvidia-rtx-spark-128gb-inteligencia-artificial-local/",
+   "region": "MUNDO",
+   "tema": "Hermes Agent"
+  },
+  {
+   "titulo": "American Bitcoin obtiene una línea de crédito de 150 millones de dólares de FalconX",
+   "medio": "CoinMarketCap",
+   "url": "https://coinmarketcap.com/academy/es/article/american-bitcoin-150-million-credit-facility-falconx",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "El Papa en el almuerzo con los pobres: «Hoy todos somos familia»",
-   "medio": "Vatican News",
-   "url": "https://www.vaticannews.va/es/papa/news/2026-11/el-papa-en-el-almuerzo-con-los-pobres-hoy-todos-somos-familia.html",
+   "titulo": "Con una frase del papa León XIV, la Iglesia reclamó al Senado que apruebe la ley contra la ludopatía: “No…",
+   "medio": "Radio LV11",
+   "url": "https://www.radiolv11.com.ar/noticia/con-una-frase-del-papa-leon-xiv-la-iglesia-reclamo-al-senado-que-apruebe-la-ley-contra-la-ludopatia-no-dejen-morir-este-proyecto",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "León XIV: «Cristo es el criterio de la justicia y se pone del lado de los últimos»",
-   "medio": "Vatican News",
-   "url": "https://www.vaticannews.va/es/papa/news/2026-11/leon-xiv-cristo-criterio-justicia-de-lado-ultimos-oprimidos.html",
+   "titulo": "Keiko Fujimori respaldó a Carlos Espá tras fallas en misa del papa León XIV en Las Palmas: \"Las disculpas a…",
+   "medio": "Willax",
+   "url": "https://willax.pe/politica/keiko-fujimori-respaldo-a-carlos-espa-por-fallos-en-misa-del-papa-leon-xiv",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Hermes Agent supera a OpenClaw y Gemini Spark en memoria, seguridad y costo",
-   "medio": "Data Mindset",
-   "url": "https://datamindsethq.com/hermes-agent-supera-openclaw-gemini/",
+   "titulo": "La Iglesia citó al papa León XIV para exigirle al Senado por la ley contra la ludopatía: “La sociedad…",
+   "medio": "Radio Mitre",
+   "url": "https://radiomitre.cienradios.com/politica/la-iglesia-cito-al-papa-leon-xiv-para-exigirle-al-senado-por-la-ley-contra-la-ludopatia-la-sociedad-necesita-respuestas-concretas/",
    "region": "MUNDO",
-   "tema": "Hermes Agent"
+   "tema": "Papa León XIV"
+  },
+  {
+   "titulo": "El Regreso De Jensen Huang Impulsa Las Acciones De Nvidia Y Wall Street",
+   "medio": "La Red 106.1 FM",
+   "url": "https://www.lared1061.com/posts/el-regreso-de-jensen-huang-impulsa-las-acciones-de-nvidia-y-wall-street",
+   "region": "MUNDO",
+   "tema": "S&P 500"
+  },
+  {
+   "titulo": "Algunos bancos estadounidenses refuerzan controles sobre agentes de IA",
+   "medio": "Forbes México",
+   "url": "https://forbes.com.mx/algunos-bancos-estadounidenses-refuerzan-controles-sobre-agentes-de-ia/",
+   "region": "MUNDO",
+   "tema": "Agentes IA"
+  },
+  {
+   "titulo": "Visa prueba cartera para que agentes de IA cobren en OUSD",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/visa-prueba-cartera-para-que-agentes-de-ia-cobren-en-ousd/",
+   "region": "MUNDO",
+   "tema": "Agentes IA"
+  },
+  {
+   "titulo": "Jorge Carrascal celebra otro título en Brasil: Flamengo se quedó con el Brasileirão 2026",
+   "medio": "Hora 13 Noticias",
+   "url": "https://h13n.com/jorge-carrascal-celebra-otro-titulo-con-flamengo/",
+   "region": "MUNDO",
+   "tema": "Nubank"
+  },
+  {
+   "titulo": "Las acciones de Nvidia se dispararon más del 31% tras el regreso de Jensen Huang.",
+   "medio": "Vietnam.vn",
+   "url": "https://www.vietnam.vn/es/co-phieu-nvidia-tang-hon-31-khi-jensen-huang-tro-lai",
+   "region": "MUNDO",
+   "tema": "Nvidia"
   }
  ]
 };
