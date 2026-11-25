@@ -6,6 +6,15 @@ window.YOUTUBE = {
   "url": "https://www.youtube.com/playlist?list=PLJ-DohLIgv3w",
   "videos": [
     {
+      "id": "3wuPb_oW2mI",
+      "title": "Mudanzas: estrés, quilombos y clientes que explotan. Asi es el DIA A DIA de los FLETEROS",
+      "channel": "Fieles",
+      "channelUrl": "https://www.youtube.com/channel/UCkIElmDhcF2L23yGKYPk6zA",
+      "published": "",
+      "short": false,
+      "added": "2026-11-24"
+    },
+    {
       "id": "i6eExoqAkjA",
       "title": "Lo que NADIE te cuenta de CALLE CORRIENTES",
       "channel": "Fieles",
