@@ -1,6 +1,24 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "instagram:De0OEspxh34": {
+    "network": "instagram",
+    "h": 1920,
+    "w": 1080,
+    "kind": "video",
+    "author": "brindistv_",
+    "date": "2026-10-23T00:00:06.000Z"
+  },
+  "x:2124873409272373689": {
+    "network": "x",
+    "date": "2026-11-23T14:31:13.000Z",
+    "author": "panquimolina",
+    "text": "Momento televisivo del día",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2124827443479334912/img/ZbC1PI6kj__CH4RX.jpg",
+    "kind": "video",
+    "w": 1920,
+    "h": 1080
+  },
   "x:2122300842103513399": {
     "network": "x",
     "date": "2026-11-16T12:08:45.000Z",
