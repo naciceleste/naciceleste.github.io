@@ -122,6 +122,13 @@ window.NOTICIAS = {
    "tema": "Selección Uruguaya"
   },
   {
+   "titulo": "Dólar frena su caída, pero continúa en mínimos históricos en Monex",
+   "medio": "El Observador CR",
+   "url": "https://observador.cr/dolar-frena-su-caida-pero-continua-en-minimos-historicos-en-monex/",
+   "region": "COSTA RICA",
+   "tema": "Banco Central"
+  },
+  {
    "titulo": "Elon Musk Secretly Knows Grok Is Trash",
    "medio": "Yahoo Finance",
    "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-secretly-knows-grok-162020577.html",
@@ -157,6 +164,13 @@ window.NOTICIAS = {
    "tema": "Jorge Macri"
   },
   {
+   "titulo": "Alonso: “satisfacción” por Forlán, su decisión para elecciones en AUF y cambios propuestos",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Deportes/Alonso--satisfaccion-por-Forlan-su-decision-para-elecciones-en-AUF-y-cambios-propuestos-uc983350",
+   "region": "URUGUAY",
+   "tema": "Diego Forlán"
+  },
+  {
    "titulo": "El Nasdaq y el S&P 500 caen al desvanecerse el repunte de la IA impulsado por Nvidia",
    "medio": "Reuters on MSN",
    "url": "https://www.msn.com/es-es/dinero/principales-cotizaciones/el-nasdaq-y-el-s-p-500-caen-al-desvanecerse-el-repunte-de-la-ia-impulsado-por-nvidia/ar-AA2i8NOv",
@@ -190,6 +204,27 @@ window.NOTICIAS = {
    "url": "https://www.bluradio.com/mundo/jensen-huang-se-disculpa-con-empleados-por-incumplir-el-codigo-de-conducta-de-nvidia-cb20",
    "region": "MUNDO",
    "tema": "Nvidia"
+  },
+  {
+   "titulo": "Precio del bitcoin borra el repunte por la vuelta de Huang",
+   "medio": "BitDiario",
+   "url": "https://bitdiario.com/precio-del-bitcoin-60350-nvidia-huang-etf-24-noviembre-2026/",
+   "region": "MUNDO",
+   "tema": "Bitcoin"
+  },
+  {
+   "titulo": "Bitcoin cayó tras la salida de Huang de Nvidia, pero subió un 5% a su regreso",
+   "medio": "Cointelegraph",
+   "url": "https://cointelegraph.es/markets/bitcoin-huangs-return-18-below-pre-resignation-levels",
+   "region": "MUNDO",
+   "tema": "Bitcoin"
+  },
+  {
+   "titulo": "El Papa bendice al ciclismo: Indurain, Merckx y Hinault, juntos en el Vaticano",
+   "medio": "Marca",
+   "url": "https://www.marca.com/ciclismo/2026/11/24/papa-bendice-ciclismo-indurain-merckx-hinault-vaticano.html",
+   "region": "MUNDO",
+   "tema": "Papa León XIV"
   }
  ]
 };
