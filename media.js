@@ -1,6 +1,26 @@
 /* Archivo generado por scripts/actualizar-medios.mjs — no hace falta editarlo a mano.
    Solo contiene enlaces (no imágenes), fechas de publicación y medidas. */
 window.POST_MEDIA = {
+  "instagram:DgLcg6CBZhL": {
+    "network": "instagram",
+    "date": "2026-11-25T21:00:08.000Z"
+  },
+  "x:2125560453493383432": {
+    "network": "x",
+    "date": "2026-11-25T12:01:17.000Z",
+    "author": "payitoweb",
+    "text": "Esta foto está llamada a convertirse en afiche de campaña.",
+    "image": "https://pbs.twimg.com/media/HX-BwkeXIAAfPrg.jpg",
+    "kind": "photo",
+    "w": 1000,
+    "h": 1200,
+    "focus": {
+      "x": 0,
+      "y": 409,
+      "w": 1000,
+      "h": 560
+    }
+  },
   "instagram:De0OEspxh34": {
     "network": "instagram",
     "h": 1920,
