@@ -37,6 +37,8 @@ window.SITE_CONFIG = {
 
 window.POSTS = [
   // Pega tus posts aquí abajo 👇 (los nuevos, mejor arriba)
+  { url: "https://www.instagram.com/p/DgLcg6CBZhL/", date: "2026-11-25", tags: ["rodrigo de la serna","te quiero mucho loquito","netflix"] },
+  { url: "https://x.com/payitoweb/status/2125560453493383432", date: "2026-11-25", tags: ["mirá la cara de la nena","jugo de naranja","macri malo"] },
   { url: "https://www.instagram.com/p/De0OEspxh34/", date: "2026-11-24", tags: ["los gatos no hablan","argentina"] },
   { url: "https://x.com/panquimolina/status/2124873409272373689", date: "2026-11-24", tags: ["momento televisivo","ciruja awards","argentina"] },
   { url: "https://x.com/CarlitosX1979/status/2122300842103513399", date: "2026-11-19", tags: ["lagarto","pajaros"] },
