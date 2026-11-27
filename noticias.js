@@ -1,88 +1,88 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-25",
+ "actualizado": "2026-11-26",
  "items": [
   {
-   "titulo": "Nueva York veta por 5 años los juguetes con inteligencia artificial",
-   "medio": "ATV.pe",
-   "url": "https://www.atv.pe/noticia/nueva-york-veta-5-anos-juguetes-inteligencia-artificial/",
+   "titulo": "Gobierno publica borrador que fija reglas para uso de inteligencia artificial en contratación",
+   "medio": "Caracol Radio",
+   "url": "https://caracol.com.co/2026/11/27/gobierno-publica-borrador-que-fija-reglas-para-uso-de-inteligencia-artificial-en-contratacion/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "El presidente de Argentina Javier Milei viaja a Paraguay para reunirse con Pedro Alliana",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/11/25/el-presidente-de-argentina-javier-milei-viaja-a-paraguay-para-reunirse-con-pedro-alliana/",
+   "titulo": "Javier Milei llegó a Paraguay y se reunió con el presidente Pedro Alliana",
+   "medio": "Rosario3",
+   "url": "https://www.rosario3.com/informaciongeneral/javier-milei-viaja-a-paraguay-para-reunirse-con-el-nuevo-presidente-20261125-0075.html",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Orsi colocó piedra fundamental de nuevo parque industrial de US$165 millones en Zonamerica",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Noticias/Orsi-coloco-piedra-fundamental-de-nuevo-parque-industrial-de-US-165-millones-en-Zonamerica-uc983460",
+   "titulo": "Con presencia de Orsi y Cosse /Colocaron piedra fundamental de Nuevo Parque Industrial de Zonamérica",
+   "medio": "laprensa.com.uy",
+   "url": "https://www.laprensa.com.uy/informaci%C3%B3n/nacionales/con-presencia-de-orsi-y-cosse-colocaron-piedra-fundamental-de-nuevo-parque-industrial-de-zonamerica",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Sala IV frena recorte al FEES 2026 y halla vicios en rebaja al Poder Judicial",
-   "medio": "AM Prensa",
-   "url": "https://www.amprensa.com/en/2026/11/sala-iv-frena-recorte-fees-2026-halla-vicios-rebaja-poder",
+   "titulo": "Fiscal general de Costa Rica defiende su permanencia en investigación por asesinato de periodista",
+   "medio": "CRprensa.com",
+   "url": "https://crprensa.com/2026/11/26/fiscal-general-de-costa-rica-defiende-su-permanencia-en-investigacion-por-asesinato-de-periodista/",
    "region": "COSTA RICA",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Kilmar Ábrego, deportado por error por gobierno Trump, abandona EE. UU. y llega a España",
-   "medio": "Noticias Caracol",
-   "url": "https://www.noticiascaracol.com/mundo/kilmar-abrego-deportado-por-error-por-gobierno-trump-abandona-ee-uu-y-llega-a-espana-rg10",
+   "titulo": "Sánchez, Feijóo, Abascal y Colau se enfrentan en el último debate antes del 29N: los pactos marcarán la…",
+   "medio": "El Cronista",
+   "url": "https://www.cronista.com/espana/politica-es/sanchez-feijoo-abascal-y-colau-se-enfrentan-en-el-ultimo-debate-antes-del-29n-los-pactos-marcaran-la-recta-final-de-la-campana/?outputType=amp-type",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "La plataforma Tidal prohibirá la música generada completamente por inteligencia artificial",
-   "medio": "RPP Noticias",
-   "url": "https://rpp.pe/mundo/estados-unidos/la-plataforma-tidal-prohibira-la-musica-generada-completamente-por-inteligencia-artificial-noticia-1719791",
+   "titulo": "NVIDIA vendería chips de inteligencia artificial a empresas de California controladas por firmas chinas…",
+   "medio": "Univision",
+   "url": "https://www.univision.com/noticias/nvidia-venderia-chips-de-inteligencia-artificial-a-empresas-de-california-controladas-por-firmas-chinas-revela-investigacion-video",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Javier Milei viajará a Paraguay para reunirse con el presidente Pedro Alliana",
-   "medio": "QZ | Noticias",
-   "url": "https://www.qznoticias.com/el-pais/javier-milei-viajara-a-paraguay-para-reunirse-con-el-presidente-pedro-alliana",
+   "titulo": "Javier Milei se reunió con Pedro Alliana en Asunción",
+   "medio": "Diario El Libertador de Corrientes",
+   "url": "https://www.diarioellibertador.com.ar/javier-milei-se-reunio-con-pedro-alliana-en-asuncion/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Macri elogió a Lacalle por “respetar libertad” y contó cómo zafó del accidente de Piñera",
-   "medio": "Montevideo Portal",
-   "url": "https://www.montevideo.com.uy/Noticias/Macri-elogio-a-Lacalle-por-respetar-libertad-y-conto-como-zafo-del-accidente-de-Pinera-uc983428",
+   "titulo": "Efemérides del 26 de noviembre de 2026: ¿Qué pasó un día como hoy?",
+   "medio": "Rioja 24",
+   "url": "https://rioja24.com.ar/efemerides/efemerides-del-26-de-noviembre-de-2026",
    "region": "URUGUAY",
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Sala IV declara ilegales los recortes al FEES y al Poder Judicial que se aprobaron en Presupuesto…",
-   "medio": "www.larepublica.net",
-   "url": "https://www.larepublica.net/sala-iv-declara-ilegales-los-recortes-al-fees-y-al-poder-judicial-que-se-aprobaron-en-presupuesto-extraordinario-2026/",
+   "titulo": "Sala IV encuentra vicios en presupuesto extraordinario de 2026 por recortes al Poder Judicial y universidades",
+   "medio": "Radio Monumental",
+   "url": "https://www.monumental.co.cr/2026/11/25/sala-iv-encuentra-vicios-en-presupuesto-extraordinario-de-2026-por-recortes-al-poder-judicial-y-universidades/",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Sheinbaum enviará nota diplomática a EU por haber dejado ir a Inés Gómez Mont a España",
-   "medio": "Forbes México",
-   "url": "https://forbes.com.mx/sheinbaum-enviara-nota-diplomatica-a-eu-por-haber-dejado-ir-a-ines-gomez-mont-a-espana/",
+   "titulo": "Resumen del debate a cuatro entre Sánchez, Feijóo, Abascal y Colau, el último de la campaña del 29N",
+   "medio": "RTVE.es",
+   "url": "https://www.rtve.es/noticias/20261126/debate-cuatro-directo-elecciones-2026-resumen/17329999.shtml",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Wall Street cae con fuerza por ventas en IA",
-   "medio": "El Nuevo Día",
-   "url": "https://www.elnuevodia.com/negocios/economia/notas/wall-street-cae-con-fuerza-por-ventas-en-ia/",
+   "titulo": "Wall Street permanece cerrado por el Día de Acción de Gracias",
+   "medio": "Yahoo",
+   "url": "https://es-us.noticias.yahoo.com/wall-street-permanece-cerrado-d%C3%ADa-152738020.html",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "RATINGS : Perú top 10 programas TV abierta semana del 16 al 22 de noviembre",
-   "medio": "produ",
-   "url": "https://www.produ.com/television/noticias/ratings-peru-top-10-programas-tv-abierta-semana-del-16-al-22-de-noviembre-3/",
+   "titulo": "Rating del miércoles 25 de noviembre en Chile: cómo le fue a CHV, Mega, Canal 13 y TVN",
+   "medio": "La Tercera",
+   "url": "https://www.latercera.com/servicios/noticia/rating-del-miercoles-25-de-noviembre-en-chile-como-le-fue-a-chv-mega-canal-13-y-tvn/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
@@ -94,23 +94,23 @@ window.NOTICIAS = {
    "tema": "Gran Hermano"
   },
   {
-   "titulo": "ING alerta sobre presión a las monedas emergentes por caída tecnológica y riesgo de aranceles",
-   "medio": "Bloomberg Línea",
-   "url": "https://www.bloomberglinea.com/mercados/ing-alerta-sobre-presion-a-las-monedas-emergentes-por-caida-tecnologica-y-riesgo-de-aranceles/?outputType=amp",
+   "titulo": "Banco Central baja la Tasa de Política Monetaria de 3% a 2,75%",
+   "medio": "Semanario Universidad",
+   "url": "https://semanariouniversidad.com/pais/banco-central-baja-la-tasa-de-politica-monetaria-de-3-a-275/",
    "region": "COSTA RICA",
    "tema": "Banco Central"
   },
   {
-   "titulo": "Wall Street cae con fuerza por ventas en IA e incertidumbre sobre los aranceles de EE.UU.",
-   "medio": "El Comercio Perú",
-   "url": "https://elcomercio.pe/economia/wall-street-cae-con-fuerza-por-ventas-en-ia-e-incertidumbre-sobre-los-aranceles-de-eeuu-l-mercados-l-wall-street-l-ultimas-noticia/?outputType=amp",
+   "titulo": "La Bolsa sube un 2,26 % y recupera los 19.000 puntos con Wall Street cerrado por festivo",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/espana/agencias/2026/11/26/la-bolsa-sube-un-226-y-recupera-los-19000-puntos-con-wall-street-cerrado-por-festivo/",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Ratings del martes: América amplió su diferencia con elnueve",
+   "titulo": "Ratings del miércoles: eltrece reduce la brecha con Telefe en el prime time",
    "medio": "Inicio - Television",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-martes-america-amplio-su-diferencia-con-elnueve-2026-11-24/",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-miercoles-eltrece-reduce-la-brecha-con-telefe-en-el-prime-time-2026-11-25/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
@@ -129,107 +129,107 @@ window.NOTICIAS = {
    "tema": "Sinpe Movil"
   },
   {
-   "titulo": "Claude Design: la herramienta de IA de Anthropic (acceso, precios y usos)",
-   "medio": "Fello AI",
-   "url": "https://felloai.com/es/claude-design-guia-mac/",
+   "titulo": "Agentes de IA: el 95% de empresas ya los usa en producción",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/agentes-de-ia-el-95-de-empresas-ya-los-usa-en-produccion/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Excombatientes llevaron a Darwin una camiseta firmada por Messi",
-   "medio": "Del Sur Diario",
-   "url": "https://delsurdiario.com/nacionales/excombatientes-llevaron-a-darwin-una-camiseta-firmada-por-messi",
+   "titulo": "Lionel Messi confirmó su presencia en la despedida de Carlos Tevez en la Bombonera",
+   "medio": "Radio Rafaela",
+   "url": "https://radiorafaela.com.ar/deportes/lionel-messi-confirmo-su-presencia-en-la-despedida-de-carlos-tevez-en-la-bombonera",
    "region": "ARGENTINA",
    "tema": "Lionel Messi"
   },
   {
-   "titulo": "Uruguay fue goleado, perdió el invicto en el Mundial sub 17 y clasificó como tercero",
-   "medio": "Caras y Caretas",
-   "url": "https://www.carasycaretas.com.uy/deportes/uruguay-fue-goleado-perdio-el-invicto-el-mundial-sub-17-y-clasifico-como-tercero-n101387",
+   "titulo": "Uruguay va por un triunfo ante Canadá para poner un pie en el Mundial de básquetbol",
+   "medio": "La Mañana",
+   "url": "https://www.xn--lamaana-7za.uy/cultura-y-deporte/uruguay-va-por-un-triunfo-ante-canada-para-poner-un-pie-en-el-mundial-de-basquetbol/",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Anthropic alquila capacidad de cómputo a SpaceX: términos y estrategia",
-   "medio": "NeoTeo",
-   "url": "https://www.neoteo.com/es/anthropic-alquila-capacidad-de-computo-a-spacex-terminos-y-estrategia",
+   "titulo": "Self-hosting con IA: NixOS, Renovate y menos fricción",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/self-hosting-con-ia-nixos-renovate-y-menos-friccion/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Jorge Macri anunció la eliminación de Espacio Público y de 118 cargos jerárquicos",
-   "medio": "Fm La Boca",
-   "url": "https://fmlaboca.com.ar/jorge-macri-espacio-publico-118-cargos/",
+   "titulo": "Jorge Macri habló sobre el operativo policial que generó polémica en Caballito: “Fue un error grave”",
+   "medio": "TN",
+   "url": "https://tn.com.ar/politica/2026/11/26/jorge-macri-hablo-sobre-el-operativo-policial-que-genero-polemica-en-caballito-fue-un-error-grave/",
    "region": "ARGENTINA",
    "tema": "Jorge Macri"
   },
   {
-   "titulo": "Sebastián Abreu: Con Forlán \"la casa está en orden\"",
-   "medio": "Medios Públicos",
-   "url": "https://mediospublicos.uy/sebastian-abreu-con-forlan-la-casa-esta-en-orden/",
+   "titulo": "Argentina vs. Uruguay: no te pierdas el choque entre dos gigantes de Sudamérica",
+   "medio": "Diario Uno Santa Fe",
+   "url": "https://www.unosantafe.com.ar/argentina-vs-uruguay-no-te-pierdas-el-choque-dos-gigantes-sudamerica-n10291434.html",
    "region": "URUGUAY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "Vercel Sandbox: imágenes gestionadas para agentes IA",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/vercel-sandbox-imagenes-gestionadas-para-agentes-ia/",
+   "titulo": "Cómo cambiar el hostname en Linux: guía fácil",
+   "medio": "Hostinger",
+   "url": "https://www.hostinger.com/es/tutoriales/cambiar-hostname-linux/",
    "region": "MUNDO",
    "tema": "Hermes Agent"
   },
   {
-   "titulo": "Boca-Platense, final de la Copa Argentina en Santiago",
-   "medio": "El Correo del Interior",
-   "url": "https://elcorreodelinterior.ar/boca-platense-final-de-la-copa-argentina-en-santiago/",
+   "titulo": "Copa Argentina: confirmaron la sede de la final entre Boca Juniors y Platense",
+   "medio": "Diario El Sol Mendoza",
+   "url": "https://www.elsol.com.ar/deportes/copa-argentina-confirmaron-la-sede-de-la-final-entre-boca-juniors-y-platense/",
    "region": "ARGENTINA",
    "tema": "Boca Juniors"
   },
   {
-   "titulo": "Inflación de EE. UU. se acelera al 3,8% y Bitcoin cae a USD 58.000",
-   "medio": "iProUP",
-   "url": "https://www.iproup.com/finanzas/73459-inflacion-de-ee-uu-se-acelera-al-38-y-bitcoin-cae-a-usd-58-000",
+   "titulo": "Bitcoin, cobre y oro: 5 señales de alerta tipo 2008",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/bitcoin-cobre-y-oro-5-senales-de-alerta-tipo-2008/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "Inflación de EE.UU. al 3,8% y Bitcoin cae por debajo de u$s58.000",
+   "titulo": "Bitcoin, cobre y oro: cinco señales de alerta que recuerdan a la crisis de 2008",
    "medio": "Rosario Finanzas",
-   "url": "https://rosariofinanzas.ar/noticias/la-inflacion-de-ee-uu-se-acelera-al-3-8-y-bitcoin-cae-por-debajo-de-los-u-s58-000",
+   "url": "https://rosariofinanzas.ar/noticias/bitcoin-cobre-y-oro-cinco-senales-de-alerta-que-recuerdan-a-la-crisis-de-2008",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "El papa León XIV nombró a García Cuerva al frente de la pastoral carcelaria mundial",
-   "medio": "Medios Provincia",
-   "url": "https://www.tiempopopular.com.ar/2026/11/25/el-papa-leon-xiv-nombro-a-garcia-cuerva-al-frente-de-la-pastoral-carcelaria-mundial/",
+   "titulo": "El Papa León XIV recibe a los capellanes taurinos y le entregan un personal capote como regalo",
+   "medio": "Aplausos.es",
+   "url": "https://www.aplausos.es/el-papa-leon-xiv-recibe-a-los-capellanes-taurinos-y-le-entregan-un-personal-capote-como-regalo/",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Caída de acciones de IA hunde 3% al S&P 500 en Wall Street",
-   "medio": "Xpectro",
-   "url": "https://xpectrofm.com/caida-de-acciones-de-ia-hunde-3-al-sp-500-en-wall-street/",
+   "titulo": "Caída de la IA arrastra a Wall Street a la baja; el S&P 500 cae 3%",
+   "medio": "Independent en Español",
+   "url": "https://www.independentespanol.com/noticias/negocios/caida-de-la-ia-arrastra-a-wall-street-a-la-baja-el-s-p-500-cae-3-b3091578.html",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Nueva York veta juguetes con agentes de IA integrados",
-   "medio": "RPP Noticias",
-   "url": "https://rpp.pe/mundo/estados-unidos/nueva-york-veta-juguetes-con-agentes-de-ia-integrados-noticia-1719658",
+   "titulo": "Suiza: 5 ciberataques con agentes de IA en infraestructura",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/suiza-5-ciberataques-con-agentes-de-ia-en-infraestructura/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Prohíben la producción y venta de juguetes con agentes de IA en Nueva York",
-   "medio": "Quinta Fuerza",
-   "url": "https://quintafuerza.mx/ia/prohiben-produccion-venta-juguetes-agentes-nueva-york/",
+   "titulo": "Agentes de IA se utilizaron en 5 ciberataques en Suiza",
+   "medio": "La Prensa de Coahuila",
+   "url": "https://laprensadecoahuila.com.mx/2026/11/26/agentes-de-ia-se-utilizaron-en-5-ciberataques-en-suiza/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Nvidia acuerda pagar USD $290 millones para cerrar demanda por ventas ligadas a minería cripto",
-   "medio": "DiarioBitcoin",
-   "url": "https://www.diariobitcoin.com/mineria/nvidia-acuerda-pagar-usd-290-millones-para-cerrar-demanda-por-ventas-ligadas-a-mineria-cripto/",
+   "titulo": "Nvidia suspende los envíos de servidores a cuatro países del Sudeste Asiático",
+   "medio": "The Officer",
+   "url": "https://theofficer.es/nvidia-suspende-los-envios-de-servidores-a-cuatro-paises-del-sudeste-asiatico/",
    "region": "MUNDO",
    "tema": "Nvidia"
   }
