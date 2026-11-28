@@ -1,95 +1,95 @@
 /* Generado por la revisión diaria (8 p. m.). No editar a mano. */
 window.NOTICIAS = {
- "actualizado": "2026-11-26",
+ "actualizado": "2026-11-27",
  "items": [
   {
-   "titulo": "Gobierno publica borrador que fija reglas para uso de inteligencia artificial en contratación",
-   "medio": "Caracol Radio",
-   "url": "https://caracol.com.co/2026/11/27/gobierno-publica-borrador-que-fija-reglas-para-uso-de-inteligencia-artificial-en-contratacion/",
+   "titulo": "Microsoft Copilot suma agentes autónomos y Microsoft IQ",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/microsoft-copilot-suma-agentes-autonomos-y-microsoft-iq/",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Javier Milei llegó a Paraguay y se reunió con el presidente Pedro Alliana",
-   "medio": "Rosario3",
-   "url": "https://www.rosario3.com/informaciongeneral/javier-milei-viaja-a-paraguay-para-reunirse-con-el-nuevo-presidente-20261125-0075.html",
+   "titulo": "Brasil excluye a Javier Milei de la lista de invitados a la posesión de Lula da Silva",
+   "medio": "Listín Diario",
+   "url": "https://listindiario.com/las-mundiales/20261127/brasil-excluye-milei-lista-invitados-posesion-lula_931726.html",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Con presencia de Orsi y Cosse /Colocaron piedra fundamental de Nuevo Parque Industrial de Zonamérica",
-   "medio": "laprensa.com.uy",
-   "url": "https://www.laprensa.com.uy/informaci%C3%B3n/nacionales/con-presencia-de-orsi-y-cosse-colocaron-piedra-fundamental-de-nuevo-parque-industrial-de-zonamerica",
+   "titulo": "Orsi llamó a acelerar el crecimiento y apostar por la inversión nacional",
+   "medio": "La Mañana",
+   "url": "https://www.xn--lamaana-7za.uy/actualidad/orsi-llamo-a-acelerar-el-crecimiento-y-apostar-por-la-inversion-nacional/",
    "region": "URUGUAY",
    "tema": "Yamandú Orsi"
   },
   {
-   "titulo": "Fiscal general de Costa Rica defiende su permanencia en investigación por asesinato de periodista",
-   "medio": "CRprensa.com",
-   "url": "https://crprensa.com/2026/11/26/fiscal-general-de-costa-rica-defiende-su-permanencia-en-investigacion-por-asesinato-de-periodista/",
+   "titulo": "Laura Fernández anuncia referéndum para autorizar minería en Crucitas",
+   "medio": "El Mundo CR",
+   "url": "https://elmundo.cr/costa-rica/laura-fernandez-anuncia-referendum-para-autorizar-mineria-en-crucitas/",
    "region": "COSTA RICA",
    "tema": "Asamblea Legislativa"
   },
   {
-   "titulo": "Sánchez, Feijóo, Abascal y Colau se enfrentan en el último debate antes del 29N: los pactos marcarán la…",
-   "medio": "El Cronista",
-   "url": "https://www.cronista.com/espana/politica-es/sanchez-feijoo-abascal-y-colau-se-enfrentan-en-el-ultimo-debate-antes-del-29n-los-pactos-marcaran-la-recta-final-de-la-campana/?outputType=amp-type",
+   "titulo": "Apuestas y cuotas para las Elecciones Generales en España 2026",
+   "medio": "Diario AS",
+   "url": "https://as.com/apuestas/elecciones-espana/",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "NVIDIA vendería chips de inteligencia artificial a empresas de California controladas por firmas chinas…",
-   "medio": "Univision",
-   "url": "https://www.univision.com/noticias/nvidia-venderia-chips-de-inteligencia-artificial-a-empresas-de-california-controladas-por-firmas-chinas-revela-investigacion-video",
+   "titulo": "El cielo podría llenarse de satélites: el proyecto de Elon Musk",
+   "medio": "Milenio",
+   "url": "https://www.milenio.com/videos/internacional/inteligencia-artificial-tierra-funcionaria-red-satelites-spacex",
    "region": "MUNDO",
    "tema": "Inteligencia Artificial"
   },
   {
-   "titulo": "Javier Milei se reunió con Pedro Alliana en Asunción",
-   "medio": "Diario El Libertador de Corrientes",
-   "url": "https://www.diarioellibertador.com.ar/javier-milei-se-reunio-con-pedro-alliana-en-asuncion/",
+   "titulo": "Brasil excluye a Javier Milei de la lista de invitados a la investidura de Lula",
+   "medio": "سانا",
+   "url": "https://sana.sy/es/world/2345459/",
    "region": "ARGENTINA",
    "tema": "Javier Milei"
   },
   {
-   "titulo": "Efemérides del 26 de noviembre de 2026: ¿Qué pasó un día como hoy?",
-   "medio": "Rioja 24",
-   "url": "https://rioja24.com.ar/efemerides/efemerides-del-26-de-noviembre-de-2026",
+   "titulo": "Piden respuestas por oficina de espionaje ilegal que funcionó bajo la sombra de Heber y nadie investigó",
+   "medio": "Caras y Caretas",
+   "url": "https://www.carasycaretas.com.uy/politica/piden-respuestas-oficina-espionaje-ilegal-que-funciono-la-sombra-heber-y-nadie-investigo-n101455",
    "region": "URUGUAY",
    "tema": "Luis Alberto Lacalle"
   },
   {
-   "titulo": "Sala IV encuentra vicios en presupuesto extraordinario de 2026 por recortes al Poder Judicial y universidades",
-   "medio": "Radio Monumental",
-   "url": "https://www.monumental.co.cr/2026/11/25/sala-iv-encuentra-vicios-en-presupuesto-extraordinario-de-2026-por-recortes-al-poder-judicial-y-universidades/",
+   "titulo": "Relatora de la ONU debe pasar noche en hotel, ordena Sala IV a Migración",
+   "medio": "Teletica",
+   "url": "https://www.teletica.com/politica/relatora-de-la-onu-debe-pasar-noche-en-hotel-ordena-sala-iv-a-migracion_422020",
    "region": "COSTA RICA",
    "tema": "Poder Judicial"
   },
   {
-   "titulo": "Resumen del debate a cuatro entre Sánchez, Feijóo, Abascal y Colau, el último de la campaña del 29N",
-   "medio": "RTVE.es",
-   "url": "https://www.rtve.es/noticias/20261126/debate-cuatro-directo-elecciones-2026-resumen/17329999.shtml",
+   "titulo": "España cerró la campaña y el domingo define quién gobierna",
+   "medio": "El Argentino Diario",
+   "url": "https://elargentinodiario.com.ar/politica/27/11/2026/espana-cerro-la-campana-y-el-domingo-define-quien-gobierna/",
    "region": "ESPAÑA",
    "tema": "Política"
   },
   {
-   "titulo": "Wall Street permanece cerrado por el Día de Acción de Gracias",
-   "medio": "Yahoo",
-   "url": "https://es-us.noticias.yahoo.com/wall-street-permanece-cerrado-d%C3%ADa-152738020.html",
+   "titulo": "Wall Street abre en verde y se encamina a cerrar la semana con ganancias",
+   "medio": "Periódico elDinero",
+   "url": "https://eldinero.com.do/390267/wall-street-abre-en-verde-y-se-encamina-a-cerrar-la-semana-con-ganancias/",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Rating del miércoles 25 de noviembre en Chile: cómo le fue a CHV, Mega, Canal 13 y TVN",
-   "medio": "La Tercera",
-   "url": "https://www.latercera.com/servicios/noticia/rating-del-miercoles-25-de-noviembre-en-chile-como-le-fue-a-chv-mega-canal-13-y-tvn/",
+   "titulo": "Ratings del jueves: Elnueve superó a América en el prime time por la mínima diferencia",
+   "medio": "Inicio - Television",
+   "url": "https://television.com.ar/noticias/ratings/ratings-del-jueves-elnueve-supero-a-america-en-el-prime-time-por-la-minima-diferencia-2026-11-26/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "El romántico mensaje de Denisse González por el cumpleaños número 30 de Bautista Mascia",
-   "medio": "Exitoina",
-   "url": "https://exitoina.perfil.com/noticias/destacada/romantico-mensaje-denisse-gonzalez-por-cumpleanos-numero-30-bautista-mascia-lindo-compartir-vida-vos.phtml",
+   "titulo": "Mónica Farro sobre el Bailando con Claudia Fernández: “Puede que una puerta se cierre”",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Pantallazo/Monica-Farro-sobre-el-Bailando-con-Claudia-Fernandez--Puede-que-una-puerta-se-cierre--uc983682",
    "region": "URUGUAY",
    "tema": "Gran Hermano"
   },
@@ -101,135 +101,135 @@ window.NOTICIAS = {
    "tema": "Banco Central"
   },
   {
-   "titulo": "La Bolsa sube un 2,26 % y recupera los 19.000 puntos con Wall Street cerrado por festivo",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/espana/agencias/2026/11/26/la-bolsa-sube-un-226-y-recupera-los-19000-puntos-con-wall-street-cerrado-por-festivo/",
+   "titulo": "Wall Street abre en verde y apunta a cerrar con ganancias",
+   "medio": "El Horizonte",
+   "url": "https://www.elhorizonte.mx/finanzas/wall-street-abre-en-verde-y-apunta-a-cerrar-con-ganancias/7109611516",
    "region": "MUNDO",
    "tema": "Wall Street"
   },
   {
-   "titulo": "Ratings del miércoles: eltrece reduce la brecha con Telefe en el prime time",
-   "medio": "Inicio - Television",
-   "url": "https://television.com.ar/noticias/ratings/ratings-del-miercoles-eltrece-reduce-la-brecha-con-telefe-en-el-prime-time-2026-11-25/",
+   "titulo": "Rating del miércoles 25 de noviembre en Chile: cómo le fue a CHV, Mega, Canal 13 y TVN",
+   "medio": "La Tercera",
+   "url": "https://www.latercera.com/servicios/noticia/rating-del-miercoles-25-de-noviembre-en-chile-como-le-fue-a-chv-mega-canal-13-y-tvn/",
    "region": "ARGENTINA",
    "tema": "Ratings TV"
   },
   {
-   "titulo": "Uruguay perdió ante Francia y clasificó tercero en su grupo en el Mundial Sub-17",
-   "medio": "FM Gente",
-   "url": "https://www.fmgente.com.uy/noticias/uruguay-perdio-ante-francia-clasifico-84837.html",
+   "titulo": "Uruguay está a un paso de clasificar para el Mundial de básquetbol de 2027",
+   "medio": "VTV Noticias",
+   "url": "https://noticias.vtv.com.uy/uruguay-esta-a-un-paso-de-clasificar-para-el-mundial-de-basquetbol-de-2027/",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "¿Debe registrar su Sinpe Móvil si lo usa para pasarle plata a sus hijos, amigos o hacer compras pequeñas?",
-   "medio": "La Teja",
-   "url": "https://www.lateja.cr/finanzas-y-tecnologia/debe-registrar-su-sinpe-movil-si-lo-usa-para/DJUGGEU6ONA57OCDFCRQMECAVI/story/",
+   "titulo": "Bingo solidario recaudará fondos para mejorar las instalaciones de Casa Main en Heredia",
+   "medio": "Delfino.cr",
+   "url": "https://delfino.cr/2026/11/bingo-solidario-recaudara-fondos-para-mejorar-las-instalaciones-de-casa-main-en-belen",
    "region": "COSTA RICA",
    "tema": "Sinpe Movil"
   },
   {
-   "titulo": "Agentes de IA: el 95% de empresas ya los usa en producción",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/agentes-de-ia-el-95-de-empresas-ya-los-usa-en-produccion/",
+   "titulo": "Sabre prepara reservas de vuelos y hoteles con tecnología para Grok Bot",
+   "medio": "DiarioBitcoin",
+   "url": "https://www.diariobitcoin.com/tecnologia/sabre-prepara-reservas-de-vuelos-y-hoteles-con-tecnologia-para-grok-bot/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Lionel Messi confirmó su presencia en la despedida de Carlos Tevez en la Bombonera",
-   "medio": "Radio Rafaela",
-   "url": "https://radiorafaela.com.ar/deportes/lionel-messi-confirmo-su-presencia-en-la-despedida-de-carlos-tevez-en-la-bombonera",
+   "titulo": "Lionel Messi volverá a jugar en Argentina en el partido de despedida de Carlos Tevez",
+   "medio": "Visión 360",
+   "url": "https://www.vision360.bo/amp/noticias/2026/11/26/79083-lionel-messi-volvera-a-jugar-en-argentina-en-el-partido-de-despedida-de-carlos-tevez",
    "region": "ARGENTINA",
    "tema": "Lionel Messi"
   },
   {
-   "titulo": "Uruguay va por un triunfo ante Canadá para poner un pie en el Mundial de básquetbol",
-   "medio": "La Mañana",
-   "url": "https://www.xn--lamaana-7za.uy/cultura-y-deporte/uruguay-va-por-un-triunfo-ante-canada-para-poner-un-pie-en-el-mundial-de-basquetbol/",
+   "titulo": "SSL Gold Cup 2026: Uruguay comenzó con una victoria en el Mundial de Vela",
+   "medio": "Cadena del Mar",
+   "url": "https://cadenadelmar.uy/deporte/ssl-gold-cup-2026-uruguay-comenzo-con-una-victoria-en-el-mundial-de-vela-26841",
    "region": "URUGUAY",
    "tema": "Selección Uruguaya"
   },
   {
-   "titulo": "Self-hosting con IA: NixOS, Renovate y menos fricción",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/self-hosting-con-ia-nixos-renovate-y-menos-friccion/",
+   "titulo": "¿Grok es gratis? Límites, prueba gratis y Grok Bot (2026)",
+   "medio": "Fello AI",
+   "url": "https://felloai.com/es/grok-ai-es-gratis/",
    "region": "MUNDO",
    "tema": "Grok Bot"
   },
   {
-   "titulo": "Jorge Macri habló sobre el operativo policial que generó polémica en Caballito: “Fue un error grave”",
-   "medio": "TN",
-   "url": "https://tn.com.ar/politica/2026/11/26/jorge-macri-hablo-sobre-el-operativo-policial-que-genero-polemica-en-caballito-fue-un-error-grave/",
+   "titulo": "Jorge Macri calificó de “error grave” el operativo en Caballito",
+   "medio": "Noticias Urbanas",
+   "url": "https://noticiasurbanas.com.ar/jorge-macri-califico-de-error-grave-el-operativo-en-caballito",
    "region": "ARGENTINA",
    "tema": "Jorge Macri"
   },
   {
-   "titulo": "Argentina vs. Uruguay: no te pierdas el choque entre dos gigantes de Sudamérica",
-   "medio": "Diario Uno Santa Fe",
-   "url": "https://www.unosantafe.com.ar/argentina-vs-uruguay-no-te-pierdas-el-choque-dos-gigantes-sudamerica-n10291434.html",
+   "titulo": "Forlán convocó a 31 jugadores para la selección sub-20 que se prepara para el Sudamericano",
+   "medio": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/Deportes/Forlan-convoco-a-31-jugadores-para-seleccion-sub-20-que-se-prepara-para-el-Sudamericano-uc983735",
    "region": "URUGUAY",
    "tema": "Diego Forlán"
   },
   {
-   "titulo": "Cómo cambiar el hostname en Linux: guía fácil",
-   "medio": "Hostinger",
-   "url": "https://www.hostinger.com/es/tutoriales/cambiar-hostname-linux/",
+   "titulo": "Agentes de IA locales: 128GB y adiós a la nube",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/agentes-de-ia-locales-128gb-y-adios-a-la-nube/",
    "region": "MUNDO",
    "tema": "Hermes Agent"
   },
   {
-   "titulo": "Copa Argentina: confirmaron la sede de la final entre Boca Juniors y Platense",
-   "medio": "Diario El Sol Mendoza",
-   "url": "https://www.elsol.com.ar/deportes/copa-argentina-confirmaron-la-sede-de-la-final-entre-boca-juniors-y-platense/",
+   "titulo": "Entradas para Boca vs. Platense: cuándo salen a la venta y cómo comprar para la final de la Copa Argentina",
+   "medio": "Radio Mitre",
+   "url": "https://radiomitre.cienradios.com/deportes/entradas-para-boca-vs-platense-cuando-salen-a-la-venta-y-como-comprar-para-la-final-de-la-copa-argentina/",
    "region": "ARGENTINA",
    "tema": "Boca Juniors"
   },
   {
-   "titulo": "Bitcoin, cobre y oro: 5 señales de alerta tipo 2008",
-   "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/bitcoin-cobre-y-oro-5-senales-de-alerta-tipo-2008/",
+   "titulo": "Bitcoin y oro alcanzan una correlación récord en medio de la inquietud fiscal de EE. UU.",
+   "medio": "DiarioBitcoin",
+   "url": "https://www.diariobitcoin.com/mercados/bitcoin-y-oro-alcanzan-una-correlacion-record-en-medio-de-la-inquietud-fiscal-de-ee-uu/",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "Bitcoin, cobre y oro: cinco señales de alerta que recuerdan a la crisis de 2008",
-   "medio": "Rosario Finanzas",
-   "url": "https://rosariofinanzas.ar/noticias/bitcoin-cobre-y-oro-cinco-senales-de-alerta-que-recuerdan-a-la-crisis-de-2008",
+   "titulo": "Bitcoin y el oro alcanzan una correlación récord: ¿es Bitcoin oro digital?",
+   "medio": "CoinMarketCap",
+   "url": "https://coinmarketcap.com/academy/es/article/bitcoin-digital-gold-correlation",
    "region": "MUNDO",
    "tema": "Bitcoin"
   },
   {
-   "titulo": "El Papa León XIV recibe a los capellanes taurinos y le entregan un personal capote como regalo",
-   "medio": "Aplausos.es",
-   "url": "https://www.aplausos.es/el-papa-leon-xiv-recibe-a-los-capellanes-taurinos-y-le-entregan-un-personal-capote-como-regalo/",
+   "titulo": "Obispos de Bolivia se reúnen con León XIV",
+   "medio": "Los Tiempos",
+   "url": "https://www.lostiempos.com/actualidad/pais/20261127/obispos-bolivia-se-reunen-leon-xiv",
    "region": "MUNDO",
    "tema": "Papa León XIV"
   },
   {
-   "titulo": "Caída de la IA arrastra a Wall Street a la baja; el S&P 500 cae 3%",
-   "medio": "Independent en Español",
-   "url": "https://www.independentespanol.com/noticias/negocios/caida-de-la-ia-arrastra-a-wall-street-a-la-baja-el-s-p-500-cae-3-b3091578.html",
+   "titulo": "Barclays ve al S&P 500 en 8.700 puntos para 2027",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/barclays-ve-al-sp-500-en-8-700-puntos-para-2027/",
    "region": "MUNDO",
    "tema": "S&P 500"
   },
   {
-   "titulo": "Suiza: 5 ciberataques con agentes de IA en infraestructura",
+   "titulo": "Suiza confirma 5 ciberataques con agentes de IA a empresas",
    "medio": "El Ecosistema Startup",
-   "url": "https://ecosistemastartup.com/suiza-5-ciberataques-con-agentes-de-ia-en-infraestructura/",
+   "url": "https://ecosistemastartup.com/suiza-confirma-5-ciberataques-con-agentes-de-ia-a-empresas/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Agentes de IA se utilizaron en 5 ciberataques en Suiza",
-   "medio": "La Prensa de Coahuila",
-   "url": "https://laprensadecoahuila.com.mx/2026/11/26/agentes-de-ia-se-utilizaron-en-5-ciberataques-en-suiza/",
+   "titulo": "Agentes de IA hacen su debut en el Black Friday y cambian las compras",
+   "medio": "OneDigital",
+   "url": "https://onedigital.mx/2026/11/27/agentes-de-ia-hacen-su-debut-en-el-black-friday-y-cambian-las-compras/",
    "region": "MUNDO",
    "tema": "Agentes IA"
   },
   {
-   "titulo": "Nvidia suspende los envíos de servidores a cuatro países del Sudeste Asiático",
-   "medio": "The Officer",
-   "url": "https://theofficer.es/nvidia-suspende-los-envios-de-servidores-a-cuatro-paises-del-sudeste-asiatico/",
+   "titulo": "Nvidia: chips Blackwell en centro de datos de Alice Huang",
+   "medio": "El Ecosistema Startup",
+   "url": "https://ecosistemastartup.com/nvidia-chips-blackwell-en-centro-de-datos-de-alice-huang/",
    "region": "MUNDO",
    "tema": "Nvidia"
   }
